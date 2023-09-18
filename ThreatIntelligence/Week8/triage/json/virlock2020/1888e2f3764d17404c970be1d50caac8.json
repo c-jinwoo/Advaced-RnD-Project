@@ -1,0 +1,135 @@
+{
+    "version": "0.3.0",
+    "sample": {
+        "id": "230725-hyjgvsbh8t",
+        "score": 3,
+        "submitted": "2023-07-25T07:08:37Z",
+        "target": "d3e3697349d1c5ee3defdfb0e6dad788652d5b8a5cad823781a829e850dc7306",
+        "size": 618496,
+        "md5": "1888e2f3764d17404c970be1d50caac8",
+        "sha1": "5632d2b3dc3a15652919d0b52e7a632b1f638284",
+        "sha256": "d3e3697349d1c5ee3defdfb0e6dad788652d5b8a5cad823781a829e850dc7306",
+        "sha512": "c65ff4afe374d9aade7e05bce8384bc8f53d451c8a22a896431c9cfa71580d86ecbadc4a99b24c05365949722ddc55ccd2b72352d78d7331927477e453c57f14",
+        "ssdeep": "12288:xB8Uim34j8hp8tOfR3dwQ58KN1KniIrUYiG+zPune9XzxoTzDx6/v:xBOjQzJNws3T37Lune9XaTzk/v",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "task": {
+        "target": "d3e3697349d1c5ee3defdfb0e6dad788652d5b8a5cad823781a829e850dc7306.exe",
+        "size": 618496,
+        "md5": "1888e2f3764d17404c970be1d50caac8",
+        "sha1": "5632d2b3dc3a15652919d0b52e7a632b1f638284",
+        "sha256": "d3e3697349d1c5ee3defdfb0e6dad788652d5b8a5cad823781a829e850dc7306",
+        "sha512": "c65ff4afe374d9aade7e05bce8384bc8f53d451c8a22a896431c9cfa71580d86ecbadc4a99b24c05365949722ddc55ccd2b72352d78d7331927477e453c57f14",
+        "ssdeep": "12288:xB8Uim34j8hp8tOfR3dwQ58KN1KniIrUYiG+zPune9XzxoTzDx6/v:xBOjQzJNws3T37Lune9XaTzk/v",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "analysis": {
+        "score": 3,
+        "tags": [],
+        "features": [
+            "analog",
+            "overview"
+        ],
+        "submitted": "2023-07-25T07:08:37Z",
+        "reported": "2023-07-25T07:11:15Z",
+        "max_time_network": 123106,
+        "max_time_kernel": 119433,
+        "backend": "sbx4m19",
+        "resource": "win7-20230712-en",
+        "resource_tags": [
+            "arch:x64",
+            "arch:x86",
+            "image:win7-20230712-en",
+            "locale:en-us",
+            "os:windows7-x64",
+            "system"
+        ],
+        "platform": "windows7_x64"
+    },
+    "processes": [
+        {
+            "procid": 21,
+            "procid_parent": 14,
+            "pid": 3000,
+            "ppid": 1284,
+            "cmd": "\"C:\\Users\\Admin\\AppData\\Local\\Temp\\d3e3697349d1c5ee3defdfb0e6dad788652d5b8a5cad823781a829e850dc7306.exe\"",
+            "image": "C:\\Users\\Admin\\AppData\\Local\\Temp\\d3e3697349d1c5ee3defdfb0e6dad788652d5b8a5cad823781a829e850dc7306.exe",
+            "orig": false,
+            "started": 575
+        },
+        {
+            "procid": 28,
+            "procid_parent": 21,
+            "pid": 3052,
+            "ppid": 3000,
+            "cmd": "C:\\Windows\\SysWOW64\\WerFault.exe -u -p 3000 -s 92",
+            "image": "C:\\Windows\\SysWOW64\\WerFault.exe",
+            "orig": true,
+            "started": 607
+        }
+    ],
+    "signatures": [
+        {
+            "label": "program_crash",
+            "name": "Program crash",
+            "score": 3,
+            "indicators": [
+                {
+                    "pid": 3052,
+                    "procid": 28,
+                    "pid_target": 3000,
+                    "procid_target": 21
+                }
+            ]
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory",
+            "indicators": [
+                {
+                    "description": "PID 3000 wrote to memory of 3052",
+                    "pid": 3000,
+                    "procid": 21,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 3000 wrote to memory of 3052",
+                    "pid": 3000,
+                    "procid": 21,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 3000 wrote to memory of 3052",
+                    "pid": 3000,
+                    "procid": 21,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 3000 wrote to memory of 3052",
+                    "pid": 3000,
+                    "procid": 21,
+                    "procid_target": 28
+                }
+            ]
+        }
+    ],
+    "tags": null,
+    "network": {},
+    "dumped": [
+        {
+            "at": 653,
+            "pid": 3000,
+            "procid": 21,
+            "name": "memory/3000-54-0x0000000000400000-0x000000000049A000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 630784
+        }
+    ]
+}

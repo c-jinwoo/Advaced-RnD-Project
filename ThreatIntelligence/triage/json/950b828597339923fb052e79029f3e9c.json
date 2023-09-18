@@ -1,0 +1,154 @@
+{
+    "analysis": {
+        "score": 5
+    },
+    "sample": {
+        "completed": "2023-06-26T04:17:24Z",
+        "created": "2023-06-26T04:14:44Z",
+        "id": "230626-et2k4ahc7x",
+        "md5": "950b828597339923fb052e79029f3e9c",
+        "score": 5,
+        "sha1": "c93d480236a1845969114003d433ea6a371e5c69",
+        "sha256": "a587b99327aaf93754f87f244be79475c196b08ed9bf670b6903326f701d089c",
+        "sha512": "aa8d32cb813d64b5c1177c754e3c4ccb7d97c46dfa0e48ac7e2f9fc28cd5355a17bf52c6624e1c514ca5507f011029055eff107ae0be387ed5dd3c8a99b60a10",
+        "size": 398560,
+        "ssdeep": "12288:9GzPPiT1+NuOuG5GDp2r719Al13/NN3wB9X:9GmZcMDi1W7bwD",
+        "target": "a587b99327aaf93754f87f244be79475c196b08ed9bf670b6903326f701d089c"
+    },
+    "signatures": [
+        {
+            "desc": "Looks up country code configured in the registry, likely geofence.",
+            "label": "reg_checks_country_code",
+            "name": "Checks computer location settings",
+            "score": 5,
+            "ttp": [
+                "T1012",
+                "T1082"
+            ]
+        },
+        {
+            "label": "fw_programfiles",
+            "name": "Drops file in Program Files directory",
+            "score": 4
+        },
+        {
+            "desc": "Attempts to interact with connected storage/optical drive(s).",
+            "label": "file_antivm_ide_drive",
+            "name": "Enumerates physical storage devices",
+            "score": 3,
+            "ttp": [
+                "T1082"
+            ]
+        },
+        {
+            "name": "Suspicious behavior: EnumeratesProcesses"
+        },
+        {
+            "name": "Suspicious use of SetWindowsHookEx"
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory"
+        }
+    ],
+    "targets": [
+        {
+            "iocs": {
+                "domains": [
+                    "250.255.255.239.in-addr.arpa",
+                    "135.112.223.173.in-addr.arpa",
+                    "72.32.126.40.in-addr.arpa",
+                    "132.17.126.40.in-addr.arpa",
+                    "56.126.166.20.in-addr.arpa"
+                ],
+                "ips": [
+                    "20.190.160.14",
+                    "8.8.8.8",
+                    "13.89.178.26",
+                    "96.16.110.41",
+                    "209.197.3.8",
+                    "192.229.221.95"
+                ]
+            },
+            "md5": "950b828597339923fb052e79029f3e9c",
+            "score": 5,
+            "sha1": "c93d480236a1845969114003d433ea6a371e5c69",
+            "sha256": "a587b99327aaf93754f87f244be79475c196b08ed9bf670b6903326f701d089c",
+            "sha512": "aa8d32cb813d64b5c1177c754e3c4ccb7d97c46dfa0e48ac7e2f9fc28cd5355a17bf52c6624e1c514ca5507f011029055eff107ae0be387ed5dd3c8a99b60a10",
+            "signatures": [
+                {
+                    "desc": "Looks up country code configured in the registry, likely geofence.",
+                    "label": "reg_checks_country_code",
+                    "name": "Checks computer location settings",
+                    "score": 5,
+                    "ttp": [
+                        "T1012",
+                        "T1082"
+                    ]
+                },
+                {
+                    "label": "fw_programfiles",
+                    "name": "Drops file in Program Files directory",
+                    "score": 4
+                },
+                {
+                    "desc": "Attempts to interact with connected storage/optical drive(s).",
+                    "label": "file_antivm_ide_drive",
+                    "name": "Enumerates physical storage devices",
+                    "score": 3,
+                    "ttp": [
+                        "T1082"
+                    ]
+                },
+                {
+                    "name": "Suspicious behavior: EnumeratesProcesses"
+                },
+                {
+                    "name": "Suspicious use of SetWindowsHookEx"
+                },
+                {
+                    "name": "Suspicious use of WriteProcessMemory"
+                }
+            ],
+            "size": 398560,
+            "ssdeep": "12288:9GzPPiT1+NuOuG5GDp2r719Al13/NN3wB9X:9GmZcMDi1W7bwD",
+            "target": "a587b99327aaf93754f87f244be79475c196b08ed9bf670b6903326f701d089c",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-et2k4ahc7x-behavioral1": {
+            "backend": "sbx4m11",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 3,
+            "sigs": 2,
+            "status": "reported",
+            "target": "a587b99327aaf93754f87f244be79475c196b08ed9bf670b6903326f701d089c.exe",
+            "timeout": 150
+        },
+        "230626-et2k4ahc7x-behavioral2": {
+            "backend": "sbx4m17",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 5,
+            "sigs": 6,
+            "status": "reported",
+            "target": "a587b99327aaf93754f87f244be79475c196b08ed9bf670b6903326f701d089c.exe",
+            "timeout": 150
+        },
+        "230626-et2k4ahc7x-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

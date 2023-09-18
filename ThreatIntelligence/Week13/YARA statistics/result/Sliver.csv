@@ -1,0 +1,4 @@
+Yara name,Number of samples,Family
+Sliver_Implant_32bit,1,{'nolabel': 1}
+Multi_Trojan_Sliver_3bde542d,1,{'nolabel': 1}
+UPX,1,{'sliver': 1}

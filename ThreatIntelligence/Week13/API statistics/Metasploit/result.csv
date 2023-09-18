@@ -1,0 +1,1840 @@
+Function,DLL,Occurence,Family,Associated
+_CorExeMain,MSCOREE,1,{'msilzilla': 1}
+HeapAlloc,KERNEL32,9,"{'nolabel': 2, 'meterpreter': 1, 'sharps': 3, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}",Injection
+HeapFree,KERNEL32,9,"{'nolabel': 2, 'meterpreter': 1, 'sharps': 3, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+HeapSize,KERNEL32,5,"{'nolabel': 2, 'meterpreter': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+GetProcessHeap,KERNEL32,7,"{'nolabel': 2, 'meterpreter': 1, 'sharps': 3, 'cobaltstrike': 1}",Injection
+UnhandledExceptionFilter,KERNEL32,12,"{'nolabel': 2, 'meterpreter': 1, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'registrystorage': 1}"
+SetUnhandledExceptionFilter,KERNEL32,12,"{'nolabel': 2, 'meterpreter': 1, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 1, 'shelma': 1, 'registrystorage': 1, 'convagent': 1}"
+GetLastError,KERNEL32,15,"{'nolabel': 2, 'meterpreter': 1, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 3, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'convagent': 1}"
+ReleaseSRWLockExclusive,KERNEL32,4,"{'meterpreter': 1, 'sharps': 3}"
+ReleaseSRWLockShared,KERNEL32,1,{'meterpreter': 1}
+TryAcquireSRWLockExclusive,KERNEL32,1,{'meterpreter': 1}
+SetCriticalSectionSpinCount,KERNEL32,1,{'meterpreter': 1}
+WakeAllConditionVariable,KERNEL32,4,"{'meterpreter': 1, 'sharps': 3}"
+GetMenu,USER32,5,"{'nolabel': 1, 'meterpreter': 1, 'cobaltstrike': 3}"
+GetSystemMenu,USER32,2,"{'meterpreter': 1, 'cobaltstrike': 1}"
+CheckMenuItem,USER32,3,"{'nolabel': 1, 'meterpreter': 1, 'cobaltstrike': 1}"
+EnableMenuItem,USER32,3,"{'nolabel': 1, 'meterpreter': 1, 'cobaltstrike': 1}"
+GetMenuItemID,USER32,3,"{'nolabel': 1, 'meterpreter': 1, 'cobaltstrike': 1}"
+UpdateWindow,USER32,4,"{'nolabel': 1, 'meterpreter': 1, 'cobaltstrike': 2}"
+GetWindowContextHelpId,USER32,1,{'meterpreter': 1}
+MessageBoxA,USER32,5,"{'nolabel': 1, 'meterpreter': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+MessageBoxW,USER32,10,"{'nolabel': 1, 'meterpreter': 1, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+MessageBeep,USER32,2,"{'meterpreter': 1, 'cobaltstrike': 1}"
+MultiByteToWideChar,KERNEL32,13,"{'nolabel': 2, 'sharps': 3, 'rozena': 3, 'dealply': 2, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+GetTickCount,KERNEL32,10,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}",Anti-Debugging
+QueryPerformanceFrequency,KERNEL32,6,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 1}",Anti-Debugging
+QueryPerformanceCounter,KERNEL32,11,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'registrystorage': 1}",Anti-Debugging
+GetModuleHandleW,KERNEL32,16,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 4, 'dealply': 3, 'malheur': 1, 'registrystorage': 1}"
+FlushInstructionCache,KERNEL32,4,"{'nolabel': 1, 'sharps': 3}"
+RtlLookupFunctionEntry,KERNEL32,4,"{'sharps': 3, 'rozena': 1}"
+RtlDeleteFunctionTable,KERNEL32,3,{'sharps': 3}
+InterlockedPushEntrySList,KERNEL32,3,{'sharps': 3}
+InterlockedFlushSList,KERNEL32,3,{'sharps': 3}
+InitializeSListHead,KERNEL32,5,"{'sharps': 3, 'cobaltstrike': 2}"
+GetTickCount64,KERNEL32,3,{'sharps': 3},Anti-Debugging
+DuplicateHandle,KERNEL32,8,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'shelma': 1, 'cobaltstrike': 1}"
+QueueUserAPC,KERNEL32,3,{'sharps': 3},Injection
+WaitForSingleObjectEx,KERNEL32,6,"{'nolabel': 1, 'sharps': 3, 'cobaltstrike': 2}",Evasion
+SetThreadPriority,KERNEL32,5,"{'sharps': 3, 'malheur': 1, 'cobaltstrike': 1}",Helper
+GetThreadPriority,KERNEL32,4,"{'sharps': 3, 'malheur': 1}"
+ResumeThread,KERNEL32,8,"{'nolabel': 2, 'sharps': 3, 'malheur': 1, 'shelma': 1, 'cobaltstrike': 1}",Injection
+GetCurrentThreadId,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 2, 'dealply': 1, 'malheur': 1, 'registrystorage': 1}",Enumeration
+Sleep,KERNEL32,17,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 4, 'dealply': 2, 'malheur': 1, 'shelma': 1, 'registrystorage': 1, 'convagent': 1}",Anti-Debugging
+TlsAlloc,KERNEL32,9,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'registrystorage': 1, 'cobaltstrike': 1}"
+GetCurrentThread,KERNEL32,6,"{'nolabel': 1, 'sharps': 3, 'malheur': 1, 'cobaltstrike': 1}",Enumeration
+CreateThread,KERNEL32,8,"{'nolabel': 2, 'sharps': 3, 'malheur': 1, 'shelma': 1, 'cobaltstrike': 1}",Injection
+WaitForMultipleObjectsEx,KERNEL32,3,{'sharps': 3},Evasion
+SignalObjectAndWait,KERNEL32,5,"{'sharps': 3, 'rozena': 1, 'dealply': 1}"
+RtlCaptureContext,KERNEL32,4,"{'sharps': 3, 'rozena': 1}"
+SetThreadStackGuarantee,KERNEL32,3,{'sharps': 3}
+VirtualQuery,KERNEL32,14,"{'nolabel': 2, 'sharps': 3, 'rozena': 3, 'dealply': 2, 'malheur': 1, 'shelma': 1, 'cobaltstrike': 1, 'convagent': 1}"
+GetStdHandle,KERNEL32,13,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'dealply': 2, 'malheur': 1, 'shelma': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+WideCharToMultiByte,KERNEL32,13,"{'nolabel': 2, 'sharps': 3, 'rozena': 3, 'dealply': 2, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+GetConsoleOutputCP,KERNEL32,5,"{'nolabel': 1, 'sharps': 3, 'cobaltstrike': 1}"
+MapViewOfFileEx,KERNEL32,3,{'sharps': 3},Injection
+UnmapViewOfFile,KERNEL32,6,"{'nolabel': 2, 'sharps': 3, 'rozena': 1}",Helper
+GetStringTypeExW,KERNEL32,3,{'sharps': 3}
+SetEvent,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 2, 'dealply': 1, 'malheur': 1, 'shelma': 1}"
+GetCurrentProcessorNumber,KERNEL32,3,{'sharps': 3}
+GlobalMemoryStatusEx,KERNEL32,5,"{'nolabel': 1, 'sharps': 3, 'convagent': 1}"
+CreateIoCompletionPort,KERNEL32,4,"{'sharps': 3, 'shelma': 1}"
+PostQueuedCompletionStatus,KERNEL32,4,"{'sharps': 3, 'shelma': 1}"
+SleepEx,KERNEL32,3,{'sharps': 3},Anti-Debugging
+GetQueuedCompletionStatus,KERNEL32,3,{'sharps': 3}
+InterlockedPopEntrySList,KERNEL32,3,{'sharps': 3}
+GetCurrentProcessorNumberEx,KERNEL32,3,{'sharps': 3}
+ExitProcess,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'shelma': 2, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+CreateMemoryResourceNotification,KERNEL32,3,{'sharps': 3}
+GetProcessAffinityMask,KERNEL32,5,"{'nolabel': 1, 'sharps': 3, 'shelma': 1}"
+SetThreadIdealProcessorEx,KERNEL32,3,{'sharps': 3}
+GetThreadIdealProcessorEx,KERNEL32,3,{'sharps': 3}
+GetLargePageMinimum,KERNEL32,3,{'sharps': 3}
+VirtualUnlock,KERNEL32,3,{'sharps': 3}
+GetLogicalProcessorInformation,KERNEL32,4,"{'sharps': 3, 'malheur': 1}",Anti-Debugging
+SetThreadGroupAffinity,KERNEL32,3,{'sharps': 3}
+SetThreadAffinityMask,KERNEL32,3,{'sharps': 3}
+IsProcessInJob,KERNEL32,3,{'sharps': 3}
+QueryInformationJobObject,KERNEL32,3,{'sharps': 3}
+K32GetProcessMemoryInfo,KERNEL32,3,{'sharps': 3}
+VirtualAlloc,KERNEL32,14,"{'nolabel': 2, 'sharps': 3, 'rozena': 3, 'dealply': 2, 'shelma': 2, 'malheur': 1, 'cobaltstrike': 1}",Injection
+VirtualFree,KERNEL32,13,"{'nolabel': 2, 'sharps': 3, 'rozena': 3, 'dealply': 2, 'shelma': 2, 'malheur': 1}"
+VirtualProtect,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'dealply': 1, 'shelma': 1, 'malheur': 1, 'cobaltstrike': 1, 'convagent': 1}",Injection
+SwitchToThread,KERNEL32,5,"{'sharps': 3, 'malheur': 1, 'shelma': 1}"
+CloseThreadpoolTimer,KERNEL32,3,{'sharps': 3}
+CreateThreadpoolTimer,KERNEL32,3,{'sharps': 3}
+SetThreadpoolTimer,KERNEL32,3,{'sharps': 3}
+GetFileSize,KERNEL32,9,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+GetEnvironmentVariableW,KERNEL32,6,"{'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+SetEnvironmentVariableW,KERNEL32,4,"{'sharps': 3, 'cobaltstrike': 1}"
+CreateEventW,KERNEL32,8,"{'sharps': 3, 'cobaltstrike': 2, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+ResetEvent,KERNEL32,9,"{'nolabel': 1, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+CreateSemaphoreExW,KERNEL32,3,{'sharps': 3}
+ReleaseSemaphore,KERNEL32,4,"{'sharps': 3, 'rozena': 1}"
+CreateMutexW,KERNEL32,3,{'sharps': 3}
+ReleaseMutex,KERNEL32,5,"{'nolabel': 1, 'sharps': 3, 'rozena': 1}"
+GetThreadContext,KERNEL32,6,"{'nolabel': 2, 'sharps': 3, 'shelma': 1}",Injection
+SuspendThread,KERNEL32,6,"{'nolabel': 1, 'sharps': 3, 'malheur': 1, 'shelma': 1}",Injection
+SetThreadContext,KERNEL32,5,"{'nolabel': 1, 'sharps': 3, 'shelma': 1}",Injection
+GetEnabledXStateFeatures,KERNEL32,3,{'sharps': 3}
+InitializeContext,KERNEL32,3,{'sharps': 3}
+SetXStateFeaturesMask,KERNEL32,3,{'sharps': 3}
+RtlInstallFunctionTableCallback,KERNEL32,3,{'sharps': 3}
+GetSystemDefaultLCID,KERNEL32,3,{'sharps': 3}
+GetUserDefaultLCID,KERNEL32,4,"{'nolabel': 1, 'sharps': 3}"
+RtlUnwind,KERNEL32,10,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+LoadLibraryExW,KERNEL32,8,"{'nolabel': 1, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+HeapCreate,KERNEL32,9,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'malheur': 1, 'registrystorage': 1}",Injection
+HeapDestroy,KERNEL32,6,"{'nolabel': 2, 'sharps': 3, 'malheur': 1}"
+GetEnvironmentStringsW,KERNEL32,9,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'shelma': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+FreeEnvironmentStringsW,KERNEL32,9,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'shelma': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+FormatMessageW,KERNEL32,7,"{'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+OutputDebugStringA,KERNEL32,5,"{'sharps': 3, 'rozena': 1, 'cobaltstrike': 1}",Anti-Debugging
+GetACP,KERNEL32,10,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+LCMapStringEx,KERNEL32,3,{'sharps': 3}
+LocalFree,KERNEL32,10,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 1, 'malheur': 1, 'registrystorage': 1}"
+VerSetConditionMask,KERNEL32,5,"{'sharps': 3, 'malheur': 1, 'cobaltstrike': 1}"
+VerifyVersionInfoW,KERNEL32,5,"{'sharps': 3, 'malheur': 1, 'cobaltstrike': 1}"
+FindClose,KERNEL32,9,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}",Helper
+GetModuleFileNameW,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'dealply': 2, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+FindNextFileW,KERNEL32,4,"{'sharps': 3, 'cobaltstrike': 1}"
+QueryThreadCycleTime,KERNEL32,3,{'sharps': 3}
+VirtualAllocExNuma,KERNEL32,3,{'sharps': 3},Injection
+GetNumaProcessorNodeEx,KERNEL32,3,{'sharps': 3}
+GetNumaHighestNodeNumber,KERNEL32,3,{'sharps': 3}
+GetLogicalProcessorInformationEx,KERNEL32,3,{'sharps': 3},Anti-Debugging
+GetThreadGroupAffinity,KERNEL32,3,{'sharps': 3}
+GetSystemTimes,KERNEL32,4,"{'nolabel': 1, 'sharps': 3}"
+GetSystemTimeAsFileTime,KERNEL32,9,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 1, 'registrystorage': 1}",Anti-Debugging
+CreateFileMappingW,KERNEL32,4,"{'sharps': 3, 'rozena': 1}"
+CreateProcessW,KERNEL32,6,"{'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+GetCPInfo,KERNEL32,10,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+CreateFileW,KERNEL32,13,"{'nolabel': 2, 'sharps': 3, 'rozena': 3, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1, 'convagent': 1}"
+GetFileAttributesExW,KERNEL32,4,"{'sharps': 3, 'cobaltstrike': 1}"
+GetTempPathW,KERNEL32,4,"{'sharps': 3, 'cobaltstrike': 1}"
+GetCurrentDirectoryW,KERNEL32,4,"{'sharps': 3, 'cobaltstrike': 1}"
+FindFirstFileExW,KERNEL32,4,"{'sharps': 3, 'cobaltstrike': 1}"
+GetFullPathNameW,KERNEL32,7,"{'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+OpenProcess,KERNEL32,4,"{'nolabel': 1, 'sharps': 3}",Injection
+LoadLibraryExA,KERNEL32,4,"{'nolabel': 1, 'sharps': 3}",Evasion
+OpenEventW,KERNEL32,3,{'sharps': 3}
+ExitThread,KERNEL32,6,"{'nolabel': 1, 'sharps': 3, 'malheur': 1, 'cobaltstrike': 1}"
+HeapReAlloc,KERNEL32,7,"{'nolabel': 2, 'sharps': 3, 'registrystorage': 1, 'cobaltstrike': 1}",Injection
+CreateNamedPipeA,KERNEL32,3,{'sharps': 3}
+WaitForMultipleObjects,KERNEL32,5,"{'nolabel': 1, 'sharps': 3, 'shelma': 1}",Evasion
+DisconnectNamedPipe,KERNEL32,3,{'sharps': 3}
+CreateFileA,KERNEL32,7,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'convagent': 1}",Helper
+CancelIoEx,KERNEL32,3,{'sharps': 3}
+GetOverlappedResult,KERNEL32,4,"{'sharps': 3, 'rozena': 1}"
+ConnectNamedPipe,KERNEL32,3,{'sharps': 3},Helper
+FlushFileBuffers,KERNEL32,7,"{'nolabel': 2, 'sharps': 3, 'registrystorage': 1, 'cobaltstrike': 1}"
+MapViewOfFile,KERNEL32,7,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'convagent': 1}",Injection
+GetActiveProcessorGroupCount,KERNEL32,3,{'sharps': 3}
+GetSystemTime,KERNEL32,4,"{'nolabel': 1, 'sharps': 3}",Anti-Debugging
+SetConsoleCtrlHandler,KERNEL32,4,"{'sharps': 3, 'shelma': 1}"
+GetLocaleInfoEx,KERNEL32,3,{'sharps': 3}
+GetUserDefaultLocaleName,KERNEL32,3,{'sharps': 3}
+RtlAddFunctionTable,KERNEL32,3,{'sharps': 3}
+CreateDirectoryW,KERNEL32,6,"{'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+RemoveDirectoryW,KERNEL32,6,"{'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+GetFileSizeEx,KERNEL32,4,"{'sharps': 3, 'cobaltstrike': 1}"
+LoadLibraryA,KERNEL32,10,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'shelma': 2, 'malheur': 1, 'cobaltstrike': 1}",Evasion
+IsWow64Process,KERNEL32,4,"{'nolabel': 1, 'sharps': 3}"
+InitializeCriticalSectionAndSpinCount,KERNEL32,7,"{'nolabel': 1, 'sharps': 3, 'cobaltstrike': 2, 'registrystorage': 1}"
+AddVectoredExceptionHandler,KERNEL32,4,"{'sharps': 3, 'shelma': 1}"
+TerminateProcess,KERNEL32,9,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 1, 'registrystorage': 1}",Helper
+GetCurrentProcessId,KERNEL32,8,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'registrystorage': 1}",Enumeration
+RaiseFailFastException,KERNEL32,3,{'sharps': 3}
+FreeLibrary,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'dealply': 2, 'malheur': 1, 'cobaltstrike': 1, 'convagent': 1}"
+RaiseException,KERNEL32,11,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+WaitForSingleObject,KERNEL32,13,"{'nolabel': 2, 'sharps': 3, 'rozena': 3, 'dealply': 1, 'malheur': 1, 'shelma': 1, 'cobaltstrike': 1, 'convagent': 1}",Evasion
+TlsSetValue,KERNEL32,11,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+TlsGetValue,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1, 'convagent': 1}"
+GetSystemInfo,KERNEL32,12,"{'nolabel': 1, 'sharps': 3, 'rozena': 2, 'dealply': 2, 'malheur': 1, 'shelma': 1, 'cobaltstrike': 1, 'convagent': 1}"
+IsDebuggerPresent,KERNEL32,8,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'registrystorage': 1}",Anti-Debugging
+LeaveCriticalSection,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 2, 'malheur': 1, 'registrystorage': 1, 'convagent': 1}"
+EnterCriticalSection,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 2, 'malheur': 1, 'registrystorage': 1, 'convagent': 1}"
+DeleteCriticalSection,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 2, 'malheur': 1, 'registrystorage': 1, 'convagent': 1}"
+InitializeCriticalSection,KERNEL32,10,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'malheur': 1, 'cobaltstrike': 1, 'convagent': 1}"
+WriteFile,KERNEL32,14,"{'nolabel': 2, 'sharps': 3, 'rozena': 3, 'dealply': 2, 'malheur': 1, 'shelma': 1, 'registrystorage': 1, 'cobaltstrike': 1}",Helper
+GetProcessTimes,KERNEL32,4,"{'nolabel': 1, 'sharps': 3}"
+GetCommandLineW,KERNEL32,10,"{'sharps': 3, 'rozena': 3, 'dealply': 2, 'malheur': 1, 'cobaltstrike': 1}"
+ReadFile,KERNEL32,10,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}",Enumeration
+SetFilePointer,KERNEL32,11,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+GetProcAddress,KERNEL32,16,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 3, 'dealply': 2, 'shelma': 2, 'malheur': 1, 'registrystorage': 1}",Evasion
+GetModuleHandleExW,KERNEL32,4,"{'sharps': 3, 'cobaltstrike': 1}"
+SetErrorMode,KERNEL32,9,"{'nolabel': 1, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'shelma': 1, 'cobaltstrike': 1}"
+CloseHandle,KERNEL32,17,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 4, 'dealply': 2, 'malheur': 1, 'shelma': 1, 'registrystorage': 1, 'convagent': 1}"
+GetCurrentProcess,KERNEL32,13,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 2, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'convagent': 1}",Enumeration
+FlushProcessWriteBuffers,KERNEL32,3,{'sharps': 3}
+SetLastError,KERNEL32,12,"{'nolabel': 2, 'sharps': 3, 'rozena': 3, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+OutputDebugStringW,KERNEL32,5,"{'sharps': 3, 'cobaltstrike': 2}"
+RtlRestoreContext,KERNEL32,3,{'sharps': 3}
+DebugBreak,KERNEL32,3,{'sharps': 3}
+DecodePointer,KERNEL32,6,"{'nolabel': 1, 'sharps': 3, 'registrystorage': 1, 'cobaltstrike': 1}"
+GetStringTypeW,KERNEL32,7,"{'nolabel': 2, 'sharps': 3, 'registrystorage': 1, 'cobaltstrike': 1}"
+RtlVirtualUnwind,KERNEL32,4,"{'sharps': 3, 'rozena': 1}"
+IsProcessorFeaturePresent,KERNEL32,7,"{'nolabel': 1, 'sharps': 3, 'cobaltstrike': 2, 'registrystorage': 1}"
+RtlUnwindEx,KERNEL32,4,"{'sharps': 3, 'rozena': 1}"
+EncodePointer,KERNEL32,6,"{'nolabel': 1, 'sharps': 3, 'registrystorage': 1, 'cobaltstrike': 1}"
+TlsFree,KERNEL32,9,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'registrystorage': 1, 'cobaltstrike': 1}"
+RtlPcToFileHeader,KERNEL32,3,{'sharps': 3}
+InitializeConditionVariable,KERNEL32,3,{'sharps': 3}
+WakeConditionVariable,KERNEL32,3,{'sharps': 3}
+SleepConditionVariableCS,KERNEL32,3,{'sharps': 3}
+SleepConditionVariableSRW,KERNEL32,3,{'sharps': 3}
+InitializeSRWLock,KERNEL32,3,{'sharps': 3}
+AcquireSRWLockExclusive,KERNEL32,3,{'sharps': 3}
+InitializeCriticalSectionEx,KERNEL32,5,"{'sharps': 3, 'cobaltstrike': 2}"
+TryEnterCriticalSection,KERNEL32,4,"{'nolabel': 1, 'sharps': 3}"
+GetExitCodeThread,KERNEL32,6,"{'nolabel': 2, 'sharps': 3, 'malheur': 1}"
+CreateFileMappingA,KERNEL32,6,"{'nolabel': 2, 'sharps': 3, 'convagent': 1}",Evasion
+RegGetValueW,ADVAPI32,3,{'sharps': 3}
+SetKernelObjectSecurity,ADVAPI32,3,{'sharps': 3}
+GetSidSubAuthorityCount,ADVAPI32,3,{'sharps': 3}
+GetSidSubAuthority,ADVAPI32,3,{'sharps': 3}
+GetTokenInformation,ADVAPI32,4,"{'nolabel': 1, 'sharps': 3}"
+DeregisterEventSource,ADVAPI32,3,{'sharps': 3}
+ReportEventW,ADVAPI32,3,{'sharps': 3}
+RegisterEventSourceW,ADVAPI32,3,{'sharps': 3}
+RegQueryValueExW,ADVAPI32,9,"{'sharps': 3, 'rozena': 2, 'dealply': 2, 'malheur': 1, 'cobaltstrike': 1}"
+RegOpenKeyExW,ADVAPI32,9,"{'sharps': 3, 'rozena': 2, 'dealply': 2, 'malheur': 1, 'cobaltstrike': 1}"
+RegCloseKey,ADVAPI32,12,"{'nolabel': 2, 'sharps': 3, 'rozena': 2, 'dealply': 2, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}",Helper
+EventRegister,ADVAPI32,3,{'sharps': 3}
+AdjustTokenPrivileges,ADVAPI32,8,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1}",Injection
+OpenProcessToken,ADVAPI32,8,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1}",Injection
+LookupPrivilegeValueW,ADVAPI32,6,"{'sharps': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+SetThreadToken,ADVAPI32,3,{'sharps': 3},Helper
+RevertToSelf,ADVAPI32,3,{'sharps': 3}
+OpenThreadToken,ADVAPI32,3,{'sharps': 3}
+EventWriteTransfer,ADVAPI32,3,{'sharps': 3}
+EventWrite,ADVAPI32,3,{'sharps': 3}
+CoTaskMemAlloc,OLE32,5,"{'nolabel': 1, 'sharps': 3, 'cobaltstrike': 1}"
+CoTaskMemFree,OLE32,5,"{'nolabel': 1, 'sharps': 3, 'cobaltstrike': 1}"
+CoWaitForMultipleHandles,OLE32,3,{'sharps': 3}
+IIDFromString,OLE32,3,{'sharps': 3}
+CLSIDFromProgID,OLE32,3,{'sharps': 3}
+CoGetMarshalSizeMax,OLE32,3,{'sharps': 3}
+CoMarshalInterface,OLE32,3,{'sharps': 3}
+CoCreateGuid,OLE32,5,"{'nolabel': 1, 'sharps': 3, 'cobaltstrike': 1}"
+CoGetObjectContext,OLE32,3,{'sharps': 3}
+CoRegisterInitializeSpy,OLE32,3,{'sharps': 3}
+CoGetContextToken,OLE32,3,{'sharps': 3}
+CoGetClassObject,OLE32,3,{'sharps': 3}
+CoCreateFreeThreadedMarshaler,OLE32,3,{'sharps': 3}
+CreateStreamOnHGlobal,OLE32,4,"{'sharps': 3, 'cobaltstrike': 1}"
+StringFromGUID2,OLE32,4,"{'nolabel': 1, 'sharps': 3}"
+CoInitializeEx,OLE32,5,"{'sharps': 3, 'registrystorage': 1, 'cobaltstrike': 1}"
+CoUninitialize,OLE32,7,"{'nolabel': 2, 'sharps': 3, 'registrystorage': 1, 'cobaltstrike': 1}"
+CoUnmarshalInterface,OLE32,3,{'sharps': 3}
+CoRevokeInitializeSpy,OLE32,3,{'sharps': 3}
+CoReleaseMarshalData,OLE32,3,{'sharps': 3}
+Ordinal_37,OLEAUT32,3,{'sharps': 3}
+Ordinal_18,OLEAUT32,5,"{'nolabel': 1, 'sharps': 3, 'rozena': 1}"
+Ordinal_149,OLEAUT32,3,{'sharps': 3}
+Ordinal_150,OLEAUT32,3,{'sharps': 3}
+Ordinal_411,OLEAUT32,3,{'sharps': 3}
+Ordinal_26,OLEAUT32,3,{'sharps': 3}
+Ordinal_162,OLEAUT32,4,"{'nolabel': 1, 'sharps': 3}"
+Ordinal_202,OLEAUT32,3,{'sharps': 3}
+Ordinal_41,OLEAUT32,3,{'sharps': 3}
+Ordinal_228,OLEAUT32,3,{'sharps': 3}
+Ordinal_8,OLEAUT32,8,"{'nolabel': 3, 'sharps': 3, 'registrystorage': 1, 'cobaltstrike': 1}"
+Ordinal_9,OLEAUT32,9,"{'nolabel': 2, 'sharps': 3, 'cobaltstrike': 2, 'rozena': 1, 'registrystorage': 1}"
+Ordinal_44,OLEAUT32,3,{'sharps': 3}
+Ordinal_12,OLEAUT32,6,"{'nolabel': 1, 'sharps': 3, 'rozena': 1, 'cobaltstrike': 1}"
+Ordinal_77,OLEAUT32,3,{'sharps': 3}
+Ordinal_183,OLEAUT32,3,{'sharps': 3}
+Ordinal_164,OLEAUT32,3,{'sharps': 3}
+Ordinal_16,OLEAUT32,3,{'sharps': 3}
+Ordinal_20,OLEAUT32,4,"{'nolabel': 1, 'sharps': 3}"
+Ordinal_17,OLEAUT32,4,"{'nolabel': 1, 'sharps': 3}"
+Ordinal_4,OLEAUT32,7,"{'nolabel': 2, 'sharps': 3, 'rozena': 1, 'cobaltstrike': 1}"
+Ordinal_7,OLEAUT32,6,"{'nolabel': 1, 'sharps': 3, 'rozena': 1, 'cobaltstrike': 1}"
+Ordinal_2,OLEAUT32,7,"{'nolabel': 1, 'sharps': 3, 'cobaltstrike': 2, 'registrystorage': 1}"
+Ordinal_201,OLEAUT32,3,{'sharps': 3}
+Ordinal_200,OLEAUT32,3,{'sharps': 3}
+Ordinal_6,OLEAUT32,6,"{'nolabel': 1, 'sharps': 3, 'registrystorage': 1, 'cobaltstrike': 1}"
+Ordinal_147,OLEAUT32,3,{'sharps': 3}
+Ordinal_323,OLEAUT32,3,{'sharps': 3}
+LoadStringW,USER32,9,"{'sharps': 3, 'cobaltstrike': 1, 'rozena': 2, 'dealply': 2, 'malheur': 1}"
+VerQueryValueW,VERSION,4,"{'sharps': 3, 'malheur': 1}"
+GetFileVersionInfoExW,VERSION,3,{'sharps': 3}
+GetFileVersionInfoSizeExW,VERSION,3,{'sharps': 3}
+ShellExecuteW,SHELL32,4,"{'sharps': 3, 'cobaltstrike': 1}"
+strncmp,API-MS-WIN-CRT-STRING-L1-1-0,6,"{'sharps': 3, 'rozena': 2, 'convagent': 1}"
+wcsncmp,API-MS-WIN-CRT-STRING-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+iswupper,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+towlower,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+isalpha,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+isdigit,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+wcstok_s,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+strnlen,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+iswascii,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+towupper,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+wcscat_s,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+strcspn,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+wcscpy_s,API-MS-WIN-CRT-STRING-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_stricmp,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+strlen,API-MS-WIN-CRT-STRING-L1-1-0,5,"{'sharps': 3, 'rozena': 1, 'convagent': 1}"
+isupper,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+strcmp,API-MS-WIN-CRT-STRING-L1-1-0,5,"{'sharps': 3, 'rozena': 1, 'convagent': 1}"
+_wcsnicmp,API-MS-WIN-CRT-STRING-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+_wcsdup,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+wcsncpy_s,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+tolower,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+islower,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+strtok_s,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+isspace,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+_strdup,API-MS-WIN-CRT-STRING-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+__strncnt,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+strncpy_s,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+strcpy_s,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+wcsncat_s,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+strncat_s,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+strcat_s,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+iswspace,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+wcsnlen,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+_strnicmp,API-MS-WIN-CRT-STRING-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+_wcsicmp,API-MS-WIN-CRT-STRING-L1-1-0,3,{'sharps': 3}
+fwrite,API-MS-WIN-CRT-STDIO-L1-1-0,5,"{'sharps': 3, 'rozena': 1, 'convagent': 1}"
+__stdio_common_vswprintf_s,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+__p__commode,API-MS-WIN-CRT-STDIO-L1-1-0,5,"{'sharps': 3, 'cobaltstrike': 1, 'rozena': 1}"
+_set_fmode,API-MS-WIN-CRT-STDIO-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+__stdio_common_vsnprintf_s,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+__stdio_common_vfwprintf,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+_flushall,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+_wfopen,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+_wfsopen,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+fseek,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+__stdio_common_vfprintf,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+ftell,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+__stdio_common_vsprintf_s,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+fputws,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+__acrt_iob_func,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+fflush,API-MS-WIN-CRT-STDIO-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+_fileno,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+_dup,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+_setmode,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+setvbuf,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+fputwc,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+_get_stream_buffer_pointers,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+_fseeki64,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+fread,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+fsetpos,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+ungetc,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+fgetpos,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+fgetc,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+fputc,API-MS-WIN-CRT-STDIO-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+__stdio_common_vswprintf,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+fclose,API-MS-WIN-CRT-STDIO-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+fgets,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+__stdio_common_vsscanf,API-MS-WIN-CRT-STDIO-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+fopen,API-MS-WIN-CRT-STDIO-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+fputs,API-MS-WIN-CRT-STDIO-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+__stdio_common_vsnwprintf_s,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+_putws,API-MS-WIN-CRT-STDIO-L1-1-0,3,{'sharps': 3}
+terminate,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_errno,API-MS-WIN-CRT-RUNTIME-L1-1-0,5,"{'sharps': 3, 'rozena': 2}"
+_beginthreadex,API-MS-WIN-CRT-RUNTIME-L1-1-0,3,{'sharps': 3}
+abort,API-MS-WIN-CRT-RUNTIME-L1-1-0,5,"{'sharps': 3, 'rozena': 1, 'convagent': 1}"
+exit,API-MS-WIN-CRT-RUNTIME-L1-1-0,7,"{'sharps': 3, 'cobaltstrike': 1, 'rozena': 2, 'convagent': 1}"
+_initialize_onexit_table,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_register_onexit_function,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_crt_atexit,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_cexit,API-MS-WIN-CRT-RUNTIME-L1-1-0,6,"{'sharps': 3, 'cobaltstrike': 1, 'rozena': 1, 'convagent': 1}"
+_seh_filter_exe,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_set_app_type,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_invalid_parameter_noinfo_noreturn,API-MS-WIN-CRT-RUNTIME-L1-1-0,3,{'sharps': 3}
+_configure_wide_argv,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_initialize_wide_environment,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_get_initial_wide_environment,API-MS-WIN-CRT-RUNTIME-L1-1-0,3,{'sharps': 3}
+_initterm,API-MS-WIN-CRT-RUNTIME-L1-1-0,7,"{'sharps': 3, 'cobaltstrike': 1, 'rozena': 2, 'convagent': 1}"
+_initterm_e,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_exit,API-MS-WIN-CRT-RUNTIME-L1-1-0,5,"{'sharps': 3, 'cobaltstrike': 1, 'rozena': 1}"
+_controlfp_s,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+__p___argc,API-MS-WIN-CRT-RUNTIME-L1-1-0,3,{'sharps': 3}
+__p___wargv,API-MS-WIN-CRT-RUNTIME-L1-1-0,3,{'sharps': 3}
+_c_exit,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_register_thread_local_exe_atexit_callback,API-MS-WIN-CRT-RUNTIME-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_invalid_parameter_noinfo,API-MS-WIN-CRT-RUNTIME-L1-1-0,3,{'sharps': 3}
+_wcserror,API-MS-WIN-CRT-RUNTIME-L1-1-0,3,{'sharps': 3}
+atol,API-MS-WIN-CRT-CONVERT-L1-1-0,3,{'sharps': 3}
+_ltow_s,API-MS-WIN-CRT-CONVERT-L1-1-0,3,{'sharps': 3}
+strtoull,API-MS-WIN-CRT-CONVERT-L1-1-0,3,{'sharps': 3}
+_atoi64,API-MS-WIN-CRT-CONVERT-L1-1-0,3,{'sharps': 3}
+strtoul,API-MS-WIN-CRT-CONVERT-L1-1-0,3,{'sharps': 3}
+wcstoul,API-MS-WIN-CRT-CONVERT-L1-1-0,3,{'sharps': 3}
+_wtoi,API-MS-WIN-CRT-CONVERT-L1-1-0,3,{'sharps': 3}
+_wcstoui64,API-MS-WIN-CRT-CONVERT-L1-1-0,3,{'sharps': 3}
+_itow_s,API-MS-WIN-CRT-CONVERT-L1-1-0,3,{'sharps': 3}
+calloc,API-MS-WIN-CRT-HEAP-L1-1-0,6,"{'sharps': 3, 'rozena': 2, 'convagent': 1}"
+free,API-MS-WIN-CRT-HEAP-L1-1-0,7,"{'sharps': 3, 'cobaltstrike': 1, 'rozena': 2, 'convagent': 1}"
+malloc,API-MS-WIN-CRT-HEAP-L1-1-0,6,"{'sharps': 3, 'rozena': 2, 'convagent': 1}"
+realloc,API-MS-WIN-CRT-HEAP-L1-1-0,5,"{'sharps': 3, 'rozena': 2}"
+qsort,API-MS-WIN-CRT-UTILITY-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+ceil,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+atanf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+atan2f,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+atan2,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+atan,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+asinf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+asin,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+acosf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+modff,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+cos,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+powf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+pow,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+floorf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+log2,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+atanh,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+acosh,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+cosf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+cbrt,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+asinh,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+asinhf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+ilogbf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+atanhf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+cbrtf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+acoshf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+log2f,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+fma,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+fmaf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+fmod,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+cosh,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+coshf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+modf,API-MS-WIN-CRT-MATH-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+exp,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+expf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+_fdopen,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+floor,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+_copysign,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+_copysignf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+_isnanf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+__setusermatherr,API-MS-WIN-CRT-MATH-L1-1-0,5,"{'sharps': 3, 'cobaltstrike': 1, 'rozena': 1}"
+_isnan,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+ceilf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+fmodf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+ilogb,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+frexp,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+log,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+log10,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+log10f,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+logf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+_finite,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+sin,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+sinf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+sinh,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+sinhf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+sqrt,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+sqrtf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+tan,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+tanf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+tanh,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+acos,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+tanhf,API-MS-WIN-CRT-MATH-L1-1-0,3,{'sharps': 3}
+_time64,API-MS-WIN-CRT-TIME-L1-1-0,3,{'sharps': 3}
+wcsftime,API-MS-WIN-CRT-TIME-L1-1-0,3,{'sharps': 3}
+_gmtime64_s,API-MS-WIN-CRT-TIME-L1-1-0,3,{'sharps': 3}
+_configthreadlocale,API-MS-WIN-CRT-LOCALE-L1-1-0,4,"{'sharps': 3, 'cobaltstrike': 1}"
+_lock_locales,API-MS-WIN-CRT-LOCALE-L1-1-0,3,{'sharps': 3}
+setlocale,API-MS-WIN-CRT-LOCALE-L1-1-0,3,{'sharps': 3}
+__pctype_func,API-MS-WIN-CRT-LOCALE-L1-1-0,3,{'sharps': 3}
+___lc_locale_name_func,API-MS-WIN-CRT-LOCALE-L1-1-0,3,{'sharps': 3}
+___lc_codepage_func,API-MS-WIN-CRT-LOCALE-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+___mb_cur_max_func,API-MS-WIN-CRT-LOCALE-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+localeconv,API-MS-WIN-CRT-LOCALE-L1-1-0,4,"{'sharps': 3, 'rozena': 1}"
+_wrename,API-MS-WIN-CRT-FILESYSTEM-L1-1-0,3,{'sharps': 3}
+_wremove,API-MS-WIN-CRT-FILESYSTEM-L1-1-0,3,{'sharps': 3}
+_unlock_file,API-MS-WIN-CRT-FILESYSTEM-L1-1-0,3,{'sharps': 3}
+_lock_file,API-MS-WIN-CRT-FILESYSTEM-L1-1-0,3,{'sharps': 3}
+RoUninitialize,API-MS-WIN-CORE-WINRT-L1-1-0,3,{'sharps': 3}
+RoInitialize,API-MS-WIN-CORE-WINRT-L1-1-0,3,{'sharps': 3}
+get_accDescription,MFC140U,2,{'cobaltstrike': 2}
+get_accRole,MFC140U,2,{'cobaltstrike': 2}
+get_accState,MFC140U,2,{'cobaltstrike': 2}
+get_accHelp,MFC140U,2,{'cobaltstrike': 2}
+get_accHelpTopic,MFC140U,2,{'cobaltstrike': 2}
+get_accKeyboardShortcut,MFC140U,2,{'cobaltstrike': 2}
+get_accFocus,MFC140U,2,{'cobaltstrike': 2}
+get_accSelection,MFC140U,2,{'cobaltstrike': 2}
+get_accDefaultAction,MFC140U,2,{'cobaltstrike': 2}
+accSelect,MFC140U,2,{'cobaltstrike': 2}
+accLocation,MFC140U,2,{'cobaltstrike': 2}
+accNavigate,MFC140U,2,{'cobaltstrike': 2}
+accHitTest,MFC140U,3,{'cobaltstrike': 3}
+accDoDefaultAction,MFC140U,2,{'cobaltstrike': 2}
+put_accName,MFC140U,1,{'cobaltstrike': 1}
+put_accValue,MFC140U,1,{'cobaltstrike': 1}
+SetProxy,MFC140U,1,{'cobaltstrike': 1}
+CreateAccessibleProxy,MFC140U,1,{'cobaltstrike': 1}
+OnCommand,MFC140U,5,{'cobaltstrike': 5}
+OnNotify,MFC140U,1,{'cobaltstrike': 1}
+GetSuperWndProcAddr,MFC140U,1,{'cobaltstrike': 1}
+PreTranslateMessage,MFC140U,7,{'cobaltstrike': 7}
+OnAmbientProperty,MFC140U,1,{'cobaltstrike': 1}
+WindowProc,MFC140U,2,{'cobaltstrike': 2}
+OnWndMsg,MFC140U,1,{'cobaltstrike': 1}
+DefWindowProcW,MFC140U,4,{'cobaltstrike': 4}
+PostNcDestroy,MFC140U,3,{'cobaltstrike': 3}
+OnChildNotify,MFC140U,3,{'cobaltstrike': 3}
+OnTouchInputs,MFC140U,1,{'cobaltstrike': 1}
+OnTouchInput,MFC140U,1,{'cobaltstrike': 1}
+GetGestureStatus,MFC140U,1,{'cobaltstrike': 1}
+OnGestureZoom,MFC140U,1,{'cobaltstrike': 1}
+OnGesturePan,MFC140U,1,{'cobaltstrike': 1}
+OnGestureRotate,MFC140U,1,{'cobaltstrike': 1}
+OnGestureTwoFingerTap,MFC140U,1,{'cobaltstrike': 1}
+OnGesturePressAndTap,MFC140U,1,{'cobaltstrike': 1}
+ResizeDynamicLayout,MFC140U,1,{'cobaltstrike': 1}
+CheckAutoCenter,MFC140U,2,{'cobaltstrike': 2}
+IsFrameWnd,MFC140U,2,{'cobaltstrike': 2}
+CreateControlContainer,MFC140U,1,{'cobaltstrike': 1}
+CreateControlSite,MFC140U,1,{'cobaltstrike': 1}
+SetOccDialogInfo,MFC140U,2,{'cobaltstrike': 2}
+GetOccDialogInfo,MFC140U,2,{'cobaltstrike': 2}
+Create,MFC140U,16,{'cobaltstrike': 16}
+CreateIndirect,MFC140U,2,{'cobaltstrike': 2}
+OnInitDialog,MFC140U,1,{'cobaltstrike': 1}
+OnSetFont,MFC140U,1,{'cobaltstrike': 1}
+OnOK,MFC140U,1,{'cobaltstrike': 1}
+OnCancel,MFC140U,1,{'cobaltstrike': 1}
+PreInitDialog,MFC140U,1,{'cobaltstrike': 1}
+GetThisClass,MFC140U,15,{'cobaltstrike': 15}
+GetThisMessageMap,MFC140U,9,{'cobaltstrike': 9}
+CDocument,MFC140U,1,{'cobaltstrike': 1}
+~CDocument,MFC140U,1,{'cobaltstrike': 1}
+OnNewDocument,MFC140U,1,{'cobaltstrike': 1}
+OnCmdMsg,MFC140U,6,{'cobaltstrike': 6}
+OnFinalRelease,MFC140U,3,{'cobaltstrike': 3}
+GetInterfaceMap,MFC140U,3,{'cobaltstrike': 3}
+Delete,MFC140U,2,{'cobaltstrike': 2}
+FindChunk,MFC140U,1,{'cobaltstrike': 1}
+RemoveChunk,MFC140U,1,{'cobaltstrike': 1}
+ReadNextChunkValue,MFC140U,1,{'cobaltstrike': 1}
+SetChunkValue,MFC140U,1,{'cobaltstrike': 1}
+ClearChunkList,MFC140U,1,{'cobaltstrike': 1}
+GetThumbnail,MFC140U,1,{'cobaltstrike': 1}
+BeginReadChunks,MFC140U,1,{'cobaltstrike': 1}
+LoadDocumentFromStream,MFC140U,1,{'cobaltstrike': 1}
+SetTitle,MFC140U,1,{'cobaltstrike': 1}
+SetPathName,MFC140U,1,{'cobaltstrike': 1}
+ClearPathName,MFC140U,1,{'cobaltstrike': 1}
+GetFirstViewPosition,MFC140U,1,{'cobaltstrike': 1}
+GetNextView,MFC140U,1,{'cobaltstrike': 1}
+OnChangedViewList,MFC140U,1,{'cobaltstrike': 1}
+DeleteContents,MFC140U,1,{'cobaltstrike': 1}
+OnOpenDocument,MFC140U,1,{'cobaltstrike': 1}
+OnSaveDocument,MFC140U,1,{'cobaltstrike': 1}
+OnCloseDocument,MFC140U,1,{'cobaltstrike': 1}
+ReportSaveLoadException,MFC140U,1,{'cobaltstrike': 1}
+GetFile,MFC140U,1,{'cobaltstrike': 1}
+ReleaseFile,MFC140U,1,{'cobaltstrike': 1}
+OnRichPreviewUnload,MFC140U,1,{'cobaltstrike': 1}
+OnDocumentEvent,MFC140U,1,{'cobaltstrike': 1}
+CanCloseFrame,MFC140U,1,{'cobaltstrike': 1}
+SaveModified,MFC140U,1,{'cobaltstrike': 1}
+PreCloseFrame,MFC140U,1,{'cobaltstrike': 1}
+DoSave,MFC140U,1,{'cobaltstrike': 1}
+DoFileSave,MFC140U,1,{'cobaltstrike': 1}
+UpdateFrameCounts,MFC140U,1,{'cobaltstrike': 1}
+GetDefaultMenu,MFC140U,1,{'cobaltstrike': 1}
+GetDefaultAccelerator,MFC140U,2,{'cobaltstrike': 2}
+OnIdle,MFC140U,2,{'cobaltstrike': 2}
+OnLoadDocumentFromStream,MFC140U,1,{'cobaltstrike': 1}
+OnPreviewHandlerQueryFocus,MFC140U,1,{'cobaltstrike': 1}
+OnPreviewHandlerTranslateAccelerator,MFC140U,1,{'cobaltstrike': 1}
+OnCreatePreviewFrame,MFC140U,1,{'cobaltstrike': 1}
+OnUnloadHandler,MFC140U,1,{'cobaltstrike': 1}
+OnDrawThumbnail,MFC140U,1,{'cobaltstrike': 1}
+OnFilePrint,MFC140U,1,{'cobaltstrike': 1}
+CView,MFC140U,1,{'cobaltstrike': 1}
+~CView,MFC140U,1,{'cobaltstrike': 1}
+PreCreateWindow,MFC140U,4,{'cobaltstrike': 4}
+AFXPrintPreview,MFC140U,1,{'cobaltstrike': 1}
+DoPreparePrinting,MFC140U,1,{'cobaltstrike': 1}
+CalcWindowRect,MFC140U,2,{'cobaltstrike': 2}
+GetScrollBarCtrl,MFC140U,2,{'cobaltstrike': 2}
+IsSelected,MFC140U,1,{'cobaltstrike': 1}
+OnScroll,MFC140U,1,{'cobaltstrike': 1}
+OnScrollBy,MFC140U,1,{'cobaltstrike': 1}
+OnDragEnter,MFC140U,2,{'cobaltstrike': 2}
+OnDragOver,MFC140U,2,{'cobaltstrike': 2}
+OnDragLeave,MFC140U,2,{'cobaltstrike': 2}
+OnDrop,MFC140U,2,{'cobaltstrike': 2}
+OnDropEx,MFC140U,1,{'cobaltstrike': 1}
+OnDragScroll,MFC140U,1,{'cobaltstrike': 1}
+OnPrepareDC,MFC140U,1,{'cobaltstrike': 1}
+OnInitialUpdate,MFC140U,1,{'cobaltstrike': 1}
+OnActivateView,MFC140U,1,{'cobaltstrike': 1}
+OnActivateFrame,MFC140U,1,{'cobaltstrike': 1}
+OnUpdate,MFC140U,1,{'cobaltstrike': 1}
+OnPrint,MFC140U,1,{'cobaltstrike': 1}
+OnEndPrintPreview,MFC140U,1,{'cobaltstrike': 1}
+CMDIChildWndEx,MFC140U,1,{'cobaltstrike': 1}
+~CMDIChildWndEx,MFC140U,1,{'cobaltstrike': 1}
+CSplitterWnd,MFC140U,1,{'cobaltstrike': 1}
+~CSplitterWnd,MFC140U,1,{'cobaltstrike': 1}
+DestroyWindow,MFC140U,7,"{'nolabel': 1, 'cobaltstrike': 3, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+SetMenu,MFC140U,3,{'cobaltstrike': 3}
+BeginModalState,MFC140U,1,{'cobaltstrike': 1}
+EndModalState,MFC140U,1,{'cobaltstrike': 1}
+LoadFrame,MFC140U,2,{'cobaltstrike': 2}
+GetActiveDocument,MFC140U,1,{'cobaltstrike': 1}
+GetActiveFrame,MFC140U,2,{'cobaltstrike': 2}
+GetMessageString,MFC140U,1,{'cobaltstrike': 1}
+RecalcLayout,MFC140U,3,{'cobaltstrike': 3}
+ActivateFrame,MFC140U,2,{'cobaltstrike': 2}
+GetTrackingID,MFC140U,1,{'cobaltstrike': 1}
+SetMenuBarVisibility,MFC140U,2,{'cobaltstrike': 2}
+GetMenuBarVisibility,MFC140U,1,{'cobaltstrike': 1}
+SetMenuBarState,MFC140U,2,{'cobaltstrike': 2}
+GetMenuBarState,MFC140U,1,{'cobaltstrike': 1}
+OnSetPreviewMode,MFC140U,2,{'cobaltstrike': 2}
+GetMessageBar,MFC140U,2,{'cobaltstrike': 2}
+NegotiateBorderSpace,MFC140U,2,{'cobaltstrike': 2}
+OnCreateClient,MFC140U,2,{'cobaltstrike': 2}
+OnUpdateFrameTitle,MFC140U,2,{'cobaltstrike': 2}
+OnUpdateFrameMenu,MFC140U,3,{'cobaltstrike': 3}
+DelayUpdateFrameMenu,MFC140U,2,{'cobaltstrike': 2}
+ExitHelpMode,MFC140U,1,{'cobaltstrike': 1}
+OnShowMenuBar,MFC140U,1,{'cobaltstrike': 1}
+OnHideMenuBar,MFC140U,1,{'cobaltstrike': 1}
+IsTabbedMDIChild,MFC140U,1,{'cobaltstrike': 1}
+AdjustDockingLayout,MFC140U,3,{'cobaltstrike': 3}
+OnMoveMiniFrame,MFC140U,2,{'cobaltstrike': 2}
+RegisterTaskbarTab,MFC140U,1,{'cobaltstrike': 1}
+GetFrameText,MFC140U,1,{'cobaltstrike': 1}
+GetFrameIcon,MFC140U,1,{'cobaltstrike': 1}
+CanShowOnMDITabs,MFC140U,1,{'cobaltstrike': 1}
+UpdateTaskbarTabIcon,MFC140U,1,{'cobaltstrike': 1}
+OnTaskbarTabThumbnailStretch,MFC140U,1,{'cobaltstrike': 1}
+GetTaskbarPreviewWnd,MFC140U,1,{'cobaltstrike': 1}
+OnPressTaskbarThmbnailCloseButton,MFC140U,1,{'cobaltstrike': 1}
+OnTaskbarTabThumbnailActivate,MFC140U,1,{'cobaltstrike': 1}
+OnTaskbarTabThumbnailMouseActivate,MFC140U,1,{'cobaltstrike': 1}
+GetTaskbarThumbnailClipRect,MFC140U,1,{'cobaltstrike': 1}
+GetDocumentName,MFC140U,1,{'cobaltstrike': 1}
+SetTaskbarThumbnailClipRect,MFC140U,1,{'cobaltstrike': 1}
+ActivateTopLevelFrame,MFC140U,1,{'cobaltstrike': 1}
+SetTaskbarTabText,MFC140U,1,{'cobaltstrike': 1}
+OnUpdateCmdUI,MFC140U,2,{'cobaltstrike': 2}
+FromHandle,MFC140U,4,{'cobaltstrike': 4}
+CMFCToolBarMenuButton,MFC140U,1,{'cobaltstrike': 1}
+~CMFCToolBarMenuButton,MFC140U,1,{'cobaltstrike': 1}
+PrepareDrawImage,MFC140U,1,{'cobaltstrike': 1}
+OnDraw,MFC140U,1,{'cobaltstrike': 1}
+EndDrawImage,MFC140U,1,{'cobaltstrike': 1}
+AfxClassInit,MFC140U,1,{'cobaltstrike': 1}
+CDockablePane,MFC140U,1,{'cobaltstrike': 1}
+~CDockablePane,MFC140U,1,{'cobaltstrike': 1}
+CImageList,MFC140U,1,{'cobaltstrike': 1}
+~CImageList,MFC140U,1,{'cobaltstrike': 1}
+CMFCToolBar,MFC140U,1,{'cobaltstrike': 1}
+~CMFCToolBar,MFC140U,1,{'cobaltstrike': 1}
+OnCreate,MFC140U,2,{'cobaltstrike': 2}
+LoadToolBar,MFC140U,1,{'cobaltstrike': 1}
+MeasureItem,MFC140U,3,{'cobaltstrike': 3}
+DrawItem,MFC140U,3,{'cobaltstrike': 3}
+GetRuntimeClass,MFC140U,13,{'cobaltstrike': 13}
+DestroyMenu,MFC140U,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+AfxFindResourceHandle,MFC140U,1,{'cobaltstrike': 1}
+Attach,MFC140U,2,{'cobaltstrike': 2}
+ReplaceButton,MFC140U,1,{'cobaltstrike': 1}
+AfxDynamicDownCast,MFC140U,1,{'cobaltstrike': 1}
+GetButton,MFC140U,1,{'cobaltstrike': 1}
+SetImage,MFC140U,1,{'cobaltstrike': 1}
+GetCmdImage,MFC140U,1,{'cobaltstrike': 1}
+GetCmdMgr,MFC140U,1,{'cobaltstrike': 1}
+OnSize,MFC140U,1,{'cobaltstrike': 1}
+InsertItem,MFC140U,1,{'cobaltstrike': 1}
+SetItem,MFC140U,1,{'cobaltstrike': 1}
+OnContextMenu,MFC140U,1,{'cobaltstrike': 1}
+HitTest,MFC140U,3,{'cobaltstrike': 3}
+SetFocus,MFC140U,3,"{'nolabel': 1, 'cobaltstrike': 2}",Helper
+IsKindOf,MFC140U,1,{'cobaltstrike': 1}
+AfxGetThread,MFC140U,1,{'cobaltstrike': 1}
+CMFCPopupMenu,MFC140U,1,{'cobaltstrike': 1}
+UpdateDialogControls,MFC140U,1,{'cobaltstrike': 1}
+CalcFixedLayout,MFC140U,2,{'cobaltstrike': 2}
+SetWindowPos,MFC140U,4,"{'nolabel': 1, 'cobaltstrike': 3}"
+CPaintDC,MFC140U,1,{'cobaltstrike': 1}
+~CPaintDC,MFC140U,1,{'cobaltstrike': 1}
+ScreenToClient,MFC140U,4,"{'nolabel': 1, 'cobaltstrike': 3}"
+Draw3dRect,MFC140U,1,{'cobaltstrike': 1}
+OnSetFocus,MFC140U,1,{'cobaltstrike': 1}
+DeleteImageList,MFC140U,1,{'cobaltstrike': 1}
+CleanUpLockedImages,MFC140U,1,{'cobaltstrike': 1}
+LoadBitmapW,MFC140U,3,{'cobaltstrike': 3}
+Serialize,MFC140U,3,{'cobaltstrike': 3}
+GetMessageMap,MFC140U,2,{'cobaltstrike': 2}
+OnToolHitTest,MFC140U,3,{'cobaltstrike': 3}
+get_accParent,MFC140U,2,{'cobaltstrike': 2}
+get_accChildCount,MFC140U,3,{'cobaltstrike': 3}
+get_accChild,MFC140U,3,{'cobaltstrike': 3}
+get_accName,MFC140U,2,{'cobaltstrike': 2}
+get_accValue,MFC140U,2,{'cobaltstrike': 2}
+GetCurrentAlignment,MFC140U,1,{'cobaltstrike': 1}
+IsDocked,MFC140U,2,{'cobaltstrike': 2}
+IsTabbed,MFC140U,1,{'cobaltstrike': 1}
+IsMDITabbed,MFC140U,1,{'cobaltstrike': 1}
+IsVisible,MFC140U,2,{'cobaltstrike': 2}
+CanFloat,MFC140U,1,{'cobaltstrike': 1}
+CanBeTabbedDocument,MFC140U,1,{'cobaltstrike': 1}
+GetDockSiteFrameWnd,MFC140U,1,{'cobaltstrike': 1}
+EnableDocking,MFC140U,2,{'cobaltstrike': 2}
+DockPane,MFC140U,2,{'cobaltstrike': 2}
+FloatPane,MFC140U,1,{'cobaltstrike': 1}
+StretchPane,MFC140U,1,{'cobaltstrike': 1}
+AdjustLayout,MFC140U,1,{'cobaltstrike': 1}
+CreateDefaultMiniframe,MFC140U,1,{'cobaltstrike': 1}
+OnBeforeChangeParent,MFC140U,2,{'cobaltstrike': 2}
+OnAfterChangeParent,MFC140U,2,{'cobaltstrike': 2}
+ShowPane,MFC140U,3,{'cobaltstrike': 3}
+GetParentMiniFrame,MFC140U,1,{'cobaltstrike': 1}
+LoadState,MFC140U,3,{'cobaltstrike': 3}
+SaveState,MFC140U,3,{'cobaltstrike': 3}
+MoveWindow,MFC140U,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+CopyState,MFC140U,3,{'cobaltstrike': 3}
+UndockPane,MFC140U,2,{'cobaltstrike': 2}
+OnPaneContextMenu,MFC140U,1,{'cobaltstrike': 1}
+CreateEx,MFC140U,6,{'cobaltstrike': 6}
+OnSetAccData,MFC140U,2,{'cobaltstrike': 2}
+AccNotifyObjectFocusEvent,MFC140U,1,{'cobaltstrike': 1}
+DoPaint,MFC140U,2,{'cobaltstrike': 2}
+GetAvailableExpandSize,MFC140U,1,{'cobaltstrike': 1}
+GetAvailableStretchSize,MFC140U,1,{'cobaltstrike': 1}
+GetPaneName,MFC140U,1,{'cobaltstrike': 1}
+SetActiveInGroup,MFC140U,1,{'cobaltstrike': 1}
+PrepareToDock,MFC140U,1,{'cobaltstrike': 1}
+DockByMouse,MFC140U,1,{'cobaltstrike': 1}
+CalcSize,MFC140U,1,{'cobaltstrike': 1}
+MovePane,MFC140U,1,{'cobaltstrike': 1}
+StretchPaneDeferWndPos,MFC140U,1,{'cobaltstrike': 1}
+IsChangeState,MFC140U,2,{'cobaltstrike': 2}
+SetDockState,MFC140U,1,{'cobaltstrike': 1}
+OnProcessDblClk,MFC140U,1,{'cobaltstrike': 1}
+OnBeforeFloat,MFC140U,2,{'cobaltstrike': 2}
+OnAfterFloat,MFC140U,2,{'cobaltstrike': 2}
+CalcAvailableSize,MFC140U,1,{'cobaltstrike': 1}
+OnCreateAggregates,MFC140U,1,{'cobaltstrike': 1}
+OnPressCloseButton,MFC140U,2,{'cobaltstrike': 2}
+ConvertToTabbedDocument,MFC140U,2,{'cobaltstrike': 2}
+OnContinueMoving,MFC140U,1,{'cobaltstrike': 1}
+OnBeforeDock,MFC140U,1,{'cobaltstrike': 1}
+OnAfterDock,MFC140U,2,{'cobaltstrike': 2}
+OnAfterStretch,MFC140U,1,{'cobaltstrike': 1}
+RemoveFromMiniframe,MFC140U,1,{'cobaltstrike': 1}
+SetDragMode,MFC140U,1,{'cobaltstrike': 1}
+Dock,MFC140U,2,{'cobaltstrike': 2}
+EnterDragMode,MFC140U,2,{'cobaltstrike': 2}
+OnRTLChanged,MFC140U,1,{'cobaltstrike': 1}
+StoreRecentDockSiteInfo,MFC140U,2,{'cobaltstrike': 2}
+ResetImages,MFC140U,1,{'cobaltstrike': 1}
+LoadBitmapEx,MFC140U,1,{'cobaltstrike': 1}
+LoadToolBarEx,MFC140U,1,{'cobaltstrike': 1}
+SetButtons,MFC140U,1,{'cobaltstrike': 1}
+InsertButton,MFC140U,2,{'cobaltstrike': 2}
+InsertSeparator,MFC140U,1,{'cobaltstrike': 1}
+RemoveButton,MFC140U,1,{'cobaltstrike': 1}
+RemoveAllButtons,MFC140U,1,{'cobaltstrike': 1}
+GetRowHeight,MFC140U,1,{'cobaltstrike': 1}
+CreateObject,MFC140U,1,{'cobaltstrike': 1}
+CMFCVisualManager,MFC140U,1,{'cobaltstrike': 1}
+OnViewDoubleClick,MFC140U,1,{'cobaltstrike': 1}
+Deactivate,MFC140U,1,{'cobaltstrike': 1}
+RestoreFocus,MFC140U,1,{'cobaltstrike': 1}
+GetItemRect,MFC140U,1,{'cobaltstrike': 1}
+GetInvalidateItemRect,MFC140U,1,{'cobaltstrike': 1}
+SetButtonStyle,MFC140U,1,{'cobaltstrike': 1}
+RemoveStateFromRegistry,MFC140U,1,{'cobaltstrike': 1}
+CanBeRestored,MFC140U,1,{'cobaltstrike': 1}
+RestoreOriginalState,MFC140U,1,{'cobaltstrike': 1}
+PrevMenu,MFC140U,1,{'cobaltstrike': 1}
+NextMenu,MFC140U,1,{'cobaltstrike': 1}
+OnSetDefaultButtonText,MFC140U,1,{'cobaltstrike': 1}
+OnGlobalFontsChanged,MFC140U,1,{'cobaltstrike': 1}
+OnUserToolTip,MFC140U,1,{'cobaltstrike': 1}
+OnChangeHot,MFC140U,1,{'cobaltstrike': 1}
+OnChangeVisualManager,MFC140U,1,{'cobaltstrike': 1}
+CalcLayout,MFC140U,1,{'cobaltstrike': 1}
+DrawDragCursor,MFC140U,1,{'cobaltstrike': 1}
+AFXGetParentFrame,MFC140U,1,{'cobaltstrike': 1}
+AccGetButtonsCount,MFC140U,1,{'cobaltstrike': 1}
+NotifyControlCommand,MFC140U,1,{'cobaltstrike': 1}
+FindDropIndex,MFC140U,1,{'cobaltstrike': 1}
+AdjustLocations,MFC140U,1,{'cobaltstrike': 1}
+DrawSeparator,MFC140U,1,{'cobaltstrike': 1}
+CreateDroppedButton,MFC140U,1,{'cobaltstrike': 1}
+OnCustomizeMode,MFC140U,1,{'cobaltstrike': 1}
+EnableContextMenuItems,MFC140U,1,{'cobaltstrike': 1}
+OnCalcSeparatorRect,MFC140U,1,{'cobaltstrike': 1}
+AddRemoveSeparator,MFC140U,1,{'cobaltstrike': 1}
+ShowCommandMessageString,MFC140U,1,{'cobaltstrike': 1}
+CalcMaxButtonHeight,MFC140U,1,{'cobaltstrike': 1}
+OnAfterButtonDelete,MFC140U,1,{'cobaltstrike': 1}
+SaveOriginalState,MFC140U,1,{'cobaltstrike': 1}
+LoadLastOriginalState,MFC140U,1,{'cobaltstrike': 1}
+SmartUpdate,MFC140U,1,{'cobaltstrike': 1}
+IsInFloatingMultiPaneFrameWnd,MFC140U,1,{'cobaltstrike': 1}
+GetCaptionHeight,MFC140U,1,{'cobaltstrike': 1}
+GetDockingMode,MFC140U,1,{'cobaltstrike': 1}
+CanAutoHide,MFC140U,1,{'cobaltstrike': 1}
+EnableGripper,MFC140U,1,{'cobaltstrike': 1}
+DockToFrameWindow,MFC140U,1,{'cobaltstrike': 1}
+DockPaneStandard,MFC140U,1,{'cobaltstrike': 1}
+ToggleAutoHide,MFC140U,1,{'cobaltstrike': 1}
+OnShowControlBarMenu,MFC140U,1,{'cobaltstrike': 1}
+OnDrawDragRect,MFC140U,1,{'cobaltstrike': 1}
+CanAcceptMiniFrame,MFC140U,1,{'cobaltstrike': 1}
+Slide,MFC140U,1,{'cobaltstrike': 1}
+GetDockingStatus,MFC140U,1,{'cobaltstrike': 1}
+AttachToTabWnd,MFC140U,1,{'cobaltstrike': 1}
+CreateTabbedPane,MFC140U,1,{'cobaltstrike': 1}
+DockToWindow,MFC140U,1,{'cobaltstrike': 1}
+DockPaneContainer,MFC140U,1,{'cobaltstrike': 1}
+UnSetAutoHideMode,MFC140U,1,{'cobaltstrike': 1}
+SetAutoHideMode,MFC140U,1,{'cobaltstrike': 1}
+StoreRecentTabRelatedInfo,MFC140U,1,{'cobaltstrike': 1}
+DrawCaption,MFC140U,1,{'cobaltstrike': 1}
+AdjustPaneToPaneContainer,MFC140U,1,{'cobaltstrike': 1}
+OnTrackCaptionButtons,MFC140U,1,{'cobaltstrike': 1}
+StopCaptionButtonsTracking,MFC140U,1,{'cobaltstrike': 1}
+SetCaptionButtons,MFC140U,1,{'cobaltstrike': 1}
+CheckAutoHideCondition,MFC140U,1,{'cobaltstrike': 1}
+CheckStopSlideCondition,MFC140U,1,{'cobaltstrike': 1}
+OnSlide,MFC140U,1,{'cobaltstrike': 1}
+PrepareDrag,MFC140U,1,{'cobaltstrike': 1}
+CopyFrom,MFC140U,1,{'cobaltstrike': 1}
+OnCalculateSize,MFC140U,1,{'cobaltstrike': 1}
+OnClick,MFC140U,1,{'cobaltstrike': 1}
+OnChangeParentWnd,MFC140U,1,{'cobaltstrike': 1}
+ExportToMenuButton,MFC140U,1,{'cobaltstrike': 1}
+OnCancelMode,MFC140U,1,{'cobaltstrike': 1}
+AfxThrowInvalidArgException,MFC140U,1,{'cobaltstrike': 1}
+OnDrawOnCustomizeList,MFC140U,1,{'cobaltstrike': 1}
+OnBeforeDrag,MFC140U,1,{'cobaltstrike': 1}
+SaveBarState,MFC140U,1,{'cobaltstrike': 1}
+ResetImageToDefault,MFC140U,1,{'cobaltstrike': 1}
+CompareWith,MFC140U,1,{'cobaltstrike': 1}
+GetStyle,MFC140U,1,{'cobaltstrike': 1}
+IsFirstInGroup,MFC140U,1,{'cobaltstrike': 1}
+IsLastInGroup,MFC140U,1,{'cobaltstrike': 1}
+SetACCData,MFC140U,1,{'cobaltstrike': 1}
+GetAccCount,MFC140U,1,{'cobaltstrike': 1}
+SetRadio,MFC140U,1,{'cobaltstrike': 1}
+OpenPopupMenu,MFC140U,1,{'cobaltstrike': 1}
+CreateFromMenu,MFC140U,1,{'cobaltstrike': 1}
+CreateMenu,MFC140U,2,{'cobaltstrike': 2}
+SetTearOff,MFC140U,1,{'cobaltstrike': 1}
+CMDIFrameWndEx,MFC140U,1,{'cobaltstrike': 1}
+~CMDIFrameWndEx,MFC140U,1,{'cobaltstrike': 1}
+CMFCMenuBar,MFC140U,1,{'cobaltstrike': 1}
+~CMFCMenuBar,MFC140U,1,{'cobaltstrike': 1}
+CMFCStatusBar,MFC140U,1,{'cobaltstrike': 1}
+~CMFCStatusBar,MFC140U,1,{'cobaltstrike': 1}
+CMFCToolBarImages,MFC140U,1,{'cobaltstrike': 1}
+~CMFCToolBarImages,MFC140U,1,{'cobaltstrike': 1}
+GetInt,MFC140U,1,{'cobaltstrike': 1}
+SetWindowTextW,MFC140U,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+EnableCustomizeButton,MFC140U,1,{'cobaltstrike': 1}
+InitUserToolbars,MFC140U,1,{'cobaltstrike': 1}
+SetIndicators,MFC140U,1,{'cobaltstrike': 1}
+SetDockingMode,MFC140U,1,{'cobaltstrike': 1}
+EnableAutoHidePanes,MFC140U,1,{'cobaltstrike': 1}
+AddToolBarForImageCollection,MFC140U,1,{'cobaltstrike': 1}
+EnableWindowsDialog,MFC140U,1,{'cobaltstrike': 1}
+EnablePaneContextMenu,MFC140U,1,{'cobaltstrike': 1}
+Load,MFC140U,1,{'cobaltstrike': 1}
+SetUserImages,MFC140U,1,{'cobaltstrike': 1}
+FreeDataChain,MFC140U,1,{'cobaltstrike': 1}
+AfxThrowArchiveException,MFC140U,1,{'cobaltstrike': 1}
+Read,MFC140U,1,{'cobaltstrike': 1}
+Write,MFC140U,1,{'cobaltstrike': 1}
+ReadCount,MFC140U,1,{'cobaltstrike': 1}
+WriteCount,MFC140U,1,{'cobaltstrike': 1}
+SetBasicCommands,MFC140U,1,{'cobaltstrike': 1}
+AfxGetModuleState,MFC140U,1,{'cobaltstrike': 1}
+ShowWindowsDialog,MFC140U,1,{'cobaltstrike': 1}
+CMFCToolBarsCustomizeDialog,MFC140U,1,{'cobaltstrike': 1}
+EnableUserDefinedToolbars,MFC140U,1,{'cobaltstrike': 1}
+OnToolbarCreateNew,MFC140U,1,{'cobaltstrike': 1}
+BeginWaitCursor,MFC140U,1,{'cobaltstrike': 1}
+EndWaitCursor,MFC140U,1,{'cobaltstrike': 1}
+SetDefaultManager,MFC140U,1,{'cobaltstrike': 1}
+SetStyle,MFC140U,1,{'cobaltstrike': 1}
+WriteInt,MFC140U,1,{'cobaltstrike': 1}
+GetUserToolBarByIndex,MFC140U,1,{'cobaltstrike': 1}
+OnSettingChange,MFC140U,2,{'cobaltstrike': 2}
+WinHelpW,MFC140U,4,{'cobaltstrike': 4}
+HtmlHelpW,MFC140U,3,{'cobaltstrike': 3}
+CreateClient,MFC140U,1,{'cobaltstrike': 1}
+GetWindowMenuPopup,MFC140U,1,{'cobaltstrike': 1}
+OnShowMDITabContextMenu,MFC140U,1,{'cobaltstrike': 1}
+ControlBarToTabbedDocument,MFC140U,1,{'cobaltstrike': 1}
+TabbedDocumentToControlBar,MFC140U,1,{'cobaltstrike': 1}
+OnSetMenu,MFC140U,1,{'cobaltstrike': 1}
+OnShowPopupMenu,MFC140U,1,{'cobaltstrike': 1}
+AddDefaultButtonsToCustomizePane,MFC140U,1,{'cobaltstrike': 1}
+OnClosePopupMenu,MFC140U,1,{'cobaltstrike': 1}
+OnDrawMenuImage,MFC140U,1,{'cobaltstrike': 1}
+OnShowPanes,MFC140U,1,{'cobaltstrike': 1}
+AdjustClientArea,MFC140U,1,{'cobaltstrike': 1}
+LoadMDIState,MFC140U,1,{'cobaltstrike': 1}
+SaveMDIState,MFC140U,1,{'cobaltstrike': 1}
+CreateDocumentWindow,MFC140U,1,{'cobaltstrike': 1}
+CreateNewWindow,MFC140U,1,{'cobaltstrike': 1}
+GetInPlaceActiveItem,MFC140U,1,{'cobaltstrike': 1}
+CMFCTabCtrl,MFC140U,1,{'cobaltstrike': 1}
+~CMFCTabCtrl,MFC140U,1,{'cobaltstrike': 1}
+CharToItem,MFC140U,1,{'cobaltstrike': 1}
+VKeyToItem,MFC140U,1,{'cobaltstrike': 1}
+DeleteItem,MFC140U,2,{'cobaltstrike': 2}
+CompareItem,MFC140U,2,{'cobaltstrike': 2}
+CWnd,MFC140U,1,{'cobaltstrike': 1}
+~CListBox,MFC140U,1,{'cobaltstrike': 1}
+Default,MFC140U,1,{'cobaltstrike': 1}
+GetTopLevelFrame,MFC140U,1,{'cobaltstrike': 1}
+SetVSDotNetLook,MFC140U,1,{'cobaltstrike': 1}
+~CComboBox,MFC140U,1,{'cobaltstrike': 1}
+CMFCPropertyGridCtrl,MFC140U,1,{'cobaltstrike': 1}
+~CMFCPropertyGridCtrl,MFC140U,1,{'cobaltstrike': 1}
+ExpandAll,MFC140U,1,{'cobaltstrike': 1}
+SetAlphabeticMode,MFC140U,1,{'cobaltstrike': 1}
+EnableHeaderCtrl,MFC140U,1,{'cobaltstrike': 1}
+EnableDescriptionArea,MFC140U,1,{'cobaltstrike': 1}
+MarkModifiedProperties,MFC140U,1,{'cobaltstrike': 1}
+CMFCPropertyGridProperty,MFC140U,2,{'cobaltstrike': 2}
+"CStringT<wchar_t,class_StrTraitMFC_DLL<wchar_t,class_ATL::ChTraitsCRT<wchar_t>_>_>",MFC140U,2,{'cobaltstrike': 2}
+AddSubItem,MFC140U,1,{'cobaltstrike': 1}
+COleVariant,MFC140U,1,{'cobaltstrike': 1}
+operator=,MFC140U,1,{'cobaltstrike': 1}
+AddOption,MFC140U,1,{'cobaltstrike': 1}
+AddProperty,MFC140U,1,{'cobaltstrike': 1}
+EnableSpinControl,MFC140U,1,{'cobaltstrike': 1}
+CMFCPropertyGridFontProperty,MFC140U,1,{'cobaltstrike': 1}
+Enable,MFC140U,1,{'cobaltstrike': 1}
+CMFCPropertyGridColorProperty,MFC140U,1,{'cobaltstrike': 1}
+EnableOtherButton,MFC140U,1,{'cobaltstrike': 1}
+EnableAutomaticButton,MFC140U,1,{'cobaltstrike': 1}
+CMFCPropertyGridFileProperty,MFC140U,2,{'cobaltstrike': 2}
+Expand,MFC140U,1,{'cobaltstrike': 1}
+Detach,MFC140U,1,{'cobaltstrike': 1}
+GetNonClientMetrics,MFC140U,1,{'cobaltstrike': 1}
+~CTreeCtrl,MFC140U,1,{'cobaltstrike': 1}
+GetEventSinkMap,MFC140U,1,{'cobaltstrike': 1}
+GetConnectionMap,MFC140U,1,{'cobaltstrike': 1}
+GetDispatchMap,MFC140U,1,{'cobaltstrike': 1}
+GetCommandMap,MFC140U,1,{'cobaltstrike': 1}
+GetTypeLib,MFC140U,1,{'cobaltstrike': 1}
+GetTypeLibCache,MFC140U,1,{'cobaltstrike': 1}
+GetTypeInfoCount,MFC140U,1,{'cobaltstrike': 1}
+GetDispatchIID,MFC140U,1,{'cobaltstrike': 1}
+IsInvokeAllowed,MFC140U,1,{'cobaltstrike': 1}
+GetContextMenuManager,MFC140U,1,{'cobaltstrike': 1}
+AddMenu,MFC140U,1,{'cobaltstrike': 1}
+DoModal,MFC140U,1,{'cobaltstrike': 1}
+~CDialogImpl,MFC140U,1,{'cobaltstrike': 1}
+DeleteObject,MFC140U,4,"{'nolabel': 1, 'cobaltstrike': 3}"
+"~CStringT<wchar_t,class_StrTraitMFC_DLL<wchar_t,class_ATL::ChTraitsCRT<wchar_t>_>_>",MFC140U,1,{'cobaltstrike': 1}
+Format,MFC140U,1,{'cobaltstrike': 1}
+AfxMessageBox,MFC140U,2,{'cobaltstrike': 2}
+~CDialog,MFC140U,1,{'cobaltstrike': 1}
+CDialogEx,MFC140U,1,{'cobaltstrike': 1}
+ExitInstance,MFC140U,1,{'cobaltstrike': 1}
+AfxOleTerm,MFC140U,1,{'cobaltstrike': 1}
+ShowWindow,MFC140U,4,"{'nolabel': 1, 'cobaltstrike': 2, 'convagent': 1}",Helper
+ProcessShellCommand,MFC140U,1,{'cobaltstrike': 1}
+ParseCommandLine,MFC140U,1,{'cobaltstrike': 1}
+~CCommandLineInfo,MFC140U,1,{'cobaltstrike': 1}
+CCommandLineInfo,MFC140U,1,{'cobaltstrike': 1}
+AddDocTemplate,MFC140U,1,{'cobaltstrike': 1}
+CMultiDocTemplate,MFC140U,1,{'cobaltstrike': 1}
+operator_new,MFC140U,1,{'cobaltstrike': 1}
+GetTooltipManager,MFC140U,1,{'cobaltstrike': 1}
+SetTooltipParams,MFC140U,1,{'cobaltstrike': 1}
+CleanState,MFC140U,1,{'cobaltstrike': 1}
+LoadSysPolicies,MFC140U,1,{'cobaltstrike': 1}
+LoadAppLangResourceDLL,MFC140U,1,{'cobaltstrike': 1}
+RestartInstance,MFC140U,1,{'cobaltstrike': 1}
+IsTaskbarInteractionEnabled,MFC140U,1,{'cobaltstrike': 1}
+GetDataRecoveryHandler,MFC140U,1,{'cobaltstrike': 1}
+ApplicationRecoveryCallback,MFC140U,1,{'cobaltstrike': 1}
+RegisterWithRestartManager,MFC140U,2,{'cobaltstrike': 2}
+WinHelpInternal,MFC140U,2,{'cobaltstrike': 2}
+OnDDECommand,MFC140U,1,{'cobaltstrike': 1}
+DoWaitCursor,MFC140U,1,{'cobaltstrike': 1}
+DoMessageBox,MFC140U,1,{'cobaltstrike': 1}
+SaveAllModified,MFC140U,1,{'cobaltstrike': 1}
+InitApplication,MFC140U,1,{'cobaltstrike': 1}
+AddToRecentFileList,MFC140U,1,{'cobaltstrike': 1}
+OpenDocumentFile,MFC140U,2,{'cobaltstrike': 2}
+Unregister,MFC140U,1,{'cobaltstrike': 1}
+Register,MFC140U,1,{'cobaltstrike': 1}
+InitTooltipManager,MFC140U,1,{'cobaltstrike': 1}
+InitKeyboardManager,MFC140U,1,{'cobaltstrike': 1}
+InitContextMenuManager,MFC140U,1,{'cobaltstrike': 1}
+LoadStdProfileSettings,MFC140U,1,{'cobaltstrike': 1}
+SetRegistryKey,MFC140U,1,{'cobaltstrike': 1}
+EnableTaskbarInteraction,MFC140U,1,{'cobaltstrike': 1}
+AfxEnableControlContainer,MFC140U,1,{'cobaltstrike': 1}
+AfxOleInit,MFC140U,1,{'cobaltstrike': 1}
+InitInstance,MFC140U,1,{'cobaltstrike': 1}
+SetAppID,MFC140U,1,{'cobaltstrike': 1}
+~CWinAppEx,MFC140U,1,{'cobaltstrike': 1}
+CWinAppEx,MFC140U,1,{'cobaltstrike': 1}
+InitLibId,MFC140U,1,{'cobaltstrike': 1}
+TranslateChar,MFC140U,1,{'cobaltstrike': 1}
+WriteProfileBinary,MFC140U,1,{'cobaltstrike': 1}
+GetProfileBinary,MFC140U,1,{'cobaltstrike': 1}
+WriteProfileStringW,MFC140U,1,{'cobaltstrike': 1}
+GetProfileStringW,MFC140U,1,{'cobaltstrike': 1}
+WriteProfileInt,MFC140U,1,{'cobaltstrike': 1}
+GetProfileIntW,MFC140U,2,{'cobaltstrike': 2}
+GetMainWnd,MFC140U,1,{'cobaltstrike': 1}
+ProcessMessageFilter,MFC140U,1,{'cobaltstrike': 1}
+ProcessWndProcException,MFC140U,1,{'cobaltstrike': 1}
+IsIdleMessage,MFC140U,1,{'cobaltstrike': 1}
+EnsureStdObj,MFC140U,1,{'cobaltstrike': 1}
+OnDrawIconicThumbnailOrLivePreview,MFC140U,1,{'cobaltstrike': 1}
+PumpMessage,MFC140U,1,{'cobaltstrike': 1}
+EndModalLoop,MFC140U,1,{'cobaltstrike': 1}
+ContinueModal,MFC140U,1,{'cobaltstrike': 1}
+Run,MFC140U,1,{'cobaltstrike': 1}
+PreSubclassWindow,MFC140U,1,{'cobaltstrike': 1}
+ReloadWindowPlacement,MFC140U,1,{'cobaltstrike': 1}
+StoreWindowPlacement,MFC140U,1,{'cobaltstrike': 1}
+LoadWindowPlacement,MFC140U,1,{'cobaltstrike': 1}
+OnClosingMainFrame,MFC140U,1,{'cobaltstrike': 1}
+GetConnectionHook,MFC140U,1,{'cobaltstrike': 1}
+OnAppContextHelp,MFC140U,1,{'cobaltstrike': 1}
+GetExtraConnectionPoints,MFC140U,1,{'cobaltstrike': 1}
+DrawButton,MFC140U,1,{'cobaltstrike': 1}
+ShowPopupMenu,MFC140U,1,{'cobaltstrike': 1}
+GetInterfaceHook,MFC140U,1,{'cobaltstrike': 1}
+OnFilePrintSetup,MFC140U,1,{'cobaltstrike': 1}
+OnFileOpen,MFC140U,1,{'cobaltstrike': 1}
+OnFileNew,MFC140U,1,{'cobaltstrike': 1}
+AdjustSizeImmediate,MFC140U,1,{'cobaltstrike': 1}
+operator_delete,MFC140U,1,{'cobaltstrike': 1}
+AfxWinMain,MFC140U,1,{'cobaltstrike': 1}
+GetStartupInfoW,KERNEL32,5,"{'nolabel': 1, 'cobaltstrike': 2, 'malheur': 1, 'registrystorage': 1}"
+EnableWindow,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+ClientToScreen,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+GetParent,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+SetRectEmpty,USER32,2,{'cobaltstrike': 2}
+LoadMenuW,USER32,2,{'cobaltstrike': 2}
+GetSubMenu,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+SendMessageW,USER32,2,{'cobaltstrike': 2}
+GetClientRect,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+InvalidateRect,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+GetWindowRect,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+InflateRect,USER32,2,{'cobaltstrike': 2}
+GetSysColor,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+IsChild,USER32,2,{'cobaltstrike': 2}
+GetFocus,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+LoadImageW,USER32,2,{'cobaltstrike': 2}
+IsIconic,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+EnumWindowStationsW,USER32,1,{'cobaltstrike': 1}
+RedrawWindow,USER32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+GetSystemMetrics,USER32,7,"{'nolabel': 1, 'cobaltstrike': 2, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'convagent': 1}"
+CreateFontIndirectW,GDI32,2,{'cobaltstrike': 2}
+GetObjectW,GDI32,2,{'cobaltstrike': 2}
+GetStockObject,GDI32,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+InitCommonControlsEx,COMCTL32,1,{'cobaltstrike': 1}
+ImageList_AddMasked,COMCTL32,1,{'cobaltstrike': 1}
+__CxxFrameHandler3,VCRUNTIME140,1,{'cobaltstrike': 1}
+__std_terminate,VCRUNTIME140,1,{'cobaltstrike': 1}
+_purecall,VCRUNTIME140,1,{'cobaltstrike': 1}
+memset,VCRUNTIME140,2,"{'cobaltstrike': 1, 'rozena': 1}"
+__current_exception,VCRUNTIME140,1,{'cobaltstrike': 1}
+__current_exception_context,VCRUNTIME140,1,{'cobaltstrike': 1}
+_except_handler4_common,VCRUNTIME140,1,{'cobaltstrike': 1}
+memmove,VCRUNTIME140,1,{'cobaltstrike': 1}
+_CxxThrowException,VCRUNTIME140,1,{'cobaltstrike': 1}
+_set_new_mode,API-MS-WIN-CRT-HEAP-L1-1-0,1,{'cobaltstrike': 1}
+_get_wide_winmain_command_line,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'cobaltstrike': 1}
+__set_app_type,MSVCRT,3,"{'rozena': 2, 'convagent': 1}"
+__p__fmode,MSVCRT,1,{'rozena': 1}
+__getmainargs,MSVCRT,3,"{'rozena': 2, 'convagent': 1}"
+__p___initenv,MSVCRT,1,{'rozena': 1}
+_XcptFilter,MSVCRT,1,{'rozena': 1}
+_onexit,MSVCRT,3,"{'rozena': 2, 'convagent': 1}"
+__dllonexit,MSVCRT,1,{'rozena': 1}
+strrchr,MSVCRT,1,{'rozena': 1}
+_close,MSVCRT,1,{'rozena': 1}
+wcslen,MSVCRT,2,{'rozena': 2}
+wcscpy,MSVCRT,1,{'rozena': 1}
+strerror,MSVCRT,2,{'rozena': 2}
+strspn,MSVCRT,1,{'rozena': 1}
+__p__environ,MSVCRT,1,{'rozena': 1}
+__p__wenviron,MSVCRT,1,{'rozena': 1}
+strstr,MSVCRT,2,"{'rozena': 1, 'convagent': 1}"
+strncpy,MSVCRT,1,{'rozena': 1}
+_ftol,MSVCRT,1,{'rozena': 1}
+perror,MSVCRT,1,{'rozena': 1}
+signal,MSVCRT,3,"{'rozena': 2, 'convagent': 1}"
+printf,MSVCRT,1,{'rozena': 1}
+_isctype,MSVCRT,1,{'rozena': 1}
+atoi,MSVCRT,1,{'rozena': 1}
+strchr,MSVCRT,2,{'rozena': 2}
+fprintf,MSVCRT,3,"{'rozena': 2, 'convagent': 1}"
+_controlfp,MSVCRT,1,{'rozena': 1}
+PeekNamedPipe,KERNEL32,1,{'rozena': 1},Helper
+GetVersionExA,KERNEL32,2,"{'nolabel': 1, 'rozena': 1}",Enumeration
+GetExitCodeProcess,KERNEL32,4,"{'rozena': 2, 'dealply': 1, 'malheur': 1}"
+CreateMutexA,KERNEL32,2,"{'nolabel': 1, 'rozena': 1}",Helper
+GetFileType,KERNEL32,5,"{'nolabel': 2, 'rozena': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+GlobalFree,KERNEL32,3,"{'nolabel': 1, 'rozena': 1, 'cobaltstrike': 1}"
+SetHandleInformation,KERNEL32,1,{'rozena': 1}
+FileTimeToSystemTime,KERNEL32,5,"{'nolabel': 2, 'rozena': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+GetTimeZoneInformation,KERNEL32,4,"{'nolabel': 2, 'rozena': 1, 'cobaltstrike': 1}"
+FileTimeToLocalFileTime,KERNEL32,4,"{'nolabel': 2, 'rozena': 1, 'cobaltstrike': 1}"
+SystemTimeToFileTime,KERNEL32,1,{'rozena': 1}
+SystemTimeToTzSpecificLocalTime,KERNEL32,2,"{'rozena': 1, 'cobaltstrike': 1}"
+FormatMessageA,KERNEL32,2,"{'nolabel': 1, 'rozena': 1}"
+CreateEventA,KERNEL32,4,"{'nolabel': 2, 'rozena': 1, 'shelma': 1}"
+SetStdHandle,KERNEL32,5,"{'nolabel': 2, 'rozena': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+DeviceIoControl,KERNEL32,4,"{'nolabel': 2, 'rozena': 1, 'convagent': 1}",Helper
+GetFileInformationByHandle,KERNEL32,1,{'rozena': 1}
+FreeSid,ADVAPI32,1,{'rozena': 1}
+AllocateAndInitializeSid,ADVAPI32,2,"{'nolabel': 1, 'rozena': 1}"
+Ordinal_52,WSOCK32,2,"{'nolabel': 1, 'rozena': 1}"
+Ordinal_14,WSOCK32,2,"{'nolabel': 1, 'rozena': 1}"
+Ordinal_21,WSOCK32,2,"{'nolabel': 1, 'rozena': 1}"
+Ordinal_23,WSOCK32,2,"{'nolabel': 1, 'rozena': 1}"
+Ordinal_3,WSOCK32,2,"{'nolabel': 1, 'rozena': 1}"
+Ordinal_10,WSOCK32,3,"{'nolabel': 1, 'rozena': 1, 'cobaltstrike': 1}"
+Ordinal_151,WSOCK32,2,"{'nolabel': 1, 'rozena': 1}"
+Ordinal_115,WSOCK32,2,"{'nolabel': 1, 'rozena': 1}"
+Ordinal_116,WSOCK32,2,"{'nolabel': 1, 'rozena': 1}"
+Ordinal_111,WSOCK32,1,{'rozena': 1}
+WSARecv,WS2_32,1,{'rozena': 1}
+WSASend,WS2_32,1,{'rozena': 1}
+SysFreeString,OLEAUT32,3,"{'rozena': 1, 'dealply': 1, 'malheur': 1}"
+SysReAllocStringLen,OLEAUT32,3,"{'rozena': 1, 'dealply': 1, 'malheur': 1}"
+SysAllocStringLen,OLEAUT32,3,"{'rozena': 1, 'dealply': 1, 'malheur': 1}"
+GetKeyboardType,USER32,2,"{'rozena': 1, 'dealply': 1}"
+CharNextW,USER32,3,"{'rozena': 1, 'dealply': 1, 'malheur': 1}"
+GetVersion,KERNEL32,6,"{'nolabel': 1, 'rozena': 2, 'dealply': 2, 'malheur': 1}"
+lstrlenW,KERNEL32,5,"{'nolabel': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'registrystorage': 1}"
+lstrcpynW,KERNEL32,2,"{'rozena': 1, 'dealply': 1}"
+GetThreadLocale,KERNEL32,6,"{'nolabel': 1, 'rozena': 2, 'dealply': 2, 'malheur': 1}",Enumeration
+GetStartupInfoA,KERNEL32,5,"{'nolabel': 1, 'rozena': 2, 'dealply': 1, 'convagent': 1}"
+GetLocaleInfoW,KERNEL32,7,"{'nolabel': 1, 'rozena': 2, 'dealply': 2, 'malheur': 1, 'cobaltstrike': 1}"
+FindFirstFileW,KERNEL32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+LocalAlloc,KERNEL32,7,"{'nolabel': 2, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'registrystorage': 1, 'cobaltstrike': 1}",Injection
+CreateWindowExW,USER32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+TranslateMessage,USER32,5,"{'nolabel': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+SetWindowLongW,USER32,5,"{'nolabel': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+PeekMessageW,USER32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+MsgWaitForMultipleObjects,USER32,4,"{'nolabel': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1}"
+ExitWindowsEx,USER32,4,"{'nolabel': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1}",Anti-Debugging
+DispatchMessageW,USER32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+CharUpperBuffW,USER32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+CallWindowProcW,USER32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+SizeofResource,KERNEL32,5,"{'nolabel': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+SetEndOfFile,KERNEL32,5,"{'nolabel': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+LockResource,KERNEL32,5,"{'nolabel': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}",Helper
+LoadResource,KERNEL32,5,"{'nolabel': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}",Evasion
+LoadLibraryW,KERNEL32,8,"{'nolabel': 1, 'rozena': 2, 'dealply': 1, 'malheur': 1, 'shelma': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+GetWindowsDirectoryW,KERNEL32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+GetVersionExW,KERNEL32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+GetUserDefaultLangID,KERNEL32,3,"{'rozena': 1, 'dealply': 1, 'malheur': 1}"
+GetSystemDirectoryW,KERNEL32,5,"{'nolabel': 1, 'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+GetFileAttributesW,KERNEL32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+GetDiskFreeSpaceW,KERNEL32,3,"{'rozena': 1, 'dealply': 1, 'malheur': 1}"
+InterlockedExchange,KERNEL32,3,"{'nolabel': 1, 'rozena': 1, 'dealply': 1}"
+InterlockedCompareExchange,KERNEL32,3,"{'nolabel': 1, 'rozena': 1, 'dealply': 1}"
+FindResourceW,KERNEL32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+EnumCalendarInfoW,KERNEL32,3,"{'rozena': 1, 'dealply': 1, 'malheur': 1}"
+DeleteFileW,KERNEL32,4,"{'rozena': 1, 'dealply': 1, 'malheur': 1, 'cobaltstrike': 1}"
+InitCommonControls,COMCTL32,3,"{'rozena': 1, 'dealply': 1, 'malheur': 1}"
+CreateSemaphoreW,KERNEL32,1,{'rozena': 1}
+IsDBCSLeadByteEx,KERNEL32,1,{'rozena': 1}
+__C_specific_handler,MSVCRT,2,"{'rozena': 1, 'convagent': 1}"
+__iob_func,MSVCRT,2,"{'rozena': 1, 'convagent': 1}"
+_amsg_exit,MSVCRT,2,"{'rozena': 1, 'convagent': 1}"
+mbstowcs_s,MSVCRT,1,{'rozena': 1}
+memcmp,MSVCRT,1,{'rozena': 1}
+memcpy,MSVCRT,2,"{'rozena': 1, 'convagent': 1}"
+vfprintf,MSVCRT,2,"{'rozena': 1, 'convagent': 1}"
+_write,MSVCRT,1,{'rozena': 1}
+GetCPInfoExW,KERNEL32,1,{'malheur': 1}
+CompareStringW,KERNEL32,4,"{'nolabel': 2, 'malheur': 1, 'cobaltstrike': 1}"
+VirtualQueryEx,KERNEL32,2,"{'nolabel': 1, 'malheur': 1}",Enumeration
+GetUserDefaultUILanguage,KERNEL32,2,"{'malheur': 1, 'cobaltstrike': 1}"
+GetLocalTime,KERNEL32,3,"{'nolabel': 2, 'malheur': 1}"
+GetDateFormatW,KERNEL32,1,{'malheur': 1}
+IsValidLocale,KERNEL32,2,"{'nolabel': 1, 'malheur': 1}"
+GetSystemDefaultUILanguage,KERNEL32,2,"{'malheur': 1, 'cobaltstrike': 1}"
+SetThreadLocale,KERNEL32,1,{'malheur': 1}
+GetFileVersionInfoSizeW,VERSION,1,{'malheur': 1}
+GetFileVersionInfoW,VERSION,1,{'malheur': 1}
+CharLowerBuffW,USER32,1,{'malheur': 1}
+CharUpperW,USER32,2,"{'malheur': 1, 'cobaltstrike': 1}"
+SafeArrayPtrOfIndex,OLEAUT32,1,{'malheur': 1}
+VariantCopy,OLEAUT32,1,{'malheur': 1}
+SafeArrayGetLBound,OLEAUT32,1,{'malheur': 1}
+SafeArrayGetUBound,OLEAUT32,1,{'malheur': 1}
+VariantInit,OLEAUT32,1,{'malheur': 1}
+VariantClear,OLEAUT32,1,{'malheur': 1}
+VariantChangeType,OLEAUT32,1,{'malheur': 1}
+SafeArrayCreate,OLEAUT32,1,{'malheur': 1}
+NetWkstaGetInfo,NETAPI32,1,{'malheur': 1}
+NetApiBufferFree,NETAPI32,1,{'malheur': 1}
+GetNativeSystemInfo,KERNEL32,1,{'malheur': 1},Anti-Debugging
+CreateDirectoryA,KERNEL32,2,{'nolabel': 2}
+SetFileAttributesA,KERNEL32,1,{'nolabel': 1},Evasion
+RemoveDirectoryA,KERNEL32,1,{'nolabel': 1}
+GetThreadTimes,KERNEL32,1,{'nolabel': 1}
+GlobalReAlloc,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetHandleInformation,KERNEL32,1,{'nolabel': 1}
+GetLogicalDriveStringsA,KERNEL32,1,{'nolabel': 1}
+OpenFileMappingA,KERNEL32,2,{'nolabel': 2},Injection
+OpenMutexA,KERNEL32,1,{'nolabel': 1}
+GetDiskFreeSpaceExA,KERNEL32,1,{'nolabel': 1}
+SetProcessAffinityMask,KERNEL32,1,{'nolabel': 1}
+GetPrivateProfileStringA,KERNEL32,1,{'nolabel': 1}
+WritePrivateProfileStringA,KERNEL32,1,{'nolabel': 1}
+GetPrivateProfileSectionNamesA,KERNEL32,1,{'nolabel': 1}
+GetPrivateProfileSectionA,KERNEL32,1,{'nolabel': 1}
+InterlockedExchangeAdd,KERNEL32,1,{'nolabel': 1}
+lstrcmpA,KERNEL32,3,"{'nolabel': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+EnumResourceLanguagesA,KERNEL32,1,{'nolabel': 1}
+ConvertDefaultLocale,KERNEL32,1,{'nolabel': 1}
+GlobalDeleteAtom,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GlobalAddAtomA,KERNEL32,1,{'nolabel': 1}
+GetFileTime,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Enumeration
+FindNextFileA,KERNEL32,2,{'nolabel': 2},Enumeration
+GlobalHandle,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+LocalReAlloc,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GlobalFlags,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+lstrcmpW,KERNEL32,3,"{'nolabel': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+GlobalFindAtomA,KERNEL32,1,{'nolabel': 1}
+GlobalGetAtomNameA,KERNEL32,1,{'nolabel': 1}
+FreeResource,KERNEL32,1,{'nolabel': 1}
+GetCurrentDirectoryA,KERNEL32,2,{'nolabel': 2}
+GetWindowsDirectoryA,KERNEL32,1,{'nolabel': 1},Enumeration
+GetTempPathA,KERNEL32,1,{'nolabel': 1},Helper
+GetProcessId,KERNEL32,1,{'nolabel': 1},Enumeration
+VirtualFreeEx,KERNEL32,1,{'nolabel': 1}
+GetLocaleInfoA,KERNEL32,1,{'nolabel': 1}
+SetThreadExecutionState,KERNEL32,1,{'nolabel': 1}
+MoveFileA,KERNEL32,1,{'nolabel': 1},Helper
+CopyFileA,KERNEL32,1,{'nolabel': 1},Helper
+Beep,KERNEL32,1,{'nolabel': 1}
+MulDiv,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GlobalAlloc,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Injection
+GlobalLock,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GlobalUnlock,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+IsBadReadPtr,KERNEL32,2,{'nolabel': 2}
+VirtualProtectEx,KERNEL32,1,{'nolabel': 1},Injection
+ReadProcessMemory,KERNEL32,2,{'nolabel': 2},Injection
+CreatePipe,KERNEL32,1,{'nolabel': 1},Helper
+CreateProcessA,KERNEL32,2,"{'nolabel': 1, 'convagent': 1}",Injection
+Process32First,KERNEL32,1,{'nolabel': 1},Injection
+Process32Next,KERNEL32,1,{'nolabel': 1},Injection
+DeleteFileA,KERNEL32,2,{'nolabel': 2},Evasion
+GetSystemDirectoryA,KERNEL32,2,"{'nolabel': 1, 'shelma': 1}",Enumeration
+lstrcpyA,KERNEL32,2,{'nolabel': 2}
+lstrcatA,KERNEL32,3,"{'nolabel': 2, 'registrystorage': 1}",Helper
+SetEnvironmentVariableA,KERNEL32,2,{'nolabel': 2},Evasion
+WriteConsoleW,KERNEL32,5,"{'nolabel': 2, 'shelma': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+WriteConsoleA,KERNEL32,1,{'nolabel': 1}
+GetDriveTypeA,KERNEL32,1,{'nolabel': 1},Helper
+GetEnvironmentStrings,KERNEL32,1,{'nolabel': 1}
+FreeEnvironmentStringsA,KERNEL32,1,{'nolabel': 1}
+EnumSystemLocalesA,KERNEL32,1,{'nolabel': 1},Ransomware
+GetConsoleMode,KERNEL32,5,"{'nolabel': 2, 'shelma': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+GetConsoleCP,KERNEL32,3,"{'nolabel': 2, 'registrystorage': 1}"
+GetStringTypeA,KERNEL32,1,{'nolabel': 1}
+SetHandleCount,KERNEL32,3,"{'nolabel': 2, 'registrystorage': 1}"
+LCMapStringW,KERNEL32,4,"{'nolabel': 2, 'registrystorage': 1, 'cobaltstrike': 1}"
+LCMapStringA,KERNEL32,1,{'nolabel': 1}
+IsValidCodePage,KERNEL32,4,"{'nolabel': 2, 'registrystorage': 1, 'cobaltstrike': 1}"
+TerminateThread,KERNEL32,2,{'nolabel': 2},Helper
+OpenEventA,KERNEL32,1,{'nolabel': 1}
+GetModuleHandleA,KERNEL32,5,"{'nolabel': 2, 'registrystorage': 1, 'cobaltstrike': 1, 'convagent': 1}",Evasion
+FindResourceA,KERNEL32,1,{'nolabel': 1},Helper
+IsDBCSLeadByte,KERNEL32,1,{'nolabel': 1}
+GetModuleFileNameA,KERNEL32,3,"{'nolabel': 2, 'registrystorage': 1}",Helper
+CreateToolhelp32Snapshot,KERNEL32,1,{'nolabel': 1},Anti-Debugging
+Module32First,KERNEL32,1,{'nolabel': 1},Enumeration
+Module32Next,KERNEL32,1,{'nolabel': 1},Enumeration
+GetFileAttributesA,KERNEL32,2,{'nolabel': 2},Enumeration
+InterlockedDecrement,KERNEL32,3,"{'nolabel': 2, 'registrystorage': 1}"
+InterlockedIncrement,KERNEL32,3,"{'nolabel': 2, 'registrystorage': 1}"
+lstrlenA,KERNEL32,2,"{'nolabel': 1, 'registrystorage': 1}"
+lstrcmpiA,KERNEL32,1,{'nolabel': 1}
+CompareStringA,KERNEL32,1,{'nolabel': 1}
+FindFirstFileA,KERNEL32,2,{'nolabel': 2},Enumeration
+GetCommandLineA,KERNEL32,4,"{'nolabel': 2, 'registrystorage': 1, 'cobaltstrike': 1}"
+LockFile,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+UnlockFile,KERNEL32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetVolumeInformationA,KERNEL32,2,{'nolabel': 2}
+GetFullPathNameA,KERNEL32,1,{'nolabel': 1}
+GetOEMCP,KERNEL32,4,"{'nolabel': 2, 'registrystorage': 1, 'cobaltstrike': 1}"
+RegEnumValueA,ADVAPI32,2,{'nolabel': 2},Helper
+RegEnumKeyA,ADVAPI32,2,{'nolabel': 2},Helper
+RegOpenKeyA,ADVAPI32,2,{'nolabel': 2},Helper
+RegQueryValueExA,ADVAPI32,3,"{'nolabel': 2, 'registrystorage': 1}",Enumeration
+LookupPrivilegeValueA,ADVAPI32,2,{'nolabel': 2},Enumeration
+RegEnumKeyExA,ADVAPI32,1,{'nolabel': 1},Helper
+RegQueryInfoKeyA,ADVAPI32,1,{'nolabel': 1},Enumeration
+RegSetValueExA,ADVAPI32,2,{'nolabel': 2},Helper
+RegOpenKeyExA,ADVAPI32,2,"{'nolabel': 1, 'registrystorage': 1}",Helper
+RegCreateKeyExA,ADVAPI32,1,{'nolabel': 1},Helper
+RegDeleteValueA,ADVAPI32,1,{'nolabel': 1},Helper
+RegDeleteKeyA,ADVAPI32,1,{'nolabel': 1},Helper
+RegQueryValueA,ADVAPI32,1,{'nolabel': 1}
+GetFileTitleA,COMDLG32,1,{'nolabel': 1}
+CreateRoundRectRgn,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CreateEllipticRgn,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CreateSolidBrush,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CreatePen,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+MoveToEx,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+LineTo,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetBkMode,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+DPtoLP,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CreateBitmap,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetMapMode,GDI32,1,{'nolabel': 1}
+SetMapMode,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetBkColor,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CreateDIBSection,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+ExtCreateRegion,GDI32,1,{'nolabel': 1}
+GetPixel,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetDIBits,GDI32,1,{'nolabel': 1}
+EnumFontFamiliesExA,GDI32,1,{'nolabel': 1}
+CreateFontIndirectA,GDI32,1,{'nolabel': 1}
+SetTextColor,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+BitBlt,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Spying
+CreateCompatibleDC,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CreateCompatibleBitmap,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SelectObject,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+DeleteDC,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetObjectA,GDI32,1,{'nolabel': 1}
+SelectPalette,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+RealizePalette,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetDIBits,GDI32,1,{'nolabel': 1}
+GetDeviceCaps,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CreateRectRgn,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CombineRgn,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+ExtTextOutA,GDI32,1,{'nolabel': 1}
+CreateRectRgnIndirect,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetClipBox,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SaveDC,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+RestoreDC,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetStretchBltMode,GDI32,1,{'nolabel': 1}
+PtVisible,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+RectVisible,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+TextOutA,GDI32,1,{'nolabel': 1}
+Escape,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetViewportOrgEx,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+OffsetViewportOrgEx,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetViewportExtEx,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+ScaleViewportExtEx,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetWindowExtEx,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+ScaleWindowExtEx,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+ExtSelectClipRgn,GDI32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetDIBitsToDevice,GDI32,1,{'nolabel': 1}
+CoRegisterMessageFilter,OLE32,1,{'nolabel': 1}
+OleInitialize,OLE32,1,{'nolabel': 1}
+CoFreeUnusedLibraries,OLE32,1,{'nolabel': 1}
+OleUninitialize,OLE32,1,{'nolabel': 1}
+OleFlushClipboard,OLE32,1,{'nolabel': 1}
+CoRevokeClassObject,OLE32,1,{'nolabel': 1}
+OleIsCurrentClipboard,OLE32,1,{'nolabel': 1}
+CoInitializeSecurity,OLE32,2,"{'nolabel': 1, 'registrystorage': 1}"
+CoSetProxyBlanket,OLE32,1,{'nolabel': 1}
+CoInitialize,OLE32,3,"{'nolabel': 2, 'cobaltstrike': 1}"
+CoCreateInstance,OLE32,3,"{'nolabel': 1, 'registrystorage': 1, 'cobaltstrike': 1}"
+CoTaskMemRealloc,OLE32,1,{'nolabel': 1}
+CreateStdAccessibleObject,OLEACC,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+LresultFromObject,OLEACC,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+Ordinal_277,OLEAUT32,1,{'nolabel': 1}
+Ordinal_163,OLEAUT32,1,{'nolabel': 1}
+Ordinal_186,OLEAUT32,1,{'nolabel': 1}
+Ordinal_161,OLEAUT32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+Ordinal_184,OLEAUT32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+UrlUnescapeA,SHLWAPI,1,{'nolabel': 1}
+PathFindFileNameA,SHLWAPI,1,{'nolabel': 1}
+PathIsUNCA,SHLWAPI,1,{'nolabel': 1}
+PathStripToRootA,SHLWAPI,1,{'nolabel': 1}
+PathFindExtensionA,SHLWAPI,1,{'nolabel': 1}
+SetWindowRgn,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetWindowLongA,USER32,1,{'nolabel': 1}
+IsWindow,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetForegroundWindow,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Anti-Debugging
+IsWindowVisible,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetWindowTextA,USER32,1,{'nolabel': 1}
+PtInRect,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+PostQuitMessage,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetWindowLongA,USER32,2,{'nolabel': 2},Helper
+KillTimer,USER32,3,"{'nolabel': 2, 'cobaltstrike': 1}"
+DefWindowProcA,USER32,1,{'nolabel': 1}
+RegisterClassExA,USER32,1,{'nolabel': 1}
+LoadCursorA,USER32,1,{'nolabel': 1}
+UnregisterClassA,USER32,1,{'nolabel': 1}
+DispatchMessageA,USER32,1,{'nolabel': 1}
+GetMessageA,USER32,1,{'nolabel': 1},Spying
+SetTimer,USER32,3,"{'nolabel': 2, 'cobaltstrike': 1}",Evasion
+OpenInputDesktop,USER32,1,{'nolabel': 1}
+SetThreadDesktop,USER32,1,{'nolabel': 1}
+CloseDesktop,USER32,1,{'nolabel': 1}
+SetClassLongA,USER32,1,{'nolabel': 1}
+GetClassLongA,USER32,1,{'nolabel': 1}
+IsWindowUnicode,USER32,1,{'nolabel': 1}
+CreateWindowExA,USER32,1,{'nolabel': 1},Evasion
+AdjustWindowRectEx,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+ReleaseDC,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetWindowDC,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Spying
+GetDesktopWindow,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Helper
+DrawIcon,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetIconInfo,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+DrawTextW,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetCaretPos,USER32,1,{'nolabel': 1}
+GetAsyncKeyState,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Spying
+SystemParametersInfoA,USER32,1,{'nolabel': 1}
+ChangeDisplaySettingsA,USER32,1,{'nolabel': 1}
+ClipCursor,USER32,1,{'nolabel': 1}
+PeekMessageA,USER32,1,{'nolabel': 1},Spying
+CloseClipboard,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetClipboardData,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Helper
+EmptyClipboard,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+OpenClipboard,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Helper
+GetWindowTextA,USER32,1,{'nolabel': 1}
+FindWindowA,USER32,2,{'nolabel': 2},Anti-Debugging
+RemovePropA,USER32,1,{'nolabel': 1}
+GetKeyboardLayout,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+WindowFromPoint,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CharNextA,USER32,1,{'nolabel': 1}
+CharUpperA,USER32,1,{'nolabel': 1}
+GetClassLongW,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetWindow,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+EnumWindows,USER32,1,{'nolabel': 1},Enumeration
+GetDC,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Spying
+EnumDisplaySettingsA,USER32,1,{'nolabel': 1}
+GetMonitorInfoA,USER32,1,{'nolabel': 1}
+MonitorFromWindow,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SendInput,USER32,1,{'nolabel': 1}
+GetMessageExtraInfo,USER32,1,{'nolabel': 1}
+MapVirtualKeyA,USER32,1,{'nolabel': 1},Spying
+GetPropA,USER32,1,{'nolabel': 1}
+SetWindowsHookExW,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+PostMessageA,USER32,1,{'nolabel': 1},Spying
+GetMessageW,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+TranslateAcceleratorA,USER32,1,{'nolabel': 1}
+GetWindowThreadProcessId,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CopyIcon,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetWindowPlacement,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetKeyState,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Spying
+GetActiveWindow,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetCursorPos,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetCursorPos,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CallNextHookEx,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Spying
+ReleaseCapture,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+DestroyCursor,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CallWindowProcA,USER32,2,{'nolabel': 2},Helper
+GetMessageTime,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetWindowsHookExA,USER32,1,{'nolabel': 1},Spying
+UnhookWindowsHookEx,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Spying
+UnloadKeyboardLayout,USER32,1,{'nolabel': 1}
+BeginPaint,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+EndPaint,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+FillRect,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+DrawTextA,USER32,1,{'nolabel': 1}
+IsZoomed,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetClassNameW,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+DrawTextExA,USER32,1,{'nolabel': 1},Helper
+GetMenuItemCount,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetMenuState,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+ModifyMenuA,USER32,1,{'nolabel': 1}
+LoadBitmapA,USER32,1,{'nolabel': 1}
+GetMenuCheckMarkDimensions,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetMenuItemBitmaps,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+ValidateRect,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetCursor,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetLastActivePopup,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+RegisterClipboardFormatA,USER32,1,{'nolabel': 1}
+CopyRect,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+TabbedTextOutA,USER32,1,{'nolabel': 1}
+GrayStringA,USER32,1,{'nolabel': 1}
+GetSysColorBrush,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+RegisterClassA,USER32,1,{'nolabel': 1}
+GetClassInfoA,USER32,1,{'nolabel': 1}
+GetClassInfoExA,USER32,1,{'nolabel': 1}
+GetDlgCtrlID,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+MapWindowPoints,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetMessagePos,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetTopWindow,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetDlgItem,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetActiveWindow,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetCapture,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+WinHelpA,USER32,1,{'nolabel': 1}
+SendDlgItemMessageA,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+LoadIconA,USER32,1,{'nolabel': 1}
+RegisterWindowMessageA,USER32,1,{'nolabel': 1}
+IsDialogMessageA,USER32,1,{'nolabel': 1}
+PostThreadMessageA,USER32,1,{'nolabel': 1},Spying
+EndDialog,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetNextDlgTabItem,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+CreateDialogIndirectParamA,USER32,1,{'nolabel': 1}
+SendMessageA,USER32,1,{'nolabel': 1},Spying
+SetRect,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetForegroundWindow,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}",Helper
+AttachThreadInput,USER32,1,{'nolabel': 1},Spying
+GetDoubleClickTime,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetClassNameA,USER32,1,{'nolabel': 1}
+IsWindowEnabled,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+GetClipboardData,USER32,1,{'nolabel': 1},Spying
+GetWindowLongW,USER32,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+SetPropA,USER32,1,{'nolabel': 1},Injection
+FindWindowW,USER32,1,{'nolabel': 1}
+FindWindowExA,USER32,1,{'nolabel': 1},Anti-Debugging
+HttpQueryInfoA,WININET,1,{'nolabel': 1}
+InternetCloseHandle,WININET,1,{'nolabel': 1},Internet
+InternetGetLastResponseInfoA,WININET,1,{'nolabel': 1}
+InternetOpenA,WININET,1,{'nolabel': 1},Internet
+InternetSetStatusCallback,WININET,1,{'nolabel': 1}
+InternetSetFilePointer,WININET,1,{'nolabel': 1}
+InternetWriteFile,WININET,1,{'nolabel': 1},Internet
+InternetReadFile,WININET,1,{'nolabel': 1},Internet
+InternetOpenUrlA,WININET,1,{'nolabel': 1},Internet
+InternetQueryDataAvailable,WININET,1,{'nolabel': 1}
+InternetSetOptionExA,WININET,1,{'nolabel': 1}
+InternetQueryOptionA,WININET,1,{'nolabel': 1}
+InternetCanonicalizeUrlA,WININET,1,{'nolabel': 1}
+InternetCrackUrlA,WININET,1,{'nolabel': 1}
+DocumentPropertiesA,WINSPOOL,1,{'nolabel': 1}
+OpenPrinterA,WINSPOOL,1,{'nolabel': 1}
+ClosePrinter,WINSPOOL,2,"{'nolabel': 1, 'cobaltstrike': 1}"
+Ordinal_11,WS2_32,1,{'nolabel': 1}
+Ordinal_19,WS2_32,1,{'nolabel': 1}
+SetWaitableTimer,KERNEL32,1,{'shelma': 1},Evasion
+SetProcessPriorityBoost,KERNEL32,1,{'shelma': 1}
+GetQueuedCompletionStatusEx,KERNEL32,1,{'shelma': 1}
+CreateWaitableTimerExW,KERNEL32,1,{'shelma': 1}
+Process32FirstW,KERNEL32,1,{'registrystorage': 1}
+Process32NextW,KERNEL32,1,{'registrystorage': 1}
+lstrcatW,KERNEL32,1,{'registrystorage': 1}
+HeapSetInformation,KERNEL32,1,{'registrystorage': 1}
+RegCreateKeyExW,ADVAPI32,2,"{'registrystorage': 1, 'cobaltstrike': 1}"
+HeapQueryInformation,KERNEL32,1,{'cobaltstrike': 1}
+FreeLibraryAndExitThread,KERNEL32,1,{'cobaltstrike': 1}
+SetFilePointerEx,KERNEL32,1,{'cobaltstrike': 1}
+GetTempFileNameW,KERNEL32,1,{'cobaltstrike': 1}
+FindResourceExW,KERNEL32,1,{'cobaltstrike': 1}
+SearchPathW,KERNEL32,1,{'cobaltstrike': 1}
+GlobalGetAtomNameW,KERNEL32,1,{'cobaltstrike': 1}
+lstrcmpiW,KERNEL32,1,{'cobaltstrike': 1}
+GetVolumeInformationW,KERNEL32,1,{'cobaltstrike': 1}
+CopyFileW,KERNEL32,1,{'cobaltstrike': 1}
+GlobalSize,KERNEL32,1,{'cobaltstrike': 1}
+lstrcpyW,KERNEL32,1,{'cobaltstrike': 1}
+GlobalFindAtomW,KERNEL32,1,{'cobaltstrike': 1}
+GlobalAddAtomW,KERNEL32,1,{'cobaltstrike': 1}
+WritePrivateProfileStringW,KERNEL32,1,{'cobaltstrike': 1}
+GetPrivateProfileStringW,KERNEL32,1,{'cobaltstrike': 1}
+GetPrivateProfileIntW,KERNEL32,1,{'cobaltstrike': 1}
+SetCapture,USER32,1,{'cobaltstrike': 1}
+TrackMouseEvent,USER32,1,{'cobaltstrike': 1}
+MonitorFromPoint,USER32,1,{'cobaltstrike': 1}
+SetParent,USER32,1,{'cobaltstrike': 1}
+CopyImage,USER32,1,{'cobaltstrike': 1}
+DestroyIcon,USER32,1,{'cobaltstrike': 1}
+IntersectRect,USER32,1,{'cobaltstrike': 1}
+RemoveMenu,USER32,1,{'cobaltstrike': 1}
+AppendMenuW,USER32,1,{'cobaltstrike': 1}
+InsertMenuW,USER32,1,{'cobaltstrike': 1}
+GetMenuStringW,USER32,1,{'cobaltstrike': 1}
+TabbedTextOutW,USER32,1,{'cobaltstrike': 1}
+GrayStringW,USER32,1,{'cobaltstrike': 1}
+DrawTextExW,USER32,1,{'cobaltstrike': 1}
+CreateDialogIndirectParamW,USER32,1,{'cobaltstrike': 1}
+EnumDisplayMonitors,USER32,1,{'cobaltstrike': 1}
+SystemParametersInfoW,USER32,1,{'cobaltstrike': 1}
+LoadCursorW,USER32,1,{'cobaltstrike': 1}
+SetLayeredWindowAttributes,USER32,1,{'cobaltstrike': 1}
+SetMenuItemInfoW,USER32,1,{'cobaltstrike': 1}
+IsDialogMessageW,USER32,1,{'cobaltstrike': 1}
+CheckDlgButton,USER32,1,{'cobaltstrike': 1}
+GetMonitorInfoW,USER32,1,{'cobaltstrike': 1}
+GetScrollInfo,USER32,1,{'cobaltstrike': 1}
+SetScrollInfo,USER32,1,{'cobaltstrike': 1}
+EqualRect,USER32,1,{'cobaltstrike': 1}
+GetWindowTextLengthW,USER32,1,{'cobaltstrike': 1}
+GetWindowTextW,USER32,1,{'cobaltstrike': 1}
+RemovePropW,USER32,1,{'cobaltstrike': 1}
+GetPropW,USER32,1,{'cobaltstrike': 1}
+SetPropW,USER32,1,{'cobaltstrike': 1}
+ShowScrollBar,USER32,1,{'cobaltstrike': 1}
+GetScrollRange,USER32,1,{'cobaltstrike': 1}
+SetScrollRange,USER32,1,{'cobaltstrike': 1}
+GetScrollPos,USER32,1,{'cobaltstrike': 1}
+SetScrollPos,USER32,1,{'cobaltstrike': 1}
+ScrollWindow,USER32,1,{'cobaltstrike': 1}
+TrackPopupMenu,USER32,1,{'cobaltstrike': 1}
+EndDeferWindowPos,USER32,1,{'cobaltstrike': 1}
+DeferWindowPos,USER32,1,{'cobaltstrike': 1}
+BeginDeferWindowPos,USER32,1,{'cobaltstrike': 1}
+SetWindowPlacement,USER32,1,{'cobaltstrike': 1}
+LoadAcceleratorsW,USER32,1,{'cobaltstrike': 1}
+UnregisterClassW,USER32,1,{'cobaltstrike': 1}
+IsMenu,USER32,1,{'cobaltstrike': 1}
+GetClassInfoExW,USER32,1,{'cobaltstrike': 1}
+GetClassInfoW,USER32,1,{'cobaltstrike': 1}
+RegisterClassW,USER32,1,{'cobaltstrike': 1}
+DeleteMenu,USER32,1,{'cobaltstrike': 1}
+NotifyWinEvent,USER32,1,{'cobaltstrike': 1}
+UnionRect,USER32,1,{'cobaltstrike': 1}
+BringWindowToTop,USER32,1,{'cobaltstrike': 1},Helper
+CreatePopupMenu,USER32,1,{'cobaltstrike': 1}
+LockWindowUpdate,USER32,1,{'cobaltstrike': 1}
+EnableScrollBar,USER32,1,{'cobaltstrike': 1}
+GetMenuItemInfoW,USER32,1,{'cobaltstrike': 1}
+GetMenuDefaultItem,USER32,1,{'cobaltstrike': 1}
+SetMenuDefaultItem,USER32,1,{'cobaltstrike': 1}
+ModifyMenuW,USER32,1,{'cobaltstrike': 1}
+DestroyAcceleratorTable,USER32,1,{'cobaltstrike': 1}
+LoadIconW,USER32,1,{'cobaltstrike': 1}
+RegisterWindowMessageW,USER32,1,{'cobaltstrike': 1}
+DrawEdge,USER32,1,{'cobaltstrike': 1}
+DrawFrameControl,USER32,1,{'cobaltstrike': 1}
+DrawStateW,USER32,1,{'cobaltstrike': 1}
+DrawFocusRect,USER32,1,{'cobaltstrike': 1}
+MapVirtualKeyW,USER32,1,{'cobaltstrike': 1}
+OffsetRect,USER32,1,{'cobaltstrike': 1}
+IsRectEmpty,USER32,1,{'cobaltstrike': 1}
+DrawIconEx,USER32,1,{'cobaltstrike': 1}
+PostMessageW,USER32,1,{'cobaltstrike': 1}
+ShowOwnedPopups,USER32,1,{'cobaltstrike': 1}
+CreateAcceleratorTableW,USER32,1,{'cobaltstrike': 1}
+CopyAcceleratorTableW,USER32,1,{'cobaltstrike': 1}
+UpdateLayeredWindow,USER32,1,{'cobaltstrike': 1}
+GetKeyNameTextW,USER32,1,{'cobaltstrike': 1}
+SubtractRect,USER32,1,{'cobaltstrike': 1}
+RegisterClipboardFormatW,USER32,1,{'cobaltstrike': 1}
+TranslateAcceleratorW,USER32,1,{'cobaltstrike': 1}
+InsertMenuItemW,USER32,1,{'cobaltstrike': 1}
+UnpackDDElParam,USER32,1,{'cobaltstrike': 1}
+ReuseDDElParam,USER32,1,{'cobaltstrike': 1}
+FrameRect,USER32,1,{'cobaltstrike': 1}
+IsClipboardFormatAvailable,USER32,1,{'cobaltstrike': 1}
+PostThreadMessageW,USER32,1,{'cobaltstrike': 1}
+GetNextDlgGroupItem,USER32,1,{'cobaltstrike': 1}
+IsCharLowerW,USER32,1,{'cobaltstrike': 1}
+MapVirtualKeyExW,USER32,1,{'cobaltstrike': 1}
+DrawMenuBar,USER32,1,{'cobaltstrike': 1}
+DefFrameProcW,USER32,1,{'cobaltstrike': 1}
+DefMDIChildProcW,USER32,1,{'cobaltstrike': 1}
+TranslateMDISysAccel,USER32,1,{'cobaltstrike': 1}
+GetComboBoxInfo,USER32,1,{'cobaltstrike': 1}
+GetWindowRgn,USER32,1,{'cobaltstrike': 1}
+HideCaret,USER32,1,{'cobaltstrike': 1}
+InvertRect,USER32,1,{'cobaltstrike': 1}
+GetKeyboardState,USER32,1,{'cobaltstrike': 1},Spying
+ToUnicodeEx,USER32,1,{'cobaltstrike': 1}
+MapDialogRect,USER32,1,{'cobaltstrike': 1}
+WaitMessage,USER32,1,{'cobaltstrike': 1}
+RealChildWindowFromPoint,USER32,1,{'cobaltstrike': 1}
+GetUpdateRect,USER32,1,{'cobaltstrike': 1}
+SetClassLongW,USER32,1,{'cobaltstrike': 1}
+GetTextMetricsW,GDI32,1,{'cobaltstrike': 1}
+CreateDIBitmap,GDI32,1,{'cobaltstrike': 1}
+CreatePatternBrush,GDI32,1,{'cobaltstrike': 1}
+EnumFontFamiliesW,GDI32,1,{'cobaltstrike': 1}
+GetTextCharsetInfo,GDI32,1,{'cobaltstrike': 1}
+ExcludeClipRect,GDI32,1,{'cobaltstrike': 1}
+GetObjectType,GDI32,1,{'cobaltstrike': 1}
+GetViewportExtEx,GDI32,1,{'cobaltstrike': 1}
+GetWindowExtEx,GDI32,1,{'cobaltstrike': 1}
+IntersectClipRect,GDI32,1,{'cobaltstrike': 1}
+SelectClipRgn,GDI32,1,{'cobaltstrike': 1}
+SetLayout,GDI32,1,{'cobaltstrike': 1}
+GetLayout,GDI32,1,{'cobaltstrike': 1}
+SetPolyFillMode,GDI32,1,{'cobaltstrike': 1}
+SetROP2,GDI32,1,{'cobaltstrike': 1}
+SetTextAlign,GDI32,1,{'cobaltstrike': 1}
+Polyline,GDI32,1,{'cobaltstrike': 1}
+TextOutW,GDI32,1,{'cobaltstrike': 1}
+SetWindowOrgEx,GDI32,1,{'cobaltstrike': 1}
+OffsetWindowOrgEx,GDI32,1,{'cobaltstrike': 1}
+CopyMetaFileW,GDI32,1,{'cobaltstrike': 1}
+CreateDCW,GDI32,1,{'cobaltstrike': 1}
+SetRectRgn,GDI32,1,{'cobaltstrike': 1}
+SetPixel,GDI32,1,{'cobaltstrike': 1}
+StretchBlt,GDI32,1,{'cobaltstrike': 1},Spying
+SetDIBColorTable,GDI32,1,{'cobaltstrike': 1}
+Rectangle,GDI32,1,{'cobaltstrike': 1}
+GetRgnBox,GDI32,1,{'cobaltstrike': 1}
+OffsetRgn,GDI32,1,{'cobaltstrike': 1}
+RoundRect,GDI32,1,{'cobaltstrike': 1}
+CreatePalette,GDI32,1,{'cobaltstrike': 1}
+GetPaletteEntries,GDI32,1,{'cobaltstrike': 1}
+GetNearestPaletteIndex,GDI32,1,{'cobaltstrike': 1}
+GetSystemPaletteEntries,GDI32,1,{'cobaltstrike': 1}
+EnumFontFamiliesExW,GDI32,1,{'cobaltstrike': 1}
+ExtFloodFill,GDI32,1,{'cobaltstrike': 1}
+SetPaletteEntries,GDI32,1,{'cobaltstrike': 1}
+FillRgn,GDI32,1,{'cobaltstrike': 1}
+FrameRgn,GDI32,1,{'cobaltstrike': 1}
+GetBoundsRect,GDI32,1,{'cobaltstrike': 1}
+PtInRegion,GDI32,1,{'cobaltstrike': 1}
+GetViewportOrgEx,GDI32,1,{'cobaltstrike': 1}
+LPtoDP,GDI32,1,{'cobaltstrike': 1}
+GetWindowOrgEx,GDI32,1,{'cobaltstrike': 1}
+SetPixelV,GDI32,1,{'cobaltstrike': 1}
+GetTextFaceW,GDI32,1,{'cobaltstrike': 1}
+Polygon,GDI32,1,{'cobaltstrike': 1}
+CreatePolygonRgn,GDI32,1,{'cobaltstrike': 1}
+ExtTextOutW,GDI32,1,{'cobaltstrike': 1}
+PatBlt,GDI32,1,{'cobaltstrike': 1}
+GetTextExtentPoint32W,GDI32,1,{'cobaltstrike': 1}
+GetBkColor,GDI32,1,{'cobaltstrike': 1}
+Ellipse,GDI32,1,{'cobaltstrike': 1}
+CreateHatchBrush,GDI32,1,{'cobaltstrike': 1}
+GetTextColor,GDI32,1,{'cobaltstrike': 1}
+TransparentBlt,MSIMG32,1,{'cobaltstrike': 1}
+AlphaBlend,MSIMG32,1,{'cobaltstrike': 1}
+OpenPrinterW,WINSPOOL,1,{'cobaltstrike': 1}
+DocumentPropertiesW,WINSPOOL,1,{'cobaltstrike': 1}
+RegEnumKeyExW,ADVAPI32,1,{'cobaltstrike': 1}
+RegEnumValueW,ADVAPI32,1,{'cobaltstrike': 1}
+RegQueryValueW,ADVAPI32,1,{'cobaltstrike': 1}
+RegEnumKeyW,ADVAPI32,1,{'cobaltstrike': 1}
+RegSetValueExW,ADVAPI32,1,{'cobaltstrike': 1}
+RegDeleteValueW,ADVAPI32,1,{'cobaltstrike': 1}
+RegDeleteKeyW,ADVAPI32,1,{'cobaltstrike': 1}
+SHGetMalloc,SHELL32,1,{'cobaltstrike': 1}
+SHGetPathFromIDListW,SHELL32,1,{'cobaltstrike': 1}
+SHGetSpecialFolderLocation,SHELL32,1,{'cobaltstrike': 1}
+SHBrowseForFolderW,SHELL32,1,{'cobaltstrike': 1}
+SHGetDesktopFolder,SHELL32,1,{'cobaltstrike': 1}
+DragFinish,SHELL32,1,{'cobaltstrike': 1}
+DragQueryFileW,SHELL32,1,{'cobaltstrike': 1}
+SHGetFileInfoW,SHELL32,1,{'cobaltstrike': 1}
+SHAppBarMessage,SHELL32,1,{'cobaltstrike': 1}
+PathFindFileNameW,SHLWAPI,1,{'cobaltstrike': 1}
+PathIsUNCW,SHLWAPI,1,{'cobaltstrike': 1}
+StrFormatKBSizeW,SHLWAPI,1,{'cobaltstrike': 1}
+PathStripToRootW,SHLWAPI,1,{'cobaltstrike': 1}
+PathRemoveFileSpecW,SHLWAPI,1,{'cobaltstrike': 1}
+PathFindExtensionW,SHLWAPI,1,{'cobaltstrike': 1}
+OpenThemeData,UXTHEME,1,{'cobaltstrike': 1}
+CloseThemeData,UXTHEME,1,{'cobaltstrike': 1}
+DrawThemeBackground,UXTHEME,1,{'cobaltstrike': 1}
+IsThemeBackgroundPartiallyTransparent,UXTHEME,1,{'cobaltstrike': 1}
+IsAppThemed,UXTHEME,1,{'cobaltstrike': 1}
+GetThemeColor,UXTHEME,1,{'cobaltstrike': 1}
+GetCurrentThemeName,UXTHEME,1,{'cobaltstrike': 1}
+DrawThemeParentBackground,UXTHEME,1,{'cobaltstrike': 1}
+GetThemePartSize,UXTHEME,1,{'cobaltstrike': 1}
+DrawThemeText,UXTHEME,1,{'cobaltstrike': 1}
+GetWindowTheme,UXTHEME,1,{'cobaltstrike': 1}
+GetThemeSysColor,UXTHEME,1,{'cobaltstrike': 1}
+OleCreateMenuDescriptor,OLE32,1,{'cobaltstrike': 1}
+OleDestroyMenuDescriptor,OLE32,1,{'cobaltstrike': 1}
+OleTranslateAccelerator,OLE32,1,{'cobaltstrike': 1}
+IsAccelerator,OLE32,1,{'cobaltstrike': 1}
+OleLockRunning,OLE32,1,{'cobaltstrike': 1}
+RevokeDragDrop,OLE32,1,{'cobaltstrike': 1}
+RegisterDragDrop,OLE32,1,{'cobaltstrike': 1}
+CoLockObjectExternal,OLE32,1,{'cobaltstrike': 1}
+OleGetClipboard,OLE32,1,{'cobaltstrike': 1}
+DoDragDrop,OLE32,1,{'cobaltstrike': 1}
+CoDisconnectObject,OLE32,1,{'cobaltstrike': 1}
+ReleaseStgMedium,OLE32,1,{'cobaltstrike': 1}
+OleDuplicateData,OLE32,1,{'cobaltstrike': 1}
+Ordinal_114,OLEAUT32,1,{'cobaltstrike': 1}
+Ordinal_185,OLEAUT32,1,{'cobaltstrike': 1}
+GdipCreateFromHDC,GDIPLUS,1,{'cobaltstrike': 1}
+GdipDrawImageRectI,GDIPLUS,1,{'cobaltstrike': 1}
+GdipDrawImageI,GDIPLUS,1,{'cobaltstrike': 1}
+GdipDeleteGraphics,GDIPLUS,1,{'cobaltstrike': 1}
+GdipBitmapUnlockBits,GDIPLUS,1,{'cobaltstrike': 1}
+GdipBitmapLockBits,GDIPLUS,1,{'cobaltstrike': 1}
+GdipCreateBitmapFromScan0,GDIPLUS,1,{'cobaltstrike': 1}
+GdipCreateBitmapFromStream,GDIPLUS,1,{'cobaltstrike': 1}
+GdipGetImagePaletteSize,GDIPLUS,1,{'cobaltstrike': 1}
+GdipGetImagePalette,GDIPLUS,1,{'cobaltstrike': 1}
+GdipGetImagePixelFormat,GDIPLUS,1,{'cobaltstrike': 1}
+GdipGetImageHeight,GDIPLUS,1,{'cobaltstrike': 1}
+GdipGetImageWidth,GDIPLUS,1,{'cobaltstrike': 1}
+GdipGetImageGraphicsContext,GDIPLUS,1,{'cobaltstrike': 1}
+GdipDisposeImage,GDIPLUS,1,{'cobaltstrike': 1}
+GdipCloneImage,GDIPLUS,1,{'cobaltstrike': 1}
+GdiplusStartup,GDIPLUS,1,{'cobaltstrike': 1}
+GdipFree,GDIPLUS,1,{'cobaltstrike': 1}
+GdipAlloc,GDIPLUS,1,{'cobaltstrike': 1}
+GdiplusShutdown,GDIPLUS,1,{'cobaltstrike': 1}
+GdipSetInterpolationMode,GDIPLUS,1,{'cobaltstrike': 1}
+GdipCreateBitmapFromHBITMAP,GDIPLUS,1,{'cobaltstrike': 1}
+AccessibleObjectFromWindow,OLEACC,1,{'cobaltstrike': 1}
+ImmReleaseContext,IMM32,1,{'cobaltstrike': 1}
+ImmGetOpenStatus,IMM32,1,{'cobaltstrike': 1}
+ImmGetContext,IMM32,1,{'cobaltstrike': 1}
+PlaySoundW,WINMM,1,{'cobaltstrike': 1}
+FlushViewOfFile,KERNEL32,1,{'nolabel': 1}
+OpenThread,KERNEL32,1,{'nolabel': 1},Injection
+QueryDosDeviceA,KERNEL32,1,{'nolabel': 1}
+GetLongPathNameA,KERNEL32,1,{'nolabel': 1}
+SetConsoleTextAttribute,KERNEL32,1,{'nolabel': 1}
+WriteProcessMemory,KERNEL32,1,{'nolabel': 1},Injection
+DisableThreadLibraryCalls,KERNEL32,1,{'nolabel': 1}
+FindFirstFileExA,KERNEL32,1,{'nolabel': 1}
+GetTimeFormatA,KERNEL32,1,{'nolabel': 1}
+GetDateFormatA,KERNEL32,1,{'nolabel': 1}
+wsprintfW,USER32,1,{'nolabel': 1}
+InitializeSecurityDescriptor,ADVAPI32,1,{'nolabel': 1}
+LookupAccountSidA,ADVAPI32,1,{'nolabel': 1}
+SetSecurityDescriptorDacl,ADVAPI32,1,{'nolabel': 1}
+InitializeAcl,ADVAPI32,1,{'nolabel': 1}
+AddAccessAllowedAce,ADVAPI32,1,{'nolabel': 1}
+SetSecurityInfo,ADVAPI32,1,{'nolabel': 1}
+SHGetSpecialFolderPathA,SHELL32,1,{'nolabel': 1}
+StrStrIA,SHLWAPI,1,{'nolabel': 1}
+PathAppendA,SHLWAPI,1,{'nolabel': 1}
+VerQueryValueA,VERSION,1,{'nolabel': 1}
+GetFileVersionInfoA,VERSION,1,{'nolabel': 1}
+GetFileVersionInfoSizeA,VERSION,1,{'nolabel': 1}
+timeGetTime,WINMM,1,{'nolabel': 1}
+CryptCATAdminEnumCatalogFromHash,WINTRUST,1,{'nolabel': 1}
+CryptCATCatalogInfoFromContext,WINTRUST,1,{'nolabel': 1}
+WinVerifyTrust,WINTRUST,1,{'nolabel': 1}
+CryptCATAdminCalcHashFromFileHandle,WINTRUST,1,{'nolabel': 1}
+CryptCATAdminReleaseContext,WINTRUST,1,{'nolabel': 1}
+CryptCATAdminAcquireContext,WINTRUST,1,{'nolabel': 1}
+CryptCATAdminReleaseCatalogContext,WINTRUST,1,{'nolabel': 1}
+EXT_FUN_0bf46186,<EXTERNAL>,1,{'nolabel': 1}
+EXT_FUN_fec4b85c,<EXTERNAL>,1,{'nolabel': 1}
+EXT_FUN_ae924295,<EXTERNAL>,1,{'nolabel': 1}
+EXT_FUN_5dca09a3,<EXTERNAL>,1,{'nolabel': 1}
+GetConsoleWindow,KERNEL32,1,{'convagent': 1}
+SetProcessMitigationPolicy,KERNEL32,1,{'convagent': 1}
+NtAllocateVirtualMemory,NTDLL,1,{'convagent': 1},Injection
+NtQueueApcThread,NTDLL,1,{'convagent': 1},Injection
+NtResumeThread,NTDLL,1,{'convagent': 1},Injection
+NtWriteVirtualMemory,NTDLL,1,{'convagent': 1},Injection
+GetModuleInformation,PSAPI,1,{'convagent': 1}

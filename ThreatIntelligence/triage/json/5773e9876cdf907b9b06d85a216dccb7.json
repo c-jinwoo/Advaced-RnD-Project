@@ -1,0 +1,227 @@
+{
+    "analysis": {
+        "family": [
+            "cobaltstrike"
+        ],
+        "score": 10,
+        "tags": [
+            "family:cobaltstrike",
+            "botnet:0",
+            "backdoor",
+            "cryptone",
+            "packer",
+            "trojan"
+        ]
+    },
+    "extracted": [
+        {
+            "config": {
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/1308-54-0x0000000000400000-0x00000000004D5000-memory.dmp",
+            "resource": "behavioral1/memory/1308-54-0x0000000000400000-0x00000000004D5000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        },
+        {
+            "config": {
+                "attr": {
+                    "access_type": 512,
+                    "beacon_type": 2048,
+                    "host": "franchise-shop.com,/assets/environment-f0a84e0c1.js",
+                    "http_header1": "AAAACgAAAEdBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOAAAAAoAAAAbUmVmZXJlcjogaHR0cDovL2dvb2dsZS5jb20vAAAACgAAAB5BY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUAAAAHAAAAAAAAAA0AAAACAAAAE19fQ2h1bmtTZXNzaW9uRGF0YT0AAAAGAAAABkNvb2tpZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_header2": "AAAACgAAAEdBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOAAAAAoAAAAfUmVmZXJlcjogaHR0cDovL3d3dy5nb29nbGUuY29tLwAAAAoAAAAeQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlAAAABwAAAAAAAAAPAAAADQAAAAUAAAAQX19DaHVua0F1dGhUb2tlbgAAAAcAAAABAAAADwAAAA0AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_method1": "GET",
+                    "http_method2": "POST",
+                    "jitter": 9472,
+                    "polling_time": 25000,
+                    "port_number": 443,
+                    "sc_process32": "%windir%\\syswow64\\dllhost1.exe",
+                    "sc_process64": "%windir%\\sysnative\\dllhost1.exe",
+                    "state_machine": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDglNeI1MIoEf9K9xRHFyknN0UG0E1hpaA0PbaMIUI9XxcMqkW0zuevFLmStL3ehd6MpVBfSmGqAq0lobDMrB0IBeTFwDCcpaTZZrQTXXoJjwnbptj1iw5L7NykAcylqRo5Su7ZCMH7fTwA227ipnsqbraak7wNikYiAkvwdJ5sQIDAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "unknown1": 3396998400,
+                    "unknown2": "AAAABAAAAAEAAAAyAAAAAgAAACQAAAACAAAlGQAAAA0AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "uri": "/assets/chunk-vendor-4c69db4f.js",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36",
+                    "watermark": "0"
+                },
+                "botnet": "0",
+                "c2": [
+                    "http://franchise-shop.com:443/assets/environment-f0a84e0c1.js"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/1504-58-0x0000000001BD0000-0x0000000002042000-memory.dmp",
+            "resource": "behavioral1/memory/1504-58-0x0000000001BD0000-0x0000000002042000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:17:39Z",
+        "created": "2023-06-26T04:15:03Z",
+        "id": "230626-et8dmshc71",
+        "md5": "5773e9876cdf907b9b06d85a216dccb7",
+        "score": 10,
+        "sha1": "a6f41d1ae97e18fe627fb13fbffdac6d55407a42",
+        "sha256": "ae1cbeb25f83ecb39372f83e9c0ca36364e1cd0207f07afb4cd240b4b1b96842",
+        "sha512": "9613a067673404784f1c0b58aefea80a0b35b991ad0ee34459f608729d5204697b43b26489abbd8396429136702b0020b62d309102c4cbacf7a1a8e413723fb1",
+        "size": 852992,
+        "ssdeep": "12288:XA+QuYAS3W3e75ZqFfbIKGgiNz4+L3h+AjZWQcpWFYK9751tjxt888888888888B:XAXuYAS31PSdozH3h+Ajsg97L",
+        "target": "ae1cbeb25f83ecb39372f83e9c0ca36364e1cd0207f07afb4cd240b4b1b96842"
+    },
+    "signatures": [
+        {
+            "desc": "Detected malicious payload which is part of Cobaltstrike.",
+            "label": "cobaltstrike",
+            "name": "Cobaltstrike",
+            "score": 10,
+            "tags": [
+                "trojan",
+                "backdoor",
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "desc": "Detects CryptOne packer defined in NCC blogpost.",
+            "indicators": [
+                {
+                    "resource": "sample",
+                    "yara_rule": "cryptone"
+                }
+            ],
+            "name": "CryptOne packer",
+            "score": 9,
+            "tags": [
+                "cryptone",
+                "packer"
+            ]
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory"
+        }
+    ],
+    "targets": [
+        {
+            "family": [
+                "cobaltstrike"
+            ],
+            "iocs": {
+                "domains": [
+                    "franchise-shop.com",
+                    "33.146.190.20.in-addr.arpa",
+                    "134.121.24.20.in-addr.arpa",
+                    "32.146.190.20.in-addr.arpa",
+                    "183.59.114.20.in-addr.arpa",
+                    "56.126.166.20.in-addr.arpa",
+                    "71.31.126.40.in-addr.arpa",
+                    "14.103.197.20.in-addr.arpa",
+                    "62.13.109.52.in-addr.arpa",
+                    "26.165.165.52.in-addr.arpa",
+                    "1.202.248.87.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "209.197.3.8",
+                    "52.182.143.211"
+                ]
+            },
+            "md5": "5773e9876cdf907b9b06d85a216dccb7",
+            "score": 10,
+            "sha1": "a6f41d1ae97e18fe627fb13fbffdac6d55407a42",
+            "sha256": "ae1cbeb25f83ecb39372f83e9c0ca36364e1cd0207f07afb4cd240b4b1b96842",
+            "sha512": "9613a067673404784f1c0b58aefea80a0b35b991ad0ee34459f608729d5204697b43b26489abbd8396429136702b0020b62d309102c4cbacf7a1a8e413723fb1",
+            "signatures": [
+                {
+                    "desc": "Detected malicious payload which is part of Cobaltstrike.",
+                    "label": "cobaltstrike",
+                    "name": "Cobaltstrike",
+                    "score": 10,
+                    "tags": [
+                        "trojan",
+                        "backdoor",
+                        "family:cobaltstrike"
+                    ]
+                },
+                {
+                    "name": "Suspicious use of WriteProcessMemory"
+                }
+            ],
+            "size": 852992,
+            "ssdeep": "12288:XA+QuYAS3W3e75ZqFfbIKGgiNz4+L3h+AjZWQcpWFYK9751tjxt888888888888B:XAXuYAS31PSdozH3h+Ajsg97L",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "ae1cbeb25f83ecb39372f83e9c0ca36364e1cd0207f07afb4cd240b4b1b96842",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-et8dmshc71-behavioral1": {
+            "backend": "sbx4m11",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 2,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "ae1cbeb25f83ecb39372f83e9c0ca36364e1cd0207f07afb4cd240b4b1b96842.exe",
+            "timeout": 150
+        },
+        "230626-et8dmshc71-behavioral2": {
+            "backend": "sbx4m18",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 2,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "ae1cbeb25f83ecb39372f83e9c0ca36364e1cd0207f07afb4cd240b4b1b96842.exe",
+            "timeout": 150
+        },
+        "230626-et8dmshc71-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 9,
+            "sigs": 2,
+            "status": "reported",
+            "tags": [
+                "cryptone",
+                "packer"
+            ]
+        }
+    },
+    "version": "0.2.3"
+}

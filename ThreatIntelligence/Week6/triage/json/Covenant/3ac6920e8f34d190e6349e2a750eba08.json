@@ -1,0 +1,28 @@
+{
+    "analysis": {
+        "score": 1
+    },
+    "sample": {
+        "completed": "0001-01-01T00:00:00Z",
+        "created": "2023-07-11T06:56:21Z",
+        "id": "230711-hqhwcsfh8w",
+        "md5": "3ac6920e8f34d190e6349e2a750eba08",
+        "score": 1,
+        "sha1": "81f274c8a1428941892faee61d86c9dbb480709d",
+        "sha256": "b341324d2fa5752f8595086525d4e1804cdfa779c4e785c215f786e33ed98ed6",
+        "sha512": "81e84459404d5c42d468a6de52d1627f54ae7adc8de5a3a34a06362578264c67bd54c9487172af8411ec735b03bdbaa3f12cc7cbf16fc81cf80a51e07ec10a44",
+        "size": 16874,
+        "ssdeep": "384:YaO7OMPFGUMcR19CQqJvB2Xc2xLcyV75In/+AIC3:YaBEFTMkS5JIMQ5S/+xm",
+        "target": "b341324d2fa5752f8595086525d4e1804cdfa779c4e785c215f786e33ed98ed6"
+    },
+    "targets": null,
+    "tasks": {
+        "230711-hqhwcsfh8w-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

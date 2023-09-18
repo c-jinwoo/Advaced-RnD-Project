@@ -1,0 +1,904 @@
+{
+    "version": "0.3.0",
+    "sample": {
+        "id": "230725-hw2wesbh3y",
+        "score": 10,
+        "submitted": "2023-07-25T07:06:01Z",
+        "target": "732320e7df67f64d118dce44157b95240d5cbf7a2db10c004a5e73a20d034399",
+        "size": 769024,
+        "md5": "75c584f55cef85e30e15ab8413af0c65",
+        "sha1": "f125b467c5c9398443ac21d832b9b7759ed5b889",
+        "sha256": "732320e7df67f64d118dce44157b95240d5cbf7a2db10c004a5e73a20d034399",
+        "sha512": "23c0931924af4b55f0b413cd7f4efe503f16f7fb645c0d31efe781f0f6bbd0a706e5920fc2e5f1201322b0f98b586376d10b4fb0c2cc7a888a3be1a305737bf1",
+        "ssdeep": "12288:eItNUGs3qkesrMsLxYmBBnSiL/LnUj31DL6nS8TVtnwnhRwUbyTm:eiNUGspksLxYmBBn1/LnUjJ2vTfnwnRh",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "task": {
+        "target": "732320e7df67f64d118dce44157b95240d5cbf7a2db10c004a5e73a20d034399.exe",
+        "size": 769024,
+        "md5": "75c584f55cef85e30e15ab8413af0c65",
+        "sha1": "f125b467c5c9398443ac21d832b9b7759ed5b889",
+        "sha256": "732320e7df67f64d118dce44157b95240d5cbf7a2db10c004a5e73a20d034399",
+        "sha512": "23c0931924af4b55f0b413cd7f4efe503f16f7fb645c0d31efe781f0f6bbd0a706e5920fc2e5f1201322b0f98b586376d10b4fb0c2cc7a888a3be1a305737bf1",
+        "ssdeep": "12288:eItNUGs3qkesrMsLxYmBBnSiL/LnUj31DL6nS8TVtnwnhRwUbyTm:eiNUGspksLxYmBBn1/LnUjJ2vTfnwnRh",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "errors": [
+        {
+            "reason": "Machine shutdown"
+        }
+    ],
+    "analysis": {
+        "score": 10,
+        "tags": [
+            "evasion",
+            "persistence",
+            "trojan"
+        ],
+        "ttp": [
+            "T1547.004",
+            "T1112",
+            "T1548.002",
+            "T1562.001",
+            "T1564.001",
+            "T1547.001"
+        ],
+        "features": [
+            "analog",
+            "overview"
+        ],
+        "submitted": "2023-07-25T07:06:01Z",
+        "reported": "2023-07-25T07:06:12Z",
+        "max_time_network": 8102,
+        "max_time_kernel": 3446,
+        "backend": "fu1m1",
+        "resource": "win7-20230712-en",
+        "resource_tags": [
+            "arch:x64",
+            "arch:x86",
+            "image:win7-20230712-en",
+            "locale:en-us",
+            "os:windows7-x64",
+            "system"
+        ],
+        "platform": "windows7_x64"
+    },
+    "processes": [
+        {
+            "procid": 27,
+            "procid_parent": 12,
+            "pid": 1444,
+            "ppid": 1196,
+            "cmd": "\"C:\\Users\\Admin\\AppData\\Local\\Temp\\732320e7df67f64d118dce44157b95240d5cbf7a2db10c004a5e73a20d034399.exe\"",
+            "image": "C:\\Users\\Admin\\AppData\\Local\\Temp\\732320e7df67f64d118dce44157b95240d5cbf7a2db10c004a5e73a20d034399.exe",
+            "orig": false,
+            "started": 576
+        },
+        {
+            "procid": 30,
+            "procid_parent": 27,
+            "pid": 1636,
+            "ppid": 1444,
+            "cmd": "\"C:\\Users\\Admin\\RsIQUgsI\\tSAUkIYY.exe\"",
+            "image": "C:\\Users\\Admin\\RsIQUgsI\\tSAUkIYY.exe",
+            "orig": false,
+            "started": 1122
+        },
+        {
+            "procid": 31,
+            "procid_parent": 27,
+            "pid": 2468,
+            "ppid": 1444,
+            "cmd": "\"C:\\ProgramData\\ceEkggUg\\hkssQMYE.exe\"",
+            "image": "C:\\ProgramData\\ceEkggUg\\hkssQMYE.exe",
+            "orig": false,
+            "started": 1324
+        },
+        {
+            "procid": 32,
+            "procid_parent": 2,
+            "pid": 1040,
+            "ppid": 464,
+            "cmd": "C:\\ProgramData\\yUUAAcYk\\IUgwswYo.exe",
+            "image": "C:\\ProgramData\\yUUAAcYk\\IUgwswYo.exe",
+            "orig": false,
+            "started": 1808
+        },
+        {
+            "procid": 33,
+            "procid_parent": 27,
+            "pid": 1264,
+            "ppid": 1444,
+            "cmd": "cmd /c C:\\Users\\Admin\\AppData\\Local\\Temp\\cup.exe ",
+            "image": "C:\\Windows\\SysWOW64\\cmd.exe",
+            "orig": true,
+            "started": 2167
+        },
+        {
+            "procid": 35,
+            "procid_parent": 27,
+            "pid": 2928,
+            "ppid": 1444,
+            "cmd": "reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced /f /v HideFileExt /t REG_DWORD /d 1",
+            "image": "C:\\Windows\\SysWOW64\\reg.exe",
+            "orig": true,
+            "started": 2229,
+            "terminated": 2510
+        },
+        {
+            "procid": 36,
+            "procid_parent": 33,
+            "pid": 2964,
+            "ppid": 1264,
+            "cmd": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cup.exe  ",
+            "image": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cup.exe",
+            "orig": false,
+            "started": 2245
+        },
+        {
+            "procid": 37,
+            "procid_parent": 27,
+            "pid": 2864,
+            "ppid": 1444,
+            "cmd": "reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced /f /v Hidden /t REG_DWORD /d 2",
+            "image": "C:\\Windows\\SysWOW64\\reg.exe",
+            "orig": true,
+            "started": 2354,
+            "terminated": 2526
+        },
+        {
+            "procid": 38,
+            "procid_parent": 27,
+            "pid": 2856,
+            "ppid": 1444,
+            "cmd": "reg add HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /v EnableLUA /d 0 /t REG_DWORD /f",
+            "image": "C:\\Windows\\SysWOW64\\reg.exe",
+            "orig": true,
+            "started": 2370,
+            "terminated": 2510
+        }
+    ],
+    "signatures": [
+        {
+            "label": "winlogon_persistence",
+            "name": "Modifies WinLogon for persistence",
+            "score": 10,
+            "ttp": [
+                "T1547.004",
+                "T1112"
+            ],
+            "tags": [
+                "persistence"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Userinit = \"C:\\\\Windows\\\\system32\\\\userinit.exe,C:\\\\ProgramData\\\\ceEkggUg\\\\hkssQMYE.exe,\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Userinit = \"userinit.exe,C:\\\\ProgramData\\\\ceEkggUg\\\\hkssQMYE.exe,\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "modifies_file_extension_visibility",
+            "name": "Modifies visibility of file extensions in Explorer",
+            "score": 10,
+            "ttp": [
+                "T1564.001",
+                "T1112"
+            ],
+            "tags": [
+                "evasion"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-722410544-1258951091-1992882075-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\HideFileExt = \"1\"",
+                    "description": "Set value (int)",
+                    "procid": 35
+                }
+            ]
+        },
+        {
+            "label": "bypasses_uac_registry",
+            "name": "UAC bypass",
+            "score": 10,
+            "ttp": [
+                "T1548.002",
+                "T1562.001",
+                "T1112"
+            ],
+            "tags": [
+                "evasion",
+                "trojan"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\EnableLUA = \"0\"",
+                    "description": "Set value (int)",
+                    "procid": 38
+                }
+            ]
+        },
+        {
+            "name": "Executes dropped EXE",
+            "score": 7,
+            "indicators": [
+                {
+                    "pid": 1636,
+                    "procid": 30
+                },
+                {
+                    "pid": 2468,
+                    "procid": 31
+                },
+                {
+                    "pid": 1040,
+                    "procid": 32
+                },
+                {
+                    "pid": 2964,
+                    "procid": 36
+                }
+            ]
+        },
+        {
+            "name": "Loads dropped DLL",
+            "score": 7,
+            "indicators": [
+                {
+                    "pid": 1444,
+                    "procid": 27
+                },
+                {
+                    "pid": 1444,
+                    "procid": 27
+                },
+                {
+                    "pid": 1444,
+                    "procid": 27
+                },
+                {
+                    "pid": 1444,
+                    "procid": 27
+                },
+                {
+                    "pid": 1264,
+                    "procid": 33
+                }
+            ]
+        },
+        {
+            "label": "creates_runkey_registry",
+            "name": "Adds Run key to start application",
+            "score": 6,
+            "ttp": [
+                "T1547.001",
+                "T1112"
+            ],
+            "tags": [
+                "persistence"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\hkssQMYE.exe = \"C:\\\\ProgramData\\\\ceEkggUg\\\\hkssQMYE.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-722410544-1258951091-1992882075-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\tSAUkIYY.exe = \"C:\\\\Users\\\\Admin\\\\RsIQUgsI\\\\tSAUkIYY.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 30
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\hkssQMYE.exe = \"C:\\\\ProgramData\\\\ceEkggUg\\\\hkssQMYE.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 31
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\hkssQMYE.exe = \"C:\\\\ProgramData\\\\ceEkggUg\\\\hkssQMYE.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 32
+                },
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-722410544-1258951091-1992882075-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\tSAUkIYY.exe = \"C:\\\\Users\\\\Admin\\\\RsIQUgsI\\\\tSAUkIYY.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "fw_system32",
+            "name": "Drops file in System32 directory",
+            "score": 5,
+            "indicators": [
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\config\\systemprofile\\RsIQUgsI",
+                    "description": "File opened for modification",
+                    "procid": 32
+                },
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\config\\systemprofile\\RsIQUgsI\\tSAUkIYY",
+                    "description": "File opened for modification",
+                    "procid": 32
+                }
+            ]
+        },
+        {
+            "label": "reg_modifies_key",
+            "name": "Modifies registry key",
+            "ttp": [
+                "T1112"
+            ],
+            "indicators": [
+                {
+                    "pid": 2864,
+                    "procid": 37
+                },
+                {
+                    "pid": 2856,
+                    "procid": 38
+                },
+                {
+                    "pid": 2928,
+                    "procid": 35
+                }
+            ]
+        },
+        {
+            "name": "Suspicious behavior: EnumeratesProcesses",
+            "indicators": [
+                {
+                    "pid": 1444,
+                    "procid": 27
+                },
+                {
+                    "pid": 1444,
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory",
+            "indicators": [
+                {
+                    "description": "PID 1444 wrote to memory of 1636",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 1636",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 1636",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 1636",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2468",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2468",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2468",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2468",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 1264",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 1264",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 1264",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 1264",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 1264 wrote to memory of 2964",
+                    "pid": 1264,
+                    "procid": 33,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 1264 wrote to memory of 2964",
+                    "pid": 1264,
+                    "procid": 33,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 1264 wrote to memory of 2964",
+                    "pid": 1264,
+                    "procid": 33,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 1264 wrote to memory of 2964",
+                    "pid": 1264,
+                    "procid": 33,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2928",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2928",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2928",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2928",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2864",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 37
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2864",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 37
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2864",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 37
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2864",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 37
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2856",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 38
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2856",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 38
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2856",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 38
+                },
+                {
+                    "description": "PID 1444 wrote to memory of 2856",
+                    "pid": 1444,
+                    "procid": 27,
+                    "procid_target": 38
+                }
+            ]
+        }
+    ],
+    "tags": null,
+    "network": {
+        "flows": [
+            {
+                "id": 2,
+                "src": "10.127.0.238:58639",
+                "dst": "8.8.8.8:53",
+                "proto": "udp",
+                "pid": 2468,
+                "procid": 31,
+                "first_seen": 7757,
+                "last_seen": 7758,
+                "rx_bytes": 72,
+                "rx_packets": 1,
+                "tx_bytes": 56,
+                "tx_packets": 1,
+                "protocols": [
+                    "dns"
+                ],
+                "domain": "google.com"
+            },
+            {
+                "id": 3,
+                "src": "10.127.0.238:49210",
+                "dst": "142.250.179.142:80",
+                "proto": "tcp",
+                "pid": 1636,
+                "procid": 30,
+                "first_seen": 7893,
+                "last_seen": 8102,
+                "rx_bytes": 905,
+                "rx_packets": 3,
+                "tx_bytes": 220,
+                "tx_packets": 4,
+                "protocols": [
+                    "http"
+                ],
+                "domain": "google.com"
+            },
+            {
+                "id": 4,
+                "src": "10.127.0.238:49211",
+                "dst": "142.250.179.142:80",
+                "proto": "tcp",
+                "pid": 2468,
+                "procid": 31,
+                "first_seen": 7900,
+                "last_seen": 7900,
+                "rx_bytes": 0,
+                "rx_packets": 0,
+                "tx_bytes": 52,
+                "tx_packets": 1,
+                "domain": "google.com"
+            }
+        ],
+        "requests": [
+            {
+                "flow": 2,
+                "index": 1,
+                "dns_request": {
+                    "domains": [
+                        "google.com"
+                    ],
+                    "questions": [
+                        {
+                            "name": "google.com",
+                            "type": "IN A"
+                        }
+                    ]
+                }
+            },
+            {
+                "flow": 2,
+                "index": 1,
+                "dns_response": {
+                    "domains": [
+                        "google.com"
+                    ],
+                    "ip": [
+                        "142.250.179.142"
+                    ],
+                    "answers": [
+                        {
+                            "name": "google.com",
+                            "type": "IN A",
+                            "value": "142.250.179.142"
+                        }
+                    ]
+                }
+            },
+            {
+                "flow": 3,
+                "index": 1,
+                "http_request": {
+                    "method": "GET",
+                    "url": "http://google.com/",
+                    "request": "GET / HTTP/1.1",
+                    "headers": [
+                        "Host: google.com"
+                    ]
+                }
+            },
+            {
+                "flow": 3,
+                "index": 1,
+                "http_response": {
+                    "status": "301",
+                    "response": "HTTP/1.1 301 Moved Permanently",
+                    "headers": [
+                        "Location: http://www.google.com/",
+                        "Content-Type: text/html; charset=UTF-8",
+                        "Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-e1PBBY1VAV4JHL8t4XQznw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp",
+                        "Date: Tue, 25 Jul 2023 07:06:11 GMT",
+                        "Expires: Thu, 24 Aug 2023 07:06:11 GMT",
+                        "Cache-Control: public, max-age=2592000",
+                        "Server: gws",
+                        "Content-Length: 219",
+                        "X-XSS-Protection: 0",
+                        "X-Frame-Options: SAMEORIGIN"
+                    ]
+                }
+            }
+        ],
+        "ips": {
+            "142.250.179.142": {
+                "cc": "NL",
+                "asn": "AS15169"
+            },
+            "8.8.8.8": {
+                "cc": "US",
+                "asn": "AS15169"
+            }
+        }
+    },
+    "dumped": [
+        {
+            "at": 622,
+            "pid": 1444,
+            "procid": 27,
+            "name": "memory/1444-54-0x0000000000400000-0x00000000004BF000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 782336
+        },
+        {
+            "at": 1137,
+            "pid": 1444,
+            "procid": 27,
+            "path": "\\Users\\Admin\\RsIQUgsI\\tSAUkIYY.exe",
+            "name": "files/0x0006000000018fdf-56.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "79b48f107068fdf7fc748704ee75d4df",
+            "sha1": "2b2f3699e59fa02711118386c4ba661522094108",
+            "sha256": "bc6afd6f6169da5d3a44b4d8253388952d6392e2d68cb5a0b855b5c9d4b209fe",
+            "sha512": "50580c8bffef1c2f45c7d984ec18a533b5aea5a2df07e128abb2bb76a97570d807062920da359f00dd1524e0cbe399730b86d1ab57d2241785d87343772f195c",
+            "ssdeep": "12288:CgQdYQ2bKoXjzVu0zpLLEG2n1ohS5ZniidwqJalGpZ29NJj9YoC6p:7nPzzUg2kWiiiqRZ29vj9CE",
+            "size": 621056
+        },
+        {
+            "at": 1184,
+            "pid": 1444,
+            "procid": 27,
+            "path": "\\Users\\Admin\\RsIQUgsI\\tSAUkIYY.exe",
+            "name": "files/0x0006000000018fdf-57.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "79b48f107068fdf7fc748704ee75d4df",
+            "sha1": "2b2f3699e59fa02711118386c4ba661522094108",
+            "sha256": "bc6afd6f6169da5d3a44b4d8253388952d6392e2d68cb5a0b855b5c9d4b209fe",
+            "sha512": "50580c8bffef1c2f45c7d984ec18a533b5aea5a2df07e128abb2bb76a97570d807062920da359f00dd1524e0cbe399730b86d1ab57d2241785d87343772f195c",
+            "ssdeep": "12288:CgQdYQ2bKoXjzVu0zpLLEG2n1ohS5ZniidwqJalGpZ29NJj9YoC6p:7nPzzUg2kWiiiqRZ29vj9CE",
+            "size": 621056
+        },
+        {
+            "at": 1262,
+            "pid": 1636,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\RsIQUgsI\\tSAUkIYY.exe",
+            "name": "files/0x0006000000018fdf-61.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "79b48f107068fdf7fc748704ee75d4df",
+            "sha1": "2b2f3699e59fa02711118386c4ba661522094108",
+            "sha256": "bc6afd6f6169da5d3a44b4d8253388952d6392e2d68cb5a0b855b5c9d4b209fe",
+            "sha512": "50580c8bffef1c2f45c7d984ec18a533b5aea5a2df07e128abb2bb76a97570d807062920da359f00dd1524e0cbe399730b86d1ab57d2241785d87343772f195c",
+            "ssdeep": "12288:CgQdYQ2bKoXjzVu0zpLLEG2n1ohS5ZniidwqJalGpZ29NJj9YoC6p:7nPzzUg2kWiiiqRZ29vj9CE",
+            "size": 621056
+        },
+        {
+            "at": 1309,
+            "pid": 1636,
+            "procid": 30,
+            "name": "memory/1636-63-0x0000000000400000-0x000000000049A000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 630784
+        },
+        {
+            "at": 1434,
+            "pid": 1444,
+            "procid": 27,
+            "path": "\\ProgramData\\ceEkggUg\\hkssQMYE.exe",
+            "name": "files/0x0008000000018fe2-65.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "acb83c6e18c5a958997eb507ca744f77",
+            "sha1": "bf03edf1e9da734fa6a29f4b050428e9e7aceec6",
+            "sha256": "cbc3c566df5411b91a4371b1d153e0ab2b753d28165e2888c23bb7adc6d9e73c",
+            "sha512": "6d12a7f4aa3094e5998c02b7741dbccf4bc661ca35aaec58123052fa44b11875479554adf5544c4510c9690eba83ae46ba6956ece4d0e329b14c2169b9a66711",
+            "ssdeep": "12288:n3orktUxMxKBI4VhY/sSQ6sf00L6KXGv8IH:ektUxMxKe4s95f0LNXGvlH",
+            "size": 619520
+        },
+        {
+            "at": 1434,
+            "pid": 1444,
+            "procid": 27,
+            "path": "\\ProgramData\\ceEkggUg\\hkssQMYE.exe",
+            "name": "files/0x0008000000018fe2-64.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "acb83c6e18c5a958997eb507ca744f77",
+            "sha1": "bf03edf1e9da734fa6a29f4b050428e9e7aceec6",
+            "sha256": "cbc3c566df5411b91a4371b1d153e0ab2b753d28165e2888c23bb7adc6d9e73c",
+            "sha512": "6d12a7f4aa3094e5998c02b7741dbccf4bc661ca35aaec58123052fa44b11875479554adf5544c4510c9690eba83ae46ba6956ece4d0e329b14c2169b9a66711",
+            "ssdeep": "12288:n3orktUxMxKBI4VhY/sSQ6sf00L6KXGv8IH:ektUxMxKe4s95f0LNXGvlH",
+            "size": 619520
+        },
+        {
+            "at": 1434,
+            "pid": 2468,
+            "procid": 31,
+            "name": "memory/2468-70-0x0000000000400000-0x000000000049A000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 630784
+        },
+        {
+            "at": 1434,
+            "pid": 2468,
+            "procid": 31,
+            "path": "C:\\ProgramData\\ceEkggUg\\hkssQMYE.exe",
+            "name": "files/0x0008000000018fe2-69.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "acb83c6e18c5a958997eb507ca744f77",
+            "sha1": "bf03edf1e9da734fa6a29f4b050428e9e7aceec6",
+            "sha256": "cbc3c566df5411b91a4371b1d153e0ab2b753d28165e2888c23bb7adc6d9e73c",
+            "sha512": "6d12a7f4aa3094e5998c02b7741dbccf4bc661ca35aaec58123052fa44b11875479554adf5544c4510c9690eba83ae46ba6956ece4d0e329b14c2169b9a66711",
+            "ssdeep": "12288:n3orktUxMxKBI4VhY/sSQ6sf00L6KXGv8IH:ektUxMxKe4s95f0LNXGvlH",
+            "size": 619520
+        },
+        {
+            "at": 1808,
+            "pid": 1040,
+            "procid": 32,
+            "path": "C:\\ProgramData\\yUUAAcYk\\IUgwswYo.exe",
+            "name": "files/0x0008000000018fcb-72.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "738e92fd73ffb1c599e4056c16d07bdd",
+            "sha1": "b28ad7330c95967d569aa9800dd2968b7425194a",
+            "sha256": "fcf035e88d2dedba5659deb0586dbcfcfdb8e87cff2a4816612c93887f8f8117",
+            "sha512": "f2d7a2bbf602dbf69c1772fe4d0d8c606f81ac95d51d73cf37f836c2a4130c3e3748b1e04dc727d9e5d4265d2fe25ea41a0e575538560676fb5f40c5ce57ae1e",
+            "ssdeep": "12288:IUeV+obZYSoYU8b9fxsU+wV+IX590zlJdF1/r3fFvzl+F68q:cpoYU8bv3+BIpqzBP3fdl+F6",
+            "size": 623616
+        },
+        {
+            "at": 1886,
+            "pid": 1040,
+            "procid": 32,
+            "name": "memory/1040-73-0x0000000000400000-0x000000000049B000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 634880
+        },
+        {
+            "at": 2151,
+            "pid": 1444,
+            "procid": 27,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\igkEsUUs.bat",
+            "name": "files/0x00040000000191b7-79.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "e45837b490ad45992de89028fa837ab2",
+            "sha1": "7628a4f0906290b117134a55637a777680fa8eba",
+            "sha256": "d4da1dcf5ea64c987011abe73cdc7fb288542364a08e690dca77ad59fbcec21e",
+            "sha512": "1e82208d1826ce6dcc162d586f462010bef0ead874e1f359ddd6076c117badddca2c42c53bb775e915f2bdda6a601dc2b071334ada63738371da33c70434d49a",
+            "size": 4
+        },
+        {
+            "at": 2260,
+            "pid": 1264,
+            "procid": 33,
+            "path": "\\Users\\Admin\\AppData\\Local\\Temp\\cup.exe",
+            "name": "files/0x00040000000191f1-83.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "24f79f24b079ff5d837e1040f1c09d2a",
+            "sha1": "c56cfe2bc3817be2482cea1faea8925eb47ff424",
+            "sha256": "e7ba69ae8bd3206d73514b21e0d2f5d7e0101cb1a449442855068ff00ab88361",
+            "sha512": "574060ae61aa95200f1fa6423977040c5fd1ad46f1f1539329a2fc55eb871bf561d3d50191f3e16bdc32144295cd2939937f87bbd6c9f1b53b3288ddbb71a8cf",
+            "ssdeep": "3072:BR9j3NqSGCLOwstyhZFChcssc56FUrgxvbSD4UQrO2d:v9LNtShcHUad",
+            "size": 143496
+        },
+        {
+            "at": 2260,
+            "pid": 2964,
+            "procid": 36,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cup.exe",
+            "name": "files/0x00040000000191f1-85.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "24f79f24b079ff5d837e1040f1c09d2a",
+            "sha1": "c56cfe2bc3817be2482cea1faea8925eb47ff424",
+            "sha256": "e7ba69ae8bd3206d73514b21e0d2f5d7e0101cb1a449442855068ff00ab88361",
+            "sha512": "574060ae61aa95200f1fa6423977040c5fd1ad46f1f1539329a2fc55eb871bf561d3d50191f3e16bdc32144295cd2939937f87bbd6c9f1b53b3288ddbb71a8cf",
+            "ssdeep": "3072:BR9j3NqSGCLOwstyhZFChcssc56FUrgxvbSD4UQrO2d:v9LNtShcHUad",
+            "size": 143496
+        },
+        {
+            "at": 2307,
+            "pid": 2964,
+            "procid": 36,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cup.exe",
+            "name": "files/0x00040000000191f1-86.dat",
+            "kind": "martian",
+            "origin": "martian",
+            "md5": "24f79f24b079ff5d837e1040f1c09d2a",
+            "sha1": "c56cfe2bc3817be2482cea1faea8925eb47ff424",
+            "sha256": "e7ba69ae8bd3206d73514b21e0d2f5d7e0101cb1a449442855068ff00ab88361",
+            "sha512": "574060ae61aa95200f1fa6423977040c5fd1ad46f1f1539329a2fc55eb871bf561d3d50191f3e16bdc32144295cd2939937f87bbd6c9f1b53b3288ddbb71a8cf",
+            "ssdeep": "3072:BR9j3NqSGCLOwstyhZFChcssc56FUrgxvbSD4UQrO2d:v9LNtShcHUad",
+            "size": 143496
+        },
+        {
+            "at": 2869,
+            "pid": 2964,
+            "procid": 36,
+            "name": "memory/2964-87-0x0000000000C50000-0x0000000000C78000-memory.dmp",
+            "kind": "region",
+            "origin": "dotnet64",
+            "addr": 12910592,
+            "length": 163840
+        },
+        {
+            "at": 3103,
+            "pid": 2964,
+            "procid": 36,
+            "name": "memory/2964-88-0x000007FEF6110000-0x000007FEF6AFC000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 8791631396864,
+            "length": 10403840
+        }
+    ]
+}

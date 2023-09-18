@@ -1,0 +1,301 @@
+{
+    "analysis": {
+        "family": [
+            "cobaltstrike"
+        ],
+        "score": 10,
+        "tags": [
+            "family:cobaltstrike",
+            "botnet:1359593325",
+            "backdoor",
+            "evasion",
+            "trojan"
+        ]
+    },
+    "extracted": [
+        {
+            "config": {
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/1080-54-0x0000000001BD0000-0x0000000001C10000-memory.dmp",
+            "resource": "behavioral1/memory/1080-54-0x0000000001BD0000-0x0000000001C10000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        },
+        {
+            "config": {
+                "attr": {
+                    "access_type": 512,
+                    "beacon_type": 2048,
+                    "host": "dataplane.theyardservice.com,/jquery-3.3.1.min.woff2,cdn.theyardservice.com,/jquery-3.3.1.min.woff2,static.theyardservice.com,/jquery-3.3.1.min.woff2,worldhomeoutlet.com,/jquery-3.3.1.min.woff2",
+                    "http_header1": "AAAABwAAAAAAAAAPAAAADQAAAAIAAAAHX2NmdWlkPQAAAAYAAAAGQ29va2llAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_header2": "AAAABwAAAAAAAAAPAAAADQAAAAUAAAAGX2NmdWlkAAAABwAAAAEAAAAPAAAADQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_method1": "GET",
+                    "http_method2": "POST",
+                    "jitter": 9472,
+                    "polling_time": 45000,
+                    "port_number": 443,
+                    "sc_process32": "%windir%\\syswow64\\dllhost.exe",
+                    "sc_process64": "%windir%\\sysnative\\dllhost.exe",
+                    "state_machine": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCGuuFCeyS6avVif5/MAma6vE7MY0Etd8E/aC/cbVY7bHA2TKe5GZCSrZeR+WNGUXO0lYuiwHgBbNxyK2VHum6meOHMU4Df3F7yepYh3D7m+xZ8B67stswVgq6riNfjeZofkyFpCpFNH4T2ScTjGmMT8/aZy3Jk2fd7OQ50B+wu0QIDAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "unknown1": 4234810624,
+                    "unknown2": "AAAABAAAAAEAAAXyAAAAAgAAAFQAAAACAAAPWwAAAA0AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "uri": "/jquery-3.3.2.min.woff2",
+                    "user_agent": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko",
+                    "watermark": "1359593325"
+                },
+                "botnet": "1359593325",
+                "c2": [
+                    "http://dataplane.theyardservice.com:443/jquery-3.3.1.min.woff2",
+                    "http://cdn.theyardservice.com:443/jquery-3.3.1.min.woff2",
+                    "http://static.theyardservice.com:443/jquery-3.3.1.min.woff2",
+                    "http://worldhomeoutlet.com:443/jquery-3.3.1.min.woff2"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/1080-55-0x0000000002150000-0x00000000025C2000-memory.dmp",
+            "resource": "behavioral1/memory/1080-55-0x0000000002150000-0x00000000025C2000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:16:04Z",
+        "created": "2023-06-26T04:13:27Z",
+        "id": "230626-eta35shc6t",
+        "md5": "1c3b8ae594cb4ce24c2680b47cebf808",
+        "score": 10,
+        "sha1": "1fb12e923bdb71a1f34e98576b780ab2840ba22e",
+        "sha256": "ee42ddacbd202008bcc1312e548e1d9ac670dd3d86c999606a3a01d464a2a330",
+        "sha512": "2917e5a1ecfa4343f0de204804487db368371b10b9ae3cc2ebc7e1da74c679c1ef198c2c183572f537fed7c1bc8c7183513fcadf6dcad3749bc401f32b2fb6c1",
+        "size": 1747968,
+        "ssdeep": "6144:GBv2rCsfI34JBE8LCiohg05tnCCRem/V9FkkKdKb+/++9GIyRv9QTaq+D/aYndvj:GBurzfI2B9roDtVcKb+/+EzD+7aJ",
+        "target": "ee42ddacbd202008bcc1312e548e1d9ac670dd3d86c999606a3a01d464a2a330"
+    },
+    "signatures": [
+        {
+            "desc": "Detected malicious payload which is part of Cobaltstrike.",
+            "label": "cobaltstrike",
+            "name": "Cobaltstrike",
+            "score": 10,
+            "tags": [
+                "trojan",
+                "backdoor",
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "label": "identifies_vbox_reg",
+            "name": "Enumerates VirtualBox registry keys",
+            "score": 9,
+            "tags": [
+                "evasion"
+            ],
+            "ttp": [
+                "T1012",
+                "T1497"
+            ]
+        },
+        {
+            "label": "identifies_vbox_acpi_reg",
+            "name": "Identifies VirtualBox via ACPI registry values (likely anti-VM)",
+            "score": 9,
+            "tags": [
+                "evasion"
+            ],
+            "ttp": [
+                "T1012",
+                "T1497"
+            ]
+        },
+        {
+            "label": "identifies_vbox_guestadditions_reg",
+            "name": "Looks for VirtualBox Guest Additions in registry",
+            "score": 9,
+            "tags": [
+                "evasion"
+            ],
+            "ttp": [
+                "T1012",
+                "T1497"
+            ]
+        },
+        {
+            "label": "identifies_vmware_tools_reg",
+            "name": "Looks for VMWare Tools registry key",
+            "score": 8,
+            "tags": [
+                "evasion"
+            ],
+            "ttp": [
+                "T1012",
+                "T1497"
+            ]
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        }
+    ],
+    "targets": [
+        {
+            "family": [
+                "cobaltstrike"
+            ],
+            "iocs": {
+                "domains": [
+                    "dataplane.theyardservice.com",
+                    "cdn.theyardservice.com",
+                    "static.theyardservice.com",
+                    "worldhomeoutlet.com",
+                    "14.160.190.20.in-addr.arpa",
+                    "229.78.74.40.in-addr.arpa",
+                    "50.23.12.20.in-addr.arpa",
+                    "56.126.166.20.in-addr.arpa",
+                    "1.77.109.52.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "209.197.3.8",
+                    "52.178.17.3"
+                ]
+            },
+            "md5": "1c3b8ae594cb4ce24c2680b47cebf808",
+            "score": 10,
+            "sha1": "1fb12e923bdb71a1f34e98576b780ab2840ba22e",
+            "sha256": "ee42ddacbd202008bcc1312e548e1d9ac670dd3d86c999606a3a01d464a2a330",
+            "sha512": "2917e5a1ecfa4343f0de204804487db368371b10b9ae3cc2ebc7e1da74c679c1ef198c2c183572f537fed7c1bc8c7183513fcadf6dcad3749bc401f32b2fb6c1",
+            "signatures": [
+                {
+                    "desc": "Detected malicious payload which is part of Cobaltstrike.",
+                    "label": "cobaltstrike",
+                    "name": "Cobaltstrike",
+                    "score": 10,
+                    "tags": [
+                        "trojan",
+                        "backdoor",
+                        "family:cobaltstrike"
+                    ]
+                },
+                {
+                    "label": "identifies_vbox_reg",
+                    "name": "Enumerates VirtualBox registry keys",
+                    "score": 9,
+                    "tags": [
+                        "evasion"
+                    ],
+                    "ttp": [
+                        "T1012",
+                        "T1497"
+                    ]
+                },
+                {
+                    "label": "identifies_vbox_acpi_reg",
+                    "name": "Identifies VirtualBox via ACPI registry values (likely anti-VM)",
+                    "score": 9,
+                    "tags": [
+                        "evasion"
+                    ],
+                    "ttp": [
+                        "T1012",
+                        "T1497"
+                    ]
+                },
+                {
+                    "label": "identifies_vbox_guestadditions_reg",
+                    "name": "Looks for VirtualBox Guest Additions in registry",
+                    "score": 9,
+                    "tags": [
+                        "evasion"
+                    ],
+                    "ttp": [
+                        "T1012",
+                        "T1497"
+                    ]
+                },
+                {
+                    "label": "identifies_vmware_tools_reg",
+                    "name": "Looks for VMWare Tools registry key",
+                    "score": 8,
+                    "tags": [
+                        "evasion"
+                    ],
+                    "ttp": [
+                        "T1012",
+                        "T1497"
+                    ]
+                }
+            ],
+            "size": 1747968,
+            "ssdeep": "6144:GBv2rCsfI34JBE8LCiohg05tnCCRem/V9FkkKdKb+/++9GIyRv9QTaq+D/aYndvj:GBurzfI2B9roDtVcKb+/+EzD+7aJ",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:1359593325",
+                "backdoor",
+                "evasion",
+                "trojan"
+            ],
+            "target": "ee42ddacbd202008bcc1312e548e1d9ac670dd3d86c999606a3a01d464a2a330",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-eta35shc6t-behavioral1": {
+            "backend": "sbx4m11",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 5,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:1359593325",
+                "backdoor",
+                "evasion",
+                "trojan"
+            ],
+            "target": "ee42ddacbd202008bcc1312e548e1d9ac670dd3d86c999606a3a01d464a2a330.dll",
+            "timeout": 150
+        },
+        "230626-eta35shc6t-behavioral2": {
+            "backend": "sbx4m18",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 5,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:1359593325",
+                "backdoor",
+                "evasion",
+                "trojan"
+            ],
+            "target": "ee42ddacbd202008bcc1312e548e1d9ac670dd3d86c999606a3a01d464a2a330.dll",
+            "timeout": 150
+        },
+        "230626-eta35shc6t-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 3,
+            "sigs": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

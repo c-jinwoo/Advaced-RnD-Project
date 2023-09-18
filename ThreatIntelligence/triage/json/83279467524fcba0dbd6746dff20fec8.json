@@ -1,0 +1,199 @@
+{
+    "analysis": {
+        "family": [
+            "cobaltstrike"
+        ],
+        "score": 10,
+        "tags": [
+            "family:cobaltstrike",
+            "botnet:0",
+            "backdoor",
+            "trojan"
+        ]
+    },
+    "extracted": [
+        {
+            "config": {
+                "attr": {
+                    "access_type": 512,
+                    "host": "amer.storagecdn.edog.actions.office365.com,/lite/static/js/1826.f1c2fa77.chunk.js,eu.storagecdn.edog.actions.office365.com,/lite/static/js/1826.f1c2fa77.chunk.js",
+                    "http_header1": "AAAACgAAAEdBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOAAAAAoAAAAjUmVmZXJlcjogaHR0cDovL2JyYW5kLmxpbmtlZGluLmNvbS8AAAAKAAAAHkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQAAAAcAAAAAAAAADQAAAAIAAAAJX19jZmR1aWQ9AAAABgAAAAZDb29raWUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_header2": "AAAACgAAAEdBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOAAAAAoAAAAjUmVmZXJlcjogaHR0cDovL2JyYW5kLmxpbmtlZGluLmNvbS8AAAAKAAAAHkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQAAAAcAAAAAAAAADwAAAA0AAAAFAAAACF9fY2ZkdWlkAAAABwAAAAEAAAAPAAAADQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_method1": "GET",
+                    "http_method2": "POST",
+                    "jitter": 9472,
+                    "polling_time": 57305,
+                    "port_number": 80,
+                    "sc_process32": "%windir%\\syswow64\\dllhost.exe",
+                    "sc_process64": "%windir%\\sysnative\\dllhost.exe",
+                    "state_machine": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClb9YN/Mm0G5C15pg8YXJjbOaNzDpbbtHQjkO4a7QyI5S8GBUo4wHC/t749hHX4V/y8HsoYowFgoaCmvt4klm6yW2DD9JIlzwd8g9mOjCbJVpmGABHAvfhMgEeY8FMteSyerUExVNxvh7Oj8kiAhWwSZZz8pRniaSkkVtPlLb3+wIDAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "unknown1": 728438016,
+                    "unknown2": "AAAABAAAAAEAAAX8AAAAAgAAAHMAAAACAAAPYQAAAA0AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "uri": "/lite/static/js/4464.c01c0ad8.chunk.js",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36",
+                    "watermark": "0"
+                },
+                "botnet": "0",
+                "c2": [
+                    "http://amer.storagecdn.edog.actions.office365.com:80/lite/static/js/1826.f1c2fa77.chunk.js",
+                    "http://eu.storagecdn.edog.actions.office365.com:80/lite/static/js/1826.f1c2fa77.chunk.js"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike"
+            },
+            "dumped_file": "memory/2000-55-0x0000000002D20000-0x0000000003192000-memory.dmp",
+            "resource": "behavioral1/memory/2000-55-0x0000000002D20000-0x0000000003192000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        },
+        {
+            "config": {
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike"
+            },
+            "dumped_file": "memory/2000-57-0x0000000000400000-0x00000000004C2000-memory.dmp",
+            "resource": "behavioral1/memory/2000-57-0x0000000000400000-0x00000000004C2000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:17:32Z",
+        "created": "2023-06-26T04:14:54Z",
+        "id": "230626-et5mrahc7z",
+        "md5": "83279467524fcba0dbd6746dff20fec8",
+        "score": 10,
+        "sha1": "9931650fc4561843cd31519a680e452416c6dfbb",
+        "sha256": "2edaa2518d319f9c0e97e337c7b41921477d857af96018f56207c5abdad74c38",
+        "sha512": "ce8c9a3ad8c829da31762a474b0eac0b972cad5931277ce2f58e6688d2fb4b58081987bbc4c0cbc51adae2ad8bb1693c998041b7f8890b5a2d0fe275f037f930",
+        "size": 767488,
+        "ssdeep": "12288:bNAZCa46xVLeMZ2hQL595G7nYeLcpGEI5HVmy4Tltd6MzddPJVEKf:beYaZV3Z2hoZG7XIGEINRkr6MzddPHE",
+        "target": "2edaa2518d319f9c0e97e337c7b41921477d857af96018f56207c5abdad74c38"
+    },
+    "signatures": [
+        {
+            "desc": "Detected malicious payload which is part of Cobaltstrike.",
+            "label": "cobaltstrike",
+            "name": "Cobaltstrike",
+            "score": 10,
+            "tags": [
+                "trojan",
+                "backdoor",
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        }
+    ],
+    "targets": [
+        {
+            "family": [
+                "cobaltstrike"
+            ],
+            "iocs": {
+                "domains": [
+                    "amer.storagecdn.edog.actions.office365.com",
+                    "eu.storagecdn.edog.actions.office365.com",
+                    "97.19.195.152.in-addr.arpa",
+                    "198.187.3.20.in-addr.arpa",
+                    "1.77.109.52.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "152.195.19.97",
+                    "2.18.121.83",
+                    "20.189.173.12",
+                    "8.241.137.254"
+                ],
+                "urls": [
+                    "http://edgestatus.azureedge.net/lite/static/js/1826.f1c2fa77.chunk.js"
+                ]
+            },
+            "md5": "83279467524fcba0dbd6746dff20fec8",
+            "score": 10,
+            "sha1": "9931650fc4561843cd31519a680e452416c6dfbb",
+            "sha256": "2edaa2518d319f9c0e97e337c7b41921477d857af96018f56207c5abdad74c38",
+            "sha512": "ce8c9a3ad8c829da31762a474b0eac0b972cad5931277ce2f58e6688d2fb4b58081987bbc4c0cbc51adae2ad8bb1693c998041b7f8890b5a2d0fe275f037f930",
+            "signatures": [
+                {
+                    "desc": "Detected malicious payload which is part of Cobaltstrike.",
+                    "label": "cobaltstrike",
+                    "name": "Cobaltstrike",
+                    "score": 10,
+                    "tags": [
+                        "trojan",
+                        "backdoor",
+                        "family:cobaltstrike"
+                    ]
+                }
+            ],
+            "size": 767488,
+            "ssdeep": "12288:bNAZCa46xVLeMZ2hQL595G7nYeLcpGEI5HVmy4Tltd6MzddPJVEKf:beYaZV3Z2hoZG7XIGEINRkr6MzddPHE",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "2edaa2518d319f9c0e97e337c7b41921477d857af96018f56207c5abdad74c38",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-et5mrahc7z-behavioral1": {
+            "backend": "horse2",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 1,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "2edaa2518d319f9c0e97e337c7b41921477d857af96018f56207c5abdad74c38.exe",
+            "timeout": 150
+        },
+        "230626-et5mrahc7z-behavioral2": {
+            "backend": "fu1m1",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 1,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "2edaa2518d319f9c0e97e337c7b41921477d857af96018f56207c5abdad74c38.exe",
+            "timeout": 150
+        },
+        "230626-et5mrahc7z-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 3,
+            "sigs": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

@@ -1,0 +1,83 @@
+{
+    "analysis": {
+        "score": 1
+    },
+    "sample": {
+        "completed": "2023-06-26T04:17:17Z",
+        "created": "2023-06-26T04:14:42Z",
+        "id": "230626-et1zkahc7w",
+        "md5": "00a20388b39480b86c4f7779037d33f1",
+        "score": 1,
+        "sha1": "25874a467e95a25280df9521181b21ef1065ff15",
+        "sha256": "4754626f12467f7a14731030afe57b3ffe6bac1c1a8d2d93a027f0cec5be08e7",
+        "sha512": "5a9dcbeeb47a1bcddd2759416c1361870dc1d0d3d2f41902e7456d0359d02f6006cfc429aec4ead1eaa40765cff2d59f8243c446b4435011b55f01ed4ebd2da8",
+        "size": 1747632,
+        "ssdeep": "49152:DR6OG2rb/TavO90dL3BmAFd4A64nsfJQB3XHWgvxR+Wb1Ax:DRshx3R8",
+        "target": "4754626f12467f7a14731030afe57b3ffe6bac1c1a8d2d93a027f0cec5be08e7"
+    },
+    "targets": [
+        {
+            "iocs": {
+                "domains": [
+                    "134.121.24.20.in-addr.arpa",
+                    "68.159.190.20.in-addr.arpa",
+                    "56.126.166.20.in-addr.arpa",
+                    "50.23.12.20.in-addr.arpa",
+                    "1.77.109.52.in-addr.arpa",
+                    "2.36.159.162.in-addr.arpa",
+                    "86.23.85.13.in-addr.arpa"
+                ],
+                "ips": [
+                    "20.190.159.4",
+                    "8.8.8.8",
+                    "20.42.72.131",
+                    "23.218.209.198"
+                ]
+            },
+            "md5": "00a20388b39480b86c4f7779037d33f1",
+            "score": 1,
+            "sha1": "25874a467e95a25280df9521181b21ef1065ff15",
+            "sha256": "4754626f12467f7a14731030afe57b3ffe6bac1c1a8d2d93a027f0cec5be08e7",
+            "sha512": "5a9dcbeeb47a1bcddd2759416c1361870dc1d0d3d2f41902e7456d0359d02f6006cfc429aec4ead1eaa40765cff2d59f8243c446b4435011b55f01ed4ebd2da8",
+            "signatures": [],
+            "size": 1747632,
+            "ssdeep": "49152:DR6OG2rb/TavO90dL3BmAFd4A64nsfJQB3XHWgvxR+Wb1Ax:DRshx3R8",
+            "target": "4754626f12467f7a14731030afe57b3ffe6bac1c1a8d2d93a027f0cec5be08e7",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-et1zkahc7w-behavioral1": {
+            "backend": "sbx4m12",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 1,
+            "status": "reported",
+            "target": "4754626f12467f7a14731030afe57b3ffe6bac1c1a8d2d93a027f0cec5be08e7.exe",
+            "timeout": 150
+        },
+        "230626-et1zkahc7w-behavioral2": {
+            "backend": "sbx4m16",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 1,
+            "status": "reported",
+            "target": "4754626f12467f7a14731030afe57b3ffe6bac1c1a8d2d93a027f0cec5be08e7.exe",
+            "timeout": 150
+        },
+        "230626-et1zkahc7w-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

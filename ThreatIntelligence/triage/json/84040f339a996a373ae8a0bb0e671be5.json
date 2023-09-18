@@ -1,0 +1,170 @@
+{
+    "analysis": {
+        "family": [
+            "cobaltstrike"
+        ],
+        "score": 10,
+        "tags": [
+            "family:cobaltstrike",
+            "backdoor",
+            "trojan"
+        ]
+    },
+    "extracted": [
+        {
+            "config": {
+                "attr": {
+                    "user_agent": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nReferer: http://code.jquery.com/\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko\r\n"
+                },
+                "c2": [
+                    "http://onecoloradosport.com:443/jquery-3.3.2.slim.min.js"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/1448-57-0x0000000000110000-0x0000000000111000-memory.dmp",
+            "resource": "behavioral1/memory/1448-57-0x0000000000110000-0x0000000000111000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:15:29Z",
+        "created": "2023-06-26T04:12:45Z",
+        "id": "230626-esw9zsgc74",
+        "md5": "84040f339a996a373ae8a0bb0e671be5",
+        "score": 10,
+        "sha1": "295fda9201323f640fd697faf69d2784e0135573",
+        "sha256": "1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50",
+        "sha512": "b537b562bf34d7dc2ecdfcce629fd08046832067aa19e740fd0340b257caf8abf5073d1d3de9de8430a31965fefe9d3d5b92a0b5d67fc910bd35413da1145ec2",
+        "size": 552960,
+        "ssdeep": "12288:myIEbOghGa96VBDDOu6J50EXg5/rSBtil:myIEP0VniSEXgNrSji",
+        "target": "1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50"
+    },
+    "signatures": [
+        {
+            "desc": "Detected malicious payload which is part of Cobaltstrike.",
+            "label": "cobaltstrike",
+            "name": "Cobaltstrike",
+            "score": 10,
+            "tags": [
+                "trojan",
+                "backdoor",
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "label": "program_crash",
+            "name": "Program crash",
+            "score": 3
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        }
+    ],
+    "targets": [
+        {
+            "family": [
+                "cobaltstrike"
+            ],
+            "iocs": {
+                "domains": [
+                    "onecoloradosport.com",
+                    "126.178.238.8.in-addr.arpa",
+                    "134.121.24.20.in-addr.arpa",
+                    "62.13.109.52.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "8.238.178.126",
+                    "13.89.179.9",
+                    "8.238.177.254"
+                ]
+            },
+            "md5": "84040f339a996a373ae8a0bb0e671be5",
+            "score": 10,
+            "sha1": "295fda9201323f640fd697faf69d2784e0135573",
+            "sha256": "1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50",
+            "sha512": "b537b562bf34d7dc2ecdfcce629fd08046832067aa19e740fd0340b257caf8abf5073d1d3de9de8430a31965fefe9d3d5b92a0b5d67fc910bd35413da1145ec2",
+            "signatures": [
+                {
+                    "desc": "Detected malicious payload which is part of Cobaltstrike.",
+                    "label": "cobaltstrike",
+                    "name": "Cobaltstrike",
+                    "score": 10,
+                    "tags": [
+                        "trojan",
+                        "backdoor",
+                        "family:cobaltstrike"
+                    ]
+                },
+                {
+                    "label": "program_crash",
+                    "name": "Program crash",
+                    "score": 3
+                }
+            ],
+            "size": 552960,
+            "ssdeep": "12288:myIEbOghGa96VBDDOu6J50EXg5/rSBtil:myIEP0VniSEXgNrSji",
+            "tags": [
+                "family:cobaltstrike",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-esw9zsgc74-behavioral1": {
+            "backend": "sbx4m11",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 1,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.dll",
+            "timeout": 150
+        },
+        "230626-esw9zsgc74-behavioral2": {
+            "backend": "sbx4m17",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 2,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "1c8de01df040c973b37ae5ce8e1bb523e1ba24a9c25263706022f9a9894a2e50.dll",
+            "timeout": 150
+        },
+        "230626-esw9zsgc74-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 3,
+            "sigs": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

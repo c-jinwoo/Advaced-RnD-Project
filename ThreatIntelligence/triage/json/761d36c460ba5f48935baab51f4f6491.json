@@ -1,0 +1,104 @@
+{
+    "analysis": {
+        "score": 3
+    },
+    "sample": {
+        "completed": "2023-06-26T04:15:37Z",
+        "created": "2023-06-26T04:13:02Z",
+        "id": "230626-es3f1agc79",
+        "md5": "761d36c460ba5f48935baab51f4f6491",
+        "score": 3,
+        "sha1": "4ced40256273c454f1ec5280fd9bd4ad22d90d5d",
+        "sha256": "24197e271f0a1ae404e7e136a4d79d4e90537c18b4c598bef0801e32ca63b8c0",
+        "sha512": "cc319ecacfb8f0822530b709680454d9abcf88765756d0a7f3ce21a2636bc4fdb1c617812ed05f4b50ee9abe833d4c8dfb698224efafe632b779f9e690ec233f",
+        "size": 122880,
+        "ssdeep": "3072:0ZVzAbQhPbgWtWJO9Uv7dH4p7XPq/Fktx/V2iHBqNt/UnHWTCyjpn:QE0bAH4pzS6/V2gqPjpn",
+        "target": "24197e271f0a1ae404e7e136a4d79d4e90537c18b4c598bef0801e32ca63b8c0"
+    },
+    "signatures": [
+        {
+            "label": "program_crash",
+            "name": "Program crash",
+            "score": 3
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory"
+        }
+    ],
+    "targets": [
+        {
+            "iocs": {
+                "domains": [
+                    "64.13.109.52.in-addr.arpa"
+                ],
+                "ips": [
+                    "121.40.19.56",
+                    "13.89.179.8",
+                    "8.8.8.8",
+                    "8.238.178.126"
+                ]
+            },
+            "md5": "761d36c460ba5f48935baab51f4f6491",
+            "score": 3,
+            "sha1": "4ced40256273c454f1ec5280fd9bd4ad22d90d5d",
+            "sha256": "24197e271f0a1ae404e7e136a4d79d4e90537c18b4c598bef0801e32ca63b8c0",
+            "sha512": "cc319ecacfb8f0822530b709680454d9abcf88765756d0a7f3ce21a2636bc4fdb1c617812ed05f4b50ee9abe833d4c8dfb698224efafe632b779f9e690ec233f",
+            "signatures": [
+                {
+                    "label": "program_crash",
+                    "name": "Program crash",
+                    "score": 3
+                },
+                {
+                    "name": "Suspicious use of WriteProcessMemory"
+                }
+            ],
+            "size": 122880,
+            "ssdeep": "3072:0ZVzAbQhPbgWtWJO9Uv7dH4p7XPq/Fktx/V2iHBqNt/UnHWTCyjpn:QE0bAH4pzS6/V2gqPjpn",
+            "target": "24197e271f0a1ae404e7e136a4d79d4e90537c18b4c598bef0801e32ca63b8c0",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-es3f1agc79-behavioral1": {
+            "backend": "horse2",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 3,
+            "sigs": 2,
+            "status": "reported",
+            "target": "24197e271f0a1ae404e7e136a4d79d4e90537c18b4c598bef0801e32ca63b8c0.exe",
+            "timeout": 150
+        },
+        "230626-es3f1agc79-behavioral2": {
+            "backend": "fu1m1",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 1,
+            "status": "reported",
+            "target": "24197e271f0a1ae404e7e136a4d79d4e90537c18b4c598bef0801e32ca63b8c0.exe",
+            "timeout": 150
+        },
+        "230626-es3f1agc79-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 3,
+            "sigs": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

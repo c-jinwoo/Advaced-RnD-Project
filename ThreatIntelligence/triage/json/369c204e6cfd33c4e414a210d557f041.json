@@ -1,0 +1,96 @@
+{
+    "analysis": {
+        "score": 3
+    },
+    "sample": {
+        "completed": "2023-06-26T04:17:13Z",
+        "created": "2023-06-26T04:14:37Z",
+        "id": "230626-etzfqsgd25",
+        "md5": "369c204e6cfd33c4e414a210d557f041",
+        "score": 3,
+        "sha1": "b1ae4a16bec06a4e03dfdb70efa0a504758c00e8",
+        "sha256": "b1b01e971e60a4fa4b8b6b46861eda6ace5d0483136b3d1a45bcb2ebeda96174",
+        "sha512": "924ba5ce0409b884844b20154f16a922d7f5536221438fa677819ef8f954ef79920f7291f50f184a89ecc731f198b89f92cc7de6efc9b7ef431f61a4a2e83674",
+        "size": 101376,
+        "ssdeep": "3072:HIEyPRAY/ur2TmwJM6rXqC4/Z/US24pawJ8:byZAzr7mM+q5DXJ8",
+        "target": "b1b01e971e60a4fa4b8b6b46861eda6ace5d0483136b3d1a45bcb2ebeda96174"
+    },
+    "signatures": [
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory"
+        }
+    ],
+    "targets": [
+        {
+            "iocs": {
+                "domains": [
+                    "1.77.109.52.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.241.129.126",
+                    "209.197.3.8",
+                    "20.42.73.27",
+                    "192.229.211.108",
+                    "8.8.8.8"
+                ]
+            },
+            "md5": "369c204e6cfd33c4e414a210d557f041",
+            "score": 1,
+            "sha1": "b1ae4a16bec06a4e03dfdb70efa0a504758c00e8",
+            "sha256": "b1b01e971e60a4fa4b8b6b46861eda6ace5d0483136b3d1a45bcb2ebeda96174",
+            "sha512": "924ba5ce0409b884844b20154f16a922d7f5536221438fa677819ef8f954ef79920f7291f50f184a89ecc731f198b89f92cc7de6efc9b7ef431f61a4a2e83674",
+            "signatures": [
+                {
+                    "name": "Suspicious use of WriteProcessMemory"
+                }
+            ],
+            "size": 101376,
+            "ssdeep": "3072:HIEyPRAY/ur2TmwJM6rXqC4/Z/US24pawJ8:byZAzr7mM+q5DXJ8",
+            "target": "b1b01e971e60a4fa4b8b6b46861eda6ace5d0483136b3d1a45bcb2ebeda96174",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-etzfqsgd25-behavioral1": {
+            "backend": "sbx4m19",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 1,
+            "sigs": 1,
+            "status": "reported",
+            "target": "b1b01e971e60a4fa4b8b6b46861eda6ace5d0483136b3d1a45bcb2ebeda96174.dll",
+            "timeout": 150
+        },
+        "230626-etzfqsgd25-behavioral2": {
+            "backend": "sbx4m18",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 1,
+            "sigs": 1,
+            "status": "reported",
+            "target": "b1b01e971e60a4fa4b8b6b46861eda6ace5d0483136b3d1a45bcb2ebeda96174.dll",
+            "timeout": 150
+        },
+        "230626-etzfqsgd25-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 3,
+            "sigs": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

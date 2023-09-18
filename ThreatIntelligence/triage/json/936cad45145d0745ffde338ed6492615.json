@@ -1,0 +1,226 @@
+{
+    "analysis": {
+        "score": 10
+    },
+    "extracted": [
+        {
+            "config": {
+                "c2": [
+                    "http://tigerdrill.xyz/EYWCET97LV2U.html"
+                ],
+                "rule": "Microsoft Office MHTML OLEObject"
+            },
+            "resource": "sample",
+            "tasks": [
+                "static1"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:15:29Z",
+        "created": "2023-06-26T04:12:52Z",
+        "id": "230626-eszecagc77",
+        "md5": "936cad45145d0745ffde338ed6492615",
+        "score": 10,
+        "sha1": "5b9c8d450f9d6bb7cb8072a89a39fb276971612d",
+        "sha256": "dd088962eb9e2a6b6e10114d4aecad1b20ca033f6eba1308eb6c0fcd9905cbee",
+        "sha512": "eff08de6d9a65d78d53e9f1c30985341c7711b5b79cda684f178f90202fa27aa3ee6885572f122743d7fe73867f05f35676e6a7452dd3fefedb7c69ede27978e",
+        "size": 12275,
+        "ssdeep": "192:7RxHhv85uJHwc3q7KKm5GyIpCxX/g5G7err/lytqzQ/iCtHrdqK1VfIedYzGF3P+:7R3E5Z5m5ZiCxvFWxyozQ/iMLQK1NkG4",
+        "target": "dd088962eb9e2a6b6e10114d4aecad1b20ca033f6eba1308eb6c0fcd9905cbee"
+    },
+    "signatures": [
+        {
+            "label": "fw_windows",
+            "name": "Drops file in Windows directory",
+            "score": 4
+        },
+        {
+            "label": "office_macro",
+            "name": "Office loads VBA resources, possible macro or embedded object present",
+            "score": 1
+        },
+        {
+            "desc": "Processor information is often read in order to detect sandboxing environments.",
+            "label": "reg_hw_processor",
+            "name": "Checks processor information in registry",
+            "ttp": [
+                "T1012",
+                "T1082"
+            ]
+        },
+        {
+            "label": "reg_hw_system",
+            "name": "Enumerates system info in registry",
+            "ttp": [
+                "T1012",
+                "T1082"
+            ]
+        },
+        {
+            "label": "modifies_iexplore_settings",
+            "name": "Modifies Internet Explorer settings",
+            "tags": [
+                "adware",
+                "spyware"
+            ],
+            "ttp": [
+                "T1112"
+            ]
+        },
+        {
+            "label": "reg_software_classes",
+            "name": "Modifies registry class"
+        },
+        {
+            "label": "ntfs_ads",
+            "name": "NTFS ADS"
+        },
+        {
+            "name": "Suspicious behavior: AddClipboardFormatListener"
+        },
+        {
+            "name": "Suspicious use of AdjustPrivilegeToken"
+        },
+        {
+            "name": "Suspicious use of SetWindowsHookEx"
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory"
+        }
+    ],
+    "targets": [
+        {
+            "iocs": {
+                "domains": [
+                    "tigerdrill.xyz",
+                    "1.202.248.87.in-addr.arpa",
+                    "42.220.44.20.in-addr.arpa",
+                    "134.121.24.20.in-addr.arpa",
+                    "142.145.190.20.in-addr.arpa",
+                    "24.32.109.52.in-addr.arpa",
+                    "14.103.197.20.in-addr.arpa",
+                    "177.17.30.184.in-addr.arpa",
+                    "2.173.189.20.in-addr.arpa",
+                    "171.39.242.20.in-addr.arpa",
+                    "86.8.109.52.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "75.2.115.196",
+                    "20.42.65.90",
+                    "192.229.221.95",
+                    "209.197.3.8"
+                ],
+                "urls": [
+                    "http://tigerdrill.xyz/"
+                ]
+            },
+            "md5": "936cad45145d0745ffde338ed6492615",
+            "score": 4,
+            "sha1": "5b9c8d450f9d6bb7cb8072a89a39fb276971612d",
+            "sha256": "dd088962eb9e2a6b6e10114d4aecad1b20ca033f6eba1308eb6c0fcd9905cbee",
+            "sha512": "eff08de6d9a65d78d53e9f1c30985341c7711b5b79cda684f178f90202fa27aa3ee6885572f122743d7fe73867f05f35676e6a7452dd3fefedb7c69ede27978e",
+            "signatures": [
+                {
+                    "label": "fw_windows",
+                    "name": "Drops file in Windows directory",
+                    "score": 4
+                },
+                {
+                    "label": "office_macro",
+                    "name": "Office loads VBA resources, possible macro or embedded object present",
+                    "score": 1
+                },
+                {
+                    "desc": "Processor information is often read in order to detect sandboxing environments.",
+                    "label": "reg_hw_processor",
+                    "name": "Checks processor information in registry",
+                    "ttp": [
+                        "T1012",
+                        "T1082"
+                    ]
+                },
+                {
+                    "label": "reg_hw_system",
+                    "name": "Enumerates system info in registry",
+                    "ttp": [
+                        "T1012",
+                        "T1082"
+                    ]
+                },
+                {
+                    "label": "modifies_iexplore_settings",
+                    "name": "Modifies Internet Explorer settings",
+                    "tags": [
+                        "adware",
+                        "spyware"
+                    ],
+                    "ttp": [
+                        "T1112"
+                    ]
+                },
+                {
+                    "label": "reg_software_classes",
+                    "name": "Modifies registry class"
+                },
+                {
+                    "label": "ntfs_ads",
+                    "name": "NTFS ADS"
+                },
+                {
+                    "name": "Suspicious behavior: AddClipboardFormatListener"
+                },
+                {
+                    "name": "Suspicious use of AdjustPrivilegeToken"
+                },
+                {
+                    "name": "Suspicious use of SetWindowsHookEx"
+                },
+                {
+                    "name": "Suspicious use of WriteProcessMemory"
+                }
+            ],
+            "size": 12275,
+            "ssdeep": "192:7RxHhv85uJHwc3q7KKm5GyIpCxX/g5G7err/lytqzQ/iCtHrdqK1VfIedYzGF3P+:7R3E5Z5m5ZiCxvFWxyozQ/iMLQK1NkG4",
+            "target": "dd088962eb9e2a6b6e10114d4aecad1b20ca033f6eba1308eb6c0fcd9905cbee",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-eszecagc77-behavioral1": {
+            "backend": "sbx4m18",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 4,
+            "sigs": 9,
+            "status": "reported",
+            "target": "dd088962eb9e2a6b6e10114d4aecad1b20ca033f6eba1308eb6c0fcd9905cbee.docx",
+            "timeout": 150
+        },
+        "230626-eszecagc77-behavioral2": {
+            "backend": "sbx4m16",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 1,
+            "sigs": 6,
+            "status": "reported",
+            "target": "dd088962eb9e2a6b6e10114d4aecad1b20ca033f6eba1308eb6c0fcd9905cbee.docx",
+            "timeout": 150
+        },
+        "230626-eszecagc77-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 10,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

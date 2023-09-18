@@ -1,0 +1,2021 @@
+{
+    "version": "0.3.0",
+    "sample": {
+        "id": "230725-htl27aba89",
+        "score": 10,
+        "submitted": "2023-07-25T07:01:46Z",
+        "target": "9071d7890a075cf96303d8ff961d8e61deca500d24f295cfc1cbcd98e37a7816",
+        "size": 278528,
+        "md5": "a0129992151a3b73686b303e29a76c45",
+        "sha1": "b55075f0c8b9480c920a9776094402e43d18115f",
+        "sha256": "9071d7890a075cf96303d8ff961d8e61deca500d24f295cfc1cbcd98e37a7816",
+        "sha512": "f954f5ca901d831ae3e354592826e54ac9bd262132e854ea74eaf481b88f03935cec9c9a5c5a74158d90c52db4e3142eb9b194049b5cb04eb13a9b057ea5bd28",
+        "ssdeep": "3072:Ax/5F/E7tEf0E+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cx+wWJH7igNgjdFKsCRAR/",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "task": {
+        "target": "9071d7890a075cf96303d8ff961d8e61deca500d24f295cfc1cbcd98e37a7816.exe",
+        "size": 278528,
+        "md5": "a0129992151a3b73686b303e29a76c45",
+        "sha1": "b55075f0c8b9480c920a9776094402e43d18115f",
+        "sha256": "9071d7890a075cf96303d8ff961d8e61deca500d24f295cfc1cbcd98e37a7816",
+        "sha512": "f954f5ca901d831ae3e354592826e54ac9bd262132e854ea74eaf481b88f03935cec9c9a5c5a74158d90c52db4e3142eb9b194049b5cb04eb13a9b057ea5bd28",
+        "ssdeep": "3072:Ax/5F/E7tEf0E+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cx+wWJH7igNgjdFKsCRAR/",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "analysis": {
+        "score": 10,
+        "tags": [
+            "evasion",
+            "persistence"
+        ],
+        "ttp": [
+            "T1564.001",
+            "T1112",
+            "T1547.004",
+            "T1546.001",
+            "T1547.001",
+            "T1490",
+            "T1082",
+            "T1012",
+            "T1120"
+        ],
+        "features": [
+            "analog",
+            "overview"
+        ],
+        "submitted": "2023-07-25T07:01:46Z",
+        "reported": "2023-07-25T07:04:23Z",
+        "max_time_network": 126223,
+        "max_time_kernel": 122958,
+        "backend": "horse2",
+        "resource": "win7-20230712-en",
+        "resource_tags": [
+            "arch:x64",
+            "arch:x86",
+            "image:win7-20230712-en",
+            "locale:en-us",
+            "os:windows7-x64",
+            "system"
+        ],
+        "platform": "windows7_x64"
+    },
+    "processes": [
+        {
+            "procid": 27,
+            "procid_parent": 14,
+            "pid": 2492,
+            "ppid": 1164,
+            "cmd": "\"C:\\Users\\Admin\\AppData\\Local\\Temp\\9071d7890a075cf96303d8ff961d8e61deca500d24f295cfc1cbcd98e37a7816.exe\"",
+            "image": "C:\\Users\\Admin\\AppData\\Local\\Temp\\9071d7890a075cf96303d8ff961d8e61deca500d24f295cfc1cbcd98e37a7816.exe",
+            "orig": false,
+            "started": 794
+        },
+        {
+            "procid": 28,
+            "procid_parent": 27,
+            "pid": 2536,
+            "ppid": 2492,
+            "cmd": "C:\\Windows\\xk.exe",
+            "image": "C:\\Windows\\xk.exe",
+            "orig": false,
+            "started": 1324,
+            "terminated": 1496
+        },
+        {
+            "procid": 29,
+            "procid_parent": 27,
+            "pid": 2664,
+            "ppid": 2492,
+            "cmd": "C:\\Windows\\system32\\IExplorer.exe",
+            "image": "C:\\Windows\\SysWOW64\\IExplorer.exe",
+            "orig": false,
+            "started": 1527,
+            "terminated": 2292
+        },
+        {
+            "procid": 30,
+            "procid_parent": 27,
+            "pid": 1636,
+            "ppid": 2492,
+            "cmd": "C:\\Windows\\xk.exe",
+            "image": "C:\\Windows\\xk.exe",
+            "orig": false,
+            "started": 2370,
+            "terminated": 2479
+        },
+        {
+            "procid": 31,
+            "procid_parent": 27,
+            "pid": 2032,
+            "ppid": 2492,
+            "cmd": "C:\\Windows\\system32\\IExplorer.exe",
+            "image": "C:\\Windows\\SysWOW64\\IExplorer.exe",
+            "orig": false,
+            "started": 2463,
+            "terminated": 2619
+        },
+        {
+            "procid": 32,
+            "procid_parent": 27,
+            "pid": 1792,
+            "ppid": 2492,
+            "cmd": "\"C:\\Users\\Admin\\Local Settings\\Application Data\\WINDOWS\\WINLOGON.EXE\"",
+            "image": "C:\\Users\\Admin\\Local Settings\\Application Data\\WINDOWS\\WINLOGON.EXE",
+            "orig": false,
+            "started": 2713,
+            "terminated": 2884
+        },
+        {
+            "procid": 33,
+            "procid_parent": 27,
+            "pid": 1880,
+            "ppid": 2492,
+            "cmd": "\"C:\\Users\\Admin\\Local Settings\\Application Data\\WINDOWS\\CSRSS.EXE\"",
+            "image": "C:\\Users\\Admin\\Local Settings\\Application Data\\WINDOWS\\CSRSS.EXE",
+            "orig": false,
+            "started": 2884,
+            "terminated": 3009
+        },
+        {
+            "procid": 34,
+            "procid_parent": 27,
+            "pid": 1984,
+            "ppid": 2492,
+            "cmd": "\"C:\\Users\\Admin\\Local Settings\\Application Data\\WINDOWS\\SERVICES.EXE\"",
+            "image": "C:\\Users\\Admin\\Local Settings\\Application Data\\WINDOWS\\SERVICES.EXE",
+            "orig": false,
+            "started": 3009,
+            "terminated": 3165
+        },
+        {
+            "procid": 35,
+            "procid_parent": 27,
+            "pid": 2616,
+            "ppid": 2492,
+            "cmd": "\"C:\\Users\\Admin\\Local Settings\\Application Data\\WINDOWS\\LSASS.EXE\"",
+            "image": "C:\\Users\\Admin\\Local Settings\\Application Data\\WINDOWS\\LSASS.EXE",
+            "orig": false,
+            "started": 3150,
+            "terminated": 3259
+        },
+        {
+            "procid": 36,
+            "procid_parent": 27,
+            "pid": 944,
+            "ppid": 2492,
+            "cmd": "\"C:\\Users\\Admin\\Local Settings\\Application Data\\WINDOWS\\SMSS.EXE\"",
+            "image": "C:\\Users\\Admin\\Local Settings\\Application Data\\WINDOWS\\SMSS.EXE",
+            "orig": false,
+            "started": 3274,
+            "terminated": 3415
+        },
+        {
+            "procid": 37,
+            "procid_parent": 8,
+            "pid": 1680,
+            "ppid": 580,
+            "cmd": "\"C:\\Program Files (x86)\\Microsoft Office\\Office14\\OUTLOOK.EXE\" -Embedding",
+            "image": "C:\\Program Files (x86)\\Microsoft Office\\Office14\\OUTLOOK.EXE",
+            "orig": true,
+            "started": 4803
+        }
+    ],
+    "signatures": [
+        {
+            "label": "winlogon_persistence",
+            "name": "Modifies WinLogon for persistence",
+            "score": 10,
+            "ttp": [
+                "T1547.004",
+                "T1112"
+            ],
+            "tags": [
+                "persistence"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Shell = \"Explorer.exe \\\"C:\\\\Windows\\\\system32\\\\IExplorer.exe\\\"\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Userinit = \"C:\\\\Windows\\\\system32\\\\userinit.exe,C:\\\\Windows\\\\system32\\\\IExplorer.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "modifies_file_extension_visibility",
+            "name": "Modifies visibility of file extensions in Explorer",
+            "score": 10,
+            "ttp": [
+                "T1564.001",
+                "T1112"
+            ],
+            "tags": [
+                "evasion"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\HideFileExt = \"1\"",
+                    "description": "Set value (int)",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "modifies_global_file_visibility",
+            "name": "Modifies visiblity of hidden/system files in Explorer",
+            "score": 10,
+            "ttp": [
+                "T1564.001",
+                "T1112"
+            ],
+            "tags": [
+                "evasion"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\ShowSuperHidden = \"0\"",
+                    "description": "Set value (int)",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "disables_regtools",
+            "name": "Disables RegEdit via registry modification",
+            "score": 8,
+            "tags": [
+                "evasion"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\DisableRegistryTools = \"1\"",
+                    "description": "Set value (int)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\DisableRegistryTools = \"1\"",
+                    "description": "Set value (int)",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "disables_system_restore",
+            "name": "Disables use of System Restore points",
+            "score": 8,
+            "ttp": [
+                "T1490"
+            ],
+            "tags": [
+                "evasion"
+            ]
+        },
+        {
+            "name": "Executes dropped EXE",
+            "score": 7,
+            "indicators": [
+                {
+                    "pid": 2536,
+                    "procid": 28
+                },
+                {
+                    "pid": 2664,
+                    "procid": 29
+                },
+                {
+                    "pid": 1636,
+                    "procid": 30
+                },
+                {
+                    "pid": 2032,
+                    "procid": 31
+                },
+                {
+                    "pid": 1792,
+                    "procid": 32
+                },
+                {
+                    "pid": 1880,
+                    "procid": 33
+                },
+                {
+                    "pid": 1984,
+                    "procid": 34
+                },
+                {
+                    "pid": 2616,
+                    "procid": 35
+                },
+                {
+                    "pid": 944,
+                    "procid": 36
+                }
+            ]
+        },
+        {
+            "name": "Loads dropped DLL",
+            "score": 7,
+            "indicators": [
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2492,
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "sig_reg_assoc_executable",
+            "name": "Modifies system executable filetype association",
+            "score": 7,
+            "ttp": [
+                "T1112",
+                "T1546.001"
+            ],
+            "tags": [
+                "persistence"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\batfile\\shell\\open\\command",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\exefile\\ = \"File Folder\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\exefile\\shell\\open\\command",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\lnkfile\\shell\\open\\command",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\lnkfile\\shell",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\piffile\\shell\\open\\command\\ = \"\\\"C:\\\\Windows\\\\system32\\\\shell.exe\\\" \\\"%1\\\" %*\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\batfile\\shell\\open\\command\\ = \"\\\"C:\\\\Windows\\\\system32\\\\shell.exe\\\" \\\"%1\\\" %*\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\comfile\\shell\\open\\command",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\comfile\\shell\\open\\command\\ = \"\\\"C:\\\\Windows\\\\system32\\\\shell.exe\\\" \\\"%1\\\" %*\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\exefile\\shell\\open\\command\\ = \"\\\"C:\\\\Windows\\\\system32\\\\shell.exe\\\" \\\"%1\\\" %*\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\lnkfile\\shell\\open",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\lnkfile\\shell\\open\\command\\ = \"\\\"C:\\\\Windows\\\\system32\\\\shell.exe\\\" \\\"%1\\\" %*\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\piffile\\shell\\open\\command",
+                    "description": "Key created",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "creates_runkey_registry",
+            "name": "Adds Run key to start application",
+            "score": 6,
+            "ttp": [
+                "T1547.001",
+                "T1112"
+            ],
+            "tags": [
+                "persistence"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\System Monitoring = \"C:\\\\Users\\\\Admin\\\\Local Settings\\\\Application Data\\\\WINDOWS\\\\LSASS.EXE\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\xk = \"C:\\\\Windows\\\\xk.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\MSMSGS = \"C:\\\\Users\\\\Admin\\\\Local Settings\\\\Application Data\\\\WINDOWS\\\\WINLOGON.EXE\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\ServiceAdmin = \"C:\\\\Users\\\\Admin\\\\Local Settings\\\\Application Data\\\\WINDOWS\\\\SERVICES.EXE\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\LogonAdmin = \"C:\\\\Users\\\\Admin\\\\Local Settings\\\\Application Data\\\\WINDOWS\\\\CSRSS.EXE\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "fw_desktop_ini",
+            "name": "Drops desktop.ini file(s)",
+            "score": 6,
+            "indicators": [
+                {
+                    "ioc": "F:\\desktop.ini",
+                    "description": "File created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "C:\\desktop.ini",
+                    "description": "File opened for modification",
+                    "procid": 27
+                },
+                {
+                    "ioc": "C:\\desktop.ini",
+                    "description": "File created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "F:\\desktop.ini",
+                    "description": "File opened for modification",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "file_drive_discovery",
+            "name": "Enumerates connected drives",
+            "score": 6,
+            "ttp": [
+                "T1012",
+                "T1120",
+                "T1082"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\??\\V:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\H:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\I:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\J:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\L:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\T:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\X:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\Y:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\Z:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\M:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\O:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\Q:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\R:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\U:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\W:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\E:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\K:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\N:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\P:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\B:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\G:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\??\\S:",
+                    "description": "File opened (read-only)",
+                    "procid": 27
+                }
+            ],
+            "desc": "Attempts to read the root path of hard drives other than the default C: drive."
+        },
+        {
+            "label": "fw_system32",
+            "name": "Drops file in System32 directory",
+            "score": 5,
+            "indicators": [
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\Mig2.scr",
+                    "description": "File created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\Mig2.scr",
+                    "description": "File opened for modification",
+                    "procid": 27
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfc007.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\shell.exe",
+                    "description": "File opened for modification",
+                    "procid": 27
+                },
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\PerfStringBackup.TMP",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfc010.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfh010.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfc011.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\IExplorer.exe",
+                    "description": "File opened for modification",
+                    "procid": 27
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfh007.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfc009.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfc00C.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfh011.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\PerfStringBackup.INI",
+                    "description": "File opened for modification",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\IExplorer.exe",
+                    "description": "File created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfh009.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfc00A.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfh00A.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\system32\\perfh00C.dat",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\shell.exe",
+                    "description": "File created",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "fw_windows",
+            "name": "Drops file in Windows directory",
+            "score": 4,
+            "indicators": [
+                {
+                    "ioc": "C:\\Windows\\xk.exe",
+                    "description": "File created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "C:\\Windows\\inf\\Outlook\\outlperf.h",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\inf\\Outlook\\outlperf.h",
+                    "description": "File opened for modification",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\inf\\Outlook\\0009\\outlperf.ini",
+                    "description": "File created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "C:\\Windows\\xk.exe",
+                    "description": "File opened for modification",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "file_antivm_ide_drive",
+            "name": "Enumerates physical storage devices",
+            "score": 3,
+            "ttp": [
+                "T1082"
+            ],
+            "desc": "Attempts to interact with connected storage/optical drive(s)."
+        },
+        {
+            "label": "modifies_control_panel",
+            "name": "Modifies Control Panel",
+            "tags": [
+                "evasion"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Control Panel\\Desktop\\",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Control Panel\\Desktop\\SCRNSAVE.EXE = \"C:\\\\Windows\\\\system32\\\\Mig~mig.SCR\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Control Panel\\Desktop\\ScreenSaverIsSecure = \"0\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Control Panel\\Desktop\\ScreenSaveTimeOut = \"600\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "label": "reg_software_classes",
+            "name": "Modifies registry class",
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063035-0000-0000-C000-000000000046}\\TypeLib",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063039-0000-0000-C000-000000000046}\\TypeLib\\ = \"{00062FFF-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000672D9-0000-0000-C000-000000000046}\\TypeLib\\ = \"{00062FFF-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006303C-0000-0000-C000-000000000046}\\TypeLib\\ = \"{00062FFF-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630C9-0000-0000-C000-000000000046}\\TypeLib\\Version = \"9.4\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630E9-0000-0000-C000-000000000046}\\ProxyStubClsid32\\ = \"{00020424-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630DF-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006309D-0000-0000-C000-000000000046}\\ProxyStubClsid32\\ = \"{00020424-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006F026-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000672F8-0000-0000-C000-000000000046}\\TypeLib",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063103-0000-0000-C000-000000000046}\\TypeLib",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630DB-0000-0000-C000-000000000046}\\TypeLib",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630F7-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630EC-0000-0000-C000-000000000046}\\TypeLib",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630EC-0000-0000-C000-000000000046}\\TypeLib\\ = \"{00062FFF-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630F3-0000-0000-C000-000000000046}\\ = \"NavigationPaneEvents_12\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630A0-0000-0000-C000-000000000046}\\ProxyStubClsid32\\ = \"{00020424-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630EF-0000-0000-C000-000000000046}\\TypeLib\\Version = \"9.4\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630F1-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000672E2-0000-0000-C000-000000000046}\\TypeLib\\Version = \"9.4\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063006-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630D7-0000-0000-C000-000000000046}\\ = \"_NewItemAlertRuleAction\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630E3-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630C8-0000-0000-C000-000000000046}\\ = \"_SelectNamesDialog\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006307F-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063025-0000-0000-C000-000000000046}\\ = \"_NoteItem\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063022-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063002-0000-0000-C000-000000000046}\\ = \"_NameSpace\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630D4-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630D7-0000-0000-C000-000000000046}\\ProxyStubClsid32\\ = \"{00020424-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630E5-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006F025-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630E0-0000-0000-C000-000000000046}\\ProxyStubClsid32\\ = \"{00020424-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000672E5-0000-0000-C000-000000000046}\\ = \"OlkLabelEvents\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006308D-0000-0000-C000-000000000046}\\ = \"_Views\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630A7-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630CA-0000-0000-C000-000000000046}\\TypeLib\\ = \"{00062FFF-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063003-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006303B-0000-0000-C000-000000000046}\\ = \"Recipients\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063049-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006302F-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000672D9-0000-0000-C000-000000000046}\\ = \"_OlkLabel\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000672D9-0000-0000-C000-000000000046}\\TypeLib\\Version = \"9.4\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063001-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063041-0000-0000-C000-000000000046}\\ProxyStubClsid32\\ = \"{00020424-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630EC-0000-0000-C000-000000000046}\\ProxyStubClsid32\\ = \"{00020424-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00067368-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063072-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006307C-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630F0-0000-0000-C000-000000000046}\\ = \"_NavigationGroup\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006304A-0000-0000-C000-000000000046}\\TypeLib",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063043-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006302C-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006302F-0000-0000-C000-000000000046}\\TypeLib",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063093-0000-0000-C000-000000000046}\\ProxyStubClsid32",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630F3-0000-0000-C000-000000000046}\\TypeLib\\ = \"{00062FFF-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000630F3-0000-0000-C000-000000000046}\\TypeLib\\Version = \"9.4\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\piffile\\shell\\open\\command\\ = \"\\\"C:\\\\Windows\\\\system32\\\\shell.exe\\\" \\\"%1\\\" %*\"",
+                    "description": "Set value (str)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{000672E3-0000-0000-C000-000000000046}\\ = \"OlkComboBoxEvents\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006304A-0000-0000-C000-000000000046}\\ProxyStubClsid32\\ = \"{00020424-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063095-0000-0000-C000-000000000046}\\TypeLib\\Version = \"9.4\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063062-0000-0000-C000-000000000046}\\TypeLib\\ = \"{00062FFF-0000-0000-C000-000000000046}\"",
+                    "description": "Set value (str)",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{00063078-0000-0000-C000-000000000046}",
+                    "description": "Key created",
+                    "procid": 37
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Classes\\Interface\\{0006309A-0000-0000-C000-000000000046}\\TypeLib",
+                    "description": "Key created",
+                    "procid": 37
+                }
+            ]
+        },
+        {
+            "name": "Suspicious behavior: AddClipboardFormatListener",
+            "indicators": [
+                {
+                    "pid": 1680,
+                    "procid": 37
+                }
+            ]
+        },
+        {
+            "name": "Suspicious behavior: EnumeratesProcesses",
+            "indicators": [
+                {
+                    "pid": 2492,
+                    "procid": 27
+                }
+            ]
+        },
+        {
+            "name": "Suspicious behavior: GetForegroundWindowSpam",
+            "indicators": [
+                {
+                    "pid": 1680,
+                    "procid": 37
+                }
+            ]
+        },
+        {
+            "name": "Suspicious use of FindShellTrayWindow",
+            "indicators": [
+                {
+                    "pid": 1680,
+                    "procid": 37
+                },
+                {
+                    "pid": 1680,
+                    "procid": 37
+                },
+                {
+                    "pid": 1680,
+                    "procid": 37
+                }
+            ]
+        },
+        {
+            "name": "Suspicious use of SendNotifyMessage",
+            "indicators": [
+                {
+                    "pid": 1680,
+                    "procid": 37
+                },
+                {
+                    "pid": 1680,
+                    "procid": 37
+                }
+            ]
+        },
+        {
+            "name": "Suspicious use of SetWindowsHookEx",
+            "indicators": [
+                {
+                    "pid": 2492,
+                    "procid": 27
+                },
+                {
+                    "pid": 2536,
+                    "procid": 28
+                },
+                {
+                    "pid": 2664,
+                    "procid": 29
+                },
+                {
+                    "pid": 1636,
+                    "procid": 30
+                },
+                {
+                    "pid": 2032,
+                    "procid": 31
+                },
+                {
+                    "pid": 1792,
+                    "procid": 32
+                },
+                {
+                    "pid": 1880,
+                    "procid": 33
+                },
+                {
+                    "pid": 1984,
+                    "procid": 34
+                },
+                {
+                    "pid": 2616,
+                    "procid": 35
+                },
+                {
+                    "pid": 944,
+                    "procid": 36
+                },
+                {
+                    "pid": 1680,
+                    "procid": 37
+                }
+            ]
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory",
+            "indicators": [
+                {
+                    "description": "PID 2492 wrote to memory of 2536",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2536",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2536",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2536",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2664",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 29
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2664",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 29
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2664",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 29
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2664",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 29
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1636",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1636",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1636",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1636",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2032",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2032",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2032",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2032",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1792",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 32
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1792",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 32
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1792",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 32
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1792",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 32
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1880",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1880",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1880",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1880",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1984",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 34
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1984",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 34
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1984",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 34
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 1984",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 34
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2616",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2616",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2616",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 2616",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 944",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 944",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 944",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 2492 wrote to memory of 944",
+                    "pid": 2492,
+                    "procid": 27,
+                    "procid_target": 36
+                }
+            ]
+        },
+        {
+            "label": "modifies_system_policy",
+            "name": "System policy modification",
+            "ttp": [
+                "T1112"
+            ],
+            "tags": [
+                "evasion"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoFolderOptions = \"1\"",
+                    "description": "Set value (int)",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+                    "description": "Key created",
+                    "procid": 27
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\DisableRegistryTools = \"1\"",
+                    "description": "Set value (int)",
+                    "procid": 27
+                }
+            ]
+        }
+    ],
+    "tags": null,
+    "network": {},
+    "dumped": [
+        {
+            "at": 1137,
+            "pid": 2492,
+            "procid": 27,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\winlogon.exe",
+            "name": "files/0x0008000000016831-60.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "a0129992151a3b73686b303e29a76c45",
+            "sha1": "b55075f0c8b9480c920a9776094402e43d18115f",
+            "sha256": "9071d7890a075cf96303d8ff961d8e61deca500d24f295cfc1cbcd98e37a7816",
+            "sha512": "f954f5ca901d831ae3e354592826e54ac9bd262132e854ea74eaf481b88f03935cec9c9a5c5a74158d90c52db4e3142eb9b194049b5cb04eb13a9b057ea5bd28",
+            "ssdeep": "3072:Ax/5F/E7tEf0E+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cx+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 1340,
+            "pid": 2536,
+            "procid": 28,
+            "path": "C:\\Windows\\xk.exe",
+            "name": "files/0x0009000000016c43-161.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "7f12da43783b03cf9d1279d0806e2b92",
+            "sha1": "780e045d17384f79c772b0c498da2ea569021e6e",
+            "sha256": "b186405bd1156a76bf9a7cef1abe82f16153f52540cc3a01032d337d3ab541f1",
+            "sha512": "c53532129e471c57c14b8b3829d34cc206fda26b2b53e685089ee84816c9113305a82f1a1bc661f6f148caee63509d2564cec029c5fd59c3aad15836962349e6",
+            "ssdeep": "3072:Ax/5F/E7tEf0V+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cM+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 1543,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Windows\\SysWOW64\\IExplorer.exe",
+            "name": "files/0x0006000000016d23-164.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "610946e229a677a0a5aa27fbbbef7ec4",
+            "sha1": "61ce46fe8fe955afdb2e3b04dcd63997da3dc0c8",
+            "sha256": "f52288320852b17fc19e62c40d9d2e31dae2dff9d0d022f2c8d55787ab2f089b",
+            "sha512": "8a5f9d966ccf76b27064ec36dae38e233fce3e1a2acf51198ba11b9e425a574fc03625faf9c594230e4ce443e70f278e78d4327f684e65e2e41798ad0cc578fd",
+            "ssdeep": "3072:Ax/5F/E7tEf0o+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cB+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2151,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Windows\\SysWOW64\\IExplorer.exe",
+            "name": "files/0x0006000000016d23-166.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "610946e229a677a0a5aa27fbbbef7ec4",
+            "sha1": "61ce46fe8fe955afdb2e3b04dcd63997da3dc0c8",
+            "sha256": "f52288320852b17fc19e62c40d9d2e31dae2dff9d0d022f2c8d55787ab2f089b",
+            "sha512": "8a5f9d966ccf76b27064ec36dae38e233fce3e1a2acf51198ba11b9e425a574fc03625faf9c594230e4ce443e70f278e78d4327f684e65e2e41798ad0cc578fd",
+            "ssdeep": "3072:Ax/5F/E7tEf0o+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cB+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2167,
+            "pid": 2664,
+            "procid": 29,
+            "path": "C:\\Windows\\SysWOW64\\IExplorer.exe",
+            "name": "files/0x0006000000016d23-170.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "610946e229a677a0a5aa27fbbbef7ec4",
+            "sha1": "61ce46fe8fe955afdb2e3b04dcd63997da3dc0c8",
+            "sha256": "f52288320852b17fc19e62c40d9d2e31dae2dff9d0d022f2c8d55787ab2f089b",
+            "sha512": "8a5f9d966ccf76b27064ec36dae38e233fce3e1a2acf51198ba11b9e425a574fc03625faf9c594230e4ce443e70f278e78d4327f684e65e2e41798ad0cc578fd",
+            "ssdeep": "3072:Ax/5F/E7tEf0o+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cB+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2385,
+            "pid": 1636,
+            "procid": 30,
+            "path": "C:\\Windows\\xk.exe",
+            "name": "files/0x0009000000016c43-228.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "b5f586d6ad5bbaf2d36110bb82ce4a53",
+            "sha1": "61e5527f5af8aef3798d73590b0a5438a75b5bc2",
+            "sha256": "ce134dfddc2efe37bf06ec60dd1d2fdcba07607436542d958009ac4d4cd53dcd",
+            "sha512": "6b3979a647fc3c93d16bab2eb33107cf95db1e65f8b18c1892b023832360d4639f53e773fbf23b2cd4ac21651471836554e54e159bb22eac3ac80791e60d5f0e",
+            "ssdeep": "3072:Ax/5F/E7tEf0Q+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cx+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2479,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Windows\\SysWOW64\\IExplorer.exe",
+            "name": "files/0x0006000000016d23-233.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "4aed095384f9b79f63ca3f700baf6d8b",
+            "sha1": "a201f9d114ca74fe00b17878440c88634946aaaa",
+            "sha256": "8942fddae4bdcbbe34936e60f2c4e98df7fd2f619edb71a0c7df9f698205c260",
+            "sha512": "d93a1d68b48f438251534e8e66d0cf2ba1e2f40ff335b3f87d2e065c4f5262914fa38585cc1fccaaac7c5dd6aba57485e3e795d7dd21907a13a64994fdc7b453",
+            "ssdeep": "3072:Ax/5F/E7tEf0Mk+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c5k+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2494,
+            "pid": 2032,
+            "procid": 31,
+            "path": "C:\\Windows\\SysWOW64\\IExplorer.exe",
+            "name": "files/0x0006000000016d23-237.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "4aed095384f9b79f63ca3f700baf6d8b",
+            "sha1": "a201f9d114ca74fe00b17878440c88634946aaaa",
+            "sha256": "8942fddae4bdcbbe34936e60f2c4e98df7fd2f619edb71a0c7df9f698205c260",
+            "sha512": "d93a1d68b48f438251534e8e66d0cf2ba1e2f40ff335b3f87d2e065c4f5262914fa38585cc1fccaaac7c5dd6aba57485e3e795d7dd21907a13a64994fdc7b453",
+            "ssdeep": "3072:Ax/5F/E7tEf0Mk+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c5k+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2479,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Windows\\SysWOW64\\IExplorer.exe",
+            "name": "files/0x0006000000016d23-231.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "4aed095384f9b79f63ca3f700baf6d8b",
+            "sha1": "a201f9d114ca74fe00b17878440c88634946aaaa",
+            "sha256": "8942fddae4bdcbbe34936e60f2c4e98df7fd2f619edb71a0c7df9f698205c260",
+            "sha512": "d93a1d68b48f438251534e8e66d0cf2ba1e2f40ff335b3f87d2e065c4f5262914fa38585cc1fccaaac7c5dd6aba57485e3e795d7dd21907a13a64994fdc7b453",
+            "ssdeep": "3072:Ax/5F/E7tEf0Mk+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c5k+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2728,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Users\\Admin\\AppData\\Local\\WINDOWS\\WINLOGON.EXE",
+            "name": "files/0x0006000000016d44-240.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "8dcaa8c162338173c4e8aec1f3866e86",
+            "sha1": "a85db6bb0bfc08c56c052e16d912c1217071f837",
+            "sha256": "8dae895d2f90efc96472045149ae29ea555e7a525337a6915f11e48df32a1676",
+            "sha512": "3676b1683bf074777b2a2e06dadab654d6fa7416a008317a66e5c8d478e9425413c64d238cec0c9cfef85d544273587856675e7ab481a6bbf08348a04ebe6f6f",
+            "ssdeep": "3072:Ax/5F/E7tEf0b+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c6+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2728,
+            "pid": 1792,
+            "procid": 32,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\WINDOWS\\WINLOGON.EXE",
+            "name": "files/0x0006000000016d44-246.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "8dcaa8c162338173c4e8aec1f3866e86",
+            "sha1": "a85db6bb0bfc08c56c052e16d912c1217071f837",
+            "sha256": "8dae895d2f90efc96472045149ae29ea555e7a525337a6915f11e48df32a1676",
+            "sha512": "3676b1683bf074777b2a2e06dadab654d6fa7416a008317a66e5c8d478e9425413c64d238cec0c9cfef85d544273587856675e7ab481a6bbf08348a04ebe6f6f",
+            "ssdeep": "3072:Ax/5F/E7tEf0b+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c6+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2728,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Users\\Admin\\AppData\\Local\\WINDOWS\\WINLOGON.EXE",
+            "name": "files/0x0006000000016d44-242.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "8dcaa8c162338173c4e8aec1f3866e86",
+            "sha1": "a85db6bb0bfc08c56c052e16d912c1217071f837",
+            "sha256": "8dae895d2f90efc96472045149ae29ea555e7a525337a6915f11e48df32a1676",
+            "sha512": "3676b1683bf074777b2a2e06dadab654d6fa7416a008317a66e5c8d478e9425413c64d238cec0c9cfef85d544273587856675e7ab481a6bbf08348a04ebe6f6f",
+            "ssdeep": "3072:Ax/5F/E7tEf0b+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c6+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2884,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Users\\Admin\\AppData\\Local\\WINDOWS\\CSRSS.EXE",
+            "name": "files/0x0006000000016d50-249.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "6d9d60e60875e524cc80af67b19e9d3f",
+            "sha1": "7ec7e8d2e90d916ed228af411c40fc77763737d7",
+            "sha256": "8da761c6884b56c5ba4d7a540c8327b2d5290689e29e8fc7133f0fd0b6730ac3",
+            "sha512": "83b352ac578ca864d39191a2fa0514498e18c3043f8e307e40967ac26d37992d2d81582eec462e587f855e03348ce0503b580cc7e51735e1bd9f9a38db709472",
+            "ssdeep": "3072:Ax/5F/E7tEf0D+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cS+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2931,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Users\\Admin\\AppData\\Local\\WINDOWS\\CSRSS.EXE",
+            "name": "files/0x0006000000016d50-251.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "6d9d60e60875e524cc80af67b19e9d3f",
+            "sha1": "7ec7e8d2e90d916ed228af411c40fc77763737d7",
+            "sha256": "8da761c6884b56c5ba4d7a540c8327b2d5290689e29e8fc7133f0fd0b6730ac3",
+            "sha512": "83b352ac578ca864d39191a2fa0514498e18c3043f8e307e40967ac26d37992d2d81582eec462e587f855e03348ce0503b580cc7e51735e1bd9f9a38db709472",
+            "ssdeep": "3072:Ax/5F/E7tEf0D+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cS+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 2931,
+            "pid": 1880,
+            "procid": 33,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\WINDOWS\\CSRSS.EXE",
+            "name": "files/0x0006000000016d50-255.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "6d9d60e60875e524cc80af67b19e9d3f",
+            "sha1": "7ec7e8d2e90d916ed228af411c40fc77763737d7",
+            "sha256": "8da761c6884b56c5ba4d7a540c8327b2d5290689e29e8fc7133f0fd0b6730ac3",
+            "sha512": "83b352ac578ca864d39191a2fa0514498e18c3043f8e307e40967ac26d37992d2d81582eec462e587f855e03348ce0503b580cc7e51735e1bd9f9a38db709472",
+            "ssdeep": "3072:Ax/5F/E7tEf0D+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cS+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 3025,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Users\\Admin\\AppData\\Local\\WINDOWS\\SERVICES.EXE",
+            "name": "files/0x0006000000016d64-258.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "eda0e410c91ba6d077852659e0b435f2",
+            "sha1": "6623ceeb9e0aa78687be5c6798fa6246bd626dfe",
+            "sha256": "4b4c7b845dcd44d1bc70ef43432da6687f0281355e7bced4a868962763dcb362",
+            "sha512": "df4a5358456c08600074e609894e4d8880109f252e0f3cf0fb3384498656deb2e7a9ba68fe23d45dce907369f28ffb3557b796f2859fdd5b392201a69ae2829b",
+            "ssdeep": "3072:Ax/5F/E7tEf0k+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c5+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 3072,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Users\\Admin\\AppData\\Local\\WINDOWS\\SERVICES.EXE",
+            "name": "files/0x0006000000016d64-260.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "eda0e410c91ba6d077852659e0b435f2",
+            "sha1": "6623ceeb9e0aa78687be5c6798fa6246bd626dfe",
+            "sha256": "4b4c7b845dcd44d1bc70ef43432da6687f0281355e7bced4a868962763dcb362",
+            "sha512": "df4a5358456c08600074e609894e4d8880109f252e0f3cf0fb3384498656deb2e7a9ba68fe23d45dce907369f28ffb3557b796f2859fdd5b392201a69ae2829b",
+            "ssdeep": "3072:Ax/5F/E7tEf0k+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c5+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 3072,
+            "pid": 1984,
+            "procid": 34,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\WINDOWS\\SERVICES.EXE",
+            "name": "files/0x0006000000016d64-264.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "eda0e410c91ba6d077852659e0b435f2",
+            "sha1": "6623ceeb9e0aa78687be5c6798fa6246bd626dfe",
+            "sha256": "4b4c7b845dcd44d1bc70ef43432da6687f0281355e7bced4a868962763dcb362",
+            "sha512": "df4a5358456c08600074e609894e4d8880109f252e0f3cf0fb3384498656deb2e7a9ba68fe23d45dce907369f28ffb3557b796f2859fdd5b392201a69ae2829b",
+            "ssdeep": "3072:Ax/5F/E7tEf0k+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c5+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 3165,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Users\\Admin\\AppData\\Local\\WINDOWS\\LSASS.EXE",
+            "name": "files/0x0006000000016d72-267.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "e96ae2a8679a33a5bcdd53cba0020b02",
+            "sha1": "aeacbdcbeb83f9cd3cb33d31ad3b1c3f8b0f7b04",
+            "sha256": "5f2e7277764ac4ab195c128a984fd30640618fc1b9e010fc37810872bf7d7b6d",
+            "sha512": "24e0a28af2d73fcde10bae73e5c210f5bf6cdb4d0016f2a5fe960f99dbed60006699e293ede68fc43f92708e8dcd731b6717dd406564f6a0f482df702b208cbd",
+            "ssdeep": "3072:Ax/5F/E7tEf0K+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cP+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 3181,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Users\\Admin\\AppData\\Local\\WINDOWS\\LSASS.EXE",
+            "name": "files/0x0006000000016d72-269.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "e96ae2a8679a33a5bcdd53cba0020b02",
+            "sha1": "aeacbdcbeb83f9cd3cb33d31ad3b1c3f8b0f7b04",
+            "sha256": "5f2e7277764ac4ab195c128a984fd30640618fc1b9e010fc37810872bf7d7b6d",
+            "sha512": "24e0a28af2d73fcde10bae73e5c210f5bf6cdb4d0016f2a5fe960f99dbed60006699e293ede68fc43f92708e8dcd731b6717dd406564f6a0f482df702b208cbd",
+            "ssdeep": "3072:Ax/5F/E7tEf0K+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cP+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 3196,
+            "pid": 2616,
+            "procid": 35,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\WINDOWS\\LSASS.EXE",
+            "name": "files/0x0006000000016d72-273.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "e96ae2a8679a33a5bcdd53cba0020b02",
+            "sha1": "aeacbdcbeb83f9cd3cb33d31ad3b1c3f8b0f7b04",
+            "sha256": "5f2e7277764ac4ab195c128a984fd30640618fc1b9e010fc37810872bf7d7b6d",
+            "sha512": "24e0a28af2d73fcde10bae73e5c210f5bf6cdb4d0016f2a5fe960f99dbed60006699e293ede68fc43f92708e8dcd731b6717dd406564f6a0f482df702b208cbd",
+            "ssdeep": "3072:Ax/5F/E7tEf0K+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4cP+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 3274,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Users\\Admin\\AppData\\Local\\WINDOWS\\SMSS.EXE",
+            "name": "files/0x0006000000016d7c-276.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "2ee7cda4993a34fb56a267d1c43aa4a8",
+            "sha1": "95f6b71c98869376f6934a05614cc390d23451b5",
+            "sha256": "7c1ac0b80689f0ee2444e721ea5188a526369f67753599e4a7ed9081dbc2c817",
+            "sha512": "b14dcef23c3fd1ed5a3dcbb7ead0ebd4837c58540072bad14cdde5495e855a1329d65d7aa6518bd0fd4614a57a16fd096e72e7ab9732a60a25c65684e010219f",
+            "ssdeep": "3072:Ax/5F/E7tEf0g+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c1+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 3290,
+            "pid": 944,
+            "procid": 36,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\WINDOWS\\SMSS.EXE",
+            "name": "files/0x0006000000016d7c-282.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "2ee7cda4993a34fb56a267d1c43aa4a8",
+            "sha1": "95f6b71c98869376f6934a05614cc390d23451b5",
+            "sha256": "7c1ac0b80689f0ee2444e721ea5188a526369f67753599e4a7ed9081dbc2c817",
+            "sha512": "b14dcef23c3fd1ed5a3dcbb7ead0ebd4837c58540072bad14cdde5495e855a1329d65d7aa6518bd0fd4614a57a16fd096e72e7ab9732a60a25c65684e010219f",
+            "ssdeep": "3072:Ax/5F/E7tEf0g+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c1+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 3290,
+            "pid": 2492,
+            "procid": 27,
+            "path": "\\Users\\Admin\\AppData\\Local\\WINDOWS\\SMSS.EXE",
+            "name": "files/0x0006000000016d7c-278.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "2ee7cda4993a34fb56a267d1c43aa4a8",
+            "sha1": "95f6b71c98869376f6934a05614cc390d23451b5",
+            "sha256": "7c1ac0b80689f0ee2444e721ea5188a526369f67753599e4a7ed9081dbc2c817",
+            "sha512": "b14dcef23c3fd1ed5a3dcbb7ead0ebd4837c58540072bad14cdde5495e855a1329d65d7aa6518bd0fd4614a57a16fd096e72e7ab9732a60a25c65684e010219f",
+            "ssdeep": "3072:Ax/5F/E7tEf0g+p+tYlpJH7iXQNgggHlxDZiYLK5Wpht4xZVX4/awxf/:AxhF4c1+wWJH7igNgjdFKsCRAR/",
+            "size": 278528
+        },
+        {
+            "at": 7502,
+            "pid": 1680,
+            "procid": 37,
+            "name": "memory/1680-309-0x000000005FFF0000-0x0000000060000000-memory.dmp",
+            "kind": "region",
+            "origin": "protect",
+            "addr": 1610547200,
+            "length": 65536
+        },
+        {
+            "at": 7720,
+            "pid": 1680,
+            "procid": 37,
+            "name": "memory/1680-310-0x000000007325D000-0x0000000073268000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 1931857920,
+            "length": 45056
+        },
+        {
+            "at": 10934,
+            "pid": 1680,
+            "procid": 37,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\FORMS\\FRMCACHE.DAT",
+            "name": "files/0x0005000000018690-354.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "0ac03ae8e231233860af8e7ec7c35eed",
+            "sha1": "ed2012b8f534291bcaeab10f08f4560e1b311974",
+            "sha256": "5b4df9bb2c2399f0588cfc00c5ba338e2ad1b1c54bcc675a5d3c30358e8e5968",
+            "sha512": "1a67cb753bca3c0851102d65ee389153051db14270b14f1a347a16abad8376c3258a8cba8a37b9c66e8128809cd499a624c30a8d003cd0e8483c1bc232156529",
+            "ssdeep": "3072:IqoQGrt0Fvm5j4A7smkuG4Bgd9hgtmiGu2:Vuj4A7smk8qymi2",
+            "size": 241060
+        },
+        {
+            "at": 11043,
+            "pid": 1680,
+            "procid": 37,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\FORMS\\FRMCACHE.DAT",
+            "name": "files/0x0005000000018690-367.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "7898a2d3d3fc81a32fba9c039840198b",
+            "sha1": "4e1f7e74808e16fd9f0b3a5c13d480fe98adf5dd",
+            "sha256": "3b231ae10c2d099be2f6242a0292a16931d9ddbaba9a10130db5bf420082b4f8",
+            "sha512": "b448f646ad151c268a5de210dc3b31ee771b110d57308848cd1ece421c128a9513b7a12f51fab05d6476c4f7978265b53d07ae2977d347f4ff23611c93c8b489",
+            "ssdeep": "3072:ZsmkuG4Bgd9hgtmiGu21qoQxrt0Fvtr8n:Zsmk8qymi24G8n",
+            "size": 236200
+        },
+        {
+            "at": 11137,
+            "pid": 1680,
+            "procid": 37,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\FORMS\\FRMCACHE.DAT",
+            "name": "files/0x0005000000018690-377.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "4b3facc33be9e2a090e5950b1d40c40a",
+            "sha1": "88f455ab3919e707df57eaca2a4355089965c81b",
+            "sha256": "8c315f6b785eccbff6d60cc6c8430d2f2a316e092e3fb565800901ff16ca6c75",
+            "sha512": "2f6664d2cc81a956ef800c10df547e25d41aaa273e92792bbbd85ae26ae9b5d3bb5629acba38d63e0f1c3761b29eecf2fc3aa46c70a32e63a8ed5fcaf030bf91",
+            "ssdeep": "3072:xABgd9hgtmiGu21qoQxrt0Fvtr8niiuyb+:qqymi24G8niiuyi",
+            "size": 245980
+        },
+        {
+            "at": 11137,
+            "pid": 1680,
+            "procid": 37,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\FORMS\\FRMCACHE.DAT",
+            "name": "files/0x0005000000018690-382.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "4b3facc33be9e2a090e5950b1d40c40a",
+            "sha1": "88f455ab3919e707df57eaca2a4355089965c81b",
+            "sha256": "8c315f6b785eccbff6d60cc6c8430d2f2a316e092e3fb565800901ff16ca6c75",
+            "sha512": "2f6664d2cc81a956ef800c10df547e25d41aaa273e92792bbbd85ae26ae9b5d3bb5629acba38d63e0f1c3761b29eecf2fc3aa46c70a32e63a8ed5fcaf030bf91",
+            "ssdeep": "3072:xABgd9hgtmiGu21qoQxrt0Fvtr8niiuyb+:qqymi24G8niiuyi",
+            "size": 245980
+        },
+        {
+            "at": 15208,
+            "pid": 1680,
+            "procid": 37,
+            "name": "memory/1680-410-0x000000006C0E1000-0x000000006C0E2000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 1812860928,
+            "length": 4096
+        },
+        {
+            "at": 17236,
+            "pid": 1680,
+            "procid": 37,
+            "name": "memory/1680-411-0x000000007325D000-0x0000000073268000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 1931857920,
+            "length": 45056
+        },
+        {
+            "at": 18640,
+            "pid": 1680,
+            "procid": 37,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Outlook\\mapisvc.inf",
+            "name": "files/0x0006000000018b8e-422.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "48dd6cae43ce26b992c35799fcd76898",
+            "sha1": "8e600544df0250da7d634599ce6ee50da11c0355",
+            "sha256": "7bfe1f3691e2b4fb4d61fbf5e9f7782fbe49da1342dbd32201c2cc8e540dbd1a",
+            "sha512": "c1b9322c900f5be0ad166ddcfec9146918fb2589a17607d61490fd816602123f3af310a3e6d98a37d16000d4acbbcd599236f03c3c7f9376aeba7a489b329f31",
+            "size": 1122
+        },
+        {
+            "at": 18656,
+            "pid": 1680,
+            "procid": 37,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\Outlook\\mapisvc.inf",
+            "name": "files/0x0006000000018b8e-433.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "48dd6cae43ce26b992c35799fcd76898",
+            "sha1": "8e600544df0250da7d634599ce6ee50da11c0355",
+            "sha256": "7bfe1f3691e2b4fb4d61fbf5e9f7782fbe49da1342dbd32201c2cc8e540dbd1a",
+            "sha512": "c1b9322c900f5be0ad166ddcfec9146918fb2589a17607d61490fd816602123f3af310a3e6d98a37d16000d4acbbcd599236f03c3c7f9376aeba7a489b329f31",
+            "size": 1122
+        }
+    ]
+}

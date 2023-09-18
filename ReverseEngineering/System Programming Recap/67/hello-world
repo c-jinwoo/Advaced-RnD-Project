@@ -1,0 +1,8 @@
+#!/bin/bash
+target="world"
+echo "hello, ${target}"
+echo "\${#} : ${#}"
+echo "\${@} : ${@}"
+echo "\${1} : ${1}"
+echo "\${2} : ${2}"
+echo "${2} : ${2}" #this is a comment

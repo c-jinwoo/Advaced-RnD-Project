@@ -1,0 +1,7 @@
+Yara name,Number of samples,Family
+Windows_API_Function,5,"{'nolabel': 2, 'pshellinj': 1, 'nishang': 2}"
+Empire_PowerShell_Framework_Gen4,2,"{'nolabel': 1, 'pshellinj': 1}"
+Empire_Get_Keystrokes,1,{'psploitenc': 1}
+Hacktool_Strings_p0wnedShell,3,"{'nolabel': 1, 'nishang': 2}"
+Suspicious_PowerShell_WebDownload_1,1,{'nolabel': 1}
+INDICATOR_SUSPICIOUS_PWSH_B64Encoded_Concatenated_FileEXEC,1,{'nolabel': 1}

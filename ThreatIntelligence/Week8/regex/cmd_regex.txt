@@ -1,0 +1,151 @@
+- ^C:\\Windows\\system32\\cmd.exe \/c [\w\\\s":.]+(Virus.Win32.PolyRansom)[\w\\\s":.]+$
+C:\Windows\system32\cmd.exe /c ""C:\Users\Admin\AppData\Local\Temp\NGcYAwMQ.bat" "C:\Users\Admin\AppData\Local\Temp\Virus.Win32.PolyRansom.exe""
+C:\Windows\system32\cmd.exe /c "C:\Users\Admin\AppData\Local\Temp\Virus.Win32.PolyRansom"
+
+- ^"C:\\Users\\Admin\\AppData\\Local\\Temp\\[\W0-9]+\.exe"$
+"C:\Users\Admin\AppData\Local\Temp\Öåðáåð.exe"
+"C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê.exe"
+"C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê2.exe"
+"C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê3.exe"
+"C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê4.exe"
+
+- ^"C:\\Users\\Admin\\AppData\\Local\\(Temp\\)?[A-Za-z0-9.]+\.exe"$
+"C:\Users\Admin\AppData\Local\6AdwCleaner.exe"
+"C:\Users\Admin\AppData\Local\Temp\Virus.Win32.PolyRansom.exe"
+
+- ^"C:\\Windows\\[A-Z0-9]{4}.tmp" \\\\\.\\pipe\\\{[A-Z0-9]{8}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{12}\}$
+"C:\Windows\4C8B.tmp" \\.\pipe\{521E1F38-8D41-49E8-9DD9-1AD931628049}
+"C:\Windows\9DB7.tmp" \\.\pipe\{5D983210-E07A-4516-81E0-21DD0A2D9431}
+"C:\Windows\A593.tmp" \\.\pipe\{10650376-FE2C-4ECF-B705-8C989E15919B}
+
+- ^cmd \/c ("")?C:\\Users\\Admin\\AppData\\Local\\Temp\\[\w\\\s+^.bat]+(.exe|.doc|.rar|.zip|.cmd|.tmp)*(\\302746537\.bat)?(" ")?$
+cmd /c C:\Users\Admin\AppData\Local\Temp\123.rar 
+cmd /c C:\Users\Admin\AppData\Local\Temp\123.zip
+cmd /c C:\Users\Admin\AppData\Local\Temp\Accrued time.doc.exe
+cmd /c C:\Users\Admin\AppData\Local\Temp\Assets2_1.zip
+cmd /c C:\Users\Admin\AppData\Local\Temp\Junction.zip
+cmd /c C:\Users\Admin\AppData\Local\Temp\notepad++.exe
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\1.cmd" "
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\AC18.tmp\302746537.bat" "
+
+- ^cmd \/c ""C:\\Users\\Admin\\AppData\\Local\\Temp\\[A-Za-z]{8}\.bat" "C:\\Users\\Admin\\AppData\\Local\\Temp\\(Øèôðîâùèê4|[A-Za-z]{10}@(ViraLock|PolyRansom))\.exe""$
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\AWMwUEIA.bat" "C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê4.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\LGQEckAY.bat" "C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê4.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\mkEoEIgo.bat" "C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê4.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\NCYkQQog.bat" "C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê4.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\OEkYYIEU.bat" "C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê4.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\QMAAYQcA.bat" "C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê4.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\tcMQgYQU.bat" "C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê4.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\XOoAEcEM.bat" "C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê4.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\FQIkIgQw.bat" "C:\Users\Admin\AppData\Local\Temp\Endermanch@ViraLock.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\fwUcoUQE.bat" "C:\Users\Admin\AppData\Local\Temp\Endermanch@ViraLock.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\icYMcwcs.bat" "C:\Users\Admin\AppData\Local\Temp\Endermanch@ViraLock.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\muYwoMUs.bat" "C:\Users\Admin\AppData\Local\Temp\Endermanch@PolyRansom.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\QWQgYkUo.bat" "C:\Users\Admin\AppData\Local\Temp\Endermanch@PolyRansom.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\RYwAQMsk.bat" "C:\Users\Admin\AppData\Local\Temp\Endermanch@ViraLock.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\saMkQEcw.bat" "C:\Users\Admin\AppData\Local\Temp\Endermanch@ViraLock.exe""
+cmd /c ""C:\Users\Admin\AppData\Local\Temp\vMAkMIYI.bat" "C:\Users\Admin\AppData\Local\Temp\Endermanch@ViraLock.exe""
+
+- ^C:\\Users\\Admin\\AppData\\Local\\Temp\\[\w\+-\.@]+(\.exe)?$
+C:\Users\Admin\AppData\Local\Temp\2015-10-21-Neutrino-EK-malware-payload.exe
+C:\Users\Admin\AppData\Local\Temp\2015-11-10-Angler-EK-malware-payload.exe
+C:\Users\Admin\AppData\Local\Temp\2015-11-10-Angler-EK-malware-payload.exe
+C:\Users\Admin\AppData\Local\Temp\2017-10-03-Ursnif-binary-from-nonudoka.top.exe
+C:\Users\Admin\AppData\Local\Temp\Endermanch@PolyRansom
+C:\Users\Admin\AppData\Local\Temp\Endermanch@SecurityCentral.exe
+C:\Users\Admin\AppData\Local\Temp\Endermanch@ViraLock
+C:\Users\Admin\AppData\Local\Temp\notepad++.exe
+C:\Users\Admin\AppData\Local\Temp\python_icon.exe
+C:\Users\Admin\AppData\Local\Temp\virussign
+
+- ^"C:\\Windows\\System32\\cmd\.exe" \/c taskkill \/f \/pid [\d]{4} & ping -n 3 127\.1 & del \/f \/q "C:\\Users\\Admin\\AppData\\Local\\Temp\\Endermanch@Movie\.mpeg\.exe" & start C:\\Users\\Admin\\AppData\\Local\\[a-z]{8}\.exe -f$
+"C:\Windows\System32\cmd.exe" /c taskkill /f /pid 1692 & ping -n 3 127.1 & del /f /q "C:\Users\Admin\AppData\Local\Temp\Endermanch@Movie.mpeg.exe" & start C:\Users\Admin\AppData\Local\xeozppms.exe -f
+"C:\Windows\System32\cmd.exe" /c taskkill /f /pid 1908 & ping -n 3 127.1 & del /f /q "C:\Users\Admin\AppData\Local\Temp\Endermanch@Movie.mpeg.exe" & start C:\Users\Admin\AppData\Local\qabsbnuj.exe -f
+
+- ^"C:\\Program Files \(x86\)\\Internet Explorer\\IEXPLORE\.EXE" SCODEF:\d{4} CREDAT:\d{5} \/prefetch:2$
+"C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE" SCODEF:1320 CREDAT:17410 /prefetch:2
+"C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE" SCODEF:2220 CREDAT:82945 /prefetch:2
+
+- ^"C:\\Program Files\\Microsoft Office\\Root\\Office16\\WINWORD\.EXE" \/n "C:\\Users\\Admin\\Documents\\[A-Za-z]+\.docx" \/o ""$
+"C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE" /n "C:\Users\Admin\Documents\Are.docx" /o ""
+"C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE" /n "C:\Users\Admin\Documents\These.docx" /o ""
+
+- ^"C:\\Windows\\system32\\rundll32\.exe" [\w\\\s.,:"]+$
+"C:\Windows\system32\rundll32.exe" "C:\Users\Admin\AppData\Local\Temp\wrkE651.tmp", start install worker
+"C:\Windows\system32\rundll32.exe" C:\Windows\system32\shell32.dll,OpenAs_RunDLL C:\Users\Admin\AppData\Local\Temp\1.py
+"C:\Windows\system32\rundll32.exe" C:\Windows\system32\shell32.dll,OpenAs_RunDLL C:\Users\Admin\AppData\Local\Temp\123.rar
+
+- ^cmd \/c "C:\\Users\\Admin\\AppData\\Local\\Temp\\Endermanch@[A-Za-z]+"$
+cmd /c "C:\Users\Admin\AppData\Local\Temp\Endermanch@PolyRansom"
+cmd /c "C:\Users\Admin\AppData\Local\Temp\Endermanch@ViraLock"
+
+- ^C:\\Windows\\system32\\cmd.exe \/c "C:\\Users\\Admin\\AppData\\Local\\Temp\\Endermanch@[A-Za-z]+"$
+C:\Windows\system32\cmd.exe /c "C:\Users\Admin\AppData\Local\Temp\Endermanch@PolyRansom"
+C:\Windows\system32\cmd.exe /c "C:\Users\Admin\AppData\Local\Temp\Endermanch@ViraLock"
+
+- ^reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced \/f \/v [A-Za-z]+ \/t REG_DWORD \/d \d$
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /f /v Hidden /t REG_DWORD /d 2
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /f /v HideFileExt /t REG_DWORD /d 1
+
+- ^C:\\Windows\\system32\\netsh.exe advfirewall [\sa-z]+$
+C:\Windows\system32\netsh.exe advfirewall reset
+C:\Windows\system32\netsh.exe advfirewall set allprofiles state on
+
+- ^C:\\Windows\\System32\\svchost.exe -k [\s\-a-z]+$
+c:\windows\system32\svchost.exe -k netsvcs -s wlidsvc
+C:\Windows\System32\svchost.exe -k swprv
+
+- ^C:\\Windows\\system32\\rundll32.exe [\w\\\s\-{},:.#]+$
+C:\Windows\system32\rundll32.exe C:\Windows\infpub.dat,#1 15
+C:\Windows\System32\rundll32.exe C:\Windows\System32\shell32.dll,SHCreateLocalServerRunDll {9aa46009-3ce0-458a-a354-715610a075e6} -Embedding
+
+- ^"?C:\\Windows\\System32\\msiexec.exe[\w\\\s\/.=":@]+$
+"C:\Windows\System32\msiexec.exe" /i "C:\Users\Admin\AppData\Local\Temp\RarSFX0\PCDefenderSilentSetup.msi"
+"C:\Windows\system32\msiexec.exe" /i "C:\Users\Admin\AppData\Roaming\Windows\Error file remover 1.0.0.0\install\0A01606\Error file remover.msi"  AI_SETUPEXEPATH=C:\Users\Admin\AppData\Local\Temp\Endermanch@WinlockerVB6Blacksod.exe SETUPEXEDIR=C:\Users\Admin\AppData\Local\Temp\ EXE_CMD_LINE="/exenoupdates  /exelang 0 /noprereqs   "
+C:\Windows\system32\msiexec.exe /V
+
+- ^"C:\\Program Files( \(x86\))?\\Internet Explorer\\iexplore.exe" about:blank$
+"C:\Program Files (x86)\Internet Explorer\iexplore.exe" about:blank
+"C:\Program Files\Internet Explorer\IEXPLORE.EXE" about:blank
+
+- Leftovers
+>/c C:\Users\Admin\AppData\Local\Temp\~unins7980.bat ""
+"C:\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe"  "C:\Users\Admin\AppData\Local\Temp\1.py"  
+"C:\Program Files (x86)\antiviruspc2009\avpc2009.exe"
+"C:\Program Files (x86)\HjuTygFcvX\lpsprt.exe"
+"C:\Program Files (x86)\VAV\vav.exe"
+"c:\program files\7-zip\7z.exe" 
+"C:\Program Files\VideoLAN\VLC\vlc.exe" --started-from-file  "C:\Users\Admin\AppData\Local\Temp\123.rar"
+"C:\WINDOWS\302746537.exe" 
+"C:\Windows\system32\cmd.exe" /c del "C:\Users\Admin\AppData\Local\Temp\EN2B55~1.EXE" >> NUL
+"C:\Windows\system32\Dwm.exe"
+"C:\Windows\system32\ipconfig.exe" /flushdns
+"C:\Windows\System32\Notepad.exe" C:\Users\Admin\Desktop\PushSave.vbe
+"taskhost.exe"
+\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+attrib +h .
+C:\Users\Admin\AppData\Local\qabsbnuj.exe  -f 
+C:\Users\Admin\AppData\Roaming\lflesb.exe
+C:\Windows\Explorer.EXE
+C:\Windows\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+C:\Windows\system32\OpenWith.exe -Embedding
+C:\Windows\system32\vssvc.exe
+C:\Windows\SysWOW64\apilogenn.exe
+cmd /c 
+cmd /c "C:\Users\Admin\AppData\Local\Temp\Øèôðîâùèê4"
+cmd /c 154151664462343.bat
+cmd.exe /c reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v   "aztxuihvriyhjfk319" /t REG_SZ /d "\"\"" /f
+cscript.exe  //nologo m.vbs  
+dw20.exe -x -s 460
+explorer
+icacls . /grant Everyone:F /T /C /Q
+mofcomp C:\Users\Admin\AppData\Local\Temp\4otjesjty.mof
+net start winmgmt
+net start wscsvc
+net stop winmgmt /y
+net stop wscsvc
+ping  -n 3 127.1
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /d 0 /t REG_DWORD /f
+sc config WinDefend start= disabled
+sc stop WinDefend
+taskdl.exe

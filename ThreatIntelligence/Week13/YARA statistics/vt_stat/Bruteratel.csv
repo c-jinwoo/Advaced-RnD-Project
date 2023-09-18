@@ -1,0 +1,15 @@
+source,ruleset_name,rule_name
+https://github.com/InQuest/yara-rules-vt,Adobe_XMP_Identifier,Adobe_XMP_Identifier
+https://github.com/Neo23x0/signature-base,hktl_bruteratel_c4,brc4_shellcode
+https://github.com/Neo23x0/signature-base,hktl_bruteratel_c4_badger,HKTL_BruteRatel_Badger_Indicators_Oct22_4
+https://github.com/elastic/protections-artifacts,Windows_Trojan_BruteRatel,Windows_Trojan_BruteRatel_4110d879
+https://github.com/InQuest/yara-rules-vt,Windows_API_Function,Windows_API_Function
+https://github.com/eset/malware-ioc,skip20_sqllang_hook,skip20_sqllang_hook
+https://github.com/Neo23x0/signature-base,gen_nvidia_leaked_cert,SUSP_NVIDIA_LAPSUS_Leak_Compromised_Cert_Mar22_1
+https://github.com/elastic/protections-artifacts,Windows_Trojan_BruteRatel,Windows_Trojan_BruteRatel_9b267f96
+https://github.com/Neo23x0/signature-base,gen_imphash_detection,MAL_Malware_Imphash_Mar23_1
+https://github.com/elastic/protections-artifacts,Windows_Trojan_BruteRatel,Windows_Trojan_BruteRatel_1916686d
+https://github.com/Neo23x0/signature-base,hktl_bruteratel_c4,brc4_core
+https://github.com/elastic/protections-artifacts,Windows_Trojan_BruteRatel,Windows_Trojan_BruteRatel_ade6c9d5
+https://github.com/elastic/protections-artifacts,Windows_Trojan_BruteRatel,Windows_Trojan_BruteRatel_684a39f2
+https://github.com/kevoreilly/CAPEv2,UPX,UPX

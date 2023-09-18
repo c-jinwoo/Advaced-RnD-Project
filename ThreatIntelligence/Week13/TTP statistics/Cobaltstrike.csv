@@ -1,0 +1,16 @@
+TTP,Description,Occurence,Family
+T1140,Deobfuscate/Decode Files or Information,1,{'shlem': 1}
+T1027,Obfuscated Files or Information,9,"{'nolabel': 1, 'shlem': 2, 'rozena': 1, 'cobaltstrike': 3, 'shellcoderunner': 1, 'tedy': 1}"
+T1134.004,Access Token Manipulation::Parent PID Spoofing,2,"{'nolabel': 1, 'tedy': 1}"
+T1497.001,Virtualization/Sandbox Evasion::System Checks,6,"{'nolabel': 1, 'rozena': 1, 'cobaltstrike': 3, 'shlem': 1}"
+T1083,File and Directory Discovery,3,"{'nolabel': 1, 'tedy': 1, 'cobaltstrike': 1}"
+T1016,System Network Configuration Discovery,2,"{'nolabel': 1, 'tedy': 1}"
+T1055.003,Process Injection::Thread Execution Hijacking,2,{'cobaltstrike': 2}
+T1620,Reflective Code Loading,2,{'cobaltstrike': 2}
+T1027.005,Obfuscated Files or Information::Indicator Removal from Tools,1,{'shellcoderunner': 1}
+T1012,Query Registry,1,{'tedy': 1}
+T1082,System Information Discovery,1,{'cobaltstrike': 1}
+T1059,Command and Scripting Interpreter,1,{'cobaltstrike': 1}
+T1129,Shared Modules,1,{'cobaltstrike': 1}
+T1057,Process Discovery,1,{'cobaltstrike': 1}
+T1518,Software Discovery,1,{'cobaltstrike': 1}

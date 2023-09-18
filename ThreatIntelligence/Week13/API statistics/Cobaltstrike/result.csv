@@ -1,0 +1,412 @@
+Function,DLL,Occurence,Family,Associated
+VirtualAlloc,KERNEL32,11,"{'rozena': 3, 'cobaltstrike': 5, 'shlem': 2, 'shelma': 1}",Injection
+VirtualProtect,KERNEL32,8,"{'nolabel': 1, 'rozena': 2, 'cobaltstrike': 4, 'tedy': 1}",Injection
+GetProcAddress,KERNEL32,17,"{'nolabel': 1, 'rozena': 4, 'cobaltstrike': 8, 'shlem': 2, 'tedy': 1, 'shelma': 1}",Evasion
+LoadLibraryA,KERNEL32,11,"{'rozena': 3, 'shlem': 2, 'cobaltstrike': 5, 'shelma': 1}",Evasion
+GetLastError,KERNEL32,13,"{'nolabel': 1, 'rozena': 3, 'cobaltstrike': 8, 'tedy': 1}"
+InitializeCriticalSection,KERNEL32,7,"{'nolabel': 1, 'rozena': 1, 'cobaltstrike': 4, 'tedy': 1}"
+EnterCriticalSection,KERNEL32,12,"{'nolabel': 1, 'rozena': 2, 'cobaltstrike': 8, 'tedy': 1}"
+LeaveCriticalSection,KERNEL32,12,"{'nolabel': 1, 'rozena': 2, 'cobaltstrike': 8, 'tedy': 1}"
+DeleteCriticalSection,KERNEL32,12,"{'nolabel': 1, 'rozena': 2, 'cobaltstrike': 8, 'tedy': 1}"
+LocalFree,KERNEL32,3,"{'rozena': 1, 'cobaltstrike': 2}"
+FormatMessageA,KERNEL32,2,"{'rozena': 1, 'cobaltstrike': 1}"
+SetEndOfFile,KERNEL32,4,"{'rozena': 1, 'cobaltstrike': 3}"
+UnhandledExceptionFilter,KERNEL32,11,"{'rozena': 3, 'cobaltstrike': 8}"
+SetUnhandledExceptionFilter,KERNEL32,17,"{'rozena': 4, 'cobaltstrike': 10, 'shlem': 2, 'shelma': 1}"
+GetCurrentProcess,KERNEL32,11,"{'rozena': 3, 'cobaltstrike': 8}",Enumeration
+TerminateProcess,KERNEL32,10,"{'rozena': 2, 'cobaltstrike': 8}",Helper
+IsProcessorFeaturePresent,KERNEL32,9,"{'rozena': 3, 'cobaltstrike': 6}"
+IsDebuggerPresent,KERNEL32,9,"{'rozena': 3, 'cobaltstrike': 6}",Anti-Debugging
+GetStartupInfoW,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+GetModuleHandleW,KERNEL32,11,"{'nolabel': 1, 'rozena': 3, 'cobaltstrike': 6, 'tedy': 1}"
+QueryPerformanceCounter,KERNEL32,11,"{'rozena': 3, 'cobaltstrike': 8}",Anti-Debugging
+GetCurrentProcessId,KERNEL32,11,"{'rozena': 3, 'cobaltstrike': 8}",Enumeration
+GetCurrentThreadId,KERNEL32,11,"{'rozena': 3, 'cobaltstrike': 8}",Enumeration
+GetSystemTimeAsFileTime,KERNEL32,11,"{'rozena': 3, 'cobaltstrike': 8}",Anti-Debugging
+InitializeSListHead,KERNEL32,9,"{'rozena': 3, 'cobaltstrike': 6}"
+RaiseException,KERNEL32,10,"{'rozena': 2, 'cobaltstrike': 8}"
+RtlUnwind,KERNEL32,5,"{'rozena': 2, 'cobaltstrike': 3}"
+SetLastError,KERNEL32,11,"{'rozena': 3, 'cobaltstrike': 8}"
+EncodePointer,KERNEL32,6,"{'rozena': 1, 'cobaltstrike': 5}"
+InitializeCriticalSectionAndSpinCount,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+TlsAlloc,KERNEL32,12,"{'rozena': 2, 'cobaltstrike': 9, 'shlem': 1}"
+TlsGetValue,KERNEL32,12,"{'nolabel': 1, 'rozena': 2, 'cobaltstrike': 8, 'tedy': 1}"
+TlsSetValue,KERNEL32,10,"{'rozena': 2, 'cobaltstrike': 8}"
+TlsFree,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+FreeLibrary,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+LoadLibraryExW,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+ExitProcess,KERNEL32,14,"{'rozena': 3, 'cobaltstrike': 8, 'shlem': 2, 'shelma': 1}"
+GetModuleHandleExW,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+GetStdHandle,KERNEL32,15,"{'rozena': 4, 'cobaltstrike': 8, 'shlem': 2, 'shelma': 1}"
+GetFileType,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+GetModuleFileNameW,KERNEL32,7,"{'rozena': 2, 'cobaltstrike': 5}"
+WriteConsoleW,KERNEL32,15,"{'rozena': 4, 'cobaltstrike': 8, 'shlem': 2, 'shelma': 1}"
+WriteFile,KERNEL32,14,"{'rozena': 3, 'cobaltstrike': 8, 'shlem': 2, 'shelma': 1}",Helper
+HeapAlloc,KERNEL32,11,"{'nolabel': 1, 'rozena': 3, 'cobaltstrike': 6, 'tedy': 1}",Injection
+HeapFree,KERNEL32,11,"{'nolabel': 1, 'rozena': 3, 'cobaltstrike': 6, 'tedy': 1}"
+LCMapStringW,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+HeapReAlloc,KERNEL32,9,"{'rozena': 3, 'cobaltstrike': 6}",Injection
+FlushFileBuffers,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+GetConsoleOutputCP,KERNEL32,6,"{'rozena': 2, 'cobaltstrike': 4}"
+GetConsoleMode,KERNEL32,15,"{'rozena': 4, 'cobaltstrike': 8, 'shlem': 2, 'shelma': 1}"
+OutputDebugStringW,KERNEL32,2,"{'rozena': 1, 'cobaltstrike': 1}"
+CloseHandle,KERNEL32,17,"{'rozena': 4, 'cobaltstrike': 10, 'shlem': 2, 'shelma': 1}"
+GetFileSizeEx,KERNEL32,3,"{'rozena': 1, 'cobaltstrike': 2}"
+SetFilePointerEx,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+FindClose,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}",Helper
+FindFirstFileExW,KERNEL32,7,"{'rozena': 2, 'cobaltstrike': 5}"
+FindNextFileW,KERNEL32,7,"{'rozena': 2, 'cobaltstrike': 5}"
+IsValidCodePage,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+GetACP,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+GetOEMCP,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+GetCPInfo,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+GetCommandLineA,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+GetCommandLineW,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+MultiByteToWideChar,KERNEL32,10,"{'rozena': 3, 'cobaltstrike': 6, 'tedy': 1}"
+WideCharToMultiByte,KERNEL32,10,"{'nolabel': 1, 'rozena': 2, 'cobaltstrike': 6, 'tedy': 1}"
+GetEnvironmentStringsW,KERNEL32,14,"{'rozena': 3, 'cobaltstrike': 8, 'shlem': 2, 'shelma': 1}"
+FreeEnvironmentStringsW,KERNEL32,14,"{'rozena': 3, 'cobaltstrike': 8, 'shlem': 2, 'shelma': 1}"
+GetProcessHeap,KERNEL32,11,"{'nolabel': 1, 'rozena': 3, 'cobaltstrike': 6, 'tedy': 1}",Injection
+SetStdHandle,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+GetStringTypeW,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+ReadFile,KERNEL32,4,"{'rozena': 1, 'cobaltstrike': 3}",Enumeration
+ReadConsoleW,KERNEL32,4,"{'rozena': 1, 'cobaltstrike': 3}"
+CreateFileW,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+HeapSize,KERNEL32,8,"{'rozena': 2, 'cobaltstrike': 6}"
+DecodePointer,KERNEL32,4,"{'rozena': 2, 'cobaltstrike': 2}"
+GetModuleHandleA,KERNEL32,5,"{'shelma': 1, 'cobaltstrike': 2, 'rozena': 2}",Evasion
+__C_specific_handler,MSVCRT,4,"{'shelma': 1, 'cobaltstrike': 2, 'rozena': 1}"
+FindResourceA,KERNEL32,2,{'cobaltstrike': 2},Helper
+LoadResource,KERNEL32,2,{'cobaltstrike': 2},Evasion
+LockResource,KERNEL32,1,{'cobaltstrike': 1},Helper
+RtlCaptureContext,KERNEL32,7,"{'cobaltstrike': 6, 'rozena': 1}"
+RtlLookupFunctionEntry,KERNEL32,7,"{'cobaltstrike': 6, 'rozena': 1}"
+RtlPcToFileHeader,KERNEL32,3,{'cobaltstrike': 3}
+RtlUnwindEx,KERNEL32,6,{'cobaltstrike': 6}
+RtlVirtualUnwind,KERNEL32,7,"{'cobaltstrike': 6, 'rozena': 1}"
+SizeofResource,KERNEL32,2,{'cobaltstrike': 2}
+WaitForMultipleObjects,KERNEL32,9,"{'shlem': 2, 'cobaltstrike': 5, 'rozena': 1, 'shelma': 1}",Evasion
+WaitForSingleObject,KERNEL32,14,"{'shlem': 2, 'cobaltstrike': 9, 'rozena': 2, 'shelma': 1}",Evasion
+VirtualQuery,KERNEL32,11,"{'nolabel': 1, 'shlem': 2, 'cobaltstrike': 4, 'rozena': 2, 'tedy': 1, 'shelma': 1}"
+VirtualFree,KERNEL32,9,"{'shlem': 2, 'cobaltstrike': 4, 'rozena': 2, 'shelma': 1}"
+SwitchToThread,KERNEL32,6,"{'shlem': 2, 'cobaltstrike': 2, 'rozena': 1, 'shelma': 1}"
+SuspendThread,KERNEL32,9,"{'shlem': 2, 'cobaltstrike': 4, 'rozena': 2, 'shelma': 1}",Injection
+SetWaitableTimer,KERNEL32,6,"{'shlem': 2, 'cobaltstrike': 2, 'rozena': 1, 'shelma': 1}",Evasion
+SetProcessPriorityBoost,KERNEL32,6,"{'shlem': 2, 'cobaltstrike': 2, 'rozena': 1, 'shelma': 1}"
+SetEvent,KERNEL32,10,"{'shlem': 2, 'cobaltstrike': 6, 'rozena': 1, 'shelma': 1}"
+SetErrorMode,KERNEL32,6,"{'shlem': 2, 'cobaltstrike': 2, 'rozena': 1, 'shelma': 1}"
+SetConsoleCtrlHandler,KERNEL32,8,"{'shlem': 2, 'cobaltstrike': 4, 'rozena': 1, 'shelma': 1}"
+ResumeThread,KERNEL32,10,"{'shlem': 2, 'cobaltstrike': 5, 'rozena': 2, 'shelma': 1}",Injection
+PostQueuedCompletionStatus,KERNEL32,6,"{'shlem': 2, 'cobaltstrike': 2, 'rozena': 1, 'shelma': 1}"
+LoadLibraryW,KERNEL32,7,"{'shlem': 2, 'cobaltstrike': 3, 'rozena': 1, 'shelma': 1}"
+SetThreadContext,KERNEL32,9,"{'shlem': 2, 'cobaltstrike': 4, 'rozena': 2, 'shelma': 1}",Injection
+GetThreadContext,KERNEL32,9,"{'shlem': 2, 'cobaltstrike': 4, 'rozena': 2, 'shelma': 1}",Injection
+GetSystemInfo,KERNEL32,7,"{'shlem': 2, 'cobaltstrike': 3, 'rozena': 1, 'shelma': 1}"
+GetSystemDirectoryA,KERNEL32,7,"{'shlem': 2, 'cobaltstrike': 3, 'rozena': 1, 'shelma': 1}",Enumeration
+GetQueuedCompletionStatusEx,KERNEL32,6,"{'shlem': 2, 'cobaltstrike': 2, 'rozena': 1, 'shelma': 1}"
+GetProcessAffinityMask,KERNEL32,9,"{'shlem': 2, 'cobaltstrike': 5, 'rozena': 1, 'shelma': 1}"
+DuplicateHandle,KERNEL32,8,"{'shlem': 2, 'cobaltstrike': 4, 'rozena': 1, 'shelma': 1}"
+CreateWaitableTimerExW,KERNEL32,6,"{'shlem': 2, 'cobaltstrike': 2, 'rozena': 1, 'shelma': 1}"
+CreateThread,KERNEL32,8,"{'shlem': 2, 'cobaltstrike': 4, 'rozena': 1, 'shelma': 1}",Injection
+CreateIoCompletionPort,KERNEL32,6,"{'shlem': 2, 'cobaltstrike': 2, 'rozena': 1, 'shelma': 1}"
+CreateFileA,KERNEL32,7,"{'shlem': 2, 'cobaltstrike': 3, 'rozena': 1, 'shelma': 1}",Helper
+CreateEventA,KERNEL32,9,"{'shlem': 2, 'cobaltstrike': 5, 'rozena': 1, 'shelma': 1}"
+AddVectoredExceptionHandler,KERNEL32,7,"{'shlem': 2, 'cobaltstrike': 2, 'rozena': 2, 'shelma': 1}"
+DeleteProcThreadAttributeList,KERNEL32,2,"{'nolabel': 1, 'tedy': 1}"
+InitializeProcThreadAttributeList,KERNEL32,2,"{'nolabel': 1, 'tedy': 1}"
+Sleep,KERNEL32,11,"{'nolabel': 1, 'cobaltstrike': 5, 'rozena': 3, 'tedy': 1, 'shlem': 1}",Anti-Debugging
+UpdateProcThreadAttribute,KERNEL32,2,"{'nolabel': 1, 'tedy': 1}"
+__iob_func,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+_amsg_exit,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+_initterm,MSVCRT,5,"{'nolabel': 1, 'cobaltstrike': 2, 'rozena': 1, 'tedy': 1}"
+_lock,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+_unlock,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+_vscprintf,MSVCRT,2,"{'nolabel': 1, 'tedy': 1}"
+_vsnprintf,MSVCRT,2,"{'nolabel': 1, 'tedy': 1}"
+abort,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+calloc,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+free,MSVCRT,5,"{'nolabel': 1, 'cobaltstrike': 2, 'rozena': 1, 'tedy': 1}"
+fwrite,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+malloc,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+realloc,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+strcat,MSVCRT,2,"{'nolabel': 1, 'tedy': 1}"
+strcmp,MSVCRT,3,"{'nolabel': 1, 'cobaltstrike': 2}"
+strlen,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+strncmp,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+strstr,MSVCRT,2,"{'nolabel': 1, 'tedy': 1}"
+strtok,MSVCRT,2,"{'nolabel': 1, 'tedy': 1}"
+vfprintf,MSVCRT,4,"{'nolabel': 1, 'cobaltstrike': 2, 'tedy': 1}"
+wcscmp,MSVCRT,2,"{'nolabel': 1, 'tedy': 1}"
+wcslen,MSVCRT,2,"{'nolabel': 1, 'tedy': 1}"
+DsRoleFreeMemory,NETAPI32,2,"{'nolabel': 1, 'tedy': 1}"
+DsRoleGetPrimaryDomainInformation,NETAPI32,2,"{'nolabel': 1, 'tedy': 1}"
+SHGetKnownFolderPath,SHELL32,2,"{'nolabel': 1, 'tedy': 1}"
+StrStrIW,SHLWAPI,2,"{'nolabel': 1, 'tedy': 1}"
+CharUpperA,USER32,2,"{'nolabel': 1, 'tedy': 1}"
+GetNativeSystemInfo,KERNEL32,1,{'cobaltstrike': 1},Anti-Debugging
+lstrlenA,KERNEL32,2,{'cobaltstrike': 2}
+IsBadReadPtr,KERNEL32,1,{'cobaltstrike': 1}
+GetThreadLocale,KERNEL32,1,{'cobaltstrike': 1},Enumeration
+GetModuleFileNameA,KERNEL32,2,{'cobaltstrike': 2},Helper
+GetConsoleCP,KERNEL32,2,{'cobaltstrike': 2}
+ResetEvent,KERNEL32,4,{'cobaltstrike': 4}
+WaitForSingleObjectEx,KERNEL32,2,"{'cobaltstrike': 1, 'rozena': 1}",Evasion
+CreateEventW,KERNEL32,1,{'cobaltstrike': 1}
+CompareStringW,KERNEL32,5,"{'cobaltstrike': 4, 'rozena': 1}"
+GetExitCodeProcess,KERNEL32,2,{'cobaltstrike': 2}
+CreateProcessA,KERNEL32,2,{'cobaltstrike': 2},Injection
+GetFileAttributesExW,KERNEL32,2,{'cobaltstrike': 2}
+FindFirstFileExA,KERNEL32,1,{'cobaltstrike': 1}
+FindNextFileA,KERNEL32,2,{'cobaltstrike': 2},Enumeration
+SetEnvironmentVariableA,KERNEL32,1,{'cobaltstrike': 1},Evasion
+LoadStringA,USER32,1,{'cobaltstrike': 1}
+PathFindFileNameA,SHLWAPI,1,{'cobaltstrike': 1}
+ChoosePixelFormat,GDI32,2,{'cobaltstrike': 2}
+GetStockObject,GDI32,2,{'cobaltstrike': 2}
+SetPixelFormat,GDI32,2,{'cobaltstrike': 2}
+SwapBuffers,GDI32,2,{'cobaltstrike': 2}
+AddAtomA,KERNEL32,2,{'cobaltstrike': 2}
+CreateMutexA,KERNEL32,3,"{'cobaltstrike': 2, 'rozena': 1}",Helper
+CreateSemaphoreA,KERNEL32,3,{'cobaltstrike': 3}
+FindAtomA,KERNEL32,2,{'cobaltstrike': 2}
+GetAtomNameA,KERNEL32,2,{'cobaltstrike': 2}
+GetCurrentThread,KERNEL32,4,"{'cobaltstrike': 3, 'rozena': 1}",Enumeration
+GetHandleInformation,KERNEL32,2,{'cobaltstrike': 2}
+GetThreadPriority,KERNEL32,2,{'cobaltstrike': 2}
+GetTickCount,KERNEL32,5,"{'cobaltstrike': 4, 'rozena': 1}",Anti-Debugging
+ReleaseMutex,KERNEL32,3,"{'cobaltstrike': 2, 'rozena': 1}"
+ReleaseSemaphore,KERNEL32,3,{'cobaltstrike': 3}
+RtlAddFunctionTable,KERNEL32,2,{'cobaltstrike': 2}
+SetProcessAffinityMask,KERNEL32,2,{'cobaltstrike': 2}
+SetThreadPriority,KERNEL32,2,{'cobaltstrike': 2},Helper
+TryEnterCriticalSection,KERNEL32,2,{'cobaltstrike': 2}
+__dllonexit,MSVCRT,2,{'cobaltstrike': 2}
+_beginthreadex,MSVCRT,2,{'cobaltstrike': 2}
+_endthreadex,MSVCRT,2,{'cobaltstrike': 2}
+_ftime,MSVCRT,2,{'cobaltstrike': 2}
+_onexit,MSVCRT,2,{'cobaltstrike': 2}
+_setjmp,MSVCRT,2,{'cobaltstrike': 2}
+_write,MSVCRT,2,{'cobaltstrike': 2}
+exit,MSVCRT,3,"{'cobaltstrike': 2, 'rozena': 1}"
+fprintf,MSVCRT,2,{'cobaltstrike': 2}
+fputc,MSVCRT,2,{'cobaltstrike': 2}
+fputs,MSVCRT,2,{'cobaltstrike': 2}
+longjmp,MSVCRT,2,{'cobaltstrike': 2}
+memcmp,MSVCRT,3,"{'cobaltstrike': 2, 'rozena': 1}"
+memcpy,MSVCRT,3,"{'cobaltstrike': 2, 'rozena': 1}"
+memmove,MSVCRT,3,"{'cobaltstrike': 2, 'rozena': 1}"
+memset,MSVCRT,3,"{'cobaltstrike': 2, 'rozena': 1}"
+printf,MSVCRT,2,{'cobaltstrike': 2}
+signal,MSVCRT,2,{'cobaltstrike': 2}
+sprintf,MSVCRT,2,{'cobaltstrike': 2}
+CoLoadLibrary,OLE32,2,{'cobaltstrike': 2}
+glBegin,OPENGL32,2,{'cobaltstrike': 2}
+glClear,OPENGL32,2,{'cobaltstrike': 2}
+glClearColor,OPENGL32,2,{'cobaltstrike': 2}
+glColor3f,OPENGL32,2,{'cobaltstrike': 2}
+glEnd,OPENGL32,2,{'cobaltstrike': 2}
+glPopMatrix,OPENGL32,2,{'cobaltstrike': 2}
+glPushMatrix,OPENGL32,2,{'cobaltstrike': 2}
+glRotatef,OPENGL32,2,{'cobaltstrike': 2}
+glVertex2f,OPENGL32,2,{'cobaltstrike': 2}
+wglCreateContext,OPENGL32,2,{'cobaltstrike': 2}
+wglDeleteContext,OPENGL32,2,{'cobaltstrike': 2}
+wglMakeCurrent,OPENGL32,2,{'cobaltstrike': 2}
+CreateWindowExA,USER32,2,{'cobaltstrike': 2},Evasion
+DefWindowProcA,USER32,2,{'cobaltstrike': 2}
+DestroyWindow,USER32,2,{'cobaltstrike': 2}
+DispatchMessageA,USER32,2,{'cobaltstrike': 2}
+GetDC,USER32,3,{'cobaltstrike': 3},Spying
+LoadCursorA,USER32,2,{'cobaltstrike': 2}
+LoadIconA,USER32,2,{'cobaltstrike': 2}
+MessageBoxA,USER32,3,{'cobaltstrike': 3}
+PeekMessageA,USER32,2,{'cobaltstrike': 2},Spying
+PostQuitMessage,USER32,2,{'cobaltstrike': 2}
+RegisterClassA,USER32,2,{'cobaltstrike': 2}
+ReleaseDC,USER32,3,{'cobaltstrike': 3}
+TranslateMessage,USER32,2,{'cobaltstrike': 2}
+SetEnvironmentVariableW,KERNEL32,4,"{'cobaltstrike': 3, 'rozena': 1}"
+IsWow64Process,KERNEL32,1,{'rozena': 1}
+HeapCreate,KERNEL32,1,{'rozena': 1},Injection
+OpenThread,KERNEL32,1,{'rozena': 1},Injection
+FlushInstructionCache,KERNEL32,1,{'rozena': 1}
+CreateToolhelp32Snapshot,KERNEL32,2,"{'rozena': 1, 'cobaltstrike': 1}",Anti-Debugging
+Thread32First,KERNEL32,1,{'rozena': 1},Injection
+Thread32Next,KERNEL32,1,{'rozena': 1},Injection
+_CorExeMain,MSCOREE,2,"{'shelma': 1, 'msilzilla': 1}"
+SetThreadStackGuarantee,KERNEL32,1,{'rozena': 1}
+TryAcquireSRWLockExclusive,KERNEL32,1,{'rozena': 1}
+ReleaseSRWLockExclusive,KERNEL32,1,{'rozena': 1}
+FormatMessageW,KERNEL32,3,"{'rozena': 1, 'cobaltstrike': 2}"
+AcquireSRWLockExclusive,KERNEL32,1,{'rozena': 1}
+GetCurrentDirectoryW,KERNEL32,3,"{'rozena': 1, 'cobaltstrike': 2}"
+AcquireSRWLockShared,KERNEL32,1,{'rozena': 1}
+ReleaseSRWLockShared,KERNEL32,1,{'rozena': 1}
+GetEnvironmentVariableW,KERNEL32,2,"{'rozena': 1, 'cobaltstrike': 1}"
+GetLastInputInfo,USER32,1,{'rozena': 1}
+NtWriteFile,NTDLL,1,{'rozena': 1}
+RtlNtStatusToDosError,NTDLL,1,{'rozena': 1}
+__current_exception_context,VCRUNTIME140,1,{'rozena': 1}
+__current_exception,VCRUNTIME140,1,{'rozena': 1}
+__CxxFrameHandler3,VCRUNTIME140,1,{'rozena': 1}
+_register_thread_local_exe_atexit_callback,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+__p___argv,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+__p___argc,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_seh_filter_exe,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_exit,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_initialize_onexit_table,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_c_exit,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_crt_atexit,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+terminate,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_set_app_type,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_register_onexit_function,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_cexit,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_initterm_e,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_get_initial_narrow_environment,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_initialize_narrow_environment,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+_configure_narrow_argv,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'rozena': 1}
+__setusermatherr,API-MS-WIN-CRT-MATH-L1-1-0,1,{'rozena': 1}
+__p__commode,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'rozena': 1}
+_set_fmode,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'rozena': 1}
+_configthreadlocale,API-MS-WIN-CRT-LOCALE-L1-1-0,1,{'rozena': 1}
+RegCloseKey,ADVAPI32,2,"{'tedy': 1, 'cobaltstrike': 1}",Helper
+RegGetValueA,ADVAPI32,1,{'tedy': 1},Helper
+RegOpenKeyExA,ADVAPI32,2,"{'tedy': 1, 'cobaltstrike': 1}",Helper
+CreateWindowExW,USER32,1,{'cobaltstrike': 1}
+MessageBoxW,USER32,1,{'cobaltstrike': 1}
+SystemParametersInfoW,USER32,1,{'cobaltstrike': 1}
+DestroyIcon,USER32,1,{'cobaltstrike': 1}
+SetWindowLongPtrW,USER32,1,{'cobaltstrike': 1}
+GetWindowLongPtrW,USER32,1,{'cobaltstrike': 1}
+GetClientRect,USER32,1,{'cobaltstrike': 1}
+InvalidateRect,USER32,1,{'cobaltstrike': 1}
+DrawTextW,USER32,1,{'cobaltstrike': 1}
+GetDialogBaseUnits,USER32,1,{'cobaltstrike': 1}
+EndDialog,USER32,1,{'cobaltstrike': 1}
+DialogBoxIndirectParamW,USER32,1,{'cobaltstrike': 1}
+MoveWindow,USER32,1,{'cobaltstrike': 1}
+SendMessageW,USER32,1,{'cobaltstrike': 1}
+Ordinal_380,COMCTL32,1,{'cobaltstrike': 1}
+MulDiv,KERNEL32,1,{'cobaltstrike': 1}
+SetDllDirectoryW,KERNEL32,1,{'cobaltstrike': 1}
+ExpandEnvironmentStringsW,KERNEL32,1,{'cobaltstrike': 1}
+CreateDirectoryW,KERNEL32,2,{'cobaltstrike': 2}
+GetTempPathW,KERNEL32,2,{'cobaltstrike': 2}
+CreateProcessW,KERNEL32,2,{'cobaltstrike': 2}
+GetTimeZoneInformation,KERNEL32,1,{'cobaltstrike': 1}
+GetDriveTypeW,KERNEL32,2,{'cobaltstrike': 2}
+GetFileInformationByHandle,KERNEL32,2,{'cobaltstrike': 2}
+PeekNamedPipe,KERNEL32,1,{'cobaltstrike': 1},Helper
+SystemTimeToTzSpecificLocalTime,KERNEL32,1,{'cobaltstrike': 1}
+FileTimeToSystemTime,KERNEL32,2,{'cobaltstrike': 2}
+GetFullPathNameW,KERNEL32,1,{'cobaltstrike': 1}
+RemoveDirectoryW,KERNEL32,2,{'cobaltstrike': 2}
+DeleteFileW,KERNEL32,2,{'cobaltstrike': 2}
+FlsAlloc,KERNEL32,1,{'cobaltstrike': 1}
+FlsGetValue,KERNEL32,1,{'cobaltstrike': 1}
+FlsSetValue,KERNEL32,1,{'cobaltstrike': 1}
+FlsFree,KERNEL32,1,{'cobaltstrike': 1}
+OpenProcessToken,ADVAPI32,1,{'cobaltstrike': 1},Injection
+GetTokenInformation,ADVAPI32,1,{'cobaltstrike': 1}
+ConvertStringSecurityDescriptorToSecurityDescriptorW,ADVAPI32,1,{'cobaltstrike': 1}
+ConvertSidToStringSidW,ADVAPI32,1,{'cobaltstrike': 1}
+SelectObject,GDI32,1,{'cobaltstrike': 1}
+DeleteObject,GDI32,1,{'cobaltstrike': 1}
+CreateFontIndirectW,GDI32,1,{'cobaltstrike': 1}
+ConnectNamedPipe,KERNEL32,1,{'cobaltstrike': 1},Helper
+Process32First,KERNEL32,1,{'cobaltstrike': 1},Injection
+Process32Next,KERNEL32,1,{'cobaltstrike': 1},Injection
+InterlockedPushEntrySList,KERNEL32,1,{'cobaltstrike': 1}
+InterlockedFlushSList,KERNEL32,1,{'cobaltstrike': 1}
+GetLocaleInfoW,KERNEL32,1,{'cobaltstrike': 1}
+IsValidLocale,KERNEL32,1,{'cobaltstrike': 1}
+GetUserDefaultLCID,KERNEL32,1,{'cobaltstrike': 1}
+EnumSystemLocalesW,KERNEL32,1,{'cobaltstrike': 1}
+GetDateFormatW,KERNEL32,1,{'cobaltstrike': 1}
+GetTimeFormatW,KERNEL32,1,{'cobaltstrike': 1}
+CompareFileTime,KERNEL32,1,{'cobaltstrike': 1}
+GetCurrentDirectoryA,KERNEL32,1,{'cobaltstrike': 1}
+AreFileApisANSI,KERNEL32,1,{'cobaltstrike': 1}
+DeviceIoControl,KERNEL32,1,{'cobaltstrike': 1},Helper
+SetCurrentDirectoryA,KERNEL32,1,{'cobaltstrike': 1}
+SetCurrentDirectoryW,KERNEL32,1,{'cobaltstrike': 1}
+CreateDirectoryA,KERNEL32,1,{'cobaltstrike': 1}
+DeleteFileA,KERNEL32,1,{'cobaltstrike': 1},Evasion
+RemoveDirectoryA,KERNEL32,1,{'cobaltstrike': 1}
+SetFileAttributesA,KERNEL32,1,{'cobaltstrike': 1},Evasion
+SetFileAttributesW,KERNEL32,1,{'cobaltstrike': 1}
+SetFileTime,KERNEL32,1,{'cobaltstrike': 1},Evasion
+GetTempPathA,KERNEL32,1,{'cobaltstrike': 1},Helper
+GetSystemDirectoryW,KERNEL32,1,{'cobaltstrike': 1}
+GetWindowsDirectoryA,KERNEL32,1,{'cobaltstrike': 1},Enumeration
+GetWindowsDirectoryW,KERNEL32,1,{'cobaltstrike': 1}
+MoveFileA,KERNEL32,1,{'cobaltstrike': 1},Helper
+MoveFileW,KERNEL32,1,{'cobaltstrike': 1}
+GlobalFree,KERNEL32,1,{'cobaltstrike': 1}
+GlobalMemoryStatus,KERNEL32,1,{'cobaltstrike': 1}
+GetVersionExA,KERNEL32,1,{'cobaltstrike': 1},Enumeration
+SetThreadAffinityMask,KERNEL32,1,{'cobaltstrike': 1}
+LoadLibraryExA,KERNEL32,1,{'cobaltstrike': 1},Evasion
+GetDiskFreeSpaceA,KERNEL32,1,{'cobaltstrike': 1}
+GetDiskFreeSpaceW,KERNEL32,1,{'cobaltstrike': 1}
+GetDriveTypeA,KERNEL32,1,{'cobaltstrike': 1},Helper
+GetVolumeInformationW,KERNEL32,1,{'cobaltstrike': 1}
+GetVolumeInformationA,KERNEL32,1,{'cobaltstrike': 1}
+GetDateFormatA,KERNEL32,1,{'cobaltstrike': 1}
+GetTimeFormatA,KERNEL32,1,{'cobaltstrike': 1}
+lstrcatW,KERNEL32,1,{'cobaltstrike': 1}
+lstrlenW,KERNEL32,1,{'cobaltstrike': 1}
+FileTimeToLocalFileTime,KERNEL32,1,{'cobaltstrike': 1}
+FileTimeToDosDateTime,KERNEL32,1,{'cobaltstrike': 1}
+DosDateTimeToFileTime,KERNEL32,1,{'cobaltstrike': 1}
+FindCloseChangeNotification,KERNEL32,1,{'cobaltstrike': 1}
+FindFirstChangeNotificationA,KERNEL32,1,{'cobaltstrike': 1}
+FindFirstChangeNotificationW,KERNEL32,1,{'cobaltstrike': 1}
+FindFirstFileA,KERNEL32,1,{'cobaltstrike': 1},Enumeration
+FindFirstFileW,KERNEL32,1,{'cobaltstrike': 1}
+GetFileAttributesA,KERNEL32,1,{'cobaltstrike': 1},Enumeration
+GetFileAttributesW,KERNEL32,1,{'cobaltstrike': 1}
+GetLogicalDriveStringsW,KERNEL32,1,{'cobaltstrike': 1}
+GetLogicalDriveStringsA,KERNEL32,1,{'cobaltstrike': 1}
+GlobalReAlloc,KERNEL32,1,{'cobaltstrike': 1}
+GlobalAlloc,KERNEL32,1,{'cobaltstrike': 1},Injection
+SetFilePointer,KERNEL32,1,{'cobaltstrike': 1}
+GetFileSize,KERNEL32,1,{'cobaltstrike': 1}
+ExitThread,KERNEL32,1,{'cobaltstrike': 1}
+FreeLibraryAndExitThread,KERNEL32,1,{'cobaltstrike': 1}
+GetOpenFileNameA,COMDLG32,1,{'cobaltstrike': 1}
+GetOpenFileNameW,COMDLG32,1,{'cobaltstrike': 1}
+WNetGetResourceParentA,MPR,1,{'cobaltstrike': 1}
+WNetCloseEnum,MPR,1,{'cobaltstrike': 1},Enumeration
+WNetEnumResourceW,MPR,1,{'cobaltstrike': 1}
+WNetGetResourceInformationW,MPR,1,{'cobaltstrike': 1}
+WNetGetResourceInformationA,MPR,1,{'cobaltstrike': 1}
+WNetAddConnection2A,MPR,1,{'cobaltstrike': 1},Helper
+WNetAddConnection2W,MPR,1,{'cobaltstrike': 1}
+WNetOpenEnumA,MPR,1,{'cobaltstrike': 1},Helper
+WNetOpenEnumW,MPR,1,{'cobaltstrike': 1}
+WNetEnumResourceA,MPR,1,{'cobaltstrike': 1},Helper
+WNetGetResourceParentW,MPR,1,{'cobaltstrike': 1}
+RegSetValueExW,ADVAPI32,1,{'cobaltstrike': 1}
+RegSetValueExA,ADVAPI32,1,{'cobaltstrike': 1},Helper
+RegQueryValueExW,ADVAPI32,1,{'cobaltstrike': 1}
+RegQueryValueExA,ADVAPI32,1,{'cobaltstrike': 1},Enumeration
+RegEnumKeyExA,ADVAPI32,1,{'cobaltstrike': 1},Helper
+RegDeleteValueW,ADVAPI32,1,{'cobaltstrike': 1}
+RegDeleteValueA,ADVAPI32,1,{'cobaltstrike': 1},Helper
+RegDeleteKeyA,ADVAPI32,1,{'cobaltstrike': 1},Helper
+RegCreateKeyExA,ADVAPI32,1,{'cobaltstrike': 1},Helper
+GetUserNameW,ADVAPI32,1,{'cobaltstrike': 1}
+DragQueryFileW,SHELL32,1,{'cobaltstrike': 1}
+DragFinish,SHELL32,1,{'cobaltstrike': 1}
+SHGetMalloc,SHELL32,1,{'cobaltstrike': 1}
+SHGetPathFromIDListA,SHELL32,1,{'cobaltstrike': 1}
+SHBrowseForFolderA,SHELL32,1,{'cobaltstrike': 1}
+DragQueryFileA,SHELL32,1,{'cobaltstrike': 1}
+CoInitialize,OLE32,1,{'cobaltstrike': 1}
+CoUninitialize,OLE32,1,{'cobaltstrike': 1}
+Ordinal_9,OLEAUT32,1,{'cobaltstrike': 1}
+Ordinal_4,OLEAUT32,1,{'cobaltstrike': 1}
+Ordinal_10,OLEAUT32,1,{'cobaltstrike': 1}
+Ordinal_7,OLEAUT32,1,{'cobaltstrike': 1}
+Ordinal_2,OLEAUT32,1,{'cobaltstrike': 1}

@@ -1,0 +1,273 @@
+country,tld,count
+Afghanistan,af
+Åland,ax
+Albania,al
+Algeria,dz
+American Samoa,as,1
+Andorra,ad
+Angola,ao
+Anguilla,ai
+Antarctica,aq
+Antigua and Barbuda,ag
+Argentina,ar
+Armenia,am
+Aruba,aw
+Ascension Island,ac
+Australia,au,44
+Austria,at,29
+Azerbaijan,az,2
+Bahamas,bs
+Bahrain,bh,2
+Bangladesh,bd,1
+Barbados,bb
+Basque Country,eus
+Belarus,by
+Belgium,be,33
+Belize,bz
+Benin,bj
+Bermuda,bm
+Bhutan,bt
+Bolivia,bo
+Bonaire,bq
+Bonaire,an
+Bonaire,nl,54
+Bosnia and Herzegovina,ba,2
+Botswana,bw
+Bouvet Island,bv
+Brazil,br
+British Indian Ocean Territory,io
+British Virgin Islands,vg
+Brunei,bn
+Bulgaria,bg
+Burkina Faso,bf
+Burma (officially: Myanmar),mm
+Burundi,bi
+Cambodia,kh
+Cameroon,cm,2
+Canada,ca,46
+Cape Verde (in Portuguese: Cabo Verde),cv
+Catalonia,cat,4
+Cayman Islands,ky
+Central African Republic,cf,3
+Chad,td
+Chile,cl,8
+"China, People’s Republic of",cn,43
+Christmas Island,cx
+Cocos (Keeling) Islands,cc,10
+Colombia,co
+Comoros,km
+"Congo, Democratic Republic of the (Congo-Kinshasa)",cd
+"Congo, Republic of the (Congo-Brazzaville)",cg
+Cook Islands,ck
+Costa Rica,cr
+Côte d’Ivoire (Ivory Coast),ci,2
+Croatia,hr
+Cuba,cu
+Curaçao,cw
+Cyprus,cy,1
+Czechia (Czech Republic),cz,34
+Denmark,dk,41
+Djibouti,dj
+Dominica,dm
+Dominican Republic,do
+East Timor (Timor-Leste),tl
+East Timor (Timor-Leste),tp
+Ecuador,ec
+Egypt,eg
+El Salvador,sv
+Equatorial Guinea,gq,1
+Eritrea,er
+Estonia,ee,5
+Ethiopia,et
+European Union,eu
+Falkland Islands,fk
+Faeroe Islands,fo
+Federated States of Micronesia,fm
+Fiji,fj
+Finland,fi,8
+France,fr,97
+French Guiana,gf
+French Polynesia,pf
+French Southern and Antarctic Lands,tf
+Gabon (officially: Gabonese Republic),ga
+Galicia,gal
+Gambia,gm,1
+Gaza Strip (Gaza),ps
+Georgia,ge
+Germany,de
+Ghana,gh
+Gibraltar,gi
+Greece,gr,4
+Greenland,gl
+Grenada,gd
+Guadeloupe,gp
+Guam,gu
+Guatemala,gt
+Guernsey,gg
+Guinea,gn
+Guinea-Bissau,gw
+Guyana,gy,2
+Haiti,ht
+Heard Island and McDonald Islands,hm
+Honduras,hn
+Hong Kong,hk
+Hungary,hu,22
+Iceland,is
+India,in,49
+Indonesia,id
+Iran,ir
+Iraq,iq
+Ireland,ie,5
+Isle of Man,im
+Israel,il,4
+Italy,it
+Jamaica,jm
+Japan,jp,110
+Jersey,je
+Jordan,jo
+Kazakhstan,kz
+Kenya,ke
+Kiribati,ki
+Kuwait,kw
+Kyrgyzstan,kg
+Laos,la
+Latvia,lv
+Lebanon,lb
+Lesotho,ls
+Liberia,lr
+Libya,ly
+Liechtenstein,li,2
+Lithuania,lt,5
+Luxembourg,lu
+Macau,mo
+"Macedonia, Republic of (the former Yugoslav Republic of Macedonia, FYROM)",mk
+Madagascar,mg
+Malawi,mw
+Malaysia,my,2
+Maldives,mv
+Mali,ml,2
+Malta,mt
+Marshall Islands,mh
+Martinique,mq
+Mauritania,mr
+Mauritius,mu,1
+Mayotte,yt
+Mexico,mx,20
+Moldova,md,2
+Monaco,mc
+Mongolia,mn
+Montenegro,me,23
+Montserrat,ms
+Morocco,ma,4
+Mozambique,mz
+Myanmar,mm
+Namibia,na
+Nauru,nr
+Nepal,np
+Netherlands,nl,54
+New Caledonia,nc,2
+New Zealand,nz,27
+Nicaragua,ni
+Niger,ne
+Nigeria,ng
+Niue,nu
+Norfolk Island,nf
+"North Cyprus (unrecognised, self-declared state)",nc,2
+"North Cyprus (unrecognised, self-declared state)",tr,1
+North Korea,kp
+Northern Mariana Islands,mp
+Norway,no
+Oman,om
+Pakistan,pk
+Palau,pw
+Palestine,ps
+Panama,pa
+Papua New Guinea,pg
+Paraguay,py
+Peru,pe
+Philippines,ph,2
+Pitcairn Islands,pn
+Poland,pl,96
+Portugal,pt,5
+Puerto Rico,pr
+Qatar,qa
+Romania,ro
+Russia,ru,452
+Rwanda,rw
+Réunion Island,re,17
+Saba,bq
+Saba,an
+Saint Barthélemy (informally also referred to as Saint Barth’s or Saint Barts),bl
+Saint Barthélemy (informally also referred to as Saint Barth’s or Saint Barts),gp
+Saint Barthélemy (informally also referred to as Saint Barth’s or Saint Barts),fr,97
+Saint Helena,sh
+Saint Kitts and Nevis,kn
+Saint Lucia,lc
+Saint Martin (officially the Collectivity of Saint Martin),mf
+Saint Martin (officially the Collectivity of Saint Martin),gp
+Saint Martin (officially the Collectivity of Saint Martin),fr,97
+Saint-Pierre and Miquelon,pm,14
+Saint Vincent and the Grenadines,vc
+Samoa,ws
+San Marino,sm
+São Tomé and Príncipe,st,1
+Saudi Arabia,sa
+Senegal,sn,1
+Serbia,rs,6
+Seychelles,sc
+Sierra Leone,sl
+Singapore,sg
+Sint Eustatius,bq
+Sint Eustatius,an
+Sint Eustatius,nl,54
+Sint Maarten,sx,2
+Sint Maarten,an
+Slovakia,sk,12
+Slovenia,si,2
+Solomon Islands,sb
+Somalia,so
+Somaliland,so
+South Africa,za,29
+South Georgia and the South Sandwich Islands,gs
+South Korea,kr,7
+South Sudan,ss
+Spain,es
+Sri Lanka,lk
+Sudan,sd
+Suriname,sr
+Svalbard and Jan Mayen Islands,sj
+Swaziland,sz
+Sweden,se,9
+Switzerland,ch
+Syria,sy
+Taiwan,tw,7
+Tajikistan,tj
+Tanzania,tz
+Thailand,th,10
+Togo,tg
+Tokelau,tk,5
+Tonga,to,26
+Trinidad & Tobago,tt
+Tunisia,tn,5
+Turkey,tr,1
+Turkmenistan,tm
+Turks and Caicos Islands,tc
+Tuvalu,tv
+Uganda,ug,13
+Ukraine,ua
+United Arab Emirates (UAE),ae,4
+United Kingdom (UK),uk
+United States of America (USA),us
+United States Virgin Islands,vi
+Uruguay,uy
+Uzbekistan,uz,1
+Vanuatu,vu
+Vatican City,va
+Venezuela,ve
+Vietnam,vn,9
+Wallis and Futuna,wf
+Western Sahara,eh
+Western Sahara,ma,4
+Yemen,ye
+Zambia,zm
+Zimbabwe,zw

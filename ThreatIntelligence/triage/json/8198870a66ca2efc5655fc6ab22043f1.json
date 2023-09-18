@@ -1,0 +1,228 @@
+{
+    "analysis": {
+        "family": [
+            "cobaltstrike"
+        ],
+        "score": 10,
+        "tags": [
+            "family:cobaltstrike",
+            "backdoor",
+            "trojan"
+        ]
+    },
+    "extracted": [
+        {
+            "config": {
+                "attr": {
+                    "user_agent": "Accept: */*\r\nContent-Language: div-MV Dhivehi\r\nUser-Agent: Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/5.0)\r\n"
+                },
+                "c2": [
+                    "http://cn.api.chinadd.cn:443/bootstrap-2.min.js"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/1172-55-0x00000000002B0000-0x00000000002B1000-memory.dmp",
+            "resource": "behavioral1/memory/1172-55-0x00000000002B0000-0x00000000002B1000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:17:34Z",
+        "created": "2023-06-26T04:14:58Z",
+        "id": "230626-et6vtagd32",
+        "md5": "8198870a66ca2efc5655fc6ab22043f1",
+        "score": 10,
+        "sha1": "7c452b712f7d12ae3f8da4d240444ef89e3a3087",
+        "sha256": "3dbe8fb7d2794ceb0e3e87278531bc280385b144d9feec044bf5847e7a6af57d",
+        "sha512": "9d2ade38140fd0f420edb36e316eadd40a94fa40635422b8540cd3be58bb1e7ef4224ab3b2958ee9968423c068329cc85113f94912a160cb9eae6d91141c8b8e",
+        "size": 568328,
+        "ssdeep": "6144:WWUbSIJ/lC/vJSQfbKGe53h6b9mRAdPB1Qc8Xh2ZeYOPiAN:7UGu+DKGe54bwQPjQN2st7",
+        "target": "3dbe8fb7d2794ceb0e3e87278531bc280385b144d9feec044bf5847e7a6af57d"
+    },
+    "signatures": [
+        {
+            "desc": "Detected malicious payload which is part of Cobaltstrike.",
+            "label": "cobaltstrike",
+            "name": "Cobaltstrike",
+            "score": 10,
+            "tags": [
+                "trojan",
+                "backdoor",
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "name": "Deletes itself",
+            "score": 7
+        },
+        {
+            "label": "program_crash",
+            "name": "Program crash",
+            "score": 3
+        },
+        {
+            "name": "Suspicious behavior: EnumeratesProcesses"
+        },
+        {
+            "name": "Suspicious behavior: RenamesItself"
+        },
+        {
+            "name": "Suspicious use of SetWindowsHookEx"
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory"
+        },
+        {
+            "desc": "The Task Scheduler COM API can be used to schedule applications to run on boot or at set times.",
+            "label": "win_tasksched_com_clsid",
+            "name": "Uses Task Scheduler COM API",
+            "tags": [
+                "persistence"
+            ],
+            "ttp": [
+                "T1012"
+            ]
+        }
+    ],
+    "targets": [
+        {
+            "family": [
+                "cobaltstrike"
+            ],
+            "iocs": {
+                "domains": [
+                    "cn.api.chinadd.cn",
+                    "35.104.64.125.in-addr.arpa",
+                    "83.121.18.2.in-addr.arpa",
+                    "183.59.114.20.in-addr.arpa",
+                    "198.187.3.20.in-addr.arpa",
+                    "72.32.126.40.in-addr.arpa",
+                    "14.160.190.20.in-addr.arpa",
+                    "1.208.79.178.in-addr.arpa",
+                    "1.77.109.52.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "111.170.27.1",
+                    "2.18.121.75",
+                    "125.64.104.35",
+                    "20.190.160.22",
+                    "96.16.110.41",
+                    "20.42.72.131"
+                ],
+                "urls": [
+                    "https://cn.api.chinadd.cn/bootstrap-2.min.js"
+                ]
+            },
+            "md5": "8198870a66ca2efc5655fc6ab22043f1",
+            "score": 10,
+            "sha1": "7c452b712f7d12ae3f8da4d240444ef89e3a3087",
+            "sha256": "3dbe8fb7d2794ceb0e3e87278531bc280385b144d9feec044bf5847e7a6af57d",
+            "sha512": "9d2ade38140fd0f420edb36e316eadd40a94fa40635422b8540cd3be58bb1e7ef4224ab3b2958ee9968423c068329cc85113f94912a160cb9eae6d91141c8b8e",
+            "signatures": [
+                {
+                    "desc": "Detected malicious payload which is part of Cobaltstrike.",
+                    "label": "cobaltstrike",
+                    "name": "Cobaltstrike",
+                    "score": 10,
+                    "tags": [
+                        "trojan",
+                        "backdoor",
+                        "family:cobaltstrike"
+                    ]
+                },
+                {
+                    "name": "Deletes itself",
+                    "score": 7
+                },
+                {
+                    "label": "program_crash",
+                    "name": "Program crash",
+                    "score": 3
+                },
+                {
+                    "name": "Suspicious behavior: EnumeratesProcesses"
+                },
+                {
+                    "name": "Suspicious behavior: RenamesItself"
+                },
+                {
+                    "name": "Suspicious use of SetWindowsHookEx"
+                },
+                {
+                    "name": "Suspicious use of WriteProcessMemory"
+                },
+                {
+                    "desc": "The Task Scheduler COM API can be used to schedule applications to run on boot or at set times.",
+                    "label": "win_tasksched_com_clsid",
+                    "name": "Uses Task Scheduler COM API",
+                    "tags": [
+                        "persistence"
+                    ],
+                    "ttp": [
+                        "T1012"
+                    ]
+                }
+            ],
+            "size": 568328,
+            "ssdeep": "6144:WWUbSIJ/lC/vJSQfbKGe53h6b9mRAdPB1Qc8Xh2ZeYOPiAN:7UGu+DKGe54bwQPjQN2st7",
+            "tags": [
+                "family:cobaltstrike",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "3dbe8fb7d2794ceb0e3e87278531bc280385b144d9feec044bf5847e7a6af57d",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-et6vtagd32-behavioral1": {
+            "backend": "sbx4m19",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 7,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "3dbe8fb7d2794ceb0e3e87278531bc280385b144d9feec044bf5847e7a6af57d.exe",
+            "timeout": 150
+        },
+        "230626-et6vtagd32-behavioral2": {
+            "backend": "sbx4m11",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 7,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "3dbe8fb7d2794ceb0e3e87278531bc280385b144d9feec044bf5847e7a6af57d.exe",
+            "timeout": 150
+        },
+        "230626-et6vtagd32-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

@@ -1,0 +1,161 @@
+{
+    "analysis": {
+        "family": [
+            "cobaltstrike"
+        ],
+        "score": 10,
+        "tags": [
+            "family:cobaltstrike",
+            "backdoor",
+            "trojan"
+        ]
+    },
+    "extracted": [
+        {
+            "config": {
+                "attr": {
+                    "user_agent": "User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322)\r\n"
+                },
+                "c2": [
+                    "http://104.236.24.153:80/NIqU"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/916-54-0x0000000000020000-0x0000000000021000-memory.dmp",
+            "resource": "behavioral1/memory/916-54-0x0000000000020000-0x0000000000021000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:15:47Z",
+        "created": "2023-06-26T04:13:11Z",
+        "id": "230626-es57wsgc84",
+        "md5": "5046b4c2a231193546d561943408d4f3",
+        "score": 10,
+        "sha1": "97efc5832ec79f0b831b3ad39be20a4e67b438e1",
+        "sha256": "7bc0fdc6b2caf2175c49bfbf735c70e462424aa45cf5d193bd8788eddac08c8c",
+        "sha512": "b2795e58604fb04868802b1fa96d01fc87d5a1a2bb992f08875cef78e177c2a98b0bd55c15839dc1d9b6567b398e08923748c7c352e9f14f0094796241788766",
+        "size": 17920,
+        "ssdeep": "192:jDMAe4Ckj19RZZ6wpSfu1bKcq5uHj7khBDSeKNH4XpP4yQBUbOj6kxiY:jDMAoKz6WtKEj7aBDiy4PbAY",
+        "target": "7bc0fdc6b2caf2175c49bfbf735c70e462424aa45cf5d193bd8788eddac08c8c"
+    },
+    "signatures": [
+        {
+            "desc": "Detected malicious payload which is part of Cobaltstrike.",
+            "label": "cobaltstrike",
+            "name": "Cobaltstrike",
+            "score": 10,
+            "tags": [
+                "trojan",
+                "backdoor",
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        }
+    ],
+    "targets": [
+        {
+            "family": [
+                "cobaltstrike"
+            ],
+            "iocs": {
+                "domains": [
+                    "254.163.241.8.in-addr.arpa",
+                    "134.121.24.20.in-addr.arpa",
+                    "64.13.109.52.in-addr.arpa"
+                ],
+                "ips": [
+                    "104.236.24.153",
+                    "8.8.8.8",
+                    "51.105.71.136",
+                    "8.241.160.254",
+                    "192.229.221.95",
+                    "23.218.209.198"
+                ]
+            },
+            "md5": "5046b4c2a231193546d561943408d4f3",
+            "score": 10,
+            "sha1": "97efc5832ec79f0b831b3ad39be20a4e67b438e1",
+            "sha256": "7bc0fdc6b2caf2175c49bfbf735c70e462424aa45cf5d193bd8788eddac08c8c",
+            "sha512": "b2795e58604fb04868802b1fa96d01fc87d5a1a2bb992f08875cef78e177c2a98b0bd55c15839dc1d9b6567b398e08923748c7c352e9f14f0094796241788766",
+            "signatures": [
+                {
+                    "desc": "Detected malicious payload which is part of Cobaltstrike.",
+                    "label": "cobaltstrike",
+                    "name": "Cobaltstrike",
+                    "score": 10,
+                    "tags": [
+                        "trojan",
+                        "backdoor",
+                        "family:cobaltstrike"
+                    ]
+                }
+            ],
+            "size": 17920,
+            "ssdeep": "192:jDMAe4Ckj19RZZ6wpSfu1bKcq5uHj7khBDSeKNH4XpP4yQBUbOj6kxiY:jDMAoKz6WtKEj7aBDiy4PbAY",
+            "tags": [
+                "family:cobaltstrike",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "7bc0fdc6b2caf2175c49bfbf735c70e462424aa45cf5d193bd8788eddac08c8c",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-es57wsgc84-behavioral1": {
+            "backend": "sbx4m19",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 1,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "7bc0fdc6b2caf2175c49bfbf735c70e462424aa45cf5d193bd8788eddac08c8c.exe",
+            "timeout": 150
+        },
+        "230626-es57wsgc84-behavioral2": {
+            "backend": "sbx4m16",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 1,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "7bc0fdc6b2caf2175c49bfbf735c70e462424aa45cf5d193bd8788eddac08c8c.exe",
+            "timeout": 150
+        },
+        "230626-es57wsgc84-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 3,
+            "sigs": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

@@ -1,0 +1,147 @@
+[CobaltStrike]
+./mw/CobaltStrike/008659a4bb257a2553a42ce170617f26af97a86820c855787ea56e15925a7feb: PE32+ executable (console) x86-64 Mono/.Net assembly, for MS Windows
+./mw/CobaltStrike/03825741c04fb75f7bcb5d53d54ccbd0a7c00ebf3f187084e49b0fb95e67b51e: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/03a9d6afc99e70333723d921bd1265ac948cdabb8b15689b5ceb1c02365a9572: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/CobaltStrike/0ffdeb5f315763a2edd720acafaa9022dba2955ec52f6ac569ce7f5feaed57a1: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/26735c534c886b82f7ec4de59c2b2f8150b7eb079c6714ad71299aaf176c8147: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/CobaltStrike/336a797cf6b66ac1e2e2cd7f9f0232e27ae18577e7e93398f464dafaf810d9b3: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/35e5460c102ca2f996d61d70d6bb06fb87014f7d2beccf35f3812ea534acd9d5: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/CobaltStrike/3a7f49bd8c56f3fe25d52f5d6b5b39821dc0d2a0a184c42ace7c3989eb6ec5d7: PE32+ executable (console) x86-64, for MS Windows
+./mw/CobaltStrike/55507747ebd160778529344299cbce5ff239de57d0a3e7d2148763797d993db2: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/62de3d3bf07c3574fe6c9497526a7c097e2d4384d345f18c8b07edd11716333a: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows
+./mw/CobaltStrike/66f99d00978c99f2b5025ad213732f1543365a5cd55949736fa51552c21d25fa: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/6eec1d354aaa981a5bd59e144dce2376dbb5b153de66b3cac6672cd83d0914c1: PE32+ executable (DLL) (console) x86-64, for MS Windows
+./mw/CobaltStrike/759dbbe479a9b701a66fcc4d4fe4657c273f9d9baf606300cf4c38eb0ea0baa5: PE32+ executable (DLL) (console) x86-64, for MS Windows
+./mw/CobaltStrike/7d7c7d4b8bc8e8ddc5b91f63ea08816bde55ff83359437fdb0e924bcecff6665: PE32+ executable (DLL) (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/8518d86b514edfb1ff301d6526e4fbbc0d65aec52442dc108e0797a34c334879: PE32+ executable (DLL) (GUI) x86-64 system file, for MS Windows
+./mw/CobaltStrike/89f1f50ec8f35ccbb64ccf6181f6a662fe402c6d9537f04562d204e178801dbf: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/8f52aa67008be8347376d64934b9ad7019cf40bc56098e7d4a63b96318ded8a3: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/90474155b212711890e4f99cdaeab013cbfdb6936a61c75c8a5c90cbbe813c2f: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/CobaltStrike/93c6a7c0a60d7e4b19f3cf94fd8c28382cdc3aaaf008d494680041522c754ad8: PE32 executable (console) Intel 80386 Mono/.Net assembly, for MS Windows
+./mw/CobaltStrike/9e12e324fba899ac7631f808b9d58296a45219d82afc665cc61770567b96c695: PE32 executable (console) Intel 80386 Mono/.Net assembly, for MS Windows
+./mw/CobaltStrike/9e68ac920bae102ccf1829ae8b8c212cc3046dd82114966c74e740df68b76fcd: PE32+ executable (DLL) (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/a27734578daa0ece490f3df8fef37d7218bd91e0d786021c6fa51ebfb40d782d: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/a3fbf1aead035c063da828ea18ed8cb85f9259ebc47851837bb510fc8737fb35: PE32+ executable (console) x86-64, for MS Windows
+./mw/CobaltStrike/a4ac7ae499a7d0e74b83983737e372d505ae0eb43578a46930c43024548acafe: PE32+ executable (console) x86-64, for MS Windows
+./mw/CobaltStrike/a9b9b041c15253ca700295888896273fd78fb7ec1b5ac84d5e984b9615c9dc4e: PE32+ executable (console) x86-64, for MS Windows
+./mw/CobaltStrike/b20bf873b3decaecccadefd88ebb391d682b37e0c7d7d6bb942c630a4ad30739: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/b41b4e32607a4e21593332da63ce1bcf9c1d43f8f6754789a43bea7428833ea4: PE32+ executable (DLL) (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/e01e05a89153f718942abf535480ac1d7f311a30f342c571e4c0d42f4785aa61: PE32+ executable (console) x86-64, for MS Windows
+./mw/CobaltStrike/e258c0f68a750b8906fa1a3409f76fcff3df9b9d878fe9148aa9768102e240b6: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/ef14393974b607435db89dcd21cbfeb50d14988fec8570cf13b2dbfbd719e062: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/CobaltStrike/f04a4dd4c448cc010e8dd8fa9a30ccca2b620f73cfae94639583cfd7baaeb1fc: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/CobaltStrike/ff1d2120f0862987b44b2bb6f209c372cfdb83a3060d149a1b48f52b67c4672a: PE32 executable (GUI) Intel 80386, for MS Windows
+
+[MetaSploit]
+./mw/MetaSploit/06d933b141bdb7cbd349deb355092adecf43d70c95c1f130908b4655e605d751: PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows
+./mw/MetaSploit/078ed1c95f7b0da4e83a6d6c60cb7e4635335f7e1ea8dd8c9a840a578311ece7: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/08fbc710db12971878c438f860f4d2a501df3dae2dc937e363ffa172c5e8a771: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/0c591c65079e99299eb7f49c212369e18e7ab61776cd5bc51d2ffad58119321c: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/0dbabbec84013fbefd55a1365a055e0f0d6ad200d504d065e1263f5d7ce1c8d4: PE32 executable (console) Intel 80386, for MS Windows
+./mw/MetaSploit/0fffc2f0f0d0742b02a832ded42b9cd2bc39789b0985262340969335cfb012eb: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/14460f49ce47c51935a5b966ac458fb42558caa9e406dec6fd5120b6cdcfb54d: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
+./mw/MetaSploit/153baa94a4ce5e0d14e90dafc5b3ed640af6e436536097963777b47239a53669: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/181702a1231ee2a7e9fc2a06e7830d21c95593b79451870a594c492258cc2eb7: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/1875a76e2d6bc55ee050b87bc4c641e9fdf165c5f6c2f98e9d18832144a69722: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/19c3221cbbdc45fff5b609709f86169e2bfd86b1273d722dc8f0bc59d5a65704: PE32+ executable (console) x86-64, for MS Windows
+./mw/MetaSploit/1ad02b6f18eedbb5277e0c195c5a155fdd80078119b42676ae93118a1c5fc09b: PE32 executable (console) Intel 80386, for MS Windows
+./mw/MetaSploit/1c2c0b63b1d7d877b3a12801d1e980e36b75d55cb210b5ac5dc1e46a64ecd2c7: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/1da90aaa995c408f629f712c58dad18249038fed44745a3807f35110d3a3d4b8: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/221cbe544b658980ee58b78e771dcefddc4bc7aaffcaf7798596aad23423c31b: PE32 executable (console) Intel 80386, for MS Windows
+./mw/MetaSploit/24c0626f5b64a968e1a60eeedda06961dff2b1da0e1a068da4cfc3b5d92d534c: PE32 executable (GUI) Intel 80386, for MS Windows    
+./mw/MetaSploit/258df67fd269f05585a07191ae67e4bd8378606d46a9aa10bd3473604bae5d85: PE32 executable (console) Intel 80386, for MS Windows
+./mw/MetaSploit/281f7edc9ed294b8a1589b8377edc747aaa6ebdaf173dadc96e12c77e7a7a4b3: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/290161216dcdf2c27b87213db282c836a2f09c0c3dfc2a116fb36af46ac61a71: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/299e002db099d77db93d3d0d5aac42f666a95c30077090d26eb84a1b6de72480: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/2c1202010c1914e517f2d1303c82283286adbf56be408d0facadcba5154598fe: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/2f6c15714bff3a5c6761ef2f1e61af96fac718abacefdb4e74c9a94ab5974600: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/31e27d123712e87710bd662e9c3cdae1003b501cbee480cd4469cdc342c6285e: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/3712c16a93fc26a799ab13546996aefaaa32c8bd43ad18558a0f2bf3bdbec8b6: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/3ab85fbf8824b32c960df3bba0fde4b68f82d9a96db4c73f641418e4474a7f59: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/3cca547adf14322e75621cc9f2b82c95242824fdd26f80ed8cd97ca927a7adee: PE32 executable (console) Intel 80386, for MS Windows
+./mw/MetaSploit/3f4c88b6628c76c58745406ad83a224d0770fbe27ea5583b94ba98593e2824aa: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/4245990f42509474bbc912a02a1e5216c4eb87ea200801e1028291b74e45e43b: PE32+ executable (console) x86-64, for MS Windows
+./mw/MetaSploit/43262045bd96fc272ef92a3a5ec086e7c49349f0c8167f5d1db6ccd7d514e9e9: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/460767dc86f6f375250aed8727b46d7e42393bdd9cd31bb91350740832f5ff80: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/4759c4c5f7f910a200876f1a207a941069b8483bd2de5a3b5d48aff421d8ec15: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/478e43aaff77c2060cf94833ea39e2fb4066c2d263879277431ef9e25d23457d: PE32 executable (console) Intel 80386, for MS Windows
+./mw/MetaSploit/47d4baa592dc8afc592d3a342da85af103f96adf0dba589e1a478363af664768: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/4abdbd7fc8afbbf9a346a8866b8fe64d90f821b23e1f486821a896123836673a: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/4cac02783e5328677d08dcf0890035146ed8e583d0c9654d196919a5962f37df: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/4da266f0901c2f313815b89f94a6618ea4c95cfd243710d8918970913ada621c: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/507b6decce85fd4b74d04a9c9cd7516223a294df9c9f9db7c79e62051cdcb768: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/5237f1c6bc2b3e3a4cfbd4faca00c7a503d7312bf99077b33aba7bd873d88c14: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/53fb0b6f5f967e7073e6b466fd290765ae5b6ebe8ae0f5ed1fc05ab7b2edf396: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/54b56ea32177c11dfbedf882fdf0df724bf4914edeac70d04f2bba41ea416ad1: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/562adc9f106bd09f97104d0222f00a73eabca6210f6526cc0bf23657ba198b04: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/56be1ccabbac51b5ab74a9bedaca4b9c5b4c88d3cc6c7b77fcbbd11ce39fedb4: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/5a3fe057f0b878608ef1f46aef6fdd37c1c9952cab1b010c988a0401e27da9ea: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/5a701e7086350c67b542a0ba59076be8b66537ca14eecbe9815d266c42856f44: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/5f4740ee065cca602b02be671fb078b63bb5fe2f733614c7207a87ab9b9454dd: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/61513d1a517cce8429bbbd6abc7e21b3738285da1aef90ad44a3753d6d775e23: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/63ff8be9682621c56db43486aee61f6b86370417ab5d2a5375de2c4c9d336a7a: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/6fe3bd641e5753aa2bc5d7523e2f0eafa38481ab2a942716d5d3341ccce77395: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/73f23c2fce59ad359661302bf39adcfbc522fd80208fb5f22cd69fdde40ae3f8: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/74d4f10d14ea8b1fde313463e21678059dfc3f6626223a42620253ded5b9c74e: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/7578f2a9646953980e5296c593cd3586e5890439423039dfb30b760b60dd520d: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/77e5b41845ef18bf4281a89a19b9da9f7f2949f92d07d68ed85ff25b31061ff1: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/7d0e3751c18bb33f4c02e111bbb9ff5e6633cd10656d4408e4f083f6ed430095: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/7fe282226009cc855fc0aa8c2e95e7c449163b0eb6d1e834d89c6acdcd28918f: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/7ff11ca6d119185d7ebdfb1d5a2e88cffda19f13e4b582aa5463e1b3bc763938: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/809e1a5f0eb7f6312c5187f418bc19c45a1cf3e017691f9726def350af9246d2: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/84554a57b1eb63e4156c465aea176159676fe1629ef1a887450330445c7ddcfa: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/879c2ed90cbc0c34cae5d9024ca89c08398f3b3399cba31ad40ece9de7d70354: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/894b5e81fe56418b8df30639fd8b8c484c934aba8a121397b592039e07f766ee: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/8d4f03e086e7270f4e797734b6d512baee70d77a88801fe72aafbc32d0e20644: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/8e44acb46f8012f3b913327f908c0c5cc4d8ac4185836f1dd589dec4fc813eb6: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/8e80ef0d53de667287e5ba478a02c4e1b5fef5fe349130d57568926086514691: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/8ef279b191d3e0024ef332f5e12033f889566205f77c5ab700c9b41795fb0343: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/8f7053239f0e87e477844b19c2928fb867a666ace72eaf9cd243f10e45f30fd4: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/910f08368c08b139a951918b47ac7e0a23ca8f461bb319538ad17916819255bf: PE32 executable (console) Intel 80386, for MS Windows
+./mw/MetaSploit/9224242dca841fb727ce700da0ba64ab303698518d10a7d6d250805142d3cb2a: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/93740b8631c4af3ccbe2cffec9e5e58618d3d026de003a44994882f302c27731: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/97e8d58349e871a8f09a740ceccb57e7a70d1d9b2a04536ff83d06c5c5ba90a9: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/9ea023e6cfd8bc91f229bf524942c1636743d535614a371f81f1c1294539f211: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/9f05a3c532f65985b14847373b39afcf6a6065ebb4fa2d0104ad85898c3d8743: PE32+ executable (console) x86-64, for MS Windows
+./mw/MetaSploit/9f45d0617825b8b60672eb57351a73ae09f1e9d0a966bc82d95a82bd4a3c2dfd: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/a60da50d9d2d78c26f080b0bc712634a5e5dc8f748b440c20a26e75eb62603a5: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/aa31621c500c0684b3d426eb109f7250826c9bc4524c2e56a8276c9bd453ab0a: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/aaf8fa2e213f75d8000399f8f4ec58f6dbeacf0c7b0658c1d25f6f1832376414: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/ac86869df02a503631a33bbce03ffe7406554608d54fcfbbd6f54ebc10f8e0eb: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/ae1437499b1cf946f087c80235612ac9f723b4d3c95df55f0f8a25921b9e8e42: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/ae15df8a2206b89b512d9721f2687e20b16cee0b617ac6c8e513acd9e1c98e9b: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/af56dead22b6e7c4b7da2ba58d1fd896a71fe52cd96a958abb856a2ae7bc17f7: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/b1aa956509d3d708d9fcbc32510c448d8fcd476a682015529784af2fa4486ba8: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/b37731e880df1f46ef3af4925c85c298977a104203954e7a8e2590e14d0c0938: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/b5fe9af692205ebc867859f7006712b34b5c4532e0895841c66d0aebb88cffc6: PE32 executable (console) Intel 80386, for MS Windows
+./mw/MetaSploit/b65f3c500bc5e108c233a36714b480be0a2be143dcfd87f1bb1c10cde596d458: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/b97dfb6566b00ec157b40de43f6fd709f8ba78cfc96762faa1ef3eb5286d7b6d: PE32 executable (console) Intel 80386, for MS Windows
+./mw/MetaSploit/c0f379351c5d5ab07b88a2b51a03b7bef5374611520b9fa9057c4eafaab5ea5f: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/c1eb5559fcd928efd546883dac9fee7973f5d8853f010b0dd2baf3eece7c0447: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/c3fd44421f0c143c5903d2000a44840393e75e85e2f839c5a4c6b368e398d509: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/c72adc39bb86b93557e077cf269b06ea5e39616be89369cfc66ba909db69a0a5: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/cd3e559dc40bb0dc04cb9155b45c44a9a8f88d861ae1396c9528adaae863e525: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/d0e5285fe9b088e978c509362fdf75941c77b0fb23debb887756ce5788debd1e: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/d31fcae6737debaf01cf33d2b4838d3669b399681487eb132878c80afd9386b1: PE32 executable (GUI) Intel 80386, for MS Windows, UPX compressed
+./mw/MetaSploit/d5ba504331ca997200de4ef58437095926783685de46254266a8f06d594c8d43: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/dd8522017feb8e056492e271237e316582c8102bdeae2ef9e61fbf175fad654d: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/e47ff7d8fb6a495433106a14adb48b1d4e16774ec34e059739207edc58cbb7ef: PE32+ executable (GUI) x86-64 Mono/.Net assembly, for MS Windows
+./mw/MetaSploit/e4b0c115d4e9d19bb7bfe61e3a75d5e50d8f5b96d297431da06cfdcf24d3cab3: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/e8f60a684e11b03384a24169b06304af8294eb7e5eb47657f3e88d566b187c6e: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/e9e11200246d1b8300a8356b8068016bcb2bb66c409467e0939e1b934eb83499: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/eb580a26823d80a1777d9f9f10ca3e13b74c676c0f867835ad39d137c01027f1: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/ebfbb6b523b8292ca9dcff470296f1c729ad0e8809a366a6e060478dfd4bea1b: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/ecd8c09d08b3e27f15c3cba89f8ec2b284c9caa728852da8155d5955cee2ed58: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/ee87ffb45659e228e23bfc712fb84d5fc5ab33bb02614a2651ff3cd773b5dba6: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/f05aaa7f46d0a486c7fa6c1c7a0e1e04a3231afa6431266bef05817624b93315: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/f34f06c39032931593e2d1d271582dd81c9c9f1ae4c36872c5580c37c27053c5: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/f3eb5db9372c6911705101b49f9defa0ed61de3d4af922a23164b1ad28cc5f91: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/f6226b4f78114bf044ee80d22f251e33ab6868fe6ef33004637dfc2fc6135cac: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/f6247ed809d0122f769d27d2a31ab68c33772469df576db2689accb98cfa08f6: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/f83a13b9c2e38932ece8b60668a2fd27a4dcdb9f82d2dedb4edb24a589cda45c: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/f988cdf69822247eb38f7ef3afef5fbb39f506ca0730b3df815f42c40f67f31a: PE32+ executable (GUI) x86-64, for MS Windows
+./mw/MetaSploit/fab4b8f1719c285174dd3d3c5e38eeb23d1401374dfcb265ebba3ef9ef58c5ab: PE32+ executable (console) x86-64, for MS Windows
+./mw/MetaSploit/fb943fb365772ebd8e53b5e52cc82b3387a782bb05051c2a3703c5dbf11f55c0: PE32 executable (console) Intel 80386, for MS Windows
+./mw/MetaSploit/fb99184757c107b5dd511a64db361fa55ce090bd26e1b8aa31033660413538fe: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/fcc78040ac014704f182f8ebe45b16e62415fe91fe342e83b30fec92e2ee8157: PE32 executable (GUI) Intel 80386, for MS Windows
+./mw/MetaSploit/ff1d2120f0862987b44b2bb6f209c372cfdb83a3060d149a1b48f52b67c4672a: PE32 executable (GUI) Intel 80386, for MS Windows

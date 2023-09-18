@@ -1,0 +1,219 @@
+{
+    "analysis": {
+        "family": [
+            "cobaltstrike"
+        ],
+        "score": 10,
+        "tags": [
+            "family:cobaltstrike",
+            "botnet:0",
+            "backdoor",
+            "cryptone",
+            "packer",
+            "trojan"
+        ]
+    },
+    "extracted": [
+        {
+            "config": {
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/2012-54-0x0000000000400000-0x00000000004D5000-memory.dmp",
+            "resource": "behavioral1/memory/2012-54-0x0000000000400000-0x00000000004D5000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        },
+        {
+            "config": {
+                "attr": {
+                    "access_type": 512,
+                    "beacon_type": 2048,
+                    "host": "mclightinggroup.com,/assets/environment-f0a84e0c1.js",
+                    "http_header1": "AAAACgAAAEdBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOAAAAAoAAAAbUmVmZXJlcjogaHR0cDovL2dvb2dsZS5jb20vAAAACgAAAB5BY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUAAAAHAAAAAAAAAA0AAAACAAAAE19fQ2h1bmtTZXNzaW9uRGF0YT0AAAAGAAAABkNvb2tpZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_header2": "AAAACgAAAEdBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOAAAAAoAAAAfUmVmZXJlcjogaHR0cDovL3d3dy5nb29nbGUuY29tLwAAAAoAAAAeQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlAAAABwAAAAAAAAAPAAAADQAAAAUAAAAQX19DaHVua0F1dGhUb2tlbgAAAAcAAAABAAAADwAAAA0AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_method1": "GET",
+                    "http_method2": "POST",
+                    "jitter": 9472,
+                    "polling_time": 25000,
+                    "port_number": 443,
+                    "sc_process32": "%windir%\\syswow64\\dllhost1.exe",
+                    "sc_process64": "%windir%\\sysnative\\dllhost1.exe",
+                    "state_machine": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClb9YN/Mm0G5C15pg8YXJjbOaNzDpbbtHQjkO4a7QyI5S8GBUo4wHC/t749hHX4V/y8HsoYowFgoaCmvt4klm6yW2DD9JIlzwd8g9mOjCbJVpmGABHAvfhMgEeY8FMteSyerUExVNxvh7Oj8kiAhWwSZZz8pRniaSkkVtPlLb3+wIDAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "unknown1": 3396998400,
+                    "unknown2": "AAAABAAAAAEAAAAyAAAAAgAAACQAAAACAAAlGQAAAA0AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "uri": "/assets/chunk-vendor-4c69db4f.js",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36",
+                    "watermark": "0"
+                },
+                "botnet": "0",
+                "c2": [
+                    "http://mclightinggroup.com:443/assets/environment-f0a84e0c1.js"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/1876-59-0x0000000001CB0000-0x0000000002122000-memory.dmp",
+            "resource": "behavioral1/memory/1876-59-0x0000000001CB0000-0x0000000002122000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:16:29Z",
+        "created": "2023-06-26T04:13:51Z",
+        "id": "230626-etjehshc6z",
+        "md5": "cb6991a10c698a7e632d3397a15a1355",
+        "score": 10,
+        "sha1": "cdc62df36002885fd268f4ceabecb7ec007963b4",
+        "sha256": "21633bb2e378d40e3e13b88bf3a7fd397ad1229eab9730cf93fc2cc260fbdd4f",
+        "sha512": "07eb1a7cad56c7349bd8c895ccf720db2c27a93d0303ffaaaf56b15ac73606d3335a6169a8e4ea36c4f2ff7133664bf24027bff36a919037c56c4e511811162d",
+        "size": 852992,
+        "ssdeep": "12288:WA+QuYAS3W3ew5ZqFfbIKGgiNz40L3D+AjZWQcpWFYK9751tjxt888888888888B:WAXuYAS31GSdozp3D+Ajsg97L",
+        "target": "21633bb2e378d40e3e13b88bf3a7fd397ad1229eab9730cf93fc2cc260fbdd4f"
+    },
+    "signatures": [
+        {
+            "desc": "Detected malicious payload which is part of Cobaltstrike.",
+            "label": "cobaltstrike",
+            "name": "Cobaltstrike",
+            "score": 10,
+            "tags": [
+                "trojan",
+                "backdoor",
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "desc": "Detects CryptOne packer defined in NCC blogpost.",
+            "indicators": [
+                {
+                    "resource": "sample",
+                    "yara_rule": "cryptone"
+                }
+            ],
+            "name": "CryptOne packer",
+            "score": 9,
+            "tags": [
+                "cryptone",
+                "packer"
+            ]
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory"
+        }
+    ],
+    "targets": [
+        {
+            "family": [
+                "cobaltstrike"
+            ],
+            "iocs": {
+                "domains": [
+                    "mclightinggroup.com",
+                    "64.13.109.52.in-addr.arpa",
+                    "198.187.3.20.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "20.44.10.122",
+                    "192.229.221.95"
+                ]
+            },
+            "md5": "cb6991a10c698a7e632d3397a15a1355",
+            "score": 10,
+            "sha1": "cdc62df36002885fd268f4ceabecb7ec007963b4",
+            "sha256": "21633bb2e378d40e3e13b88bf3a7fd397ad1229eab9730cf93fc2cc260fbdd4f",
+            "sha512": "07eb1a7cad56c7349bd8c895ccf720db2c27a93d0303ffaaaf56b15ac73606d3335a6169a8e4ea36c4f2ff7133664bf24027bff36a919037c56c4e511811162d",
+            "signatures": [
+                {
+                    "desc": "Detected malicious payload which is part of Cobaltstrike.",
+                    "label": "cobaltstrike",
+                    "name": "Cobaltstrike",
+                    "score": 10,
+                    "tags": [
+                        "trojan",
+                        "backdoor",
+                        "family:cobaltstrike"
+                    ]
+                },
+                {
+                    "name": "Suspicious use of WriteProcessMemory"
+                }
+            ],
+            "size": 852992,
+            "ssdeep": "12288:WA+QuYAS3W3ew5ZqFfbIKGgiNz40L3D+AjZWQcpWFYK9751tjxt888888888888B:WAXuYAS31GSdozp3D+Ajsg97L",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "21633bb2e378d40e3e13b88bf3a7fd397ad1229eab9730cf93fc2cc260fbdd4f",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-etjehshc6z-behavioral1": {
+            "backend": "sbx4m19",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 2,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "21633bb2e378d40e3e13b88bf3a7fd397ad1229eab9730cf93fc2cc260fbdd4f.exe",
+            "timeout": 150
+        },
+        "230626-etjehshc6z-behavioral2": {
+            "backend": "sbx4m12",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 2,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "21633bb2e378d40e3e13b88bf3a7fd397ad1229eab9730cf93fc2cc260fbdd4f.exe",
+            "timeout": 150
+        },
+        "230626-etjehshc6z-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 9,
+            "sigs": 2,
+            "status": "reported",
+            "tags": [
+                "cryptone",
+                "packer"
+            ]
+        }
+    },
+    "version": "0.2.3"
+}

@@ -1,0 +1,199 @@
+{
+    "analysis": {
+        "family": [
+            "cobaltstrike"
+        ],
+        "score": 10,
+        "tags": [
+            "family:cobaltstrike",
+            "botnet:0",
+            "backdoor",
+            "trojan"
+        ]
+    },
+    "extracted": [
+        {
+            "config": {
+                "attr": {
+                    "access_type": 512,
+                    "beacon_type": 2048,
+                    "host": "sochuk.com,/jquery-3.3.1.min.js",
+                    "http_header1": "AAAACgAAAEdBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOAAAAAoAAAAgUmVmZXJlcjogaHR0cDovL2NvZGUuanF1ZXJ5LmNvbS8AAAAKAAAAHkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQAAAAcAAAAAAAAADQAAAAIAAAAJX19jZmR1aWQ9AAAABgAAAAZDb29raWUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_header2": "AAAACgAAAEdBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOAAAAAoAAAAgUmVmZXJlcjogaHR0cDovL2NvZGUuanF1ZXJ5LmNvbS8AAAAKAAAAHkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQAAAAcAAAAAAAAADwAAAA0AAAAFAAAACF9fY2ZkdWlkAAAABwAAAAEAAAAPAAAADQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_method1": "GET",
+                    "http_method2": "POST",
+                    "jitter": 2560,
+                    "polling_time": 5000,
+                    "port_number": 443,
+                    "sc_process32": "%windir%\\syswow64\\dllhost.exe",
+                    "sc_process64": "%windir%\\sysnative\\dllhost.exe",
+                    "state_machine": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjkdG/cOMrSLFAlNZdT2lq2fMfdgFMk6vaENPQi4e94O7WN/ySKDeQX3zZAOgo3hllhwAf1vasQcxfQeqHRve9SO7LQpywf6aZTuMXraTIpR5fWvoS+ocpPp9Mn6EpNhYSdj75p+pAOiN0SwMkw6cHl21HIm5E02B8YLH1a7/qQQIDAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "unknown1": 4234810624,
+                    "unknown2": "AAAABAAAAAEAAAXyAAAAAgAAAFQAAAACAAAPWwAAAA0AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "uri": "/jquery-3.3.2.min.js",
+                    "user_agent": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko",
+                    "watermark": "0"
+                },
+                "botnet": "0",
+                "c2": [
+                    "http://sochuk.com:443/jquery-3.3.1.min.js"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/1264-57-0x00000000021C0000-0x0000000002632000-memory.dmp",
+            "resource": "behavioral1/memory/1264-57-0x00000000021C0000-0x0000000002632000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        },
+        {
+            "config": {
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike64"
+            },
+            "dumped_file": "memory/1264-59-0x00000000021C0000-0x0000000002632000-memory.dmp",
+            "resource": "behavioral1/memory/1264-59-0x00000000021C0000-0x0000000002632000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:17:41Z",
+        "created": "2023-06-26T04:15:06Z",
+        "id": "230626-et9ayagd34",
+        "md5": "2e8c9a1d0146abcf6c6617a924d6ce72",
+        "score": 10,
+        "sha1": "b4201c5268e0989e91334c8a33d9a06f8ad34f22",
+        "sha256": "a9d94d703fc37de592e1d5bfffed76e199ac21bd67bfdc8aee7325a43d847583",
+        "sha512": "0e5957c8f14b93c39e3d95afbaccb845b4d2f10cf9b800915b39ed4669475c896ec06844d208aef281c63af91e28b41e719361df26db0b097a33ba7e280ffd76",
+        "size": 613888,
+        "ssdeep": "12288:vSk2fJiAPFpJv0FpjFTPp+Ucrv3aTyq75yXQ0mubQuU9vEPC:QBrIFpjFjqv3aTyqwXQoUuU9",
+        "target": "a9d94d703fc37de592e1d5bfffed76e199ac21bd67bfdc8aee7325a43d847583"
+    },
+    "signatures": [
+        {
+            "desc": "Detected malicious payload which is part of Cobaltstrike.",
+            "label": "cobaltstrike",
+            "name": "Cobaltstrike",
+            "score": 10,
+            "tags": [
+                "trojan",
+                "backdoor",
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        },
+        {
+            "name": "Suspicious use of SetWindowsHookEx"
+        }
+    ],
+    "targets": [
+        {
+            "family": [
+                "cobaltstrike"
+            ],
+            "iocs": {
+                "domains": [
+                    "sochuk.com",
+                    "47.125.24.20.in-addr.arpa",
+                    "62.13.109.52.in-addr.arpa",
+                    "83.121.18.2.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "209.197.3.8",
+                    "93.184.221.240"
+                ]
+            },
+            "md5": "2e8c9a1d0146abcf6c6617a924d6ce72",
+            "score": 10,
+            "sha1": "b4201c5268e0989e91334c8a33d9a06f8ad34f22",
+            "sha256": "a9d94d703fc37de592e1d5bfffed76e199ac21bd67bfdc8aee7325a43d847583",
+            "sha512": "0e5957c8f14b93c39e3d95afbaccb845b4d2f10cf9b800915b39ed4669475c896ec06844d208aef281c63af91e28b41e719361df26db0b097a33ba7e280ffd76",
+            "signatures": [
+                {
+                    "desc": "Detected malicious payload which is part of Cobaltstrike.",
+                    "label": "cobaltstrike",
+                    "name": "Cobaltstrike",
+                    "score": 10,
+                    "tags": [
+                        "trojan",
+                        "backdoor",
+                        "family:cobaltstrike"
+                    ]
+                },
+                {
+                    "name": "Suspicious use of SetWindowsHookEx"
+                }
+            ],
+            "size": 613888,
+            "ssdeep": "12288:vSk2fJiAPFpJv0FpjFTPp+Ucrv3aTyq75yXQ0mubQuU9vEPC:QBrIFpjFjqv3aTyqwXQoUuU9",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "a9d94d703fc37de592e1d5bfffed76e199ac21bd67bfdc8aee7325a43d847583",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-et9ayagd34-behavioral1": {
+            "backend": "sbx4m19",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 2,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "a9d94d703fc37de592e1d5bfffed76e199ac21bd67bfdc8aee7325a43d847583.exe",
+            "timeout": 150
+        },
+        "230626-et9ayagd34-behavioral2": {
+            "backend": "sbx4m18",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 2,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:0",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "a9d94d703fc37de592e1d5bfffed76e199ac21bd67bfdc8aee7325a43d847583.exe",
+            "timeout": 150
+        },
+        "230626-et9ayagd34-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 3,
+            "sigs": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

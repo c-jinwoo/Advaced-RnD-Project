@@ -1,0 +1,7 @@
+Yara name,Number of samples,Family
+Windows_Trojan_BruteRatel_4110d879,3,"{'brutel': 1, 'shellb': 1, 'ratel': 1}"
+HKTL_BruteRatel_Badger_Indicators_Oct22_4,1,{'lazy': 1}
+Windows_Trojan_BruteRatel_9b267f96,1,{'lazy': 1}
+brc4_shellcode,1,{'ratel': 1}
+Windows_API_Function,1,{'bruteratel': 1}
+skip20_sqllang_hook,1,{'bruteratel': 1}

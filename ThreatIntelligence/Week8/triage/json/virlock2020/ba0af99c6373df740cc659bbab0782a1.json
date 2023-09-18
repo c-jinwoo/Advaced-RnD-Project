@@ -1,0 +1,257 @@
+{
+    "version": "0.3.0",
+    "sample": {
+        "id": "230725-htphbaba93",
+        "score": 1,
+        "submitted": "2023-07-25T07:01:54Z",
+        "target": "f5c5eace359aec6749e2f0916424f1284ecb5cf4f3b7d2678dd3fc1907925cec",
+        "size": 328704,
+        "md5": "ba0af99c6373df740cc659bbab0782a1",
+        "sha1": "f54cab9b16699df4f7426d3906062bf780039111",
+        "sha256": "f5c5eace359aec6749e2f0916424f1284ecb5cf4f3b7d2678dd3fc1907925cec",
+        "sha512": "19c544b551de6a3593dd70b2fa5a7e4cd997102b63b25db7b1fd7c36f5a36d6f606750ebff956aa78839b65b5baf72b0e1259af7bb59359924478a2e9e383761",
+        "ssdeep": "6144:YcKAJHeVxcqeAszGvvboelOBVzuLKjMM7a2ieATssghXwBN3R:zKA5SWjAsivjoeoBBOKjM4a2LATssgGL",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "task": {
+        "target": "f5c5eace359aec6749e2f0916424f1284ecb5cf4f3b7d2678dd3fc1907925cec.exe",
+        "size": 328704,
+        "md5": "ba0af99c6373df740cc659bbab0782a1",
+        "sha1": "f54cab9b16699df4f7426d3906062bf780039111",
+        "sha256": "f5c5eace359aec6749e2f0916424f1284ecb5cf4f3b7d2678dd3fc1907925cec",
+        "sha512": "19c544b551de6a3593dd70b2fa5a7e4cd997102b63b25db7b1fd7c36f5a36d6f606750ebff956aa78839b65b5baf72b0e1259af7bb59359924478a2e9e383761",
+        "ssdeep": "6144:YcKAJHeVxcqeAszGvvboelOBVzuLKjMM7a2ieATssghXwBN3R:zKA5SWjAsivjoeoBBOKjM4a2LATssgGL",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "analysis": {
+        "score": 1,
+        "tags": [],
+        "features": [
+            "analog",
+            "overview"
+        ],
+        "submitted": "2023-07-25T07:01:54Z",
+        "reported": "2023-07-25T07:04:31Z",
+        "max_time_network": 122273,
+        "max_time_kernel": 141148,
+        "backend": "sbx4m12",
+        "resource": "win7-20230712-en",
+        "resource_tags": [
+            "arch:x64",
+            "arch:x86",
+            "image:win7-20230712-en",
+            "locale:en-us",
+            "os:windows7-x64",
+            "system"
+        ],
+        "platform": "windows7_x64"
+    },
+    "processes": [
+        {
+            "procid": 27,
+            "procid_parent": 21,
+            "pid": 2800,
+            "ppid": 1264,
+            "cmd": "\"C:\\Users\\Admin\\AppData\\Local\\Temp\\f5c5eace359aec6749e2f0916424f1284ecb5cf4f3b7d2678dd3fc1907925cec.exe\"",
+            "image": "C:\\Users\\Admin\\AppData\\Local\\Temp\\f5c5eace359aec6749e2f0916424f1284ecb5cf4f3b7d2678dd3fc1907925cec.exe",
+            "orig": false,
+            "started": 591
+        },
+        {
+            "procid": 28,
+            "procid_parent": 27,
+            "pid": 2404,
+            "ppid": 2800,
+            "cmd": "winver.exe",
+            "image": "C:\\Windows\\SysWOW64\\winver.exe",
+            "orig": true,
+            "started": 4085,
+            "terminated": 4475
+        }
+    ],
+    "signatures": [
+        {
+            "name": "Suspicious behavior: EnumeratesProcesses",
+            "indicators": [
+                {
+                    "pid": 2404,
+                    "procid": 28
+                }
+            ]
+        },
+        {
+            "name": "Suspicious behavior: GetForegroundWindowSpam",
+            "indicators": [
+                {
+                    "pid": 2404,
+                    "procid": 28
+                }
+            ]
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory",
+            "indicators": [
+                {
+                    "description": "PID 2800 wrote to memory of 2404",
+                    "pid": 2800,
+                    "procid": 27,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 2800 wrote to memory of 2404",
+                    "pid": 2800,
+                    "procid": 27,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 2800 wrote to memory of 2404",
+                    "pid": 2800,
+                    "procid": 27,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 2800 wrote to memory of 2404",
+                    "pid": 2800,
+                    "procid": 27,
+                    "procid_target": 28
+                },
+                {
+                    "description": "PID 2800 wrote to memory of 2404",
+                    "pid": 2800,
+                    "procid": 27,
+                    "procid_target": 28
+                }
+            ]
+        }
+    ],
+    "tags": null,
+    "network": {},
+    "dumped": [
+        {
+            "at": 3555,
+            "pid": 2800,
+            "procid": 27,
+            "name": "memory/2800-54-0x0000000003E80000-0x0000000003ED0000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 65536000,
+            "length": 327680
+        },
+        {
+            "at": 3617,
+            "pid": 2800,
+            "procid": 27,
+            "name": "memory/2800-55-0x0000000003E50000-0x0000000003E51000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 65339392,
+            "length": 4096
+        },
+        {
+            "at": 3664,
+            "pid": 2800,
+            "procid": 27,
+            "name": "memory/2800-56-0x0000000003E50000-0x0000000003E51000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 65339392,
+            "length": 4096
+        },
+        {
+            "at": 3711,
+            "pid": 2800,
+            "procid": 27,
+            "name": "memory/2800-57-0x0000000003E50000-0x0000000003E51000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 65339392,
+            "length": 4096
+        },
+        {
+            "at": 3773,
+            "pid": 2800,
+            "procid": 27,
+            "name": "memory/2800-58-0x0000000003E80000-0x0000000003ED0000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 65536000,
+            "length": 327680
+        },
+        {
+            "at": 3820,
+            "pid": 2800,
+            "procid": 27,
+            "name": "memory/2800-59-0x0000000003E50000-0x0000000003E51000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 65339392,
+            "length": 4096
+        },
+        {
+            "at": 4039,
+            "pid": 2800,
+            "procid": 27,
+            "name": "memory/2800-60-0x0000000000400000-0x0000000000455000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 348160
+        },
+        {
+            "at": 4241,
+            "pid": 2404,
+            "procid": 28,
+            "name": "memory/2404-61-0x00000000008B0000-0x00000000008C6000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 9109504,
+            "length": 90112
+        },
+        {
+            "at": 4241,
+            "pid": 2404,
+            "procid": 28,
+            "name": "memory/2404-63-0x0000000000100000-0x0000000000114000-memory.dmp",
+            "kind": "region",
+            "origin": "thread_injection",
+            "addr": 1048576,
+            "length": 81920
+        },
+        {
+            "at": 4241,
+            "pid": 2404,
+            "procid": 28,
+            "name": "memory/2404-62-0x0000000000100000-0x0000000000114000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 1048576,
+            "length": 81920
+        },
+        {
+            "at": 4351,
+            "pid": 2404,
+            "procid": 28,
+            "name": "memory/2404-64-0x0000000000100000-0x0000000000114000-memory.dmp",
+            "kind": "region",
+            "origin": "thread_injection",
+            "addr": 1048576,
+            "length": 81920
+        },
+        {
+            "at": 11355,
+            "pid": 2800,
+            "procid": 27,
+            "name": "memory/2800-67-0x0000000000400000-0x0000000000455000-memory.dmp",
+            "kind": "region",
+            "origin": "pe_modified",
+            "addr": 4194304,
+            "length": 348160
+        }
+    ]
+}

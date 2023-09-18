@@ -1,0 +1,62 @@
+{
+    "version": "0.2.3",
+    "sample": {
+        "id": "230711-kk3ppafg27",
+        "score": 1,
+        "submitted": "2023-07-11T08:40:26Z",
+        "target": "b89e155282772215d6d481677cb04a62834bcd83b4999a441b825ac33655954d",
+        "size": 34816,
+        "md5": "aa36c68b735b8d10791a6823c3b5f136",
+        "sha1": "09a640445a4b2f4818a9cb7ff331308b68bde224",
+        "sha256": "b89e155282772215d6d481677cb04a62834bcd83b4999a441b825ac33655954d",
+        "sha512": "9fe4ac970f17ccd564d3bf0cf0890c1a44f750fdd40bec0b502f098378224740c66969d7ceb393ab1ab09bcdc374d3d9076b35e3643e97501ad44b859e9f5929",
+        "ssdeep": "768:+JN1KT/P+x/0ycgFW/MSmipftV9XJsANMh:+N1yo/0ycD/vmipVfN4",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "task": {
+        "target": "b89e155282772215d6d481677cb04a62834bcd83b4999a441b825ac33655954d.exe",
+        "size": 34816,
+        "md5": "aa36c68b735b8d10791a6823c3b5f136",
+        "sha1": "09a640445a4b2f4818a9cb7ff331308b68bde224",
+        "sha256": "b89e155282772215d6d481677cb04a62834bcd83b4999a441b825ac33655954d",
+        "sha512": "9fe4ac970f17ccd564d3bf0cf0890c1a44f750fdd40bec0b502f098378224740c66969d7ceb393ab1ab09bcdc374d3d9076b35e3643e97501ad44b859e9f5929",
+        "ssdeep": "768:+JN1KT/P+x/0ycgFW/MSmipftV9XJsANMh:+N1yo/0ycD/vmipVfN4",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "errors": [
+        {
+            "reason": "platform exec: image=C:\\Users\\Admin\\AppData\\Local\\Temp\\b89e155282772215d6d481677cb04a62834bcd83b4999a441b825ac33655954d.exe\ncommand=\"C:\\Users\\Admin\\AppData\\Local\\Temp\\b89e155282772215d6d481677cb04a62834bcd83b4999a441b825ac33655954d.exe\"\nwdir=C:\\Users\\Admin\\AppData\\Local\\Temp\nPayload error: %1 is not a valid Win32 application.\n"
+        }
+    ],
+    "analysis": {
+        "score": 1,
+        "tags": [],
+        "features": [
+            "analog",
+            "overview"
+        ],
+        "submitted": "2023-07-11T08:40:26Z",
+        "reported": "2023-07-11T08:40:34Z",
+        "max_time_kernel": 296,
+        "backend": "sbx4m18",
+        "resource": "win7-20230703-en",
+        "resource_tags": [
+            "arch:x64",
+            "arch:x86",
+            "image:win7-20230703-en",
+            "locale:en-us",
+            "os:windows7-x64",
+            "system"
+        ],
+        "platform": "windows7_x64"
+    },
+    "signatures": [],
+    "tags": null,
+    "network": {}
+}

@@ -1,0 +1,4047 @@
+{
+    "version": "0.3.0",
+    "sample": {
+        "id": "230725-hv9vmsbb68",
+        "score": 10,
+        "submitted": "2023-07-25T07:04:39Z",
+        "target": "46d531ff943b82a82f732920b0026ad5cd2a8820c4569bb5d8150fd243a8dcc8",
+        "size": 769536,
+        "md5": "de0a8f647d8b301ed9e1f10ea6acfef2",
+        "sha1": "a6ef05c57502824225fb38adb0ac92641d9432f7",
+        "sha256": "46d531ff943b82a82f732920b0026ad5cd2a8820c4569bb5d8150fd243a8dcc8",
+        "sha512": "4a6ef8cbd349a81a780de46c8c2b3883a26c3a10e50b992eb5138f9c5a7a307c6806d775f0a9401768f98abe7d618a6a69640a5ba1ebb8129d8a6105cd629fb3",
+        "ssdeep": "12288:ifP6npLRsG/U3BMzrXNrJQIhgi17o4pMMp4ouYejNLO0J6h4fX/KlSY6+0xEATm:iHUDZcxGrdVQSt7o4FiAejVJI4XLeATm",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "task": {
+        "target": "46d531ff943b82a82f732920b0026ad5cd2a8820c4569bb5d8150fd243a8dcc8.exe",
+        "size": 769536,
+        "md5": "de0a8f647d8b301ed9e1f10ea6acfef2",
+        "sha1": "a6ef05c57502824225fb38adb0ac92641d9432f7",
+        "sha256": "46d531ff943b82a82f732920b0026ad5cd2a8820c4569bb5d8150fd243a8dcc8",
+        "sha512": "4a6ef8cbd349a81a780de46c8c2b3883a26c3a10e50b992eb5138f9c5a7a307c6806d775f0a9401768f98abe7d618a6a69640a5ba1ebb8129d8a6105cd629fb3",
+        "ssdeep": "12288:ifP6npLRsG/U3BMzrXNrJQIhgi17o4pMMp4ouYejNLO0J6h4fX/KlSY6+0xEATm:iHUDZcxGrdVQSt7o4FiAejVJI4XLeATm",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "analysis": {
+        "score": 10,
+        "tags": [
+            "evasion",
+            "persistence",
+            "spyware",
+            "stealer",
+            "trojan"
+        ],
+        "ttp": [
+            "T1547.001",
+            "T1112",
+            "T1547.004",
+            "T1548.002",
+            "T1562.001",
+            "T1082",
+            "T1564.001",
+            "T1005",
+            "T1552.001",
+            "T1012"
+        ],
+        "features": [
+            "analog",
+            "overview"
+        ],
+        "submitted": "2023-07-25T07:04:39Z",
+        "reported": "2023-07-25T07:07:33Z",
+        "max_time_network": 162103,
+        "max_time_kernel": 152802,
+        "backend": "horse2",
+        "resource": "win7-20230712-en",
+        "resource_tags": [
+            "arch:x64",
+            "arch:x86",
+            "image:win7-20230712-en",
+            "locale:en-us",
+            "os:windows7-x64",
+            "system"
+        ],
+        "platform": "windows7_x64"
+    },
+    "processes": [
+        {
+            "procid": 21,
+            "procid_parent": 5,
+            "pid": 1580,
+            "ppid": 1192,
+            "cmd": "\"C:\\Users\\Admin\\AppData\\Local\\Temp\\46d531ff943b82a82f732920b0026ad5cd2a8820c4569bb5d8150fd243a8dcc8.exe\"",
+            "image": "C:\\Users\\Admin\\AppData\\Local\\Temp\\46d531ff943b82a82f732920b0026ad5cd2a8820c4569bb5d8150fd243a8dcc8.exe",
+            "orig": false,
+            "started": 2900,
+            "terminated": 24116
+        },
+        {
+            "procid": 30,
+            "procid_parent": 21,
+            "pid": 1036,
+            "ppid": 1580,
+            "cmd": "\"C:\\Users\\Admin\\jqAkIEos\\CecoAYog.exe\"",
+            "image": "C:\\Users\\Admin\\jqAkIEos\\CecoAYog.exe",
+            "orig": false,
+            "started": 5240
+        },
+        {
+            "procid": 31,
+            "procid_parent": 21,
+            "pid": 2508,
+            "ppid": 1580,
+            "cmd": "\"C:\\ProgramData\\QMQMcQwM\\ZyMQkwYM.exe\"",
+            "image": "C:\\ProgramData\\QMQMcQwM\\ZyMQkwYM.exe",
+            "orig": false,
+            "started": 6051
+        },
+        {
+            "procid": 32,
+            "procid_parent": 2,
+            "pid": 1632,
+            "ppid": 464,
+            "cmd": "C:\\ProgramData\\dAgAowEA\\oIEkMoUE.exe",
+            "image": "C:\\ProgramData\\dAgAowEA\\oIEkMoUE.exe",
+            "orig": false,
+            "started": 7424
+        },
+        {
+            "procid": 33,
+            "procid_parent": 21,
+            "pid": 2948,
+            "ppid": 1580,
+            "cmd": "cmd /c C:\\Users\\Admin\\AppData\\Local\\Temp\\choco.exe ",
+            "image": "C:\\Windows\\SysWOW64\\cmd.exe",
+            "orig": true,
+            "started": 8391,
+            "terminated": 18204
+        },
+        {
+            "procid": 35,
+            "procid_parent": 21,
+            "pid": 2860,
+            "ppid": 1580,
+            "cmd": "reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced /f /v HideFileExt /t REG_DWORD /d 1",
+            "image": "C:\\Windows\\SysWOW64\\reg.exe",
+            "orig": true,
+            "started": 8516,
+            "terminated": 10076
+        },
+        {
+            "procid": 36,
+            "procid_parent": 33,
+            "pid": 2852,
+            "ppid": 2948,
+            "cmd": "C:\\Users\\Admin\\AppData\\Local\\Temp\\choco.exe  ",
+            "image": "C:\\Users\\Admin\\AppData\\Local\\Temp\\choco.exe",
+            "orig": false,
+            "started": 8719,
+            "terminated": 18001
+        },
+        {
+            "procid": 37,
+            "procid_parent": 21,
+            "pid": 2712,
+            "ppid": 1580,
+            "cmd": "reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced /f /v Hidden /t REG_DWORD /d 2",
+            "image": "C:\\Windows\\SysWOW64\\reg.exe",
+            "orig": true,
+            "started": 8891,
+            "terminated": 10076
+        },
+        {
+            "procid": 38,
+            "procid_parent": 21,
+            "pid": 2824,
+            "ppid": 1580,
+            "cmd": "reg add HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /v EnableLUA /d 0 /t REG_DWORD /f",
+            "image": "C:\\Windows\\SysWOW64\\reg.exe",
+            "orig": true,
+            "started": 8891,
+            "terminated": 10076
+        }
+    ],
+    "signatures": [
+        {
+            "label": "winlogon_persistence",
+            "name": "Modifies WinLogon for persistence",
+            "score": 10,
+            "ttp": [
+                "T1547.004",
+                "T1112"
+            ],
+            "tags": [
+                "persistence"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Userinit = \"userinit.exe,C:\\\\ProgramData\\\\QMQMcQwM\\\\ZyMQkwYM.exe,\"",
+                    "description": "Set value (str)",
+                    "procid": 21
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Userinit = \"C:\\\\Windows\\\\system32\\\\userinit.exe,C:\\\\ProgramData\\\\QMQMcQwM\\\\ZyMQkwYM.exe,\"",
+                    "description": "Set value (str)",
+                    "procid": 21
+                }
+            ]
+        },
+        {
+            "label": "modifies_file_extension_visibility",
+            "name": "Modifies visibility of file extensions in Explorer",
+            "score": 10,
+            "ttp": [
+                "T1564.001",
+                "T1112"
+            ],
+            "tags": [
+                "evasion"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\HideFileExt = \"1\"",
+                    "description": "Set value (int)",
+                    "procid": 35
+                }
+            ]
+        },
+        {
+            "label": "bypasses_uac_registry",
+            "name": "UAC bypass",
+            "score": 10,
+            "ttp": [
+                "T1548.002",
+                "T1562.001",
+                "T1112"
+            ],
+            "tags": [
+                "evasion",
+                "trojan"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\EnableLUA = \"0\"",
+                    "description": "Set value (int)",
+                    "procid": 38
+                }
+            ]
+        },
+        {
+            "label": "reg_checks_country_code",
+            "name": "Checks computer location settings",
+            "score": 7,
+            "ttp": [
+                "T1012",
+                "T1082"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Control Panel\\International\\Geo\\Nation",
+                    "description": "Key value queried",
+                    "procid": 30
+                }
+            ],
+            "desc": "Looks up country code configured in the registry, likely geofence."
+        },
+        {
+            "name": "Executes dropped EXE",
+            "score": 7,
+            "indicators": [
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 2508,
+                    "procid": 31
+                },
+                {
+                    "pid": 1632,
+                    "procid": 32
+                },
+                {
+                    "pid": 2852,
+                    "procid": 36
+                }
+            ]
+        },
+        {
+            "name": "Loads dropped DLL",
+            "score": 7,
+            "indicators": [
+                {
+                    "pid": 1580,
+                    "procid": 21
+                },
+                {
+                    "pid": 1580,
+                    "procid": 21
+                },
+                {
+                    "pid": 1580,
+                    "procid": 21
+                },
+                {
+                    "pid": 1580,
+                    "procid": 21
+                },
+                {
+                    "pid": 2948,
+                    "procid": 33
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                }
+            ]
+        },
+        {
+            "label": "browser_user_data_harvesting",
+            "name": "Reads user/profile data of web browsers",
+            "score": 7,
+            "ttp": [
+                "T1005",
+                "T1552.001"
+            ],
+            "tags": [
+                "spyware",
+                "stealer"
+            ],
+            "desc": "Infostealers often target stored browser data, which can include saved credentials etc."
+        },
+        {
+            "label": "creates_runkey_registry",
+            "name": "Adds Run key to start application",
+            "score": 6,
+            "ttp": [
+                "T1547.001",
+                "T1112"
+            ],
+            "tags": [
+                "persistence"
+            ],
+            "indicators": [
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\CecoAYog.exe = \"C:\\\\Users\\\\Admin\\\\jqAkIEos\\\\CecoAYog.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 21
+                },
+                {
+                    "ioc": "\\REGISTRY\\USER\\S-1-5-21-1014134971-2480516131-292343513-1000\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\CecoAYog.exe = \"C:\\\\Users\\\\Admin\\\\jqAkIEos\\\\CecoAYog.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 30
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\ZyMQkwYM.exe = \"C:\\\\ProgramData\\\\QMQMcQwM\\\\ZyMQkwYM.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 21
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\ZyMQkwYM.exe = \"C:\\\\ProgramData\\\\QMQMcQwM\\\\ZyMQkwYM.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 31
+                },
+                {
+                    "ioc": "\\REGISTRY\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\ZyMQkwYM.exe = \"C:\\\\ProgramData\\\\QMQMcQwM\\\\ZyMQkwYM.exe\"",
+                    "description": "Set value (str)",
+                    "procid": 32
+                }
+            ]
+        },
+        {
+            "label": "fw_system32",
+            "name": "Drops file in System32 directory",
+            "score": 5,
+            "indicators": [
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\config\\systemprofile\\jqAkIEos",
+                    "description": "File opened for modification",
+                    "procid": 32
+                },
+                {
+                    "ioc": "C:\\Windows\\SysWOW64\\config\\systemprofile\\jqAkIEos\\CecoAYog",
+                    "description": "File opened for modification",
+                    "procid": 32
+                }
+            ]
+        },
+        {
+            "label": "fw_windows",
+            "name": "Drops file in Windows directory",
+            "score": 4,
+            "indicators": [
+                {
+                    "ioc": "\\??\\c:\\windows\\installer\\{ac76ba86-7ad7-1033-7b44-a90000000001}\\pdffile_8.ico",
+                    "description": "File opened for modification",
+                    "procid": 30
+                }
+            ]
+        },
+        {
+            "label": "file_antivm_ide_drive",
+            "name": "Enumerates physical storage devices",
+            "score": 3,
+            "ttp": [
+                "T1082"
+            ],
+            "desc": "Attempts to interact with connected storage/optical drive(s)."
+        },
+        {
+            "label": "reg_modifies_key",
+            "name": "Modifies registry key",
+            "ttp": [
+                "T1112"
+            ],
+            "indicators": [
+                {
+                    "pid": 2712,
+                    "procid": 37
+                },
+                {
+                    "pid": 2824,
+                    "procid": 38
+                },
+                {
+                    "pid": 2860,
+                    "procid": 35
+                }
+            ]
+        },
+        {
+            "name": "Suspicious behavior: EnumeratesProcesses",
+            "indicators": [
+                {
+                    "pid": 1580,
+                    "procid": 21
+                },
+                {
+                    "pid": 1580,
+                    "procid": 21
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                }
+            ]
+        },
+        {
+            "name": "Suspicious behavior: GetForegroundWindowSpam",
+            "indicators": [
+                {
+                    "pid": 1036,
+                    "procid": 30
+                }
+            ]
+        },
+        {
+            "name": "Suspicious use of FindShellTrayWindow",
+            "indicators": [
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                },
+                {
+                    "pid": 1036,
+                    "procid": 30
+                }
+            ]
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory",
+            "indicators": [
+                {
+                    "description": "PID 1580 wrote to memory of 1036",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 1036",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 1036",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 1036",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 30
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2508",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2508",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2508",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2508",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 31
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2948",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2948",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2948",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2948",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 33
+                },
+                {
+                    "description": "PID 2948 wrote to memory of 2852",
+                    "pid": 2948,
+                    "procid": 33,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 2948 wrote to memory of 2852",
+                    "pid": 2948,
+                    "procid": 33,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 2948 wrote to memory of 2852",
+                    "pid": 2948,
+                    "procid": 33,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 2948 wrote to memory of 2852",
+                    "pid": 2948,
+                    "procid": 33,
+                    "procid_target": 36
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2860",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2860",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2860",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2860",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 35
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2712",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 37
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2712",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 37
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2712",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 37
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2712",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 37
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2824",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 38
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2824",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 38
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2824",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 38
+                },
+                {
+                    "description": "PID 1580 wrote to memory of 2824",
+                    "pid": 1580,
+                    "procid": 21,
+                    "procid_target": 38
+                }
+            ]
+        }
+    ],
+    "tags": null,
+    "network": {
+        "flows": [
+            {
+                "id": 2,
+                "src": "10.127.0.180:62151",
+                "dst": "8.8.8.8:53",
+                "proto": "udp",
+                "pid": 1036,
+                "procid": 30,
+                "first_seen": 22059,
+                "last_seen": 22060,
+                "rx_bytes": 72,
+                "rx_packets": 1,
+                "tx_bytes": 56,
+                "tx_packets": 1,
+                "protocols": [
+                    "dns"
+                ],
+                "domain": "google.com"
+            },
+            {
+                "id": 3,
+                "src": "10.127.0.180:51335",
+                "dst": "8.8.8.8:53",
+                "proto": "udp",
+                "pid": 1036,
+                "procid": 30,
+                "first_seen": 22059,
+                "last_seen": 22060,
+                "rx_bytes": 72,
+                "rx_packets": 1,
+                "tx_bytes": 56,
+                "tx_packets": 1,
+                "protocols": [
+                    "dns"
+                ],
+                "domain": "google.com"
+            },
+            {
+                "id": 4,
+                "src": "10.127.0.180:49223",
+                "dst": "142.250.179.142:80",
+                "proto": "tcp",
+                "pid": 1036,
+                "procid": 30,
+                "first_seen": 23315,
+                "last_seen": 32379,
+                "rx_bytes": 0,
+                "rx_packets": 0,
+                "tx_bytes": 152,
+                "tx_packets": 3,
+                "domain": "google.com"
+            },
+            {
+                "id": 5,
+                "src": "10.127.0.180:49222",
+                "dst": "142.250.179.142:80",
+                "proto": "tcp",
+                "pid": 2508,
+                "procid": 31,
+                "first_seen": 23316,
+                "last_seen": 23527,
+                "rx_bytes": 905,
+                "rx_packets": 3,
+                "tx_bytes": 220,
+                "tx_packets": 4,
+                "protocols": [
+                    "http"
+                ],
+                "domain": "google.com"
+            },
+            {
+                "id": 6,
+                "src": "10.127.0.180:51099",
+                "dst": "142.250.179.142:80",
+                "proto": "tcp",
+                "pid": 2508,
+                "procid": 31,
+                "first_seen": 83666,
+                "last_seen": 92666,
+                "rx_bytes": 0,
+                "rx_packets": 0,
+                "tx_bytes": 152,
+                "tx_packets": 3,
+                "domain": "google.com"
+            },
+            {
+                "id": 8,
+                "src": "10.127.0.180:51183",
+                "dst": "142.250.179.142:80",
+                "proto": "tcp",
+                "pid": 1036,
+                "procid": 30,
+                "first_seen": 161885,
+                "last_seen": 162103,
+                "rx_bytes": 1718,
+                "rx_packets": 4,
+                "tx_bytes": 272,
+                "tx_packets": 5,
+                "protocols": [
+                    "http"
+                ],
+                "domain": "google.com"
+            }
+        ],
+        "requests": [
+            {
+                "flow": 2,
+                "index": 1,
+                "dns_request": {
+                    "domains": [
+                        "google.com"
+                    ],
+                    "questions": [
+                        {
+                            "name": "google.com",
+                            "type": "IN A"
+                        }
+                    ]
+                }
+            },
+            {
+                "flow": 2,
+                "index": 1,
+                "dns_response": {
+                    "domains": [
+                        "google.com"
+                    ],
+                    "ip": [
+                        "142.250.179.142"
+                    ],
+                    "answers": [
+                        {
+                            "name": "google.com",
+                            "type": "IN A",
+                            "value": "142.250.179.142"
+                        }
+                    ]
+                }
+            },
+            {
+                "flow": 3,
+                "index": 1,
+                "dns_request": {
+                    "domains": [
+                        "google.com"
+                    ],
+                    "questions": [
+                        {
+                            "name": "google.com",
+                            "type": "IN A"
+                        }
+                    ]
+                }
+            },
+            {
+                "flow": 3,
+                "index": 1,
+                "dns_response": {
+                    "domains": [
+                        "google.com"
+                    ],
+                    "ip": [
+                        "142.250.179.142"
+                    ],
+                    "answers": [
+                        {
+                            "name": "google.com",
+                            "type": "IN A",
+                            "value": "142.250.179.142"
+                        }
+                    ]
+                }
+            },
+            {
+                "flow": 5,
+                "index": 1,
+                "http_request": {
+                    "method": "GET",
+                    "url": "http://google.com/",
+                    "request": "GET / HTTP/1.1",
+                    "headers": [
+                        "Host: google.com"
+                    ]
+                }
+            },
+            {
+                "flow": 5,
+                "index": 1,
+                "http_response": {
+                    "status": "301",
+                    "response": "HTTP/1.1 301 Moved Permanently",
+                    "headers": [
+                        "Location: http://www.google.com/",
+                        "Content-Type: text/html; charset=UTF-8",
+                        "Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-tmE-swbAj-7DKrfjoYiVpw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp",
+                        "Date: Tue, 25 Jul 2023 07:05:08 GMT",
+                        "Expires: Thu, 24 Aug 2023 07:05:08 GMT",
+                        "Cache-Control: public, max-age=2592000",
+                        "Server: gws",
+                        "Content-Length: 219",
+                        "X-XSS-Protection: 0",
+                        "X-Frame-Options: SAMEORIGIN"
+                    ]
+                }
+            },
+            {
+                "flow": 8,
+                "index": 1,
+                "http_request": {
+                    "method": "GET",
+                    "url": "http://google.com/",
+                    "request": "GET / HTTP/1.1",
+                    "headers": [
+                        "Host: google.com"
+                    ]
+                }
+            },
+            {
+                "flow": 8,
+                "index": 1,
+                "http_response": {
+                    "status": "301",
+                    "response": "HTTP/1.1 301 Moved Permanently",
+                    "headers": [
+                        "Location: http://www.google.com/",
+                        "Content-Type: text/html; charset=UTF-8",
+                        "Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-DJPdL10OX6cscY4QN2tQpg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp",
+                        "Date: Tue, 25 Jul 2023 07:07:27 GMT",
+                        "Expires: Thu, 24 Aug 2023 07:07:27 GMT",
+                        "Cache-Control: public, max-age=2592000",
+                        "Server: gws",
+                        "Content-Length: 219",
+                        "X-XSS-Protection: 0",
+                        "X-Frame-Options: SAMEORIGIN"
+                    ]
+                }
+            }
+        ],
+        "ips": {
+            "142.250.179.142": {
+                "cc": "NL",
+                "asn": "AS15169"
+            },
+            "8.8.8.8": {
+                "cc": "US",
+                "asn": "AS15169"
+            }
+        }
+    },
+    "dumped": [
+        {
+            "at": 2947,
+            "pid": 1580,
+            "procid": 21,
+            "name": "memory/1580-54-0x0000000000400000-0x00000000004C0000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 786432
+        },
+        {
+            "at": 5256,
+            "pid": 1580,
+            "procid": 21,
+            "path": "\\Users\\Admin\\jqAkIEos\\CecoAYog.exe",
+            "name": "files/0x0007000000016674-56.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "91d33ab839cf70bd7dceb8ad13c54a2b",
+            "sha1": "234c014e8724f5be93ee336d32ca0b5e226bc087",
+            "sha256": "4ff25377e5aeb94ab69935dfec0540138879328cd6f0fbe15315944cd16bb429",
+            "sha512": "a9f3134eb53fd8520b56ddc2a5d6aeeb08e8e638dc801b23945252a4615285f013faa4ed3329236d5c7ff5f30a44be7bc055240d47e3f931ac78a3719a87d80d",
+            "ssdeep": "12288:RyzEJZ9z0ud5jxrmRzl/FfORn3xzxKGz9Hb+u1C0Mb8bV0C4gpSfGiTJAD:RHJDz79rmRVFI3xz5zdbjknSVO9fo",
+            "size": 615936
+        },
+        {
+            "at": 5287,
+            "pid": 1580,
+            "procid": 21,
+            "path": "\\Users\\Admin\\jqAkIEos\\CecoAYog.exe",
+            "name": "files/0x0007000000016674-57.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "91d33ab839cf70bd7dceb8ad13c54a2b",
+            "sha1": "234c014e8724f5be93ee336d32ca0b5e226bc087",
+            "sha256": "4ff25377e5aeb94ab69935dfec0540138879328cd6f0fbe15315944cd16bb429",
+            "sha512": "a9f3134eb53fd8520b56ddc2a5d6aeeb08e8e638dc801b23945252a4615285f013faa4ed3329236d5c7ff5f30a44be7bc055240d47e3f931ac78a3719a87d80d",
+            "ssdeep": "12288:RyzEJZ9z0ud5jxrmRzl/FfORn3xzxKGz9Hb+u1C0Mb8bV0C4gpSfGiTJAD:RHJDz79rmRVFI3xz5zdbjknSVO9fo",
+            "size": 615936
+        },
+        {
+            "at": 5365,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\jqAkIEos\\CecoAYog.exe",
+            "name": "files/0x0007000000016674-61.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "91d33ab839cf70bd7dceb8ad13c54a2b",
+            "sha1": "234c014e8724f5be93ee336d32ca0b5e226bc087",
+            "sha256": "4ff25377e5aeb94ab69935dfec0540138879328cd6f0fbe15315944cd16bb429",
+            "sha512": "a9f3134eb53fd8520b56ddc2a5d6aeeb08e8e638dc801b23945252a4615285f013faa4ed3329236d5c7ff5f30a44be7bc055240d47e3f931ac78a3719a87d80d",
+            "ssdeep": "12288:RyzEJZ9z0ud5jxrmRzl/FfORn3xzxKGz9Hb+u1C0Mb8bV0C4gpSfGiTJAD:RHJDz79rmRVFI3xz5zdbjknSVO9fo",
+            "size": 615936
+        },
+        {
+            "at": 5412,
+            "pid": 1036,
+            "procid": 30,
+            "name": "memory/1036-63-0x0000000000400000-0x0000000000499000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 626688
+        },
+        {
+            "at": 6067,
+            "pid": 1580,
+            "procid": 21,
+            "path": "\\ProgramData\\QMQMcQwM\\ZyMQkwYM.exe",
+            "name": "files/0x0007000000016831-64.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "9d10f8138896c26fead17a9ee71c1c12",
+            "sha1": "51b39792e54b27dd62c138ddea88d128c06666b9",
+            "sha256": "b2a96fb955dee2a9b9e35797981b7d0005b23f464e728d3f8b6114af819bd266",
+            "sha512": "c9962fe87c5832cc5b0c005f9c39e9fef5713f6d52da9900f6b1161df20144323fee782540835de0551c16c8b49da42c9ec1596d7525786c1bcf011ed2941aa5",
+            "ssdeep": "12288:GnnaytVvAMo5TUdPj3U2eAIG7fmb0JIeWWULQijXXfdfZTf8ZOUejYEoLhtZv:itVH0cj3U2eAIQ+0fWDfdfZTf8ZOUe/",
+            "size": 617984
+        },
+        {
+            "at": 6176,
+            "pid": 2508,
+            "procid": 31,
+            "path": "C:\\ProgramData\\QMQMcQwM\\ZyMQkwYM.exe",
+            "name": "files/0x0007000000016831-69.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "9d10f8138896c26fead17a9ee71c1c12",
+            "sha1": "51b39792e54b27dd62c138ddea88d128c06666b9",
+            "sha256": "b2a96fb955dee2a9b9e35797981b7d0005b23f464e728d3f8b6114af819bd266",
+            "sha512": "c9962fe87c5832cc5b0c005f9c39e9fef5713f6d52da9900f6b1161df20144323fee782540835de0551c16c8b49da42c9ec1596d7525786c1bcf011ed2941aa5",
+            "ssdeep": "12288:GnnaytVvAMo5TUdPj3U2eAIG7fmb0JIeWWULQijXXfdfZTf8ZOUejYEoLhtZv:itVH0cj3U2eAIQ+0fWDfdfZTf8ZOUe/",
+            "size": 617984
+        },
+        {
+            "at": 6176,
+            "pid": 1580,
+            "procid": 21,
+            "path": "\\ProgramData\\QMQMcQwM\\ZyMQkwYM.exe",
+            "name": "files/0x0007000000016831-65.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "9d10f8138896c26fead17a9ee71c1c12",
+            "sha1": "51b39792e54b27dd62c138ddea88d128c06666b9",
+            "sha256": "b2a96fb955dee2a9b9e35797981b7d0005b23f464e728d3f8b6114af819bd266",
+            "sha512": "c9962fe87c5832cc5b0c005f9c39e9fef5713f6d52da9900f6b1161df20144323fee782540835de0551c16c8b49da42c9ec1596d7525786c1bcf011ed2941aa5",
+            "ssdeep": "12288:GnnaytVvAMo5TUdPj3U2eAIG7fmb0JIeWWULQijXXfdfZTf8ZOUejYEoLhtZv:itVH0cj3U2eAIQ+0fWDfdfZTf8ZOUe/",
+            "size": 617984
+        },
+        {
+            "at": 6207,
+            "pid": 2508,
+            "procid": 31,
+            "name": "memory/2508-70-0x0000000000400000-0x000000000049A000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 630784
+        },
+        {
+            "at": 7424,
+            "pid": 1632,
+            "procid": 32,
+            "path": "C:\\ProgramData\\dAgAowEA\\oIEkMoUE.exe",
+            "name": "files/0x0009000000016c43-72.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "ed53170fa9dcc327dcab4c9db721664c",
+            "sha1": "9a0ecab1729a92a5a86a4952c9709c71c4d581bc",
+            "sha256": "5e082aaea8f048841ec90dca8913f1fd1f25d94bd4b92bfff853c61f6e8134ae",
+            "sha512": "588f07e2153731dd949d4b78dc00f0f99c78111d723f9aa5831d10b2b90fe6bf3c5df5b36d95630982263ab948667ee3450b2391c7f9df65d5c06c981189bc3f",
+            "ssdeep": "12288:Qs9koIvmDMUSNjpqwoO9sOM1VewI71fDEJiC0dy:99koIeD1SNj4gmOMm5aJi/",
+            "size": 620032
+        },
+        {
+            "at": 7533,
+            "pid": 1632,
+            "procid": 32,
+            "name": "memory/1632-73-0x0000000000400000-0x000000000049A000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 630784
+        },
+        {
+            "at": 8048,
+            "pid": 1580,
+            "procid": 21,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\XiIEQwAI.bat",
+            "name": "files/0x0006000000016cf7-79.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "d7cb9545b0a56920c3223dedc584225c",
+            "sha1": "bc128c6a07eff40e68e651cb6ad33e5e4a78b833",
+            "sha256": "e7fcb93cac3cd33c2ed98707f3e3dc1ca30e7d930d2156d89eff29abbaccc4b6",
+            "sha512": "0d8c3b7bf1909ced5c7ce8fb3ecfc70680bebd846994a539d716b7738b5985382b3b62e3fcc5aae62ccc34d8afe75b0a56562d34d3a4930973eb09ecc13286dd",
+            "size": 4
+        },
+        {
+            "at": 8719,
+            "pid": 2948,
+            "procid": 33,
+            "path": "\\Users\\Admin\\AppData\\Local\\Temp\\choco.exe",
+            "name": "files/0x0006000000016d03-83.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "c258b25b6ec8f09230e272033ad4b2fa",
+            "sha1": "c4e862d33fe8915818d9e58d428c7324a436f97f",
+            "sha256": "29f612bb3cc7a9712baaae62b49b0c03a661280b8bf0177b2713a13c016d0b32",
+            "sha512": "21f7da9bf267f4cb897d9475f8a6f32e6f7e777c3f761b739da4038d44c2786030bc46ab54a8832205d1fb1fe944d7005eb34ddad3700c4c79bcdb932191b90c",
+            "ssdeep": "3072:ND9u3NTcGCLOwstyhZFChcssc56FUrgxvbSD4UQrO2D:Z9KN4ShcHUaD",
+            "size": 143496
+        },
+        {
+            "at": 8719,
+            "pid": 2852,
+            "procid": 36,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\choco.exe",
+            "name": "files/0x0006000000016d03-85.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "c258b25b6ec8f09230e272033ad4b2fa",
+            "sha1": "c4e862d33fe8915818d9e58d428c7324a436f97f",
+            "sha256": "29f612bb3cc7a9712baaae62b49b0c03a661280b8bf0177b2713a13c016d0b32",
+            "sha512": "21f7da9bf267f4cb897d9475f8a6f32e6f7e777c3f761b739da4038d44c2786030bc46ab54a8832205d1fb1fe944d7005eb34ddad3700c4c79bcdb932191b90c",
+            "ssdeep": "3072:ND9u3NTcGCLOwstyhZFChcssc56FUrgxvbSD4UQrO2D:Z9KN4ShcHUaD",
+            "size": 143496
+        },
+        {
+            "at": 8781,
+            "pid": 2852,
+            "procid": 36,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\choco.exe",
+            "name": "files/0x0006000000016d03-86.dat",
+            "kind": "martian",
+            "origin": "martian",
+            "md5": "c258b25b6ec8f09230e272033ad4b2fa",
+            "sha1": "c4e862d33fe8915818d9e58d428c7324a436f97f",
+            "sha256": "29f612bb3cc7a9712baaae62b49b0c03a661280b8bf0177b2713a13c016d0b32",
+            "sha512": "21f7da9bf267f4cb897d9475f8a6f32e6f7e777c3f761b739da4038d44c2786030bc46ab54a8832205d1fb1fe944d7005eb34ddad3700c4c79bcdb932191b90c",
+            "ssdeep": "3072:ND9u3NTcGCLOwstyhZFChcssc56FUrgxvbSD4UQrO2D:Z9KN4ShcHUaD",
+            "size": 143496
+        },
+        {
+            "at": 9421,
+            "pid": 2852,
+            "procid": 36,
+            "name": "memory/2852-87-0x000007FEF59B0000-0x000007FEF639C000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 8791623663616,
+            "length": 10403840
+        },
+        {
+            "at": 9936,
+            "pid": 2852,
+            "procid": 36,
+            "name": "memory/2852-88-0x0000000000070000-0x0000000000098000-memory.dmp",
+            "kind": "region",
+            "origin": "dotnet64",
+            "addr": 458752,
+            "length": 163840
+        },
+        {
+            "at": 11480,
+            "pid": 1580,
+            "procid": 21,
+            "name": "memory/1580-89-0x0000000000400000-0x00000000004C0000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 786432
+        },
+        {
+            "at": 13181,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\MSOCache\\All Users\\{90140000-0011-0000-0000-0000000FF1CE}-C\\ose.exe",
+            "name": "files/0x0001000000010497-90.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "9d10f99a6712e28f8acd5641e3a7ea6b",
+            "sha1": "835e982347db919a681ba12f3891f62152e50f0d",
+            "sha256": "70964a0ed9011ea94044e15fa77edd9cf535cc79ed8e03a3721ff007e69595cc",
+            "sha512": "2141ee5c07aa3e038360013e3f40969e248bed05022d161b992df61f21934c5574ed9d3094ffd5245f5afd84815b24f80bda30055cf4d374f9c6254e842f6bd5",
+            "ssdeep": "1536:vC4QOL26NOd32mM6X/pGzd4t/qcarbwNfQ8WfQJ+ItkbKR2zy2IoN7Zo86eAI0UV:K4QgNOd3z44Kw6JrokFyF5Zat/Vq09oi",
+            "size": 149352
+        },
+        {
+            "at": 13867,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\MSOCache\\All Users\\{90140000-0011-0000-0000-0000000FF1CE}-C\\setup.exe",
+            "name": "files/0x0001000000010495-91.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "4d92f518527353c0db88a70fddcfd390",
+            "sha1": "c4baffc19e7d1f0e0ebf73bab86a491c1d152f98",
+            "sha256": "97e6f3fc1a9163f10b6502509d55bf75ee893967fb35f318954797e8ab4d4d9c",
+            "sha512": "05a8136ccc45ef73cd5c70ee0ef204d9d2b48b950e938494b6d1a61dfba37527c9600382321d1c031dc74e4cf3e16f001ae0f8cd64d76d765f5509ce8dc76452",
+            "ssdeep": "12288:JeGuphfCWQIbDUhUOvF7CehnLQie+I7XHgZQKhJgeCmyDLFSLfmLU7k/:JeGefCnE7Oduehsi0LHgZpJEdDZSx7k/",
+            "size": 1100664
+        },
+        {
+            "at": 13867,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\MSOCache\\All Users\\{90140000-0011-0000-0000-0000000FF1CE}-C\\setup.exe",
+            "name": "files/0x0001000000010495-92.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "4d92f518527353c0db88a70fddcfd390",
+            "sha1": "c4baffc19e7d1f0e0ebf73bab86a491c1d152f98",
+            "sha256": "97e6f3fc1a9163f10b6502509d55bf75ee893967fb35f318954797e8ab4d4d9c",
+            "sha512": "05a8136ccc45ef73cd5c70ee0ef204d9d2b48b950e938494b6d1a61dfba37527c9600382321d1c031dc74e4cf3e16f001ae0f8cd64d76d765f5509ce8dc76452",
+            "ssdeep": "12288:JeGuphfCWQIbDUhUOvF7CehnLQie+I7XHgZQKhJgeCmyDLFSLfmLU7k/:JeGefCnE7Oduehsi0LHgZpJEdDZSx7k/",
+            "size": 1100664
+        },
+        {
+            "at": 14522,
+            "pid": 1036,
+            "procid": 30,
+            "name": "memory/1036-98-0x0000000000400000-0x0000000000499000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 626688
+        },
+        {
+            "at": 14944,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\MSOCache\\All Users\\{90140000-0011-0000-0000-0000000FF1CE}-C\\setup.exe",
+            "name": "files/0x0001000000010495-104.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "678bb640a7413b0996a8bb0025a4257d",
+            "sha1": "ccf82dc583fb0c1f9cc809b6e86622df1937ebe2",
+            "sha256": "4952acbe85cbc616b49b11e17568ae7824541a451779a6794bd792e4ff5b9d78",
+            "sha512": "505c5403ef2acee4022b586bf7f50ba0551a5c0322181806889d043bb6234e228c1266d4d65b6221b2d52f2a6558e7d08c8012001c1d0bfab8099e274c0573a9",
+            "ssdeep": "24576:D7vk0GHT6RtP4DkVBdBP/bwMlrdNPYIkJENEGgnLySu0X2IrkcPu8T:D4vH6HDPYIkqNEvnep0X/P",
+            "size": 1728000
+        },
+        {
+            "at": 15536,
+            "pid": 2508,
+            "procid": 31,
+            "name": "memory/2508-108-0x0000000000400000-0x000000000049A000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 630784
+        },
+        {
+            "at": 15614,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\MSOCache\\All Users\\{90140000-0115-0409-0000-0000000FF1CE}-C\\DW20.EXE",
+            "name": "files/0x0001000000010320-109.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "a41e524f8d45f0074fd07805ff0c9b12",
+            "sha1": "948deacf95a60c3fdf17e0e4db1931a6f3fc5d38",
+            "sha256": "082329648337e5ba7377fed9d8a178809f37eecb8d795b93cca4ec07d8640ff7",
+            "sha512": "91bf4be7e82536a85a840dbc9f3ce7b7927d1cedf6391aac93989abae210620433e685b86a12d133a72369a4f8a665c46ac7fc9e8a806e2872d8b1514cbb305f",
+            "ssdeep": "24576:P1q1lx7SqE0xJ2pm8FiWCm3LHgZpJEHp3/:P1q171dxJ6mAQm3LHkJEJv",
+            "size": 838536
+        },
+        {
+            "at": 15677,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\MSOCache\\All Users\\{90140000-0115-0409-0000-0000000FF1CE}-C\\DW20.EXE",
+            "name": "files/0x0001000000010320-110.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "a41e524f8d45f0074fd07805ff0c9b12",
+            "sha1": "948deacf95a60c3fdf17e0e4db1931a6f3fc5d38",
+            "sha256": "082329648337e5ba7377fed9d8a178809f37eecb8d795b93cca4ec07d8640ff7",
+            "sha512": "91bf4be7e82536a85a840dbc9f3ce7b7927d1cedf6391aac93989abae210620433e685b86a12d133a72369a4f8a665c46ac7fc9e8a806e2872d8b1514cbb305f",
+            "ssdeep": "24576:P1q1lx7SqE0xJ2pm8FiWCm3LHgZpJEHp3/:P1q171dxJ6mAQm3LHkJEJv",
+            "size": 838536
+        },
+        {
+            "at": 16660,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\MSOCache\\All Users\\{90140000-0115-0409-0000-0000000FF1CE}-C\\DW20.EXE.exe",
+            "name": "files/0x0008000000016d44-121.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "607bbe2f9eb7add9fd20a0336e3c8537",
+            "sha1": "e341ee052236d8afb6a8be7ccb2660e5d270eb3f",
+            "sha256": "85b3ea08166347dd2ed5be91436637728a20139e9cbffb83b5592f8131658e89",
+            "sha512": "451ca22659aa2ddb741a3d73e7771b00817f0af8ba07b29ac5fc5d35abede83a57c968992e20066b57c0ee11cc732e8bccc6f7484a59065f4a1a6209d953238a",
+            "ssdeep": "24576:BcYak/FC8tqroXwE8gd1RWjJ2AbdEf8GYWxen6J8jczjkCAwrlJ:GYa8C1DQG0ffWWUn6J/YbwrlJ",
+            "size": 1462784
+        },
+        {
+            "at": 16784,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\MSOCache\\All Users\\{90140000-0115-0409-0000-0000000FF1CE}-C\\dwtrig20.exe",
+            "name": "files/0x0001000000010322-124.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "c87e561258f2f8650cef999bf643a731",
+            "sha1": "2c64b901284908e8ed59cf9c912f17d45b05e0af",
+            "sha256": "a1dfa6639bef3cb4e41175c43730d46a51393942ead826337ca9541ac210c67b",
+            "sha512": "dea4833aa712c5823f800f5f5a2adcf241c1b2b6747872f540f5ff9da6795c4ddb73db0912593337083c7c67b91e9eaf1b3d39a34b99980fd5904ba3d7d62f6c",
+            "ssdeep": "12288:qMwXwNSO5X3IA1iBihI7XHgZQKhJgeCmvz0/:dew0O1IA1UiuLHgZpJEGg/",
+            "size": 519584
+        },
+        {
+            "at": 17580,
+            "pid": 2852,
+            "procid": 36,
+            "name": "memory/2852-126-0x000000001AE80000-0x000000001AF00000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 451411968,
+            "length": 524288
+        },
+        {
+            "at": 17549,
+            "pid": 1632,
+            "procid": 32,
+            "name": "memory/1632-125-0x0000000000400000-0x000000000049A000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 630784
+        },
+        {
+            "at": 18079,
+            "pid": 2852,
+            "procid": 36,
+            "name": "memory/2852-127-0x000007FEF59B0000-0x000007FEF639C000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 8791623663616,
+            "length": 10403840
+        },
+        {
+            "at": 24194,
+            "pid": 1580,
+            "procid": 21,
+            "name": "memory/1580-129-0x0000000000400000-0x00000000004C0000-memory.dmp",
+            "kind": "region",
+            "origin": "exception",
+            "addr": 4194304,
+            "length": 786432
+        },
+        {
+            "at": 24397,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\IQwA.exe",
+            "name": "files/0x0008000000016d34-138.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "38c24c59c6022009bb9d0fc9f9d7986d",
+            "sha1": "c61b0dedf8018bd034dd7de43d1118e6d70faf48",
+            "sha256": "3d33dadb7c39337f8e9afdecd0ff30794481d2abe57896c3c8b0d5ca1fe78632",
+            "sha512": "3fb89cbf492231470cff07c72efaa9ecea91a559f84338f2d075352cea36aba797d83d39a7e66b07ca62bbe6c8fe8980915dce06ff19c5e15244a33d27fb2ae5",
+            "ssdeep": "12288:3D0Li9uy7Eya8whtExy0hvXRfJJVVAHaQLfsmVXlxE+UIzyH9mrcoqaWOSmS7tht:CewefRIHaQDJUj8VWOSp7thjL7",
+            "size": 743936
+        },
+        {
+            "at": 25037,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\Device Stage\\Device\\{113527a4-45d4-4b6f-b567-97838f1b04b0}\\device.png.exe",
+            "name": "files/0x0006000000016d72-153.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "f6be1dc2f5dc06e2abe7bbc98b49c6f0",
+            "sha1": "f0e52086facb26d5b40b8b40d61872c8584550e7",
+            "sha256": "204595da4cc16ecd92d110dcb89ce3ecc4f7b70b054093ddcf5d3e4f23c17963",
+            "sha512": "662f27ab6f3873290baa363ec4790561b49c8bb99876688c8517cec2b1c2fb6da8cbe08368ab6f814632a3d64c8926e6d4aa0675749179f1410a65bdf23890d7",
+            "ssdeep": "12288:bgojcyrbR3vbx8shYF09+ySgCWXuFq8KX+3B2GFBPa9G/fg:Dccb1TRhYy9kgCTFjR2GXuGg",
+            "size": 663040
+        },
+        {
+            "at": 25052,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\qogw.ico",
+            "name": "files/0x0004000000010320-157.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "47a169535b738bd50344df196735e258",
+            "sha1": "23b4c8041b83f0374554191d543fdce6890f4723",
+            "sha256": "ad3e74be9334aa840107622f2cb1020a805f00143d9fef41bc6fa21ac8602eaf",
+            "sha512": "ca3038a82fda005a44ca22469801925ea1b75ef7229017844960c94f9169195f0db640e4d2c382e3d1c14a1cea9b6cc594ff09bd8da14fc30303a0e8588b52a7",
+            "ssdeep": "96:T2JIoxvNotSiMgdoDM/AmneiR3lQV+FvMo:T2JIo1No2pDMZne23lo+FEo",
+            "size": 4286
+        },
+        {
+            "at": 25240,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\Device Stage\\Device\\{113527a4-45d4-4b6f-b567-97838f1b04b0}\\overlay.png.exe",
+            "name": "files/0x000a000000016d50-167.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3293b7ba3c215f7715b2274e18395505",
+            "sha1": "4a2226972e5cc140e92972fd0a6ac7f9d6267bd1",
+            "sha256": "9c1ded42d8336aad2130b3a859b49370d6534f78c543af21d34e5d0172f03585",
+            "sha512": "5c96f03f43c6d78b2b122ae4c824e6c59f962a4c400c7ba34abe6d24b6031e50b7e0c6ba64d30e94f4447c70135972fa6bca195812df5fb44057814652a379f8",
+            "ssdeep": "12288:v8n2h+yy3VsDToArvsf3nu1z6WwbakZPc2BS/SENea7oK/Q40pYPIZjC4:Uty0EsArkf3nu1z6WwW6LulA5t",
+            "size": 650240
+        },
+        {
+            "at": 25552,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\Device Stage\\Device\\{113527a4-45d4-4b6f-b567-97838f1b04b0}\\superbar.png.exe",
+            "name": "files/0x0007000000016d7c-181.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "00c0df5d8eddc139f60ad7fc84e88314",
+            "sha1": "8c20734a8491778c004045a9ef0d04845b7303f2",
+            "sha256": "b081c56980599ab8c640d317fb1419dc273ce4d5dda110250ea960ff41587ea2",
+            "sha512": "d58b9b4477878044652f7ef2091984cc1b18b3206c204c293f5b7af4f37ae678ab313f47143a7dd57db8d1120e6bd80c3c6cac935618f3e4e2aeb6af91d5e98f",
+            "ssdeep": "12288:asGTwrWzHmgYjQxbXd3y7FtA4UeLsDb1PG2sTA7FPkjguO+q+a6BpoDR:asGTwrWrDeEXd3GPlUwsnhTsU7FPgKeO",
+            "size": 656384
+        },
+        {
+            "at": 25754,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\Device Stage\\Device\\{8702d817-5aad-4674-9ef3-4d3decd87120}\\background.png.exe",
+            "name": "files/0x0007000000016d83-195.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "50e5c16125217e78aa5e2ba04eee4094",
+            "sha1": "17316dade0ab15b1e1032e3adabf16a57cf17bd4",
+            "sha256": "29055c93cd55ebb1176b69fc7302e2b6212b44583970a397d6de9a376ed3379e",
+            "sha512": "f55ed4e882e932758728ecafcf063ae68e90d2a32a9933861dce6d325efcfa38952b1c8606b27091788713018f49615db06450674f438d782add5e2ee1494293",
+            "ssdeep": "12288:95tewuxZQQeJtpfxRuMURVYRqnmSbBfDPrMbYW36n0Fr3f4b5sIKEOsmvjjJ:9XwDJeJt/RfqBaYg6n4GKHvj",
+            "size": 748544
+        },
+        {
+            "at": 25988,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\Device Stage\\Device\\{8702d817-5aad-4674-9ef3-4d3decd87120}\\watermark.png.exe",
+            "name": "files/0x000e000000016d34-209.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "4fa07bf339eb7ae7b399891df52faedb",
+            "sha1": "f84871a3aac3e05332a6968ecb1739b9f9b53660",
+            "sha256": "8148841834658c66b899b68ef48ae809a0d37b1704d1c311d0c7d6c105f4ed91",
+            "sha512": "e2896280529bdeff675203332336415bf90505cf130f90452270ea3eb86af194e6e4b235eba919c5e9b419f3f4c3eef89ef6f33d303b8e00623b51216e03b92c",
+            "ssdeep": "12288:T+yJrmwwBJrRcNcVHqmdJb0goHLyX5NQiQew9rYPRvHa3IbgNO/S3:T+yJrmTRc4HqmdJbFoHLyp8JKvHNbgce",
+            "size": 651776
+        },
+        {
+            "at": 28126,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile10.bmp.exe",
+            "name": "files/0x0008000000016daf-222.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "a4f838b425fcb5c38d16767d8b149e2b",
+            "sha1": "0cc07497e91cf1c34f276ad9f21be8b90570eabc",
+            "sha256": "e70b3f468908c19e1e06c4f621df65eec45e82e4a5e36fa6b8f0c97a1c357606",
+            "sha512": "9f1bb38d91e571890dded6a19f24e1e12b73d5353777f08e83d817805f0f3d27b9990d00c47e785938a1c9674d3f2eacc848122830b05ee979a9bf58e87d6ef1",
+            "ssdeep": "12288:Xbc8ExCPuDm2+MKYw3ll9JR9ZCDwpf+vRpZbgBP/+:L00E6vCDwpmvRpeBn+",
+            "size": 672768
+        },
+        {
+            "at": 29108,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile11.bmp.exe",
+            "name": "files/0x0008000000016db3-235.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "36c57cb1d6e75815903efdf733ac3c2f",
+            "sha1": "3b65a1dd55e9e8b4a0e593c90936bfbb6eb14ef4",
+            "sha256": "253395abb1911824139c9f0d9228291a6b039d1cfd7513ac49db852be077a9ae",
+            "sha512": "24ddb3b28749d8dab09f08c8ed0828443d6512f0249ae730b066671fc6f34c6bd6f2de0b1d6e51881c7e31a52f394c7abc6332ef3012c436c503006d6396965e",
+            "ssdeep": "12288:QHmcIO+kQjcyez74uJb2syhBh51EIYSflR4WPVqaVSX/PE54lS:QHmcI1kQjcyS4uotDBEEf34WPnQ9S",
+            "size": 673792
+        },
+        {
+            "at": 29311,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile12.bmp.exe",
+            "name": "files/0x00070000000170b7-248.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "cf4b6112388c580b4455e143eb32212b",
+            "sha1": "dea148fd57cbe18406544302ce8d839d29e398f0",
+            "sha256": "00b374ac98fbb96a5cd646c8d93539ef06d1c90dcf96574b3b3a69cb17f262a4",
+            "sha512": "7c76add8c74bc0a135166cd490ac7ff8cae1c43b0df5816d75f53822a670f1be010a89da5d3f91f1c564db50e9b74250ab08f1e2a31ce41e27143b974a103de4",
+            "ssdeep": "12288:0ur30WYcv7ztCQzNfS+mDR5Zuzu8SGpemNw4wspDdwwGmhgNlm2YBPLm18TaP:0u0RpQzRmDvZOu8SGwmN3wDVmuLW5Ta",
+            "size": 670720
+        },
+        {
+            "at": 29623,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile13.bmp.exe",
+            "name": "files/0x0009000000016e9d-262.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "d4c628d79c284f3e5eff5e9ecd179614",
+            "sha1": "a734a9eb3bfcc7609ffc393313a3e778cc5590a1",
+            "sha256": "eb98cc4ec1d501d5420a4eac16304042e9cb99064c7453f57a09aee836652ca1",
+            "sha512": "db233bea765c7373a86c2a584acce9e145e6da2b3ea5aa8aed92a17eca5e840d73b9e08927f7072ac4c788b8d388157f6cf82c1ae959b9853206b9b131ca24a7",
+            "ssdeep": "12288:dIPGvULvqsBpeFktXvU7SbCG7IxsRVFNtzvnNg4IdVixAHZmAqr2Btm3XFl:rvULvB8kt8+b+sR7NtTNgeAHZmAtBtmv",
+            "size": 671232
+        },
+        {
+            "at": 29764,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile14.bmp.exe",
+            "name": "files/0x000600000001868e-275.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "4ec9ab50bdf42a7d7c2330ec11b6cc0a",
+            "sha1": "2c902a47662085b09dc7aa7279a12096161069b3",
+            "sha256": "bbfd2f92ecebed8e8a88ade06f536f6d4fcc4a921b9673809eeedaf614cb4dff",
+            "sha512": "5cf431238e9ba34787a284015efd66648cb2f7d0f8bcbeb0b9ec815bbe60969f7cb76756179eaf370425e4628fe1ecec0981062c2e5c4d658702171b0ff05a78",
+            "ssdeep": "12288:jAET+jbqtm64rn8RNkumTrjQ/RNiYdQN8dljTWIvS/6azCChTUI:jYJ688PXKxYdQN8dljTWl6aBZU",
+            "size": 669184
+        },
+        {
+            "at": 29920,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile15.bmp.exe",
+            "name": "files/0x0006000000018690-289.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "e70f404761b7534b88ef102a2c34247f",
+            "sha1": "de87822e9e3e15725a051987889cdbdd6e809a2d",
+            "sha256": "0fa427fed592c71fabe7301941fdea66f1f7567dcf5294e8b6c38de4bd345c0e",
+            "sha512": "76cbd173ca34d70b679eae8c60fdc6d5b153420fbc197ac3c5b0df22f1df243d4bf53ccc8bd681c726179b5abf767ebf1a933af245b824756e73140f66c0b29a",
+            "ssdeep": "12288:o2WpvA1HYDdZndcKWKNaIXYlBnNwbRfxnNkHywgNM+iAz0Vw188zWjbzdi2:o2WNA1HYDznCKWKNRIWJ/igC+zD88zo",
+            "size": 669184
+        },
+        {
+            "at": 30154,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile16.bmp.exe",
+            "name": "files/0x000500000001872b-303.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "dcd2fd1c4931ce70f55a85f060b9e51c",
+            "sha1": "e4394a16d9a326cc69958ca0735ec62f21758116",
+            "sha256": "1904f1ac09e1ff38618e66ca272d924f6cfa9e66cdec275f446e7847587cdf12",
+            "sha512": "a1efc62af71d2939c0cee4ea15b01be20304df34aa35713e0f74ff1d0bd171d2fc7f920e0a2b3904d3a6190eb4c9c13e8ff5fc12002854f1eb2f4001f2d2f0a7",
+            "ssdeep": "12288:GLfuLGlEcg1dbHlUZKQF+7DZ/wWUoMJ+2jDyh9x1uzEQz18LsVgR:cQcqFUkFN9vT1uoQz18Ls6",
+            "size": 666112
+        },
+        {
+            "at": 30325,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile17.bmp.exe",
+            "name": "files/0x000b00000001712a-317.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "0804001edb78a2eaf358cfda4c93252e",
+            "sha1": "9f5c55a160c7f7013e9e743213e7b626dbcd9f28",
+            "sha256": "4299d60139ba05ac6e51b75654b4f55674cfdc6fdf9b6dad3ed6b24b409ccc31",
+            "sha512": "bcbecfd00e449a0b3eb7a67e46efc139f0afe349eaef88ab09b4fbeb45bad10df6753eeaf537e25760be501465253ff30e89ceabc5372defa0864f95990926ac",
+            "ssdeep": "12288:4YsjzwaProdl74VEzRWQzYaI2hW6IoSghopm+G7HAWNBTUcN1i:4Y6waPsdFhRFzY+QgZ+f01i",
+            "size": 671744
+        },
+        {
+            "at": 30481,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile18.bmp.exe",
+            "name": "files/0x00080000000186a1-330.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "312af7ed4b81f109596ddd87ecb01295",
+            "sha1": "990ae30dee3b775062b1418bc9bf5945fd000eef",
+            "sha256": "3ea9a28c4c18cf276b6fa3e8293593506e3d7b6f3d8909adc2448271e875cfe5",
+            "sha512": "4d92ba7189d0131d045b1927128f2d65b1220218313514952e6586441e2f65c680c095f6fb5c908489e1560a51c295bc4dd008a9232d01b15150a5285f4c079d",
+            "ssdeep": "12288:qlYMStirn6/xojIxaG6zeRYG95xptIifEOlJvcPtzw50gXDIQJJidJuWC/:qlYMSkn6/xojpneCWBf5lR8tzw5dXDPT",
+            "size": 670720
+        },
+        {
+            "at": 30668,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile19.bmp.exe",
+            "name": "files/0x0006000000018745-343.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "4c07d5eab8cca46a5d367a1595d3676a",
+            "sha1": "a5ee58176dff355b4ec819c98087b1fb082199bd",
+            "sha256": "cf413879898c07328cd103dfde737a3b8a0f57f1fd45bd3793a268eb9b148d66",
+            "sha512": "e2131f618a78498c59e9ad8577909781e4acce22edd4c4ddec7ded72826132d9822cb4cd3e6a48795f39df0c2bf45c833d25d1a254cf2f9e690b1c558bd80528",
+            "ssdeep": "12288:iPAwvmheLf0uSgAFZ7cv2rtlPpuA5d/GvFtY5G3Fhgmr:dnBLFZI2bp/rkY50Fh",
+            "size": 672768
+        },
+        {
+            "at": 31043,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile20.bmp.exe",
+            "name": "files/0x000800000001872f-357.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "e4309caf5ee7c099b7f022192b5a8df3",
+            "sha1": "b5febba215e5955477b89874294bf3bb8cdd3dd1",
+            "sha256": "47cf7b2107104800cf095533bc5f44a4d78d2dfb489b2439f5b491ab5db3921f",
+            "sha512": "a35a8e9393ebd60f88b39ade9e086e6bd7f4ed63c14cf9bec7b5b618681aa73958792c365d9f9c21d15eb3e213b53acdc5c59a90ed80590ee971096746bf8eb4",
+            "ssdeep": "12288:1TrAljrh2riFtuV6fJ6ue1UQPZxtP310Vjv2/wCykIQaQOXe1fIYGxV:dWeiFM88UQ110Vjv2/wCyjwOCM",
+            "size": 672256
+        },
+        {
+            "at": 31199,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile21.bmp.exe",
+            "name": "files/0x0008000000018ad8-370.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "b0057dd0d6a9dc6fb4e95e1e8a81a11c",
+            "sha1": "ba246304fa33f7e5ea044b5db492f1f84d02a2d1",
+            "sha256": "4de3fe6d65f998f026e09eff731d704590f8b3d9221ba2d90430168017c8b80c",
+            "sha512": "c93c105f33ad2264349b51fb3487c08eec02c2aba8a3c8f53a792ac5d9de07768f4de405795fcdf4bc6981d2e375252645e793430f6ef5cd5d7db1f9c677acb0",
+            "ssdeep": "12288:2izaXSQUGxOhf1lsW9jWr1u/Z6VIlmQZXHoFsRK7xt9zamwG9Q3:tgSnGxOhf1JjUaQVSXjRAxtVm3",
+            "size": 673280
+        },
+        {
+            "at": 31402,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile22.bmp.exe",
+            "name": "files/0x0008000000018b1c-383.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "7a64af25f7273d256756df58e43775df",
+            "sha1": "8b23e5a83fa7aa7246009aefeea3e12e10977a3a",
+            "sha256": "6502318dff6ed80062cace2eb6006d276c217d1513fdbe65daa0645d3f3471e3",
+            "sha512": "bed014fe437d4e9692ce1583a59bc4a72ff1fd8b846eed999a6a40ea555e766021aad5a4082ae9fa8c03be620678087f910983477f0fa154354e3198caf1bf4f",
+            "ssdeep": "12288:TMQJMZnFR9rsus09DmgkHghJF5Rd9yRn6ADAj8/cKNTp4P:TMWMFFdlmmhPbd9yBpuVap4P",
+            "size": 674304
+        },
+        {
+            "at": 31526,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile23.bmp.exe",
+            "name": "files/0x0008000000018b5e-396.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "c7ea7f85b12f20bb223ab54c7f9966b3",
+            "sha1": "1cdc91caf1cff66c31898ae4c63362236c0c21fb",
+            "sha256": "fe7e4515ede5ff5efce67cffbeaf3130d048bde0cd0da784416fb4f41de90c69",
+            "sha512": "d25ae4f8f51d26cec8940546783925bf096477e5ffb76bd9f8f8ad884e63022f0ce2bf03ecc3e81b009ac5189c68a94355269d4bbddb500d800c5ca6691d0f42",
+            "ssdeep": "12288:Htuiy0/pekrFVO1ljugz/PtOF98TSCgP+CEVXDAyxh0P7KdwX3F:A00krnihuwtOj8TSCgP+CEVXDx6P7Ywl",
+            "size": 675328
+        },
+        {
+            "at": 31714,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile24.bmp.exe",
+            "name": "files/0x0008000000018b74-409.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "77ad6ad939b749bcb8bbca0ae8d816ce",
+            "sha1": "198c5b21819e084df55435eb53079c260e333f54",
+            "sha256": "1b012261b5a6374bcce9a6fb57460ddb1fa55ba4abd2c90b4f2a412cf1626f5a",
+            "sha512": "77533e1e0be34f96967d60d0f8afe0708c2424e0ce0dfcaa0808c6a50b5be87e9e061e3aa4208b2be3f6cfb4eec2e32e1a517d9bd86004f9aaa205950218b047",
+            "ssdeep": "12288:AFJmivSGywWw6M6eQeCBsrtegLjF6VyAtkZgmHpINO+LQZfY8eqcnipI:AFQ7GV6M64CBsrLF6Vi6CNrY8ednII",
+            "size": 676352
+        },
+        {
+            "at": 31901,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile25.bmp.exe",
+            "name": "files/0x0007000000018b8e-422.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "5911754d7829f7b7c6c087947cbb15dd",
+            "sha1": "8735025f190230d5be9b6490238146483177ec08",
+            "sha256": "68d320e0c3a5b46c55e581f623fe4686794f6452928f3ab3f46d41e3cc502266",
+            "sha512": "bc159da65944c186d7a7ac5a9114cff4b82d514886a6976150ad174d8b19560b4b6a458c951e6e99145f74f65844531e3b15740e87388cfd8684d74a51a2f9fe",
+            "ssdeep": "12288:EXoNbg1kAuSpIsy3zW1hB5mAAlMaHiVnsZB8x1O27z3dLB3b0y3:EsbWkx6IHS15qlDHes2197z3pBf",
+            "size": 670720
+        },
+        {
+            "at": 32104,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile26.bmp.exe",
+            "name": "files/0x0007000000018ba7-436.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "8cb1d2ec184eb0c0894566408709d9f3",
+            "sha1": "2d6f78488a6cd812ae4af51b584af35aa75677c3",
+            "sha256": "08b929e62764cd2a61ee7afd3a16477bd5a5286ac444001d18a81a79469a85c5",
+            "sha512": "2d1c2f8e2f93d759acbb023ade78b5be924da9f2a6f41ca3d09110d3d730d77dc9b8d5a3423c28ea902ff444e5e5d692ed4873f1e93d07db0396f95c562facf0",
+            "ssdeep": "12288:owGlAQWS444cqOILy5G5LXiUi/PCTzvdAaJNTkqfr11YwTLldC:owGlAQdqd+5G1iUi/Yrd1NTpjXl",
+            "size": 671232
+        },
+        {
+            "at": 32291,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile27.bmp.exe",
+            "name": "files/0x0007000000018bab-450.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "c2e6f59fb6c868190f09754f02309faa",
+            "sha1": "5d41978480a1f55b71323584f15f5f390bedf179",
+            "sha256": "e7ccbde3a88a17ed425f3ecb01d4bab6366faaae2138c34f4f700ea2338afb50",
+            "sha512": "ca1dba58074b7aee056db9cf1415a7c1e99e602205066c0ced33d672d598eb27273c1aed853abcad0623d7f600de0a35a637d75f3682d2a3d84cb42ead6f7fb4",
+            "ssdeep": "12288:XwTa/cXNgrjXhfD0kJS29NNt1GeL9NX6d:XtzrVfgKhBGwe",
+            "size": 670208
+        },
+        {
+            "at": 32447,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile28.bmp.exe",
+            "name": "files/0x000b000000018b82-464.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "2b0cb71ec495f5820362ea8a529ee4f5",
+            "sha1": "0861f7d3b80b3a326cd6544876659b224c23b1a5",
+            "sha256": "91d17215dffe1048fc128cb49b3e2a36c3a9d73f65a8a2dd394e161f70cfc8d3",
+            "sha512": "9416c0f5e456903a00bca0259c43be39de38ec971cd5a2d7f21fbf3afcb01899ad428f55194d6861ee7a9e4436bb7098b0508f3c2f7c9ca397023d7358e469c1",
+            "ssdeep": "12288:wauEmsEp5oRuG+SwVpjeIaTm2ZdaeDa/BYuGnvjTsf2QpHnwWIB9CX8s+El:wauE/FaNKDa/auGnvf4h5Q8ssl",
+            "size": 675328
+        },
+        {
+            "at": 32634,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile29.bmp.exe",
+            "name": "files/0x0007000000018d13-477.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "07465530b390ae4abc36e6dfce9038c3",
+            "sha1": "6c015ac4a5aa658e404126696e973483053d352e",
+            "sha256": "17b9a5a62c3f8ac0ae07747e0ea389694318e01298811c274275d5c5325ba86b",
+            "sha512": "ed3d2abbc75adaaefa587eadfa0964f7d7402555d0b8d1c0235b0feb7dd2df880e141b6aea1b1a4d308a59aaa4b003e986f6e71adb7ec733694268547c64e147",
+            "ssdeep": "12288:XJV2f+rbaZaN6MYYWbPR6TCdcb8QGj+sy8Mvw51TBx:Z8Kbf6xYe6CdcbEj+sy1wJ",
+            "size": 668160
+        },
+        {
+            "at": 32821,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile30.bmp.exe",
+            "name": "files/0x0005000000018c26-491.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "32ece0648154b61ee829d4eb0a8baccd",
+            "sha1": "ef1705d7b75e7856934e6cae9f2b712298b6d5c7",
+            "sha256": "a2c0dc46fdb62fc971e99b042e4ee1318f9b1c0769798a19d26a85dc7fbb8141",
+            "sha512": "1b7e30f43e460d2196570fac34ef604fa244518e8a994de42cec97cd3f0c125ac7f96ea528104c99693f6504f7a50e5ef65117c099f0a5b203a42860bee08b1d",
+            "ssdeep": "12288:VkCllR448uRUvn+yEHf9JZHiXLsR/5FmlAklMT2X5s7wIaWoOJZHCVw:V3R44HR8+9Hf9JZCXLsROPlygb8oOJ6w",
+            "size": 675840
+        },
+        {
+            "at": 32993,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile31.bmp.exe",
+            "name": "files/0x00060000000192f6-504.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "2134acc613b22c7e68c84b2f12290d57",
+            "sha1": "9a412bec64fcb0e5a5b0ed91acfac44d437322c8",
+            "sha256": "f5ee0eaaca0ccafad2e044adbae813d0afc52a2dab48a133dc4b5c2d1e23000e",
+            "sha512": "e6f04e06bf01a548187c88d1744abae5ace80351ecd0045ce47470664b1b0798d551e02d20aee4c8672cead937d94215ba2ce03b89822e4d6f097d5ece5e76fa",
+            "ssdeep": "12288:zTcXridQOp8RXmI2iOJQyYaPG4emsaM9LC+o7ydwDAp7tI:zOiPaXB2FQheHEeZCDp",
+            "size": 670720
+        },
+        {
+            "at": 33164,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile32.bmp.exe",
+            "name": "files/0x0006000000019333-518.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "b98595bda272a6cf7764752c87e2492e",
+            "sha1": "069681aadfc49b9a318269778b94ecd921b19d27",
+            "sha256": "a4fb00f7dcdfb668cc72bf88cda273bb8836ac75f5b441c315613c8bd0232ba7",
+            "sha512": "370a197fc6911327411dc50cc3b07d654e62d5b6fe705278ccee092f082bed39cb9a228bd052b01afcb19658fda20da8386b4be8889d809952f18bee66575647",
+            "ssdeep": "12288:PXcQmFeWR2tCD1FP79gqXdq2qCcmZuNR+ubz0WBGW62LhLt3hQ5Kbevf:vcQm/caXdlhi/BGjmhLde56evf",
+            "size": 667136
+        },
+        {
+            "at": 33352,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile33.bmp.exe",
+            "name": "files/0x000400000001934a-532.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "8139ad693008ad21f11e828aa095d2d3",
+            "sha1": "f09b24fa4b920fa4b11c435e82e87aa116f3c80d",
+            "sha256": "4c7f0d3dd98d331991f541c935b303b1039d4c5bedcb3ce74253c8d32f685419",
+            "sha512": "51479f384dd27af2c96f59a20fc20a7acb59602855162a882d2e207b185a91a7c6c353ed58ccd3a3239ca4ea7386f35073d06d775a2bf0ecb2c8d84adcbfadaf",
+            "ssdeep": "12288:h38C2Fx+U0aaaAo2m/cUB2crnTBhP0nVhY4g31v46A3R98e2OuZj11vJWa:h3NQ0abfB5/7sxdwe2OujP",
+            "size": 670720
+        },
+        {
+            "at": 33523,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile34.bmp.exe",
+            "name": "files/0x000600000001933a-546.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3a1a0842239bebe0906e8966d59c75d5",
+            "sha1": "2cffd6071fc15c18968fb43ed80c63c993c5f46f",
+            "sha256": "31c1e60da0d012619f05c6476b148d8f7b57f345a301f7f6960d1313a5889d44",
+            "sha512": "c4c97ab187d2551d7034680762866dee545ee42280094fa8f5e169b239b57d43b5339ef5ff028c673c842f614f6c8803835cc554041cbd310422725a568e4549",
+            "ssdeep": "12288:lbXcfOpKLzaKTf1y3V7/JJJ6eLNb7HvM/EnbQtaR2qug/RssXT0wBt6Zfd5ad7YO:hXcfOpAzaSkTZ7HvM8nbQYbmswwL6FdI",
+            "size": 667136
+        },
+        {
+            "at": 33695,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile35.bmp.exe",
+            "name": "files/0x0005000000019358-560.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "cc39105dfa857c837fc6e6f08c1eb6fc",
+            "sha1": "54f960dad1845b9ba4f587a1c5e65f2e5b32d159",
+            "sha256": "2308e4cb3f8019583765ee324679ed47e9f553438b1c8d11ad5fc098c85cb08c",
+            "sha512": "20414556bfe92e74848c5623331119e0b0c579b337499efd290a273091ed429e14ca95bc9ade714f08eafef87ac93a8518739e743e8d42b352d67d4b11a8586b",
+            "ssdeep": "12288:aH0oiYE7GHOi/Vvpg4aOY8SaBOyIz7TdDALwsYzl3L91Sbfoyj6iApHr9VgH7NUc:wDiYvL/VR3K/dIuzl3Ly3YrweI",
+            "size": 666624
+        },
+        {
+            "at": 33866,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile36.bmp.exe",
+            "name": "files/0x000c0000000192f4-574.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "deac8ea0c1dde1d39b7fd24e813c308e",
+            "sha1": "4086eedf35358ef00626f9277e184b878aa028be",
+            "sha256": "f27b691306397d21a65d086df9e710e84e794fc5f6a449011885d4d4d47ee508",
+            "sha512": "1842ac5923e68ae538db1ac3a074224a0910abd726c4ad697f380d802b8980317d8ca17e5894518b985c7047e5389f7384fd36fd76fdc569815ac6ccbee68a5b",
+            "ssdeep": "12288:uAFdo05/iBpD32LaYXDds7C+8TcH+zlkr2ByMKURs4mVjQBgb0vcIKn7lt+heipb:tFz5qXD9YziC/TcH4ktMuIk/r8+Ix88",
+            "size": 674304
+        },
+        {
+            "at": 34038,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile37.bmp.exe",
+            "name": "files/0x00050000000193a1-587.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "384a375557a8fa10ce3519b1578b5209",
+            "sha1": "6b041419069baf07786c613da539b1941bc5321b",
+            "sha256": "3b925ed649884cf183c77723cb4e06d934ce886d9a999ea2e183bd3cfb5c4c75",
+            "sha512": "969c8c8e98ce6dbcea03d994c4bf44fd08f29f3dc39d2780f0a2ab5711a21879c35f926871883aa3e5b4a5150ac6fc7c5eaf2f12cca752f3c9b8b115dfafc1a7",
+            "ssdeep": "12288:exeEhuKuKLsVWKA6x/aaEufK8KjLhgfgV1/KPmHh6wvSyZMqyLH1vvPZqJg8foZs:oeEohbx/nvfK8KjFCIxHh6wvSyZMqyLQ",
+            "size": 672256
+        },
+        {
+            "at": 34225,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile38.bmp.exe",
+            "name": "files/0x0007000000019373-600.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "7f300e74c8b89a5544b31e0e16e53059",
+            "sha1": "80a60a51dba73c0208a108dafa283335cea98a42",
+            "sha256": "b24b8da7ad94e10538c42241bd374d94e1a9f56a8bd65521b34b9162954a7785",
+            "sha512": "5940c38a5d38a2516972086c826ed61d9f7baaac2835eec69d6ab17820f9b9f53d55ae42d969b17971d56863493df3402d77e90d5a0e147d010473b66a5ce8ae",
+            "ssdeep": "12288:eTyeQ7N9IxAwi7GGvFprK5kdV6O6fmjDO3oyARgKekEXe:7eQ7NHn/vFpe5+6f2Ap3VO",
+            "size": 673280
+        },
+        {
+            "at": 34490,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile39.bmp.exe",
+            "name": "files/0x00060000000193be-614.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "024e8b6dbaa32a380dfa09c650ff7849",
+            "sha1": "0c3c9f2ad0a18c33197b6b3a08e8a900aa961b56",
+            "sha256": "f4d701e393e64ea3b4f6f37efc8c6abb9301308e69f2ecc7ab863e404ec0effb",
+            "sha512": "e302dd3d087949425ba8e7a87d95374b2c99149cece2d285927df7dbacbd76cb802c1fb411c14447390b014f4b7fec235fdc2176a849d344173890e6ecd21ea7",
+            "ssdeep": "12288:ZfTA0tHqU6wLCLqN/za0ZXM/fw6ouHd7WhocMgQW:Z9tHv6MCLEzan/fw1uEhocMgX",
+            "size": 673792
+        },
+        {
+            "at": 34818,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile40.bmp.exe",
+            "name": "files/0x00040000000193d7-628.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "eaeb43d872da479edc27aa7b3f9a8549",
+            "sha1": "50108d98fef89214fcd57c51576252bda386e856",
+            "sha256": "c0556a9e69a4d02fdb54bae1599b8c96edbc0860e9d1554e62f7ded03f0b6e57",
+            "sha512": "57efb609854ce5a0ab31e9536cab8ebdd5da2c3cbe4f1d0b5f5915d55433ec9f92673bae60c6c2bfe2ded59b242cdd5fe470d090d0674c7b04070cd4602441cf",
+            "ssdeep": "12288:hggT6EAfxumWoDWBtYq8HttfLRxz9qIfjyJdGxAkcLb6mJTs:hggJmuKWHZ8thz9zXGs",
+            "size": 669184
+        },
+        {
+            "at": 34990,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile41.bmp.exe",
+            "name": "files/0x00060000000193d2-641.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "75864168d68ff7772b3e2c061a1e6536",
+            "sha1": "c974c7a6a4f200c7e1b396f36f5a7d27d0d5404a",
+            "sha256": "410345b1106f3bc4bb5ae8d903962116e758e9c6b392264d463238ccbc48ea07",
+            "sha512": "87d12384f7ba71d59561f0b5f6870c6d919ab09d25409482769158abdc580e05ac86c46e3e77a0bc4439e3160362208248f9a007178224bc90cd0cbec0d39a11",
+            "ssdeep": "12288:uR6obPywjtXgwsEq14FUiwQfGx7AE4JGQVfYB4YsXzGym:S6LGp+7bQfGx7f4JVKHsjhm",
+            "size": 671232
+        },
+        {
+            "at": 35130,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile42.bmp.exe",
+            "name": "files/0x00080000000193c7-655.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "57eef0496c0f8818aa0da79718ba6923",
+            "sha1": "25c3c4a406e3e13e340687c3bee74d431b7dca98",
+            "sha256": "946ffe5a8137358ffada2ed6514d96cc18649e82512169c62758ef0c20e0c79a",
+            "sha512": "109bbf8a7b8c2dfdab12449e1d845122c79ade14e2f4bbdc82b7bee4ce32c1ba938affa98bc91ac747267ff7fde7a41904f2a497d9a0c77eabeb3125e3592e74",
+            "ssdeep": "12288:LkyaPU4NWyJ7bd0RKqzo8tX6mTwXS338c8+QGMcIA23asQSdEW1:LCPNnJ7bd0RKqzo8t4S338c8+QGMcTzm",
+            "size": 674816
+        },
+        {
+            "at": 35785,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile43.bmp.exe",
+            "name": "files/0x00060000000193e5-668.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "988574e21b67d681d7f7a4fcc9071392",
+            "sha1": "8bf6f04349dcb6b2628ba47911605273b241d865",
+            "sha256": "ea397fac4f6650b0af2fa1a1e8e9d873a6705bc19d5c4d62a2ee48a02bacacb9",
+            "sha512": "c8468811746dd6b0575cea0c1908f99047726dd8e6df9febeb99fded2a10ec92b2728efccfafbe1f80e6a2aaca3ef8ed07977cf03b810eb8e0f8802f6b2f4b44",
+            "ssdeep": "12288:p8VGi17IXq+b8O00Bbf40q6ngBiQYEIm6j/zbV/SD3MJT9D/OtMS+PgXT8Pv+y0A:p8VGsaBHZBbf6iFEo/bV/SD3MJTB/Otk",
+            "size": 675840
+        },
+        {
+            "at": 36019,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile44.bmp.exe",
+            "name": "files/0x000500000001943d-681.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "6b0f5ca6f77aaa1f2432e7261f1a9ba5",
+            "sha1": "859abd799712f9698b4e2aaa5b70a035f2835449",
+            "sha256": "90438e973ec80c4dd5a7a4466f7c47fd4d83adda69dac221621aea8c5e182fba",
+            "sha512": "73b6494aadbb11f92873d248485e28f9809181742dd067a002da92d06a0c6f0bca8038a3bff0f638c3f839c072ca49f26aabdfcd1752785e02833aa01d8d1070",
+            "ssdeep": "12288:APCSbKQvGkQaFF+aYqnRc5P2i35ELDP9ppadpbM/j5d9e7iAjA6Q:+rlFHad2/jg7ix",
+            "size": 672768
+        },
+        {
+            "at": 36456,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\guest.bmp.exe",
+            "name": "files/0x00070000000193ec-694.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "82218eff9cd89c73968920c5812d9f4b",
+            "sha1": "e254ec48e559862a50399136605c298b0de536a4",
+            "sha256": "3006242d517c3f48fb2d140e4c012c1a88d98d445ac24186beb6c77d4e335f64",
+            "sha512": "52ff7052e0958ad9c515452ae3f66986a355fad5b9fc25cce8dacc1c88cdf49fa3442f866a6124f08970c349842416c4d699469039af658676cbeada86257aca",
+            "ssdeep": "12288:XNaNgHd2vot1aC9NhuXE4dPPUYNGvXIboozWnKG8o+jWXCgxwnilsStAkz0cXes6:sNg9wmNhuXPdPMvv48ozWnKG8o+jWS5H",
+            "size": 672256
+        },
+        {
+            "at": 36643,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\user.bmp.exe",
+            "name": "files/0x0004000000019459-708.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "df40a9ce318da8d8dba4665c68993d2c",
+            "sha1": "e4dedd12628ddc5810c86dd6b6e5a753747216ea",
+            "sha256": "62fe3926a6a5448e3c94ada118e3f92a3cd425bcb5761d2e4c3c5011494c651a",
+            "sha512": "6dbd8289ac488ecfe28e7cd2f8b1256f05e38835ebedea0acb4f763127b894eff1b6f5a8c170f79731a6318643b0eb0dadc6642cd06c3877a1c08f9a1135c9e0",
+            "ssdeep": "12288:C6M4meV272wyuAwnJiJbI8xGHeW+MJHE373NLlfWUMI//HA:nQJyulJiJd3YY97I",
+            "size": 667136
+        },
+        {
+            "at": 37782,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe",
+            "name": "files/0x00050000000055e4-712.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "1191ba2a9908ee79c0220221233e850a",
+            "sha1": "f2acd26b864b38821ba3637f8f701b8ba19c434f",
+            "sha256": "4670e1ecb4b136d81148401cd71737ccf1376c772fa513a3e176b8ce8b8f982d",
+            "sha512": "da61b9baa2f2aedc5ecb1d664368afffe080f76e5d167494cea9f8e72a03a8c2484c24a36d4042a6fd8602ab1adc946546a83fc6a4968dfaa8955e3e3a4c2e50",
+            "ssdeep": "12288:LZc0IursYCYQeSnyZJiqlEbXSb9NtoqOFBqkYHp:DMYenGJiKEbXWtpOLl8",
+            "size": 455720
+        },
+        {
+            "at": 37813,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe",
+            "name": "files/0x00050000000055e4-713.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "1191ba2a9908ee79c0220221233e850a",
+            "sha1": "f2acd26b864b38821ba3637f8f701b8ba19c434f",
+            "sha256": "4670e1ecb4b136d81148401cd71737ccf1376c772fa513a3e176b8ce8b8f982d",
+            "sha512": "da61b9baa2f2aedc5ecb1d664368afffe080f76e5d167494cea9f8e72a03a8c2484c24a36d4042a6fd8602ab1adc946546a83fc6a4968dfaa8955e3e3a4c2e50",
+            "ssdeep": "12288:LZc0IursYCYQeSnyZJiqlEbXSb9NtoqOFBqkYHp:DMYenGJiKEbXWtpOLl8",
+            "size": 455720
+        },
+        {
+            "at": 37969,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe",
+            "name": "files/0x00050000000055e4-724.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "05ae0a4c18e697a9b24f16bba49e84f1",
+            "sha1": "ffe6b542e68fd3268f4eff1a3114645f3b3e8fb3",
+            "sha256": "0e51e32129f2d78058376de5a0090bdbad95fc53435c61db7d959e297fefaba8",
+            "sha512": "7441745c247d96fbbd06fa21e29725720380a9e66b28c87de5a9b807944054acf0a6e19c7d3ee1df01fef9b576cc8713d2cdd3904601611118bb8134f26349a4",
+            "ssdeep": "24576:Jf4eV8Eh6EEJq3BlL2dacpozqSn83h4TOz6MZ4IGT2+lsRIe+iA2PCVSUhIfPBik:JeEgq3/zkh4TOz6aS2+GIeg28SUuBd",
+            "size": 1079808
+        },
+        {
+            "at": 38219,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{4d8dcf8c-a72a-43e1-9833-c12724db736e}\\VC_redist.x86.exe",
+            "name": "files/0x0003000000005ae0-727.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "a9993e4a107abf84e456b796c65a9899",
+            "sha1": "5852b1acacd33118bce4c46348ee6c5aa7ad12eb",
+            "sha256": "dfa88ba4491ac48f49c1b80011eddfd650cc14de43f5a4d3218fb79acb2f2dbc",
+            "sha512": "d75c44a1a1264c878a9db71993f5e923dc18935aa925b23b147d18807605e6fe8048af92b0efe43934252d688f8b0279363b1418293664a668a491d901aef1d9",
+            "ssdeep": "12288:2nMwHskY7gjcjhVIEhqgM7bWvcsi6aVOfIyWL2JGP9/ztLlAZHY/:AMysZgjS1hqgSC/izGfU2JGlbhlAZ4/",
+            "size": 648936
+        },
+        {
+            "at": 38266,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{4d8dcf8c-a72a-43e1-9833-c12724db736e}\\VC_redist.x86.exe",
+            "name": "files/0x0003000000005ae0-728.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "a9993e4a107abf84e456b796c65a9899",
+            "sha1": "5852b1acacd33118bce4c46348ee6c5aa7ad12eb",
+            "sha256": "dfa88ba4491ac48f49c1b80011eddfd650cc14de43f5a4d3218fb79acb2f2dbc",
+            "sha512": "d75c44a1a1264c878a9db71993f5e923dc18935aa925b23b147d18807605e6fe8048af92b0efe43934252d688f8b0279363b1418293664a668a491d901aef1d9",
+            "ssdeep": "12288:2nMwHskY7gjcjhVIEhqgM7bWvcsi6aVOfIyWL2JGP9/ztLlAZHY/:AMysZgjS1hqgSC/izGfU2JGlbhlAZ4/",
+            "size": 648936
+        },
+        {
+            "at": 38422,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Package Cache\\{4d8dcf8c-a72a-43e1-9833-c12724db736e}\\VC_redist.x86.exe",
+            "name": "files/0x0003000000005ae0-739.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3506d59a9a517bbd7020c9ca83b1a46b",
+            "sha1": "2955ab281b8d8969413cbe59710a805d3894ae0b",
+            "sha256": "ffdbbc0d8ec2e8d3b73ece8a47865a9485320fbe40fdf599e7931e00698c7842",
+            "sha512": "6e30675427916b0f88e105763d9a822455d43664bd363daeb4be4d4d70b0b880b3982467fafa38b3d2ccb3a7eaadcf9b34970ccbbbd61e122beaeb449723dabb",
+            "ssdeep": "24576:D+npnEYbyZwOMjPlb63fHsAy3xnqkAUNAHIZ94W:ipESCwRtbmMpxqkAUSI8W",
+            "size": 1273344
+        },
+        {
+            "at": 38609,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{57a73df6-4ba9-4c1d-bbbb-517289ff6c13}\\VC_redist.x64.exe",
+            "name": "files/0x000300000000e70b-742.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "3cfb3ae4a227ece66ce051e42cc2df00",
+            "sha1": "0a2bb202c5ce2aa8f5cda30676aece9a489fd725",
+            "sha256": "54fbe7fdf0fd2e95c38822074e77907e6a3c8726e4ab38d2222deeffa6c0ccaf",
+            "sha512": "60d808d08afd4920583e540c3740d71e4f9dc5b16a0696537fea243cb8a79fb1df36004f560742a541761b0378bf0b5bc5be88569cd828a11afe9c3d61d9d4f1",
+            "ssdeep": "12288:3nMwHskY7gjcjhVIEhqgM7bWvcsi6aVtrIyzU40vy3W/ceKSHMsiFyY6XN9:3MysZgjS1hqgSC/izJfojymk4HM5yJ",
+            "size": 649536
+        },
+        {
+            "at": 38640,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{57a73df6-4ba9-4c1d-bbbb-517289ff6c13}\\VC_redist.x64.exe",
+            "name": "files/0x000300000000e70b-743.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "3cfb3ae4a227ece66ce051e42cc2df00",
+            "sha1": "0a2bb202c5ce2aa8f5cda30676aece9a489fd725",
+            "sha256": "54fbe7fdf0fd2e95c38822074e77907e6a3c8726e4ab38d2222deeffa6c0ccaf",
+            "sha512": "60d808d08afd4920583e540c3740d71e4f9dc5b16a0696537fea243cb8a79fb1df36004f560742a541761b0378bf0b5bc5be88569cd828a11afe9c3d61d9d4f1",
+            "ssdeep": "12288:3nMwHskY7gjcjhVIEhqgM7bWvcsi6aVtrIyzU40vy3W/ceKSHMsiFyY6XN9:3MysZgjS1hqgSC/izJfojymk4HM5yJ",
+            "size": 649536
+        },
+        {
+            "at": 38702,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\mqEQ.ico",
+            "name": "files/0x0005000000003cc7-744.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "ac4b56cc5c5e71c3bb226181418fd891",
+            "sha1": "e62149df7a7d31a7777cae68822e4d0eaba2199d",
+            "sha256": "701a17a9ee5c9340bae4f0810f103d1f0ca5c03141e0da826139d5b7397a6fb3",
+            "sha512": "a8136ef9245c8a03a155d831ed9b9d5b126f160cdf3da3214850305d726d5d511145e0c83b817ca1ac7b10abccb47729624867d48fede0c46da06f4ac50cf998",
+            "ssdeep": "24:su1Flj/XygwYAaMiM1E2/pkQ14btLH3RJigg1Kjq:vFlj/XygFA28BRkI4btLHhJigg1Kjq",
+            "size": 4286
+        },
+        {
+            "at": 38843,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Package Cache\\{57a73df6-4ba9-4c1d-bbbb-517289ff6c13}\\VC_redist.x64.exe",
+            "name": "files/0x000300000000e70b-754.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "d921d6b3e6377865c2f0624eda7789b6",
+            "sha1": "c7df23f943b3fd444688c5c4546a71e5a883addf",
+            "sha256": "fccff2c5e5a64528ab63f7482a008653aadd01d099b48b1f1b4788c05b94948e",
+            "sha512": "e66bf037878c7ac8aa7a570ec04361e55ccc529858a8686c2f2c3e2b7652be6d3ee82455456b75608273713abcfe1177e95db15cc20c8fd418a6f75f1475fee6",
+            "ssdeep": "24576:MWddfzQbdR0w+N2qbhCkvsikQGV+zhFaR3dEJhCP:5DQbd+N2q9Hdauh6Qh",
+            "size": 1269248
+        },
+        {
+            "at": 38983,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{61087a79-ac85-455c-934d-1fa22cc64f36}\\vcredist_x86.exe",
+            "name": "files/0x0004000000005756-758.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "6503c081f51457300e9bdef49253b867",
+            "sha1": "9313190893fdb4b732a5890845bd2337ea05366e",
+            "sha256": "5ebba234b1d2ff66d4797e2334f97e0ed38f066df15403db241ca9feb92730ea",
+            "sha512": "4477dbcee202971973786d62a8c22f889ea1f95b76a7279f0f11c315216d7e0f9e57018eabf2cf09fda0b58cae2178c14dcb70e2dee7efd3705c8b857f9d3901",
+            "ssdeep": "6144:NqIuRebMq5S+Ud8AK+ehB9XgdmAeUBZ2x52OoElZTxPhhQgO1Oi9+8Vl9fAx/Wf9:NqIOkU8AMXE9B7PElZlP41N+4PUWfo",
+            "size": 466032
+        },
+        {
+            "at": 39030,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{61087a79-ac85-455c-934d-1fa22cc64f36}\\vcredist_x86.exe",
+            "name": "files/0x0004000000005756-759.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "6503c081f51457300e9bdef49253b867",
+            "sha1": "9313190893fdb4b732a5890845bd2337ea05366e",
+            "sha256": "5ebba234b1d2ff66d4797e2334f97e0ed38f066df15403db241ca9feb92730ea",
+            "sha512": "4477dbcee202971973786d62a8c22f889ea1f95b76a7279f0f11c315216d7e0f9e57018eabf2cf09fda0b58cae2178c14dcb70e2dee7efd3705c8b857f9d3901",
+            "ssdeep": "6144:NqIuRebMq5S+Ud8AK+ehB9XgdmAeUBZ2x52OoElZTxPhhQgO1Oi9+8Vl9fAx/Wf9:NqIOkU8AMXE9B7PElZlP41N+4PUWfo",
+            "size": 466032
+        },
+        {
+            "at": 39202,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Package Cache\\{61087a79-ac85-455c-934d-1fa22cc64f36}\\vcredist_x86.exe",
+            "name": "files/0x0004000000005756-770.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "34f94bb684dbf160a3ce97ca4b9fa9b5",
+            "sha1": "093d76033d702d2a4b02a855deb90d9f9c3b5c15",
+            "sha256": "000066e467d525d96096d83148f4a5c144bbd84ae24a024c2411e92db6036f30",
+            "sha512": "37d2f4f9a217092fc992587d70bc2bf664715411ab9437e2cc9b980cd5db1eedb971001676442ecd512db726aa5313acdecf665ca8bf04e4cb7bdeb3f799f7ba",
+            "ssdeep": "24576:RCTINjKyn1zKXltIhhFV/gC4s3s1csSfXwHvpBRCIb:RC0cyKXrIhfV/p4s3srvHBBRb",
+            "size": 1088512
+        },
+        {
+            "at": 39358,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe",
+            "name": "files/0x000d0000000056fd-773.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "2b48f69517044d82e1ee675b1690c08b",
+            "sha1": "83ca22c8a8e9355d2b184c516e58b5400d8343e0",
+            "sha256": "507bdc3ab5a6d9ddba2df68aff6f59572180134252f5eb8cb46f9bb23006b496",
+            "sha512": "97d9b130a483263ddf59c35baceba999d7c8db4effc97bcb935cb57acc7c8d46d3681c95e24975a099e701997330c6c6175e834ddb16abc48d5e9827c74a325b",
+            "ssdeep": "12288:4Zc0IursYCYQeSnyZJiqlEbXSb9NtCGOF2O27MVzy:4MYenGJiKEbXWtfOkUy",
+            "size": 455576
+        },
+        {
+            "at": 39389,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe",
+            "name": "files/0x000d0000000056fd-774.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "2b48f69517044d82e1ee675b1690c08b",
+            "sha1": "83ca22c8a8e9355d2b184c516e58b5400d8343e0",
+            "sha256": "507bdc3ab5a6d9ddba2df68aff6f59572180134252f5eb8cb46f9bb23006b496",
+            "sha512": "97d9b130a483263ddf59c35baceba999d7c8db4effc97bcb935cb57acc7c8d46d3681c95e24975a099e701997330c6c6175e834ddb16abc48d5e9827c74a325b",
+            "ssdeep": "12288:4Zc0IursYCYQeSnyZJiqlEbXSb9NtCGOF2O27MVzy:4MYenGJiKEbXWtfOkUy",
+            "size": 455576
+        },
+        {
+            "at": 39514,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe",
+            "name": "files/0x000d0000000056fd-785.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "9ff0ce9add8f504c21bcd89ef3776001",
+            "sha1": "578d05672b0e5d1599112de2cb88c12fbd06d13e",
+            "sha256": "b92c812f1ff0f27f66d907f0746577898b142fddc2357bd736d323de78f81fd6",
+            "sha512": "9cee6dfb37b8afdd7f49fd0803c54657554c0a6838c7a61f91184a3d3d3209540960102944c780726cd35a96323231e97e9340bc7459969d6a499839d4af1697",
+            "ssdeep": "24576:+TcnnnnnnnnUEP7cCKSeTcTMoXiOrSHPhMrMuOu7eNnHGRPG:+onnnnnnnnUKcCKSeTcTM97arM87wHGF",
+            "size": 1075200
+        },
+        {
+            "at": 39592,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{ef6b00ec-13e1-4c25-9064-b2f383cb8412}\\vcredist_x64.exe",
+            "name": "files/0x000b0000000059a8-789.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "e9e67cfb6c0c74912d3743176879fc44",
+            "sha1": "c6b6791a900020abf046e0950b12939d5854c988",
+            "sha256": "bacba0359c51bf0c74388273a35b95365a00f88b235143ab096dcca93ad4790c",
+            "sha512": "9bba881d9046ce31794a488b73b87b3e9c3ff09d641d21f4003b525d9078ae5cd91d2b002278e69699117e3c85bfa44a2cc7a184a42f38ca087616b699091aec",
+            "ssdeep": "6144:3qIuRebMq5S+Ud8AK+ehB9XgdmAeUBZ2x52OoElZTxPhhQgO1OiP6dQguVftfM:3qIOkU8AMXE9B7PElZlP41f60G",
+            "size": 466040
+        },
+        {
+            "at": 39638,
+            "pid": 1036,
+            "procid": 30,
+            "path": "\\ProgramData\\Package Cache\\{ef6b00ec-13e1-4c25-9064-b2f383cb8412}\\vcredist_x64.exe",
+            "name": "files/0x000b0000000059a8-790.dat",
+            "kind": "martian",
+            "origin": "imgload",
+            "md5": "e9e67cfb6c0c74912d3743176879fc44",
+            "sha1": "c6b6791a900020abf046e0950b12939d5854c988",
+            "sha256": "bacba0359c51bf0c74388273a35b95365a00f88b235143ab096dcca93ad4790c",
+            "sha512": "9bba881d9046ce31794a488b73b87b3e9c3ff09d641d21f4003b525d9078ae5cd91d2b002278e69699117e3c85bfa44a2cc7a184a42f38ca087616b699091aec",
+            "ssdeep": "6144:3qIuRebMq5S+Ud8AK+ehB9XgdmAeUBZ2x52OoElZTxPhhQgO1OiP6dQguVftfM:3qIOkU8AMXE9B7PElZlP41f60G",
+            "size": 466040
+        },
+        {
+            "at": 39779,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Package Cache\\{ef6b00ec-13e1-4c25-9064-b2f383cb8412}\\vcredist_x64.exe",
+            "name": "files/0x000b0000000059a8-801.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "8e8f9e4db2b0bb87c9fe0c4307bd93c8",
+            "sha1": "332949187a178daca6984f6219de4f4a9152fe91",
+            "sha256": "71ebefc8f52628f7e812577ed7ac63f54da79aab54cebb9c57a6a546e3f25b47",
+            "sha512": "4595545d73d7f55122e374953b2d9e71bc9fee5a7c5c4e1ae59f0176f953f18ec8a91b818a0882f129efbf64c5e8eddc6a514b66f8f2916e8f3acf2655ca5937",
+            "ssdeep": "24576:KkmB/////////////////JjTe5A7WUREjgNKvOWZmlANektNjXjIHrkgn:Vmb0A7Wlj5vL8wgln",
+            "size": 1090560
+        },
+        {
+            "at": 46830,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Roaming\\OutGroup.pptm.exe",
+            "name": "files/0x000400000000f6fa-814.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3fdb83284ea0edc933d635b7adec5c09",
+            "sha1": "50b37995819ae422368d8aebb2e76bb2e8f692d3",
+            "sha256": "9e9998f37025528230f0435b22553eabdc7c936d691871405e8a438be1cb290e",
+            "sha512": "56671ad795b480f18e80e7ed42585f8f3697eae9a2d42d8b8ea8ef604411617a77aa0088dd8ad80892e6158aac58e5fd461ddaeae6d1fb1de53f3b0f2e17dc1c",
+            "ssdeep": "24576:ffjeLLzhrX195M3dmMF26OdiD7VbMTOJUai+bLp5/6sdl7bcw:3jeLBr1rsdH2zdqMSJUKbLD/Tdl7Q",
+            "size": 1270272
+        },
+        {
+            "at": 47782,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Roaming\\RedoMove.zip.exe",
+            "name": "files/0x0006000000004ed7-828.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "434bd38062fb02cdaa4fb63e441ce17d",
+            "sha1": "e390395c75cf9ff33f5993d83a710887f2c5dc48",
+            "sha256": "d6145169fe517b571f45f62cfdf6fc72943dc11ca298a4128c784a39ca984ae3",
+            "sha512": "21f6edea45de4c7af83a350b5986f634ee0a8e522f74c49ce5c7a319f8adaa47b0fde52de18053be08328d12580f10422fe1d1f04c7295e47c97f2f00558c7cb",
+            "ssdeep": "24576:srEHJG/ymc3jdmwrRq/ypDpDvtIlzPcFzlmhJxcAeZlojHQXAWOn6w7GF7DC:swHhKQFencAFjH+AFRl",
+            "size": 1300992
+        },
+        {
+            "at": 48141,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Desktop\\StopAdd.zip.exe",
+            "name": "files/0x00090000000122a5-841.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "338016b36ec5050802c89aaf00f967b0",
+            "sha1": "ef2b1edccec71bf45a09cfa90ba4810024998b7e",
+            "sha256": "6b43dd48b9ab1012c0d06d4d83f19efadbebaee1e6d91bdafb17e2414ed70b58",
+            "sha512": "4ec6ea87cc2df3b2a4c47399bb3ac989e0488e16e2ba2f25fefa420920c072917e2f02dcb7d6af50c9cc0f343b1463f5071a20348e3028783ce28db467ba19c8",
+            "ssdeep": "24576:0eILhg19YeBZSvqlkt0NegCMGpVRPY5JMVTTTh0oi:d19YefSSkWNegCMGp3jVt0",
+            "size": 815104
+        },
+        {
+            "at": 48375,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Desktop\\StopSubmit.docx.exe",
+            "name": "files/0x000800000000b5cc-855.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "c53f616e1dcb23e42955c0e0b76319d8",
+            "sha1": "90245c23d6e12357f9ecaaf638195046e416af98",
+            "sha256": "37ee73df9db2896d2f7ba7ceceb493f64da49364c927fdfcd644d1d0870f54a8",
+            "sha512": "03ed2eaed170c3976bd266ab98bbfa02686608ce860eddd183d6a03c2e401077f894ca816c09fa0ae9b7ea86d5e5296fd1c78fffeffa76936cb0f4a18332bb81",
+            "ssdeep": "12288:CFe5/KMVY8kfZEJfrh5uh03r1RVrGqjKxumUJfvlOGceFSOO3z+u41jZpJ:l/dVY6TKsr1RFK8HFSOO3z+ZjB",
+            "size": 867328
+        },
+        {
+            "at": 48640,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\Are.docx.exe",
+            "name": "files/0x000800000000b5e3-868.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "14b9de0a2aec57b48fed444633707738",
+            "sha1": "eeed31ecf7f9826765394269c6cbc1007abe3bf7",
+            "sha256": "2ff9270562498d911aa57c2cda00c28563f9ea68476f1dcfa419906df54e2207",
+            "sha512": "1a0e449f68ec14cbec608ad387b204af1c7c4a29287685840b48f69836b98567c9bd259ca1d99baff3d2c8f28bb2cd2eb6bff0fef80b3c9b46b0775a69f77af6",
+            "ssdeep": "12288:lwRSd8/GsON8WQQ4cagruXFVv3UxwjUisU2eRaPDzPnub7rhXXOz6sjsz:GEd8/GsON8Eagu1V8xwg/U2eRSub7rhH",
+            "size": 635904
+        },
+        {
+            "at": 48858,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\BackupInstall.xlsx.exe",
+            "name": "files/0x0038000000010320-881.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "7d99cb6de285cc5ffc3aa8e4cf600d70",
+            "sha1": "6b9fe8421ad729fb81a380ec34f38c5f854a272a",
+            "sha256": "35fb9ba680384d69271c5d6e194575ffcc89e112e7a4ed154907d3076e973fdf",
+            "sha512": "05455ed06d7900eb90f76a3cbac281e658502485daea1ff2ba4b3c1e118626cd9e95eda7b4c762b0d2d01be36fdd03a6ac7912ea8487f78a4240ebac88475fa3",
+            "ssdeep": "24576:IClPSajNi22gZUFC3U8S+8/5DQQoAeRWa4+Bw3+0+lppT6eiOw42Mpp:Z9S602rC/hRDQQleRWa4Yw3+0+lppT66",
+            "size": 1118208
+        },
+        {
+            "at": 49513,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\CheckpointEnable.ppt.exe",
+            "name": "files/0x000700000000b558-895.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "10153c8cdd5dfd3b921f620934558a8b",
+            "sha1": "bb7efbbcb7ae636555da8ac1bf8310200c33de0e",
+            "sha256": "e4cc1ccc0bd2a92339620f10a349026d29086b64f60b13618762ac8e2e943b5a",
+            "sha512": "92397f465252360c9f52816be8ff9af709b8cb12868fb27cdf60ec0cad9f6d79e2f89801f6651887e5f8eb9430297665e29aff9b7c9057ac26d79d1a985bb1a7",
+            "ssdeep": "24576:wkWjpbievQXtyMdBjsjhUufSv7XRCdSXaPRGkJeZBSwAHrCqGiuBd0M:wkWxie8tDd9sqaSjXRCdmjuenAHrCqFg",
+            "size": 1684992
+        },
+        {
+            "at": 49794,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\DismountBackup.docm.exe",
+            "name": "files/0x000800000000b5bf-908.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3cfe36d0cf230fd74852dcc1e095b745",
+            "sha1": "19fc42275c27e94ee581faf995e22d102e4f9891",
+            "sha256": "bad3f30eb34331b7b5c8f3b6896b6816ec29a14480e55822bf3b258cd0299ea5",
+            "sha512": "2d81c57f279841f9f6b0b38c14cf8581cfde9ff42609b9af396a18658eebb90dbac32cfad9b7aa78db79c425386d204691d52add9a4b4243b19edcfa5e5c532d",
+            "ssdeep": "24576:A2UcpxWrebyuE5NupvGZD0kAdnUVq96Uojsh+qPCKr8Cm49jSYWE:muEcyugQtzkAKk4qPCreME",
+            "size": 1274880
+        },
+        {
+            "at": 49919,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\QUQc.ico",
+            "name": "files/0x000d000000004ed6-911.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "8e03abdaa3016247fdd755b7130384bc",
+            "sha1": "08dd2d9541e1961b06957fe9a19ce83aeff51a5d",
+            "sha256": "42b58cb0928fd8fa0e0bfb129fae9cfc3b7d3230c2c9c367f0a17c4d0039aef8",
+            "sha512": "e282ec1c768aee026682d4c6a8e71d643ac4d7dcfec027536944c658d71b7c484aab2da6990c324d9677d032a86c1015020efcd92c9923dcc21e4e5ce5b0e26f",
+            "ssdeep": "48:ba4ukzw+Lv6J74aELf2Zy27WAYdu9v7Tpj77fQ1JJ8BJndoacD7nMctsINZAmNC1:+0L674zLWhPYdmej8LcX/sINVmk4b",
+            "size": 4286
+        },
+        {
+            "at": 50028,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\Files.docx.exe",
+            "name": "files/0x0007000000010310-921.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "aa318b8a7c6ac9ba591a4dc0616d6def",
+            "sha1": "d9df26c59751a1d716ef08a2278d8633a203ae51",
+            "sha256": "6236b909cb26711a2d9056a6b43fad85288023697352d419126f5116f28981f8",
+            "sha512": "7d83932cc30c9d529f23c552231163349f6bcada150a794284d35478cb951d079819ecfa087162ded53206df9ac8f3eca10146a0a6a8f7a10bf3708ced3c1ea1",
+            "ssdeep": "12288:bMfT5j6sUNVe5b+8SRE6ZSxechxBfzzswjuKPeDZs3Kc4fZ77jnGTUhjud:b0V6sKyboFIxvBPs6VU",
+            "size": 632832
+        },
+        {
+            "at": 50793,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\InvokeCompress.pdf.exe",
+            "name": "files/0x000a00000000b565-935.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "c96c6725ba81ef6c67e996df8b6ab92c",
+            "sha1": "929dbc55fc4030b21cc882f4f31a9f8dcc8ebf6e",
+            "sha256": "821d46cb06216d98a4c38a1de0e00aa2aab49d487807291e6a68ece6bcf3268f",
+            "sha512": "eb04ae5694e998c949e5c86bdec27fd9756bf7135c6aec118e217815e8af70dce71648aa1e3cef2d3b4273f53a72fd18ec92652e1af00fbd15b77025a7c77e01",
+            "ssdeep": "24576:HinAIdfwJlA7fXpm+kQK1XoR92wyMURBVHaVSN+vcPQqzkGOVfbaDU:HSFklP+kh1XoR9xyfnVqA2c4qwGORGDU",
+            "size": 1361920
+        },
+        {
+            "at": 51089,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\Opened.docx.exe",
+            "name": "files/0x000900000000b57e-948.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "b51be657bd4c096e305696cbb7c7de69",
+            "sha1": "6e62e9cbb43afcee707181ae640b4242cd135f1e",
+            "sha256": "1b7f5db37179f0bcbd7f11b1753c563cbd00fee8d4beadaae15497ff393f90c3",
+            "sha512": "fc9774e47e93c1a8b8bf7ffca56cf8b306f7f58e62d206d09c9ee9761b693d98809c52ecf9f3e6799f9d1ec9f195e379995f11a8b4ae9d45c5ca04c2e01d2fed",
+            "ssdeep": "12288:97WRtJZwetvczLGBFtdJPacGj8RB/xr8r5jD4MSwJ:97WTTwexczLUP7/3/xr89D4eJ",
+            "size": 632832
+        },
+        {
+            "at": 51307,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\PopAdd.docm.exe",
+            "name": "files/0x000a0000000122a4-961.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "ea81058d5a81155fe164a94c81381f29",
+            "sha1": "007fb7ea058c895880c7a931fa493d72d160f38b",
+            "sha256": "422fc4dd6d1e305971402eb5f1fa4478defb611277fea598c805d9c1e6249a44",
+            "sha512": "6fb2b78f4924d300c48a891a548af3fdc135e711a0f92c57f9cc98fa3feddf4cbc0ecd5bad2d45f0e21bff9d42cd2a5b3a3d8d83de040a6ac42421e48ca83c73",
+            "ssdeep": "24576:vXr1jCkzYKiYJDKF144TWsBSj5sE2BR917lb+JVh6f/IbhpY5:lS44qsBSj6917ymozY5",
+            "size": 1177088
+        },
+        {
+            "at": 51557,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\Recently.docx.exe",
+            "name": "files/0x000800000000f6fc-975.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "710913ed2d2a2d38c11ec2be6a736aeb",
+            "sha1": "bf20af011c44305db5b85b0b0a744dbe7f36d6a7",
+            "sha256": "0a02a8a81793a5d273ab6c9164e1440ab24faf549ee8989a3c5ccf6b0d8655ac",
+            "sha512": "1f847ea9cfd5985b8f2de7c9cfab6835d6d6121b1758d636e38e510f17cfa3db3e1517643cf1d770322ddf1c37d0143d96e16d9629da559160899fc36287f357",
+            "ssdeep": "12288:IZagzrTlPUeYFxWgk1nrtRqvcU9ybpvPrrrrrrrrrrrrrZreprrrrrvrrrrBrrro:IZagCr8JRIcFFv2vl/iPi",
+            "size": 630272
+        },
+        {
+            "at": 51713,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\RemoveEdit.pptx.exe",
+            "name": "files/0x0013000000004ed6-989.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "29a9f2fcb6e66f8174a5f045e9ebfc7b",
+            "sha1": "a19c1feee1e00a9fc32ec978368a002c6fdd134c",
+            "sha256": "a5dd514231fcba7b14b29762cc2850bb6a2b5b7e55dda7c7c2fb308892c90e99",
+            "sha512": "ebac04e441c376dbdccc80820055cb9a3b1a8d23111d66f2e12dcaef87fe098587529d61ce047d64d20f33d5b6939b2ebe9b15dccf7d2ad24b313c72efe515c8",
+            "ssdeep": "24576:VE7ancdojMWayiSLuD14TlEN/6FhIiVtYAUYK91V7h8cSvZrZCCZH6qfRvDga:eanyQq9DArMd8LBkCa0xga",
+            "size": 1506304
+        },
+        {
+            "at": 51838,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\RevokeTest.docx.exe",
+            "name": "files/0x000900000000b55d-1002.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "9b716fcb73a179a0c86ae4c50e1dddf5",
+            "sha1": "0a58714e248b11addd2ff23d67a94538c0e5cbeb",
+            "sha256": "ffdf17ff25469b6fca2463d20d7028e47a2df68d21523be4d2880e5bdd391d4d",
+            "sha512": "bba179230a7a14143a5049e750a8f4d86388bb8e529a4b877bc4b879fd6953762f048548973916f216603351feef070020ff0d5725bb82fcdf4a2e4ed25fef6e",
+            "ssdeep": "24576:JgFa91uhjSw8xBRebqjtnpHR0im1NG0FHVZRy9BPg:JBa+xbOqjC580FHtF",
+            "size": 1154048
+        },
+        {
+            "at": 51963,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Documents\\These.docx.exe",
+            "name": "files/0x0003000000010311-1015.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "8064a298da53b30f58aa73cb04a894a9",
+            "sha1": "9713e4eefc45ed284d038ca36e64c43b56d2cd1c",
+            "sha256": "35c913b23d4953493889b1c00151dcd3066ab9ea78c5e7b7a40ccd4a4f4cd8f6",
+            "sha512": "a83770caafd5a6486e85fa10c423c8b3401022e3af6db92244af0daad1317a6aba26e77ad6040e61eb8e427a965b8dc81ac83611fa2aef7aec4f1538ec6bf8f0",
+            "ssdeep": "12288:QoVNL5Qx/meMvbWjUcRJBHH0UfJQMV5NRAKOINgQicrMSj5/0DS:QCQmeWb6UcRJBN1OIufO0D",
+            "size": 631296
+        },
+        {
+            "at": 52181,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Downloads\\ApproveDismount.jpg.exe",
+            "name": "files/0x000400000001030f-1029.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "2875d8b17c4239de182c50cc62f65183",
+            "sha1": "25d383cb5c20e0ae9cddbc1599aacad683b678bb",
+            "sha256": "eb8a93004abc5b597534d5b77c3698ca6503fe1fd488f473af43b905a95bf73e",
+            "sha512": "38e32f1fad61c56aaf2abc7f203a9072df3f9becf82624cd9a5e1ca863f96969c246fc7a96037d545d9c6a6e28da022f313e5c5df151ac51e0c67804728c3513",
+            "ssdeep": "24576:XaPHn+UFHVS8zpXxXzWHpgMokE7KOTudqz8pnruhQUeJ9RrKH:Xa97VBXgeMov7DTudqApnr3pFuH",
+            "size": 1184768
+        },
+        {
+            "at": 52368,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Downloads\\BackupCheckpoint.png.exe",
+            "name": "files/0x00090000000122e7-1043.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "08571477f3143d3079e5d5919f9ec585",
+            "sha1": "72dff720d0173cf73c4ca13b992a7ddd405d13f4",
+            "sha256": "2997ed97243ae4ad8f1f75c072a0ef77604778a5fc7e8fe904d10d6d646e5acc",
+            "sha512": "dca9e7d00dfbde7f9a34fad3887660124f04f1c860ecf0095a6efe7e4fe29181370cad341cf6b851292d30e0360f63a144a1b48e8fce807081c1e1c3b6657c6e",
+            "ssdeep": "24576:zhY5dEte5KrU8BlrqW9lCU391ZO/+DIyDUbJEYypQQWhy:AWte5KrU8BleqlCk91ZYIImUbJKpQQWQ",
+            "size": 1430528
+        },
+        {
+            "at": 52992,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Downloads\\GrantWait.gif.exe",
+            "name": "files/0x000b00000000b55a-1057.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3d7cecf0ed008caf0557f2f58e673897",
+            "sha1": "b70eabf3b6ef43d5e65cd677ae7bfa3ecebdd80e",
+            "sha256": "053201a70d4e3387db9453df7e49c47bf64990b30033f5f8f230335ad931498b",
+            "sha512": "1b71cb0a2b10c73e6763c2bfd1227cadd4b168b72e512d5ea74aebd535b386a3519ffe4ff75445b16d62b1541515d9df9fab373fe65d9183e183acf2c2860f9d",
+            "ssdeep": "24576:733udhzZYwttC4cSBuSLmnrjT+KFM8QS8OAc/MFQ:7nudhzZ5cSMSL2maQS8OAc/x",
+            "size": 1010688
+        },
+        {
+            "at": 53164,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Downloads\\ResetRequest.xls.exe",
+            "name": "files/0x00090000000122f6-1070.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "5f48e53d9124eeea7b633deb401a89b0",
+            "sha1": "0934338549b130bb3cbecc162012297029415084",
+            "sha256": "67bec2981f1625c71fada4b1e749bbc02743df47a77d0cd74cff2b91558c7d82",
+            "sha512": "255379e160055c9f50f52426aca1d01238ad1f4def87d4e4b8f94877b9b6a43f12ef8ac0aa2155a7e0a547551c697be9ed78ad9a6d5f0de75d680d21a4e215e2",
+            "ssdeep": "24576:ION3eMw5POCRwYbEzoXH5JUO/IvgihOCinTpFZUQBSRk4r3GNveL/throAy7/UGr:R3eQCKSUO/Eh+TpPomm2GjoAy7/Hh35",
+            "size": 1686016
+        },
+        {
+            "at": 53320,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\ZAIc.exe",
+            "name": "files/0x000d00000000b5a7-1083.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "d2cb201264135263251ce916ec340d48",
+            "sha1": "80c1c669e3ad88ca16e794b71dadd24152adf472",
+            "sha256": "685855b84c72ffaf72c98c98bb4c82e7d9b6179786ce1bb382397828185e24c2",
+            "sha512": "658ffec3f91a74268c975efb2f7a698a6b3e6cc7dae012d643ee0d50f9ed2ade5a1191e8b0aa86d394e9bd04317500cf8589b59d497b4513eb13625f331b4881",
+            "ssdeep": "24576:69ZUwbO6XhR/4AUIPX3guPDOZ7ERvVqmlZZPY178OKrWSoEQl8eKVx:0UwbO6Xn/42+oVdDPYRx5EQyeK",
+            "size": 1482752
+        },
+        {
+            "at": 53445,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\yUoy.exe",
+            "name": "files/0x000d000000003cf2-1097.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "d8788446448ee581d871e2b25684ee47",
+            "sha1": "f0787171d913b664012edcdd19ab352eab821b12",
+            "sha256": "faf5220e468e76e0e4f1a28be238aded506ea828c45de08addb3cf94ce15d803",
+            "sha512": "f16fe6191cd82fa90ec043f20e76301b5d9845a3e680e9cf72b473f963276e5dc01538f9aa1dec3005e5a4b894e61eb02b20aa3bb3f4a0658257ac327295aebf",
+            "ssdeep": "24576:DjzKwHsuJuMSOp5y8a2KcHivYFIHHKnk2BOj4YD49MM:3zHsuJBSOp5yf2KcHivY+Kk2249",
+            "size": 1168896
+        },
+        {
+            "at": 53663,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Music\\ApproveEnable.doc.exe",
+            "name": "files/0x000a0000000122e6-1112.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "9d08bbdc0446b0e3362ff197dd1b9ed6",
+            "sha1": "cfb87fc22fdbfac50f5e3f52c14e1700e12c40d5",
+            "sha256": "5169f63130b81b90dadded64fdc49fca927c9343c8c9a493ebcfee13a70cb3b9",
+            "sha512": "5569cd099c47e14c2010ad4e69ce1cab4ff19a7953f4300efd6d65b109425b5f93df91d7f39edd2c8484437bed87bca20e50ab9f8ac00eff13f2e8c4b528b3f2",
+            "ssdeep": "12288:AE7UYLp8Cy7gPBGDG8GlNv9SQJvh1W/SOtp3ISruFz24ocudLK+GyMOuDcVwJL4g:ngIp8j7gsANJhhE/S0esuQ4o5duNpE",
+            "size": 914432
+        },
+        {
+            "at": 53881,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Music\\NewTrace.pptm.exe",
+            "name": "files/0x001100000000b5a7-1126.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "fa354c0a6e9cd963e1599a65c7b52285",
+            "sha1": "6154d6f2ff3e51c3b6c28cbacefe0390637afb32",
+            "sha256": "02b7d8a196555c05204e07207ac72155ae20032ab2dee77730f038ef4966b26c",
+            "sha512": "b9766a92e162f5f6a4e04142d6f83b1fb96f0280415f2a2ea2d6e8e3527f935847104641bdbeae43ac885b6714cf5a391f7700a483ddb0c93b123bae4cd491d9",
+            "ssdeep": "24576:cvo3q02jT89kI4U62u/PDVpw1F1NC1M6nxy:cJQk1HbVyNCG6nc",
+            "size": 1119232
+        },
+        {
+            "at": 54115,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Music\\UseInstall.wma.exe",
+            "name": "files/0x000b0000000122b4-1139.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "56dad048dd62d4f44d3760bdb7a47d17",
+            "sha1": "589894a2e0afdf4d92d2f1aaee22d1cf3c9c6377",
+            "sha256": "9878e0635436f7f55b296d473bc0a2b96d11a9964636085cf2b2c3392f932045",
+            "sha512": "8d7dfaf54cedc11eb4d4312a614307aa471ba62930bc094bfc62c68d76e96dcf6a7c15f7cd50533bd8690702a8ec59cba57736029c061c82e7b4d5a495d7f203",
+            "ssdeep": "24576:Z9/a/8Pcy1WmB8NVxh5lCiX+YUgkwOlkqMmYmx:/S00y1WtrXglwOTMmYA",
+            "size": 941056
+        },
+        {
+            "at": 54334,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Pictures\\My Wallpaper.jpg.exe",
+            "name": "files/0x000a0000000122b6-1152.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3bfd1857dd6a3690fad70a6b3247d707",
+            "sha1": "2b6dc3f0307c0799d128459298cece3a7b44f8fa",
+            "sha256": "17fadeb9c00be70a6553f81164f14b079b8cbfe5ca25ef9bd0aeb3af5d7b90e2",
+            "sha512": "e665d9bda6e801c65d4210e85c2000261068bc541f0550e8d2961263147cd8f909ef5d3f6b48cc5ced18a47f1ee7c54923adb514826d7cb11e6e6e5ec6c8d210",
+            "ssdeep": "12288:Kfplv5/uAxb/jdHcmMrsihWZ9Jblx+mGlB8GpbPyIgpGrxnbwMgPvwUEaSV:KfpeAxDjYtMXJblYpB8WDPgpGrxnbtMm",
+            "size": 650240
+        },
+        {
+            "at": 54505,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Pictures\\NewGet.png.exe",
+            "name": "files/0x000a0000000122fc-1165.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "da8a9f73cf4739cc0804d1386ddd216e",
+            "sha1": "c08d4bd721209f8ef0d6e88a250074c50af9f4f5",
+            "sha256": "954cbc27edf35d94b3a460a1379433b2cadd2e0e8ccc1b8f26ab4a97804e2fef",
+            "sha512": "788ae2b6214216a25aff3d2486d9963c1a79f64c8c84e22af5594aab13dd097937f1dac3cfff05c20df180ccbddc3096a122ec9af83a3691f79490996a700479",
+            "ssdeep": "49152:CCWvV/Jz0gFHOhA+M0PMhu1puMF1w9WR6Yp+hk:C9BzQtQuTvgKp0+",
+            "size": 1761280
+        },
+        {
+            "at": 54708,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\Pictures\\RegisterMerge.png.exe",
+            "name": "files/0x000e00000000558b-1179.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "59da53b4b59f1a981e36fba6d35ab261",
+            "sha1": "cb3647c5507a2ec4cd0ffbe37767482a4526e8ca",
+            "sha256": "aef31fd4b8fac2d882758f964e3876fe24fafe160d864dd003d0f68e66ca990d",
+            "sha512": "97628300cedd3a2d05a3bb41c1e2976834b3cd43dfee5462386810e36e8b44a7dd28c643731269e737dda0acca6ad8c508a4ecbc5708680295ee83e7ee3cddc6",
+            "ssdeep": "24576:nCoyhKQ0kk1Qd7CAbKy3OjSqJj7bV6HgCWEy3zAd23WlrcT02U5ifNHQIAztM2:tXQUQd7xbKy3WvV6HwEy3zE2wAoN5ifI",
+            "size": 1507328
+        },
+        {
+            "at": 54849,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\hMAS.exe",
+            "name": "files/0x001000000000b4d3-1191.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "58118b6a82be412c456012de03074b47",
+            "sha1": "9a9594adf7b8f1b0bc0120891cdd815f2eaa0968",
+            "sha256": "f2ce813c42a2dbe3c47ec464c51ce2d8fdcf27b553e8c16070ffa667b29bace8",
+            "sha512": "56daf8bdc140c8d10429d7959b6c3973bff7521b90989b7779705d7e4a1d4b2e76213d9298a889f1b8c47210908350288506c58049f3848cca7a6aee27a394c2",
+            "ssdeep": "12288:L917hNVb0IBVQHcJ7dodQ6bXN558GsRxBVErrnyO1Pak5u9MIdT/30+fa2xPXt:LAHcBd6VxIG2bVEYk5u9B01OPXt",
+            "size": 747008
+        },
+        {
+            "at": 54958,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\Device Stage\\Device\\{113527a4-45d4-4b6f-b567-97838f1b04b0}\\device.png.exe",
+            "name": "files/0x0006000000016d72-1209.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "7af0c405509bfe50adf30bd3c70d3b2b",
+            "sha1": "097074218bf2cd732d4275b2eae37a862084d767",
+            "sha256": "f6843ea1eb715815dfa1ad5fe20aadae6c553e665f45a11c6953bf3d84a87919",
+            "sha512": "d07352a77fbe1382e0569df72cfd1a3ef06fbf63455615f7059f08d4318c7a070c929aaa40a6892b85e9c55d778217cfa933ccca2d6042b8581babe02d02c319",
+            "ssdeep": "12288:lorhSi8wwOXMVSTImCRntPnbVfbZqdONGI+mD8DfKRqhx2eL5DodqYn:lolSiRwOXom658MNH+mD6KRm2e1V",
+            "size": 664064
+        },
+        {
+            "at": 55067,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\Device Stage\\Device\\{113527a4-45d4-4b6f-b567-97838f1b04b0}\\overlay.png.exe",
+            "name": "files/0x000a000000016d50-1226.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "c1d3daefa737fd758925afd79cfd9a09",
+            "sha1": "ec8efcc71e31a0f324709630778cfdcb8d98dd26",
+            "sha256": "63fc4905d1c83f615b098dbd47c84b6676cf23b2977c49ab9d04bfe0bc96ed2e",
+            "sha512": "cc917c5f21ffc8c86ae1e160fe3aa6e9a421a8488c067aa86742a748f5359fec6af01e4bfc56bc50f77a372016e471777c4c3bf7d966f21b64edf94c2019133a",
+            "ssdeep": "12288:IgrsC/W1I7x+qBa3w5Olx6F9tJLM3plM9g86DOd:9V/OkxzUu5CpWz6DO",
+            "size": 648704
+        },
+        {
+            "at": 55223,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\Device Stage\\Device\\{113527a4-45d4-4b6f-b567-97838f1b04b0}\\superbar.png.exe",
+            "name": "files/0x0007000000016d7c-1243.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "f2a82dbccbde99b395d04d8d8e6d075c",
+            "sha1": "ceb2e7de31b70baaf41fec811c2e109938238563",
+            "sha256": "61014b39c2e3ab57d6dc94935606ad026414de03224dc1a7d09dc8957e7036e2",
+            "sha512": "146ed1b363e80ac058151c5a9b791093d22ec458e72812d376521f188e280f869aeaec39a3c6453cc2805e070792b56e6237f3543f85e40aa97afe46108dcb83",
+            "ssdeep": "12288:omTdpQH02sxtowufztwHY1OTgqAauKp6Hdd/U3cHfDPoW:vJUaEDTKp4dFe",
+            "size": 658944
+        },
+        {
+            "at": 55379,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\Device Stage\\Device\\{8702d817-5aad-4674-9ef3-4d3decd87120}\\background.png.exe",
+            "name": "files/0x0007000000016d83-1260.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "e26ec8a7743e341647ccf76ab6569849",
+            "sha1": "69aaf52f22cb549a3e1212430a7f70a4e5661eaa",
+            "sha256": "29933017c5557e2bb4368827bbdb5cf24a6facf8652b4c62513b70ac68c3b1ec",
+            "sha512": "d19c8d5b1a86c6200d5f12e1f0fa506ea45591f5161cf0bbb8ee7010aada35849745e4b435b1e0d4d1dc5790ceb7325070f6433140c7763ad1c473fe6b7911cf",
+            "ssdeep": "12288:Ikz+IaMRSEBlYwNhAc5TINWGdfbhaTbJa1KYNoRYYGCrhqzUAQSgWor8:IY+JeBlYOTTs1KYNy14zUAQCow",
+            "size": 754688
+        },
+        {
+            "at": 55504,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\Device Stage\\Device\\{8702d817-5aad-4674-9ef3-4d3decd87120}\\watermark.png.exe",
+            "name": "files/0x000e000000016d34-1276.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "2ffef0182c5ed3776a08823cde5284cc",
+            "sha1": "56a6a7f064cf14f25f51dfb82df3bef971e43094",
+            "sha256": "7fccba8b1cf1f2003a2c5693090cb2805bf5dda0ad01430ac949e51d57ed20c8",
+            "sha512": "1e800c5c029aa8c3e007bb1ee203e3b6aa3ea302949d31c8953ad4fd9d30bcc011bfd8fef973df073931f7c650f51615091e97ab097eb0d9a0f9934273668dff",
+            "ssdeep": "12288:taN5VeUnf+KAzoqBJbeG+fA8NhuDp17xQ+0K29ruzMR4C9mZ4QQg9w1iwiXic3CG:ejeufU9JbeG+fA6hu1e4FSU",
+            "size": 648192
+        },
+        {
+            "at": 55613,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile10.bmp.exe",
+            "name": "files/0x0008000000016daf-1293.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "b8b8b53faf0d5a645343c26f8ad0eec7",
+            "sha1": "8bbbe3d1db160da71d98f98a952c350b9b66992a",
+            "sha256": "39bee86ed3effd6d06807a05d56bd526ff193ff1d4ccc99eb27e65a931bd895f",
+            "sha512": "1705beba906a9a7818295a51dcbfb3c4af19d21f78897b6b5a8d5137e5d59777dca9776bda86667673073e650b2328112bb94bd026d7de6a060b1b37f93e8161",
+            "ssdeep": "12288:qXQLfsxyvSw4OpEkkgbr/L/IGmbfw6rjtBHdu0kPuReBk3w7DowJD08B:qeqyvbEFgbr/cGmbfw6rjtBHdu0ouRBI",
+            "size": 664576
+        },
+        {
+            "at": 55738,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile11.bmp.exe",
+            "name": "files/0x0008000000016db3-1310.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "9cfc99bc81ce50c5aea94d17e624e34f",
+            "sha1": "edb55ccc405b37f569cedc2adfc2aab019c9e5a8",
+            "sha256": "000a2b45a6bd21ca0e2824139c07f836bc240cfa877b9eb048199e7bfa7fbbaf",
+            "sha512": "1ae4dd33b1d7e366f87c353b96b25e19b4641e0c5d3aa4ef9ddf6dbc5887b206b20eedae4cda1fec623b16e4d0acf860a048fb6421debcfa85dff3fdab434676",
+            "ssdeep": "12288:lxMgTB+ywTUmMn3phSrjqz6/Zj2XXrYNh+E0KD/xsIK7yb3bIfzkFWOFL6wf:PYyyUmQphSCz6lOdI2+UfoFWtE",
+            "size": 670720
+        },
+        {
+            "at": 55831,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile12.bmp.exe",
+            "name": "files/0x00070000000170b7-1327.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "7bafa6c4185da5e3c8d1aceda3aec519",
+            "sha1": "99cf644dc7cb2d1a5d9fca16020589a006084119",
+            "sha256": "d487f6b4a52e9831efcff656076e593f26d8b2135359ac721bbfd28d5f2d61a6",
+            "sha512": "33cbc1efe69cf2046bf934176edb4685e5fa6e70347851eedcda63cb84d8ab7bb2764f878c63feb8f7272dd13cf02fd4b0b176173af9b6be3cf853f37b262a5f",
+            "ssdeep": "12288:ZOZ66ouUhTehiGZPuxp/8ZUVu8JqiqzvMHouM0fW+8yFaiDCA0Ik4j:4Z66ouUhTks3/8ZUMRXvkouM0fW+Xap",
+            "size": 664576
+        },
+        {
+            "at": 55972,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile13.bmp.exe",
+            "name": "files/0x0009000000016e9d-1344.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "88d62bf7e77cf3635fec1d4864d52526",
+            "sha1": "326e6c21cdf1c64b8e4d064780184d409245a279",
+            "sha256": "5f96224b292a4365b223566673104cb3f0d375edafdae550aefee365075a47a2",
+            "sha512": "c84305822428c5594ed6a627b93638f93e8977c8acac1f1cb3ddd492e41c2542e7324744b46e36923d56b6ca32f2379e8dca6b844bb18d9ba372c7a8b696dc6b",
+            "ssdeep": "12288:9jHIss7AUWyoLG3iMgFGRI6pXD/4PtsoSbQROuP5l/U+vnRdQ:9jHIsgAXyTgwRBpz/4DSbwvnRdQ",
+            "size": 671232
+        },
+        {
+            "at": 56128,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile14.bmp.exe",
+            "name": "files/0x000600000001868e-1361.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "c10457d9145f88af1af2f242c06f7e4b",
+            "sha1": "09e146fbb7e3190f7521a2c700effb6328538da7",
+            "sha256": "7f8bacc7d87b26a3f5fac3af8329c10b114bf5a9104ec2264df0d618fd01f3c1",
+            "sha512": "64e0e00898a0148d875b0a56562e2fdade69c687e34082e309c05f2136f299011c5bb1f79c54c1c0e4bab3032a6df5b0fa55e8690d0bb3343df12f6743da84d8",
+            "ssdeep": "12288:yVP3jaErH1flOWfqlbZCYSlZ2hph8eejeYkxkJ6WNLoeso6mInZ4je:yVb7rV86cdCYW23edeNZWholv4j",
+            "size": 669184
+        },
+        {
+            "at": 56253,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile15.bmp.exe",
+            "name": "files/0x0006000000018690-1378.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "d4051b3a42d664bc3b35ed6980213d9d",
+            "sha1": "9c6e4ff9c5c3c955cf60adf4ae5c1b7ba7c086d1",
+            "sha256": "62f6ca78b92eb2be9711a72f8d5d3bd283a04d747d8dee5586649097b1e157fc",
+            "sha512": "0f0d791d73907a42b62d50c7ea79ef543ea385ad03dadcbf688cc7690fd4483e707805dc9bb068c719cdc82ec7cf71bef40afcb2c12d9e3b64d3dd52e637d44c",
+            "ssdeep": "12288:MpPjWKvk3N8l2eTl4uvRJahkmxmaozw3DbLHTuEEZiDdb7avbaGHi9:MljNk6vRghkmlozGrvEodbuvbfi9",
+            "size": 671744
+        },
+        {
+            "at": 56674,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile16.bmp.exe",
+            "name": "files/0x000500000001872b-1395.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "08fb3893ed5037089e0893d4eab2d076",
+            "sha1": "b2f9cd925c734964c48024f12ab5a8fb34e9f639",
+            "sha256": "4c181f52bac458d06a702a1f82127fa2b84f154f8fa5b9a06449b80e6bdda196",
+            "sha512": "56233e2a466d8621c7df84dc2c5774c80c7de8fce3b51ee9572d95b3c0ee678ace33cecb86d80321dfa26c01442508dbd10ca5dbb9e02d021216a82ddb16a233",
+            "ssdeep": "12288:9YsRv2WgfsrnMybq4150T6GMRgElxFDVpQlmXvEIo+5GM81T+KeqdzFyBj3nHaJI:j92XsrnHbq41WGv3PrQwX975p812bHqi",
+            "size": 672768
+        },
+        {
+            "at": 56783,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile17.bmp.exe",
+            "name": "files/0x000b00000001712a-1411.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "df0ca3eeb12067df29c4a03c22c478a8",
+            "sha1": "4f9340a8f6c8c62d8177c0072d0b0952466c4852",
+            "sha256": "f4aa1aae2559f3a175d261db6a4574bf9861270e83c3b116a969c450031c581f",
+            "sha512": "f2889f92ba6e5037d70e2a8e1fbde452918762525ca4e9c443327038d7207213dd0df743666a621bad75eddf03c3ea1910d6a68e3eafa5d5dded92b517a95be5",
+            "ssdeep": "12288:1d1WGoA3QCHMlff9rJuXFqAuaYFwgS4PESmiR6DXZdElmHJFQafndQ:1d1WGoUNXYATwwgpsSmiR6DXZd9FQ8d",
+            "size": 667136
+        },
+        {
+            "at": 56955,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile18.bmp.exe",
+            "name": "files/0x00080000000186a1-1428.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "bf54c7db3bb3736a48328ed52b420d4a",
+            "sha1": "7ad154c8088c8ebc18b5a38fcf508e0dd91e9b24",
+            "sha256": "c388b60c603a8bddbc70a532802d2b42190a0a0639677cbf66277d7092af6561",
+            "sha512": "c19a87d10d4a7c7d4900314f4580b5c91b5a7d7942457b5199239c8515b08590f6086770a5f28f3284d57e38112543e2c27430e208305e180e03d132aa5f86df",
+            "ssdeep": "12288:DChHBx64l+BsLxyd3HMBmkgL7a5Xik4rCTL+B7hSKCkhM0dKvRJ+6U:DCJik1L+OzgL7akk4rCTL+B7EKCkhIH",
+            "size": 666624
+        },
+        {
+            "at": 57111,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\DwoI.exe",
+            "name": "files/0x001f00000000b4d3-1444.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "8336d0cfbd250a8304f6f75651415e7d",
+            "sha1": "b1ffb2832d6ae32e9bf71d519bdb75d7aa99e314",
+            "sha256": "ea4dbdd3c03990597772ef758202831c98d83518d936b901096a70b4841172bc",
+            "sha512": "af7f436865536fc66899aee482e8eb003c68a2616c05b2c08007bc8aa3b17e30a2d00b909e406e5e663e6b4bf8f17833f47b2af09f81696907d865ddf0739dd0",
+            "ssdeep": "12288:2M4kYNn59GPAr5Yi1IdmrYqoKjQUwYwdM/CZMOHkbTJscmrliEMl2GmcuRwb8qVF:204r5Yi17rho8wYEZMWd/RDcMXawH4",
+            "size": 669184
+        },
+        {
+            "at": 57235,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile20.bmp.exe",
+            "name": "files/0x000800000001872f-1462.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "b5327c86ddde3704e0e69193c5fda699",
+            "sha1": "e2bd6dabb275985bf0afed7bd31d6d78cc1c9750",
+            "sha256": "5758cd17d83a2209ee8fe27f2eb20a00cf9f516f28941fb4d3a5b17e70b2453d",
+            "sha512": "6ebd20ca4505fb230abffe58ae15521cc32d972591f4c992a48b8714b3dd653fb2fb9150f0bf09ba3934a793f15c9b9f52c6a244d443e95d29d20ea4ce9ed0d2",
+            "ssdeep": "12288:MWr60LVtzgLbpZzuF8e6+9GPyHfDFKini5h0YMbpfMa0+vt7cWQ8fxV6+6U8UYWG:Xu0LvzgLbpZzuCvYGPyLFKinigHpn0+B",
+            "size": 669696
+        },
+        {
+            "at": 57376,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile21.bmp.exe",
+            "name": "files/0x0008000000018ad8-1479.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "e38cefde4fac9f6f9f0aa7455f7343c7",
+            "sha1": "92b9f8236a2799fa661fb0669b369191d6cda1b2",
+            "sha256": "b88bd617934e454ca222d83bd68381a427efa6f5aa5ffcb3a62d144d4be7fa5c",
+            "sha512": "1e25332cf0a7ebf3c087ca46459532f260ad22dd5f7cc1bfb1f7f44a892bf560c0a4e78093df285c38cddd2bd8dfe718f5eb9d18aab1d32b506e3f01ca34cac1",
+            "ssdeep": "12288:JvI1G1K2s4C+00FdVICNpn0FkOsL8UUXfSoYIXejuX6eMTLDtDRxuvRKqisHR0Rk:pmG1K2s4C+00FdVICNpn0FkOsLvxqTMU",
+            "size": 672256
+        },
+        {
+            "at": 57547,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile22.bmp.exe",
+            "name": "files/0x0008000000018b1c-1496.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "c63453c74af64cd74863ef9d814f09bc",
+            "sha1": "ea4ba5fe9b542d3c621cd9ba1252a23bb5fbd86e",
+            "sha256": "e8647e4332e75b6e0176efbc90b04207bf31bae24748955f0f4eba57571b63ee",
+            "sha512": "4ecf2ba2afbdcf3d5ab7f6161e8075aef1d87eab8d6719f55db104e6bdf0c17a7bebe02a45cd071ebe71802c941b80ef14544f52991db9af57e4a3e4bc479c94",
+            "ssdeep": "12288:J9gbP3fckwHTNM3ChpqaKvHLCAuTQ7rqcxZTxSFyhr/OX8TNJZpo:ifcTzvpBKvFOQ7rqcPTxSFyRvNJZa",
+            "size": 669184
+        },
+        {
+            "at": 57735,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile23.bmp.exe",
+            "name": "files/0x0008000000018b5e-1513.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "26ef5865021705b0d7eb64e7e95fba4e",
+            "sha1": "8a73932183d52848b22440e1e530c4c9cfaf20db",
+            "sha256": "350c4e08eda8593f5b298bfdb72a99588320b88524590a1531b7d5eeb544fbcb",
+            "sha512": "85344baf988e11d873b019d758d27dc24bbddb55f3b6ab34bdd7c7f9865e87b318532c5a17ff491ac7d858d4b283ee9973ae0f4e3b20cf447ac85cf3ef1bec53",
+            "ssdeep": "12288:BoiS0hAj4dQPth3JVtHa5OhP/uvemPscSSSINnsPVsYw8/NXsS:anIQPDh65OFG4fS1sPGYvFH",
+            "size": 673792
+        },
+        {
+            "at": 57891,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile24.bmp.exe",
+            "name": "files/0x0008000000018b74-1529.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3ffc268911995a856378b77b2ccb5e4f",
+            "sha1": "ed118c13ca12ee3e2992d0befab864207db55114",
+            "sha256": "0e473a95aef2624529c682873a3a3f21375de3081f9e7d48c7a22bef84842890",
+            "sha512": "fa783d8cb51e330b0c5d56ca0111861c29c545c91d9943a284b7deef2e2d4e4cb5d00150a6c4ffd766f51e08ac0ff692338be83a7c3f19d0ca01b0fe02f74ec2",
+            "ssdeep": "12288:E04ysYNTRKOkFzfuvw0OZXcx4E1LXxZ7/dnS3jX5viEf7dxF0HqB:usdxkRfj0QE4E1NOqmjFfB",
+            "size": 670720
+        },
+        {
+            "at": 58015,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile25.bmp.exe",
+            "name": "files/0x0007000000018b8e-1545.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "487d5cac42bc3388f7b38546ee5f8d60",
+            "sha1": "fe68ce37d98b7644eb486809b819e3e5d29667e1",
+            "sha256": "66bf382b2f28f15488c540025f8048619d91f8c8c9f37b498c8ce4aeaa6b07ba",
+            "sha512": "8b2bb59a233a8f55ab40964494dbaaa30b678ec768302ed7ebf755f06466e5bbc290624d6c815bf893ebc9f2c492f43b4f5e22acaf5cc0db01f41aaf080fd3f9",
+            "ssdeep": "12288:Jh4pVPTAy+BNPtq2Xz6xiG4eU2yzL6PtJX8p0JAYWRyvlblwb0cLsY57TVtfCCEL:4XP2iXLnzG0anwQqJUT9o",
+            "size": 672256
+        },
+        {
+            "at": 58140,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile26.bmp.exe",
+            "name": "files/0x0007000000018ba7-1562.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "e440dd113a9a9e8c39b67dc2ec394131",
+            "sha1": "068cce1b2c4f7b1e582511749dd7fd553985e3dd",
+            "sha256": "6952ca658ffba832fdec429719b89739bd998394172515e24f5e7af9623302ee",
+            "sha512": "070393f22ad202574d185513f5aca4b06cc381e7d43b5fa180fdeb84472690eb3e288cd7c6abf008fe69c3a1ff6ad98e06494f7688e683e507c359da3b1888c2",
+            "ssdeep": "12288:d9lLaF34a8LnvcqIuiNQEsy3qgDqwdwOBWMfSdyH3wZ/ewB/b41eYXLt3n:TdXvriNQEshwwOCdV/SeGn",
+            "size": 672768
+        },
+        {
+            "at": 58234,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile27.bmp.exe",
+            "name": "files/0x0007000000018bab-1578.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "7a916f4ccea994db855c0fe1497b22b0",
+            "sha1": "41bbf3ed411a1a11332f2188ea1562af62dc6e1c",
+            "sha256": "0a49c5f3b1ead83a4f60e4167e13505d17980ac00b463c86a06aa945045b80c7",
+            "sha512": "bbd13dd3cb865a19720eebe729eac17f5c1d3529ccbb2fd1289915a0f4e41cdf59a024d0000013bb9f47391e22378a551d03aee5c2a0efd0ffd7c92e4d19e71b",
+            "ssdeep": "12288:ffjKUhucaU2jABZkNmsm6sH+H6Ltx/P6n+Pe9rM3/wvW2uj8lp:HjK2ucaU2jA0wsMrLt56n+W9Y3IvTA",
+            "size": 668672
+        },
+        {
+            "at": 58343,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile28.bmp.exe",
+            "name": "files/0x000b000000018b82-1595.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "e4f26c445c3f8cf7640f68ead22088a5",
+            "sha1": "d124e219ead499f1cea44bde39483b45d9dbb36c",
+            "sha256": "a724861291e7264287679124d574a14cc9e8f64729e145b62ace127fc8fe4879",
+            "sha512": "cdbe1549bc79cd666049ce3042587be94afefe50ba253b0246a6660714d0dda4ca5cbdb7cebacc75859a876f85aabb04e3e3d6e108d6e64202858c10eeea3492",
+            "ssdeep": "12288:6cCM4f/Sd7kZkAepywXVKCK7UGEUGTZqUyBMJwC4RNtqUmpfMQBC6P+eZHyaCr19:69/Sd7kZk8wldFGEUGTZqUyBMJwC4RNr",
+            "size": 667136
+        },
+        {
+            "at": 58499,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\lwkC.exe",
+            "name": "files/0x002900000000b4d3-1611.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "257102af3b109ec7e3b357af512dbb0a",
+            "sha1": "5380fe4c52a34be8bc906d8ad619d17b53627d12",
+            "sha256": "0d1d4a1f19419f2b12cc2b4c2c4153181b6ee568c3f4dcb58d14e0172a51200a",
+            "sha512": "e47de3625d8dcbcf14683a580fa9033ff99c56b5e8981987aef7bbc4c9ead8f8a7fd2f480e65617b68136bec97ef8d073af0614789b87a1f811f1c3c7f428646",
+            "ssdeep": "12288:VM3XGxLUmae+bsvfDaG3SOdasklhA1pprZmr9ladaqy7WpUg:yXGke+EfDaGldas8happrIr9gdvQWp",
+            "size": 669696
+        },
+        {
+            "at": 58608,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile30.bmp.exe",
+            "name": "files/0x0005000000018c26-1629.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "2299fcdf45744604b9297946aa7d18ea",
+            "sha1": "87e26e2d354bb3bba4517a38af50d0595ea82f60",
+            "sha256": "c6564342d931d30e0ea5b93a593fa2eedea8be038f417ac5e5df64fd271f716d",
+            "sha512": "46067c6b0f1280cbde9ac830bb045a63df6eb034d252ab81212917a946d822448de9b5cb0e85815333425d1a07f8353ab6c71aa76a9c52cfda1ea248cf8fb39d",
+            "ssdeep": "12288:0VVN0DxeChxzYP+bFZO2m9Xk7nFeK4LaZeRvn/iO96W9qY7dAUCJ:0VN+HYwfRDOaZKnM5E+U",
+            "size": 670720
+        },
+        {
+            "at": 58749,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile31.bmp.exe",
+            "name": "files/0x00060000000192f6-1646.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "0749e3f89b7dd816cc311ca1c131287e",
+            "sha1": "f2314573b150664e776c29600782bc679a92d041",
+            "sha256": "7effa899018b5eee47151aced7d40dfc32d4c123108979bb41997293538c780e",
+            "sha512": "ffbf3b0b9fbd99e34e241ba16b0282647213ffc7400c418a6ebf99671572d7c8ab565812444b19324b29d22b01ae34ee3714702fd9c597d847375ccf2133cbeb",
+            "ssdeep": "12288:9TZsS91MR+Jiz8nN2Bs12sfKn7rL9DfGogIc9iXfGdu8D/X:4eAgnN2GMsyD96gmiXfzI/",
+            "size": 666624
+        },
+        {
+            "at": 58873,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile32.bmp.exe",
+            "name": "files/0x0006000000019333-1663.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "08958a953dc2acfd1c2c841f834e977e",
+            "sha1": "efd9a3d4298d6e8c173ac3ca7143ff1c9d8522f2",
+            "sha256": "7bdfb8effdfd7c44dc9cee12791775b053635e25a9c058a44b54ac1a46cd8d39",
+            "sha512": "f5096e2d5ebadcdc7c3abfd69797bc9a9916827780ff40b211b27a845785b62880b08d4e4883a1522d4e8a5fd421c71cda0ee01cc245478af81c5b8430985d7a",
+            "ssdeep": "12288:xFTTTRWD9BMal+xaQS85pXdc6CPmA16epHUMJCR/v8ZftDWnN3WOPwsx/WKeHSCM:xxTTyM9P7/CxeMwdstDWnN3WXsx/WKQM",
+            "size": 671232
+        },
+        {
+            "at": 58983,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile33.bmp.exe",
+            "name": "files/0x000400000001934a-1679.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "42aa38ad4615743ca0404ef6c916ffd5",
+            "sha1": "80e0db95984133350a62ff7fe6ba6513673f775f",
+            "sha256": "3b4ce6957aef623352c93658c4c313971d875e530c5e48e20520d627b513b8c6",
+            "sha512": "4d95ef3c3ea947eff743950b4207285097db0d3ef4f582537f19d46c3541501224e23e83157ac8ae1bbe92107b482aefb35d8152098231d5f339fb146a891603",
+            "ssdeep": "12288:QNTKKdj9hXPyV4ujAk/hpYSJ3FVCjSlDRPimR4wx0jPTCaBtX4WWWWWWWWWWWWWE:QNT7fS9/pJ3SjYiBwCj7BT4WWWWWWWWd",
+            "size": 671232
+        },
+        {
+            "at": 59107,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile34.bmp.exe",
+            "name": "files/0x000600000001933a-1696.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "a92170aab9ec1411b0198d2dc7eaa2d5",
+            "sha1": "98ca34c94e1a3c502514c108073f7a9d0b572a59",
+            "sha256": "8a62150af107c2a00268c4b52fb5f1c6550997bc472191d35371bead0a004e3d",
+            "sha512": "1888f1510f227bbd11d05136b8a9a32a594e9d25183c16f908f63f39bfb35fc187469e58b6c6c908ed02db812885265cb19160a3021495250cc7d5f8e4d704ec",
+            "ssdeep": "12288:yibSHxisYkbEWVvK/Sq7tTbrs92FuQ8Oue8aPS8uT1JOn7x:yuSHxiUEuop7tT9H8aq7LO9",
+            "size": 671744
+        },
+        {
+            "at": 59232,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile35.bmp.exe",
+            "name": "files/0x0005000000019358-1712.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "eeba358c5b5dd4dca3a59ba13ae554e5",
+            "sha1": "aa6c8aa7310b3b6783ebff36cfb951203374ed4e",
+            "sha256": "96e68afa1cac12ee6627b65447d9029bfd8d0209aa186cb238da77a0590950c1",
+            "sha512": "678cfe054b92c6f90321d18728115e51f0f45810d61b98d6482e4b34186e7d2c79ff9f49b3f541e731492d0be44ab07d23fb8864c7eacf979c38603873a8ff66",
+            "ssdeep": "12288:SIfT8vYoEDRnrfqS2CoBBCQQaZb4hWAhvWmU5ZIRXYpH5WzKs9Jxywu7d:SUMirfqh8QBZkhWg095G25B",
+            "size": 671744
+        },
+        {
+            "at": 59341,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile36.bmp.exe",
+            "name": "files/0x000c0000000192f4-1728.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "7d93df3671e61bc9694777bd43e725a1",
+            "sha1": "788c0eda2a76e2fbbb5756a1d9db683fd1151783",
+            "sha256": "c512eab2a1eec2f3ef1f1e7e1f6bbcca679fdda83b55128c25cafeb0bb7eb202",
+            "sha512": "3d54d5f7aa6658cd9cdc0a89e949baa27e5b0519e4ebb62034e55380721ddfd9d344aa6e200e25f5d92faef4ab8672ade582a2736c6e27cb274cd034a33ba1f7",
+            "ssdeep": "12288:X0U7RELypAJOnEfKXyqZqCGlGGSCUA8haW9A+rDIwBUKaVQFQIJv2upHs:kK3snfKXyRbJrqhaj0kwBnaVQNwwH",
+            "size": 667648
+        },
+        {
+            "at": 59451,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile37.bmp.exe",
+            "name": "files/0x00050000000193a1-1745.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "cdf6dc169e9d58a0df595428f7cf6d96",
+            "sha1": "51c27c24e4a54150cb2479844bb175abc3e58081",
+            "sha256": "14cc1166659987cdd7e1e06cd157a90ced9699cc5a5053ca06913455736da3b0",
+            "sha512": "fe1f40f5bc9da24798fb92e63da55c83e3003a312ec016cfb2f44b699861573a448d5289b6e205a0ea72bb2f3b2c529748ed99c2cae2b3373709bfffa41c7bce",
+            "ssdeep": "12288:yE7WgZN5cEDCGDtzI1VzRwKeGxWD7ckZhRv76n9P4DfToqgm1345zqbyy3:7pyczI11XkZhRv76n9P4DfT/4Rqbyg",
+            "size": 673280
+        },
+        {
+            "at": 59560,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile38.bmp.exe",
+            "name": "files/0x0007000000019373-1761.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "01ca37165fa91deb5674c636e2b3f1d2",
+            "sha1": "693eefeb9b6c26a8a5159d6bb10bb6b52ec07771",
+            "sha256": "bda9534a8e19e42c8a0a8458cdb4f940dd0f9c1a870f5f2a3e8d07c0d09c1380",
+            "sha512": "85c47526c0162413f9e7f765ce08723910f03517595a22340173f798865ad0ff5231fcdc54e15e2bddeda71a093d93d85082a556a1a555c05a2b3093f1142b91",
+            "ssdeep": "12288:LCse+4d7wQjuFLFlWwMSX0rBPV6+VEM29OoTPNt:LCZ+cRI4SXyBNbmOYP",
+            "size": 668672
+        },
+        {
+            "at": 59685,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile39.bmp.exe",
+            "name": "files/0x00060000000193be-1779.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "16a5a58a047d82c7a523186455025631",
+            "sha1": "dd52af3da8c9a73983c19966cc7cdf4acd681300",
+            "sha256": "3d01e5de16d05342157d4656bf11f3336dc478a4ca5a1deb009b72dfde142d75",
+            "sha512": "5b350131767d746144013d46e4e72f23eca8bd53d5c5e0b9cc639dcd97d48f10043052ef6b2129132f3cdec8c286b151ff0b801a47a9c48d4fb225614b1149d3",
+            "ssdeep": "12288:3t/27BeATr7T3gKQ5EApg48rIOJ5E0hKwLW0+AtJ:9/27wA37T3oKApg48d3lLZ+A",
+            "size": 665600
+        },
+        {
+            "at": 59872,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile40.bmp.exe",
+            "name": "files/0x00040000000193d7-1795.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "b1a09e11c31dd0440c5e9925667818fe",
+            "sha1": "b49b9b5bee94ed719089725b7ad03a06e5965453",
+            "sha256": "6943d635fb60e7d3452ecb1940db7e5816761d860ca3db1c93acd4f66b99398f",
+            "sha512": "a675bbe12368dcb38ca3610825be5964f57050514ec786097f96fe93cac77d0c8da4d804329659671bdd3178378135a6051bdcb47aba71ad88e3540f444146cc",
+            "ssdeep": "12288:inN0WePTK8o/Af+syxKcT8GxaEJ/2qmAzN1iBCaF:ia9Od/Hnz8oaEAAXGF",
+            "size": 668160
+        },
+        {
+            "at": 59965,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\tkMw.exe",
+            "name": "files/0x003500000000b4d3-1811.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "575e4422faf3fbf6d8dfe75424557cbf",
+            "sha1": "b1539c03daf4ce84411b3fc5cc5128df959d8b0a",
+            "sha256": "fbf19f918fdfe14ad404cd7b89019539502aada42bda63decab20be1f2d87636",
+            "sha512": "c67fa62d8aa26e9eecf8d67a2f04dddbd968322d3c7bbe0c56b6333361931efe1288fa0382322f9cebd502303c50fb8ea513c548e748353abccda30dd80f2e5e",
+            "ssdeep": "12288:sHXtZh4ILH2BNpGiNazdeMdMVamJBNel7Vk7l3R+aFk8jTkqwqZDe3uq8j:sHXtZhRipGiNaB5AP9LwvqZTq",
+            "size": 667648
+        },
+        {
+            "at": 60121,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile42.bmp.exe",
+            "name": "files/0x00080000000193c7-1829.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "e1bd1d91d291db39685c1ab7e93c6398",
+            "sha1": "32e928b78288a2875938af6015454e10f26c0516",
+            "sha256": "7b723497b3e99b994b2d8f7030cb04c0fb884315a4e92144c3123ce1925e8d7b",
+            "sha512": "8830dd8b47cea576f364a40b6c070e5a44dbdbe954558ad620fe1c8bbf6d4c67e0063b34a0516167cc273d082955584996d3f7af902fde5584c9c41890aa8dd1",
+            "ssdeep": "12288:ur+n4w0+TVUMvII7M3IQD12QTueYw5fy2vM/w7vSvzo0vkyt1:uSn4SlvIIA3I420u10y2vM/c6vDkyX",
+            "size": 668672
+        },
+        {
+            "at": 60964,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile43.bmp.exe",
+            "name": "files/0x00060000000193e5-1845.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3a44e8d943d2c6a9e1d335cb73f95d43",
+            "sha1": "7183e9c12f1057c3f14a50e217efe194d810c7e0",
+            "sha256": "16f7dce3bbae91f57332399e05ec18c3f092fdfae45a9bbaf4c5095200178e12",
+            "sha512": "4b417a40d6ac3a6036dad7c3dfde69b9d36116fdaffc3e4954fc5726417cd6279c1137844314d37f0d60fb85a593f56a2dc5786d1a6737948cad88f9082995c1",
+            "ssdeep": "12288:/B+V1VAFEJMHtFCn4GcaAYAu1d5qnnWQmeWJHAks9:/BeDAFEJ+fvaRj3kW+x",
+            "size": 671744
+        },
+        {
+            "at": 61104,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\ProgramData\\Microsoft\\User Account Pictures\\Default Pictures\\usertile44.bmp.exe",
+            "name": "files/0x000500000001943d-1862.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "dfa4ba721d8c329bae7ec0f16f7d5138",
+            "sha1": "28080e0dcfbcddb4a953fe357e5d32f5489302e3",
+            "sha256": "4b462547229622dad9dccd3e8526047ff47002e4a210266b24544b63a8c6d173",
+            "sha512": "e9b66cd68146f5959f819d278ce2826d675f61a4799fe4bc9766a1b5fb56a660c217e6ac14cc6251b0dfded37f70992aa1487dcacc252b55a7255f525932fd0a",
+            "ssdeep": "12288:ut+dpBpV2Qom38Lbbz8vE/dJ/yWQc157BupPOUL1c/hOa59:ut+jBpV2QoLLnQvEfr112PODUi",
+            "size": 672256
+        },
+        {
+            "at": 65613,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\GkcY.ico",
+            "name": "files/0x003d000000003cf2-1893.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "6edd371bd7a23ec01c6a00d53f8723d1",
+            "sha1": "7b649ce267a19686d2d07a6c3ee2ca852a549ee6",
+            "sha256": "0b945cd858463198a2319799f721202efb88f1b7273bc3726206f0bb272802f7",
+            "sha512": "65ccc2a9bdb09cac3293ea8ef68a2e63b30af122d1e4953ee5dc0db7250e56bcca0eb2b78809dbdedef0884fbac51416fc5b9420cb5d02d4d199573e25c1e1f8",
+            "ssdeep": "48:1appjbu3BZokLs3Y01Zh++eqUXIDMu3kotf6OW6vir1:1D3Bqz3lwiUX43kotfhWvp",
+            "size": 4286
+        },
+        {
+            "at": 66174,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Music\\Sample Music\\Kalimba.mp3.exe",
+            "name": "files/0x003a00000000b4d3-1903.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "b9409d597c8036a107e0b290b9133455",
+            "sha1": "78121d4b14a5f0a0d2b0e9971f3057a6d2d652bf",
+            "sha256": "c80c441fff98e58cbb22d981e83bc9413993f8655967f12962b612d21b24608d",
+            "sha512": "486025c65675cc0b196bec1a58c7a3af18b39fb07cb9820683fe4beacee3213fbb47676c747e4cfda08c06e519c53e9d4805f013ab4845686f1d9c5c15ecdc38",
+            "ssdeep": "196608:EJitDrhJJ9TThMRTLEUNGers78A8gN370CsL8wZDFK0qb3VyadfUbNyA3:btD9J3HCLE1WsAAtNLzsL8T0qbsaBUZh",
+            "size": 9038336
+        },
+        {
+            "at": 67173,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Music\\Sample Music\\Maid with the Flaxen Hair.mp3.exe",
+            "name": "files/0x0003000000003e63-1916.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "fafefc80a9b9170bf3dd5c1a4e36ec9c",
+            "sha1": "fc911aff5eb6ddc0d93358f4bf4cba636cb7fcbd",
+            "sha256": "8ac8b5762c18a5231192d93f179016ce373cfca1d1b05c733068f242a1fd6e0f",
+            "sha512": "7efbdc297d217838fa3de384d5f98a9cb253e23f66ee770a8a6f2e7b16b7d6eb90306af2ceb03f06f16b35f8572795703bba7da6f359d3c1090755d07ffe6f8c",
+            "ssdeep": "98304:36el3/X9AtZVS+ybTPGEYkW4cmI+THBFd1Sz:KePAfVfybTPzYkWtm1NFz2",
+            "size": 4738048
+        },
+        {
+            "at": 67984,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Music\\Sample Music\\Sleep Away.mp3.exe",
+            "name": "files/0x0003000000003e64-1929.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "fc6ebe7a0b1edab58adcc55a9ac33282",
+            "sha1": "a7530d90ddadecae2d3927d7d27e6baac1e2b371",
+            "sha256": "e68d0ec795d21865b3d1ac8450881a6c933fbcceb6c89d42db3b5ee4829a29fa",
+            "sha512": "475cb1cbc0bbeebfd26456dd38f9e86073823cd661ef28310d9107c84eca62fc5cdf99518e7a7fa01ff17fa8f0d8a6f92f15cd8f80b0ed89e866bad4d218f5cd",
+            "ssdeep": "98304:fR6AdKw2b4zyjP86qa/CKk5hPougS04jkzAGfot8f/1:5NByjERWXk5hPougS0IkzA8oy/1",
+            "size": 5465600
+        },
+        {
+            "at": 68374,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\ZQgI.ico",
+            "name": "files/0x0040000000003cf2-1932.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "f461866875e8a7fc5c0e5bcdb48c67f6",
+            "sha1": "c6831938e249f1edaa968321f00141e6d791ca56",
+            "sha256": "0b3ebd04101a5bda41f07652c3d7a4f9370a4d64c88f5de4c57909c38d30a4f7",
+            "sha512": "d4c70562238d3c95100fec69a538ddf6dd43a73a959aa07f97b151baf888eac0917236ac0a9b046dba5395516acc1ce9e777bc2c173cb1d08ed79c6663404e4f",
+            "ssdeep": "48:T2JhqlWBMnw0JAZHc+0ydNB/i46G8dKdA6mOFYSCbkx0+EiOsD7lfyfl/fz:T2JhqlW2J0HcLyDcdelaE0+EiOO2lXz",
+            "size": 4286
+        },
+        {
+            "at": 68514,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Pictures\\Sample Pictures\\Chrysanthemum.jpg.exe",
+            "name": "files/0x0003000000003e66-1942.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "1668b825b18a810831c361455ae20baf",
+            "sha1": "27aae869d84200fa5989c26600dcd7a3ef052de5",
+            "sha256": "1b6cadee7e89db5fd042165a0526a97e6539c76a50ee3261af40056b9e97382a",
+            "sha512": "4bc111d3c40bf7d83352a15be7fd95ace512b56706d593df4e7548da03b565954d77456841910e77f63a2f5e9514c97485b5deb2e7bb764c757f4174467fb113",
+            "ssdeep": "24576:6ldJeQF372HReu86fyseSgFlDHMr7nNxxIIHcEi+/6Dw3GPwmztVF6vRr4vShS:6ldJn3yHR/rfys4rgr7nPxFH3i++omBJ",
+            "size": 1503744
+        },
+        {
+            "at": 68748,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Pictures\\Sample Pictures\\Desert.jpg.exe",
+            "name": "files/0x0003000000003e69-1955.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "adeaca06723e5b0becbd353fa4c1079e",
+            "sha1": "e8789f65260de24a9c2788c9726939f5c6b9d1c4",
+            "sha256": "bdc159c63d11b72848a7195059c39a06b76e2eae9466c34756602a558344952c",
+            "sha512": "e2489187bd9620454f424fe3f404d642d16cab22f86cccc0d3581703810faa9be6fc421a5b0013002fd00db8e55ecc708178de1bcb118e611c85219043a41acd",
+            "ssdeep": "24576:f1JWI2JfPsdkA8NDdiw9ioiNqQvnJqkP8AmFkh3RClP1XEmWJQ:/+JfElI9sqsnlss38P1UHQ",
+            "size": 1473024
+        },
+        {
+            "at": 69263,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Pictures\\Sample Pictures\\Hydrangeas.jpg.exe",
+            "name": "files/0x000d0000000122c4-1968.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "c18c90b46aca242af629bfc0c719327f",
+            "sha1": "af9242bf639881327f83793f06acb9a5ae9db5e6",
+            "sha256": "313e6a420819f60335bf3414760f626bff24382d8f9453eecf156ea6ad655b3f",
+            "sha512": "552d5a2440545dd34b936b72c1b1059d2a41381c61ede8e0abd9c19aad85c6637aac5e00e4da21fbe50af9cba00ea32202a7a3f72d7a0dc9753afe90371aaee2",
+            "ssdeep": "24576:ZcWhdk0g4V0GKEeco3GtH9h61V+M0i6xd3VWnJ4RaEKmoR23o6ov:Zc0zgMKEVo3G03Ui6xAUa6oY3o6",
+            "size": 1216512
+        },
+        {
+            "at": 69450,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Pictures\\Sample Pictures\\Jellyfish.jpg.exe",
+            "name": "files/0x0004000000003e6b-1982.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3ad135a1ca25e9b2777586d9baa5d4a7",
+            "sha1": "df9a4fb23da9f4e096ade02e364052475d285782",
+            "sha256": "23989a611785df14b1bee1832ee3608d477769985914e7c2dd99ca638d3f05b0",
+            "sha512": "2e1485454170f87b124bb9f67d939e844ce23f353699b1c42bb2e069e2b08195e7e0983afc0a0561e12ba07799919d738de1fb278d9e3973be96e455bb0da091",
+            "ssdeep": "24576:Cq0nBUxZd12pdhn88lcP6QDW/4DXDvlaqu7XdogRV1njP+03hrP++nKGGaFk6K3i:C5i1MhtiTDNaF7X5xj9FmOjhsw6sI2",
+            "size": 1393664
+        },
+        {
+            "at": 70027,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Pictures\\Sample Pictures\\Koala.jpg.exe",
+            "name": "files/0x0006000000003d6d-1996.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "20fa4fc867e2a3d8e41cbc0b36d830e7",
+            "sha1": "a403d0352e77ff699bf44297db94c32a3ce6e157",
+            "sha256": "0317e73dc4ec6053dabe2ac78b87e0efc503dfe8e3f9746a3023739fe2ee8a72",
+            "sha512": "ff9d239d3eb360213dbd2a27e372266ad60e772fce98a37a5768f6252e717c92c871f63acad7bca7e33cb8cf95f4bce38a1490335464094b97d83d311e24ede4",
+            "ssdeep": "24576:xpcUtkWp6KtceUVEhUmFbzg3u4g4MAiAQQd71adl+dKuiDJr489m:MUY312DU81f+dK3D+0m",
+            "size": 1403904
+        },
+        {
+            "at": 70215,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Pictures\\Sample Pictures\\Lighthouse.jpg.exe",
+            "name": "files/0x004300000000b533-2009.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "3d66d273b95a2e6e6c92109bb146febf",
+            "sha1": "ea2d641e8fff4c94fb12cfe111d17c452d32e01d",
+            "sha256": "154b7eaf01c3d64c6ace5083d85b1134c270ac80d9e178e7ff215ba0111a6cee",
+            "sha512": "c21ace155673704f7053e80b8c07b7190b749aa291dbc92fb66713766928dc6bc897c95bb6f3d807570fe8511c08fce342de297cbce1a89a455b89a07b5497d4",
+            "ssdeep": "24576:BiX+6FWCOHhhEFkwoxbmkssIN+5xuetf0xgda:BiTF0hhEFGbmG54+Mx",
+            "size": 1180672
+        },
+        {
+            "at": 70464,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Pictures\\Sample Pictures\\Penguins.jpg.exe",
+            "name": "files/0x0004000000003e72-2023.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "de3077656a73501b7535af5f54e38eae",
+            "sha1": "993ae4d61a4b82d77571b9e923b3f341be5e7d9e",
+            "sha256": "eff765a60ab4a0a31d1ea4c2109aa17a309857664fb9898d5d78eb2bfee06896",
+            "sha512": "ab2357a25be03fc9c4539dabdc4f6c7c61c64ef29c99a796eb5d531ecae50e473448e9760c382edaf18e60d76cd072d635f8a771aca7e8a9ea5799059045dbb6",
+            "ssdeep": "24576:Gby2QllUmmpDWkFgRnVjBXmGfhPrh0p+jzGV6fwyH26p:GG2+ldRnVjBXv8p2hb26p",
+            "size": 1398784
+        },
+        {
+            "at": 70636,
+            "pid": 1036,
+            "procid": 30,
+            "path": "C:\\Users\\Public\\Pictures\\Sample Pictures\\Tulips.jpg.exe",
+            "name": "files/0x0006000000003e70-2037.dat",
+            "kind": "martian",
+            "origin": "ransom",
+            "md5": "9a51f40049fbe8438e6a612543ad798b",
+            "sha1": "9d641791a41d3a06cdd2cdd78837a8dd22031846",
+            "sha256": "6e5293dac5c3204bec12ccdac444b8c07813a740fe714a342a665ff47955599d",
+            "sha512": "d16181ea9f1b3333c058d4cdc674c16f5549a6517712ee3d850a97344f2438ad57d2e2b35b9d35ba110b4dc103fa40a6a025a690d10263fab08317d49b8e412f",
+            "ssdeep": "24576:aHhIwCM+wkq0vVyREYBI5T3TXi2aynJGIClpv3Er:aHWM+wOyOCMmeGIC30r",
+            "size": 1244160
+        }
+    ]
+}

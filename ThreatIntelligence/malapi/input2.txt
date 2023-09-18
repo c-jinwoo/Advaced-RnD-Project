@@ -1,0 +1,525 @@
+1drv.com
+: 
+{divArray: Array(2), thirdTdValue: 'Microsoft'}
+1drv.ms
+: 
+{divArray: Array(1), thirdTdValue: 'Microsoft'}
+4sync.com
+: 
+{divArray: Array(1), thirdTdValue: '4Sync'}
+12ft.io
+: 
+{divArray: Array(1), thirdTdValue: '12ft.io'}
+*.000webhostapp.com
+: 
+{divArray: Array(4), thirdTdValue: 'Hostinger'}
+*.amazonaws.com
+: 
+{divArray: Array(4), thirdTdValue: 'Amazon Web Services'}
+*.appspot.com
+: 
+{divArray: Array(3), thirdTdValue: 'Google'}
+*.atlassian.net
+: 
+{divArray: Array(2), thirdTdValue: 'Atlassian'}
+*.axshare.com
+: 
+{divArray: Array(2), thirdTdValue: 'Axure'}
+*.azureedge.net
+: 
+{divArray: Array(2), thirdTdValue: 'Microsoft'}
+*.azurefd.net
+: 
+{divArray: Array(2), thirdTdValue: 'Microsoft'}
+*.azurestaticapps.net
+: 
+{divArray: Array(3), thirdTdValue: 'Microsoft'}
+*.azurewebsites.net
+: 
+{divArray: Array(4), thirdTdValue: 'Microsoft'}
+*.backblazeb2.com
+: 
+{divArray: Array(3), thirdTdValue: 'BackBlaze'}
+*.blob.core.windows.net
+: 
+{divArray: Array(3), thirdTdValue: 'Microsoft'}
+*.blogspot.com
+: 
+{divArray: Array(2), thirdTdValue: 'Google'}
+*.box.com
+: 
+{divArray: Array(3), thirdTdValue: 'Box'}
+*.clickfunnels.com
+: 
+{divArray: Array(1), thirdTdValue: 'ClickFunnels'}
+*.cloudapp.azure.com
+: 
+{divArray: Array(4), thirdTdValue: 'Microsoft'}
+*.cloudapp.net
+: 
+{divArray: Array(4), thirdTdValue: 'Microsoft'}
+*.cloudfront.net
+: 
+{divArray: Array(3), thirdTdValue: 'Amazon Web Services'}
+*.cloudwaysapps.com
+: 
+{divArray: Array(4), thirdTdValue: 'Cloudways'}
+*.codesandbox.io
+: 
+{divArray: Array(1), thirdTdValue: 'CodeSandbox'}
+*.csb.app
+: 
+{divArray: Array(1), thirdTdValue: 'CodeSandbox'}
+*.digitaloceanspaces.com
+: 
+{divArray: Array(4), thirdTdValue: 'DigitalOcean'}
+*.docusign.com
+: 
+{divArray: Array(1), thirdTdValue: 'DocuSign'}
+*.doubleclick.net
+: 
+{divArray: Array(2), thirdTdValue: 'Google'}
+*.dropmark.com
+: 
+{divArray: Array(1), thirdTdValue: 'Dropmark'}
+*.duckdns.org
+: 
+{divArray: Array(2), thirdTdValue: 'DuckDNS'}
+*.easywp.com
+: 
+{divArray: Array(1), thirdTdValue: 'EasyWP'}
+*.firebaseapp.com
+: 
+{divArray: Array(2), thirdTdValue: 'Google'}
+*.fleek.co
+: 
+{divArray: Array(1), thirdTdValue: 'Fleek'}
+*.format.com
+: 
+{divArray: Array(1), thirdTdValue: 'Format'}
+*.fyi.to
+: 
+{divArray: Array(1), thirdTdValue: 'FYI.to'}
+*.github.io
+: 
+{divArray: Array(1), thirdTdValue: 'Github'}
+*.glitch.me
+: 
+{divArray: Array(2), thirdTdValue: 'Glitch'}
+*.godaddysites.com
+: 
+{divArray: Array(2), thirdTdValue: 'GoDaddy'}
+*.gofile.io
+: 
+{divArray: Array(3), thirdTdValue: 'Gofile'}
+*.googleusercontent.com
+: 
+{divArray: Array(2), thirdTdValue: 'Google'}
+*.herokuapp.com
+: 
+{divArray: Array(4), thirdTdValue: 'Heroku'}
+*.hostingerapp.com
+: 
+{divArray: Array(4), thirdTdValue: 'Hostinger'}
+*.instagram.com
+: 
+{divArray: Array(2), thirdTdValue: 'Facebook'}
+*.linodeobjects.com
+: 
+{divArray: Array(3), thirdTdValue: 'Linode'}
+*.mybluehost.me
+: 
+{divArray: Array(4), thirdTdValue: 'Bluehost'}
+*.mybluemix.net
+: 
+{divArray: Array(3), thirdTdValue: 'IBM'}
+*.myportfolio.com
+: 
+{divArray: Array(1), thirdTdValue: 'Adobe'}
+*.mystrikingly.com
+: 
+{divArray: Array(2), thirdTdValue: 'Strikingly'}
+*.netlify.app
+: 
+{divArray: Array(1), thirdTdValue: 'Netlify'}
+*.ngrok.io
+: 
+{divArray: Array(4), thirdTdValue: 'Ngrok'}
+*.nimbusweb.me
+: 
+{divArray: Array(1), thirdTdValue: 'Nimbus Note'}
+*.notion.site
+: 
+{divArray: Array(2), thirdTdValue: 'Notion.so'}
+*.on.aws
+: 
+{divArray: Array(1), thirdTdValue: 'Amazon'}
+*.ondigitalocean.app
+: 
+{divArray: Array(2), thirdTdValue: 'DigitalOcean'}
+*.oraclecloud.com
+: 
+{divArray: Array(4), thirdTdValue: 'Oracle'}
+*.pagecloud.com
+: 
+{divArray: Array(1), thirdTdValue: 'PageCloud'}
+*.pages.dev
+: 
+{divArray: Array(1), thirdTdValue: 'Cloudflare'}
+*.plesk.page
+: 
+{divArray: Array(4), thirdTdValue: 'Plesk'}
+*.repl.co
+: 
+{divArray: Array(4), thirdTdValue: 'Replit'}
+*.requestbin.net
+: 
+{divArray: Array(1), thirdTdValue: 'RequestBin'}
+*.rf.gd
+: 
+{divArray: Array(2), thirdTdValue: 'InfinityFree'}
+*.sendspace.com
+: 
+{divArray: Array(3), thirdTdValue: 'Sendspace'}
+*.sharepoint.com
+: 
+{divArray: Array(2), thirdTdValue: 'Microsoft'}
+*.slab.com
+: 
+{divArray: Array(1), thirdTdValue: 'Slab'}
+*.translate.goog
+: 
+{divArray: Array(2), thirdTdValue: 'Google'}
+*.trycloudflare.com
+: 
+{divArray: Array(2), thirdTdValue: 'Cloudflare'}
+*.tumblr.com
+: 
+{divArray: Array(2), thirdTdValue: 'Tumblr'}
+*.twitter.com
+: 
+{divArray: Array(1), thirdTdValue: 'Twitter'}
+*.typeform.com
+: 
+{divArray: Array(1), thirdTdValue: 'Typeform'}
+*.wasabisys.com
+: 
+{divArray: Array(4), thirdTdValue: 'Wasabi Technologies'}
+*.web.app
+: 
+{divArray: Array(1), thirdTdValue: 'Google'}
+*.web.core.windows.net
+: 
+{divArray: Array(4), thirdTdValue: 'Microsoft'}
+*.webflow.io
+: 
+{divArray: Array(1), thirdTdValue: 'Webflow'}
+*.weebly.com
+: 
+{divArray: Array(2), thirdTdValue: 'Weebly'}
+*.wixsite.com
+: 
+{divArray: Array(1), thirdTdValue: 'Wix'}
+*.wordpress.com
+: 
+{divArray: Array(4), thirdTdValue: 'Wordpress Foundation'}
+*.workers.dev
+: 
+{divArray: Array(4), thirdTdValue: 'Cloudflare'}
+*.xiti.com
+: 
+{divArray: Array(2), thirdTdValue: 'Xiti'}
+*.zendesk.com
+: 
+{divArray: Array(2), thirdTdValue: 'Zendesk'}
+anonfiles.com
+: 
+{divArray: Array(3), thirdTdValue: 'Anonfiles'}
+api.telegram.org
+: 
+{divArray: Array(2), thirdTdValue: 'Telegram'}
+app.milanote.com
+: 
+{divArray: Array(1), thirdTdValue: 'Milanote'}
+appdomain.cloud
+: 
+{divArray: Array(4), thirdTdValue: 'IBM'}
+archive.org
+: 
+{divArray: Array(2), thirdTdValue: 'Archive.org'}
+archive.ph
+: 
+{divArray: Array(2), thirdTdValue: 'Archive.ph'}
+attachment.outlook.live.net
+: 
+{divArray: Array(3), thirdTdValue: 'Microsoft'}
+attachments.office.net
+: 
+{divArray: Array(3), thirdTdValue: 'Microsoft'}
+beautiful.ai
+: 
+{divArray: Array(1), thirdTdValue: 'Beautiful.ai'}
+bit.ly
+: 
+{divArray: Array(2), thirdTdValue: 'Bitly Inc.'}
+bitbucket.io
+: 
+{divArray: Array(1), thirdTdValue: 'Atlassian'}
+bitbucket.org
+: 
+{divArray: Array(4), thirdTdValue: 'Atlassian'}
+cdn.discordapp.com
+: 
+{divArray: Array(2), thirdTdValue: 'Discord'}
+cdn.fbsbx.com
+: 
+{divArray: Array(1), thirdTdValue: 'Facebook'}
+clbin.com
+: 
+{divArray: Array(3), thirdTdValue: 'Clbin'}
+codepen.io
+: 
+{divArray: Array(2), thirdTdValue: 'CodePen'}
+ct.sendgrid.net
+: 
+{divArray: Array(2), thirdTdValue: 'SendGrid'}
+cutt.ly
+: 
+{divArray: Array(2), thirdTdValue: 'Cutt.ly'}
+discord.com
+: 
+{divArray: Array(2), thirdTdValue: 'Discord'}
+doc.clickup.com
+: 
+{divArray: Array(1), thirdTdValue: 'ClickUp'}
+docs.google.com
+: 
+{divArray: Array(2), thirdTdValue: 'Google'}
+docsend.com
+: 
+{divArray: Array(1), thirdTdValue: 'Docsend'}
+dogechain.info
+: 
+{divArray: Array(1), thirdTdValue: 'Dogechain.info'}
+drive.google.com
+: 
+{divArray: Array(3), thirdTdValue: 'Google'}
+dropbox.com
+: 
+{divArray: Array(4), thirdTdValue: 'Dropbox'}
+evernote.com
+: 
+{divArray: Array(3), thirdTdValue: 'Evernote'}
+express.adobe.com
+: 
+{divArray: Array(1), thirdTdValue: 'Adobe'}
+facebook.com
+: 
+{divArray: Array(1), thirdTdValue: 'Facebook'}
+feedproxy.google.com
+: 
+{divArray: Array(1), thirdTdValue: 'Google'}
+filebin.net
+: 
+{divArray: Array(3), thirdTdValue: 'Filebin'}
+filecloudonline.com
+: 
+{divArray: Array(2), thirdTdValue: 'FileCloud'}
+filetransfer.io
+: 
+{divArray: Array(3), thirdTdValue: 'Filetransfer.io'}
+firebasestorage.googleapis.com
+: 
+{divArray: Array(4), thirdTdValue: 'Google'}
+forms.office.com
+: 
+{divArray: Array(1), thirdTdValue: 'Microsoft'}
+genius.com
+: 
+{divArray: Array(1), thirdTdValue: 'Genius'}
+gitee.com
+: 
+{divArray: Array(2), thirdTdValue: 'Gitee.com'}
+github.com
+: 
+{divArray: Array(2), thirdTdValue: 'Github'}
+gitlab.com
+: 
+{divArray: Array(2), thirdTdValue: 'GitLab'}
+googleweblight.com
+: 
+{divArray: Array(2), thirdTdValue: 'Google'}
+graph.microsoft.com
+: 
+{divArray: Array(2), thirdTdValue: 'Microsoft'}
+i.imgur.com
+: 
+{divArray: Array(1), thirdTdValue: 'Imgur'}
+icloud.com
+: 
+{divArray: Array(3), thirdTdValue: 'Apple'}
+ideone.com
+: 
+{divArray: Array(3), thirdTdValue: 'Ideone.com'}
+inmotionhosting.com
+: 
+{divArray: Array(4), thirdTdValue: 'InMotion Hosting'}
+ix.io
+: 
+{divArray: Array(3), thirdTdValue: 'Ix.io'}
+lnkd.in
+: 
+{divArray: Array(2), thirdTdValue: 'Microsoft'}
+localhost.run
+: 
+{divArray: Array(1), thirdTdValue: 'Localhost.run'}
+mediafire.com
+: 
+{divArray: Array(3), thirdTdValue: 'Mediafire'}
+mega.nz
+: 
+{divArray: Array(3), thirdTdValue: 'Mega Limited'}
+my.visme.co
+: 
+{divArray: Array(1), thirdTdValue: 'Visme'}
+nethunt.com
+: 
+{divArray: Array(1), thirdTdValue: 'NetHunt'}
+notion.so
+: 
+{divArray: Array(4), thirdTdValue: 'Notion.so'}
+nt.embluemail.com
+: 
+{divArray: Array(2), thirdTdValue: 'emBlue'}
+onedrive.live.com
+: 
+{divArray: Array(1), thirdTdValue: 'Microsoft'}
+onenoteonlinesync.onenote.com
+: 
+{divArray: Array(3), thirdTdValue: 'Microsoft'}
+parg.co
+: 
+{divArray: Array(2), thirdTdValue: 'Parg.co'}
+paste.ee
+: 
+{divArray: Array(3), thirdTdValue: 'Paste.ee'}
+pastebin.com
+: 
+{divArray: Array(3), thirdTdValue: 'Pastebin'}
+pastebin.pl
+: 
+{divArray: Array(3), thirdTdValue: 'Pastebin.pl'}
+pastetext.net
+: 
+{divArray: Array(1), thirdTdValue: 'Pastetext.net'}
+pastie.org
+: 
+{divArray: Array(3), thirdTdValue: 'Pastie.org'}
+pcloud.com
+: 
+{divArray: Array(3), thirdTdValue: 'pCloud'}
+raw.githubusercontent.com
+: 
+{divArray: Array(3), thirdTdValue: 'Github'}
+rb.gy
+: 
+{divArray: Array(2), thirdTdValue: 'Rebrandly'}
+rebrand.ly
+: 
+{divArray: Array(2), thirdTdValue: 'Rebrandly'}
+reddit.com
+: 
+{divArray: Array(1), thirdTdValue: 'Reddit'}
+rentry.co
+: 
+{divArray: Array(3), thirdTdValue: 'Rentry.co'}
+s.id
+: 
+{divArray: Array(2), thirdTdValue: 's.id'}
+siasky.net
+: 
+{divArray: Array(3), thirdTdValue: 'Siasky'}
+sites.google.com
+: 
+{divArray: Array(1), thirdTdValue: 'Google'}
+slack-files.com
+: 
+{divArray: Array(1), thirdTdValue: 'Slack'}
+slack.com
+: 
+{divArray: Array(1), thirdTdValue: 'Slack'}
+spark.adobe.com
+: 
+{divArray: Array(2), thirdTdValue: 'Adobe'}
+sprunge.us
+: 
+{divArray: Array(3), thirdTdValue: 'Sprunge'}
+stonly.com
+: 
+{divArray: Array(1), thirdTdValue: 'Stonly'}
+storage.googleapis.com
+: 
+{divArray: Array(4), thirdTdValue: 'Google'}
+sway.office.com
+: 
+{divArray: Array(1), thirdTdValue: 'Microsoft'}
+t.co
+: 
+{divArray: Array(2), thirdTdValue: 'Twitter'}
+t.m1.email.samsung.com
+: 
+{divArray: Array(2), thirdTdValue: 'Samsung'}
+telegra.ph
+: 
+{divArray: Array(1), thirdTdValue: 'Telegraph'}
+teletype.in
+: 
+{divArray: Array(1), thirdTdValue: 'Teletype'}
+termbin.com
+: 
+{divArray: Array(3), thirdTdValue: 'Termbin'}
+textbin.net
+: 
+{divArray: Array(3), thirdTdValue: 'TextBin'}
+tinyurl.com
+: 
+{divArray: Array(2), thirdTdValue: 'TinyURL'}
+track.adform.net
+: 
+{divArray: Array(2), thirdTdValue: 'Adform'}
+transfer.sh
+: 
+{divArray: Array(3), thirdTdValue: 'Transfer.sh'}
+trello.com
+: 
+{divArray: Array(3), thirdTdValue: 'Trello'}
+ufile.io
+: 
+{divArray: Array(3), thirdTdValue: 'Ufile'}
+viewer.joomag.com
+: 
+{divArray: Array(1), thirdTdValue: 'Joomag'}
+wetransfer.com
+: 
+{divArray: Array(3), thirdTdValue: 'WeTransfer B.V'}
+workflowy.com
+: 
+{divArray: Array(1), thirdTdValue: 'WorkFlowy'}
+wtools.io
+: 
+{divArray: Array(1), thirdTdValue: 'WTOOLS'}
+www.canva.com
+: 
+{divArray: Array(1), thirdTdValue: 'Canva'}
+www.surveycake.com
+: 
+{divArray: Array(1), thirdTdValue: 'SurveyCake'}
+www.uplooder.net
+: 
+{divArray: Array(3), thirdTdValue: 'Uplooder'}
+youtube.com
+: 
+{divArray: Array(2), thirdTdValue: 'Google'}
+zerobin.net
+: 
+{divArray: Array(3), thirdTdValue: 'ZeroBin'}

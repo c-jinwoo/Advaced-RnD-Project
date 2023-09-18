@@ -1,0 +1,970 @@
+Function,DLL,Occurence,Family,Associated
+ExitProcess,KERNEL32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+HeapSize,KERNEL32,4,"{'nolabel': 2, 'tedy': 1, 'winfixer': 1}"
+UnhandledExceptionFilter,KERNEL32,6,"{'nolabel': 2, 'winfixer': 1, 'lazy': 1, '-': 1, 'ratel': 1}"
+SetUnhandledExceptionFilter,KERNEL32,6,"{'nolabel': 2, 'winfixer': 1, 'lazy': 1, '-': 1, 'ratel': 1}"
+IsDebuggerPresent,KERNEL32,5,"{'nolabel': 2, 'winfixer': 1, 'lazy': 1, 'ratel': 1}",Anti-Debugging
+IsValidCodePage,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetTimeZoneInformation,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetStringTypeA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetStringTypeW,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+LCMapStringA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+LCMapStringW,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+VirtualFree,KERNEL32,4,"{'nolabel': 3, 'winfixer': 1}"
+HeapCreate,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}",Injection
+GetStdHandle,KERNEL32,7,"{'nolabel': 4, 'tedy': 1, 'winfixer': 1, 'banload': 1}"
+SetHandleCount,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetConsoleCP,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetConsoleMode,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetFileType,KERNEL32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+GetEnvironmentStrings,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+FreeEnvironmentStringsW,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetEnvironmentStringsW,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+QueryPerformanceCounter,KERNEL32,6,"{'nolabel': 2, 'winfixer': 1, 'lazy': 1, '-': 1, 'ratel': 1}",Anti-Debugging
+GetDriveTypeA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+InitializeCriticalSectionAndSpinCount,KERNEL32,2,{'nolabel': 2}
+WriteConsoleA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetConsoleOutputCP,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+WriteConsoleW,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+CompareStringW,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+SetEnvironmentVariableA,KERNEL32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}",Evasion
+InterlockedIncrement,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+InterlockedDecrement,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+VirtualQuery,KERNEL32,3,"{'nolabel': 1, 'winfixer': 1, 'ratel': 1}"
+FreeEnvironmentStringsA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+LocalFree,KERNEL32,5,"{'nolabel': 3, 'winfixer': 1, '-': 1}"
+FormatMessageA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+lstrlenA,KERNEL32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+LocalAlloc,KERNEL32,3,"{'nolabel': 1, 'winfixer': 1, '-': 1}",Injection
+WideCharToMultiByte,KERNEL32,8,"{'nolabel': 4, 'winfixer': 1, 'banload': 1, '-': 1, 'ratel': 1}"
+SizeofResource,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'ratel': 1}"
+LockResource,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}",Helper
+LoadResource,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'ratel': 1}",Evasion
+FindResourceA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Helper
+MultiByteToWideChar,KERNEL32,7,"{'nolabel': 4, 'winfixer': 1, 'banload': 1, 'ratel': 1}"
+GetVersion,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetVersionExA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Enumeration
+lstrlenW,KERNEL32,3,"{'nolabel': 2, '-': 1}"
+GetCPInfo,KERNEL32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+SetLastError,KERNEL32,7,"{'nolabel': 4, 'winfixer': 1, 'banload': 1, '-': 1}"
+GetLastError,KERNEL32,9,"{'nolabel': 4, 'tedy': 1, 'winfixer': 1, 'banload': 1, '-': 1, 'ratel': 1}"
+LoadLibraryA,KERNEL32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}",Evasion
+GetModuleHandleA,KERNEL32,6,"{'nolabel': 3, 'winfixer': 1, 'banload': 1, 'lazy': 1}",Evasion
+GetProcAddress,KERNEL32,10,"{'nolabel': 5, 'winfixer': 1, 'banload': 1, 'lazy': 1, '-': 1, 'ratel': 1}",Evasion
+FreeResource,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+lstrcmpiA,KERNEL32,5,"{'nolabel': 3, 'banload': 1, '-': 1}"
+GetCurrentDirectoryA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+SetCurrentDirectoryA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+GetFileAttributesA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Enumeration
+FindFirstFileA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Enumeration
+FindClose,KERNEL32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}",Helper
+CreateDirectoryA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+DeleteFileA,KERNEL32,5,"{'nolabel': 2, 'winfixer': 1, 'banload': 1, '-': 1}",Evasion
+RemoveDirectoryA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+Sleep,KERNEL32,7,"{'nolabel': 4, 'winfixer': 1, 'banload': 1, '-': 1}",Anti-Debugging
+OutputDebugStringA,KERNEL32,1,{'nolabel': 1},Anti-Debugging
+CopyFileA,KERNEL32,1,{'nolabel': 1},Helper
+SetFileAttributesA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Evasion
+CreateToolhelp32Snapshot,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Anti-Debugging
+Process32First,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Injection
+OpenProcess,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Injection
+CloseHandle,KERNEL32,8,"{'nolabel': 4, 'winfixer': 1, 'banload': 1, 'lazy': 1, '-': 1}"
+Process32Next,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Injection
+CreateProcessA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Injection
+WinExec,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Internet
+WaitForSingleObject,KERNEL32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}",Evasion
+GetCurrentProcess,KERNEL32,9,"{'nolabel': 4, 'winfixer': 1, 'banload': 1, 'lazy': 1, '-': 1, 'ratel': 1}",Enumeration
+TerminateProcess,KERNEL32,6,"{'nolabel': 2, 'winfixer': 1, 'lazy': 1, '-': 1, 'ratel': 1}",Helper
+GetSystemInfo,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+VirtualAlloc,KERNEL32,6,"{'nolabel': 3, 'winfixer': 1, 'lazy': 1, 'ratel': 1}",Injection
+VirtualProtect,KERNEL32,3,"{'nolabel': 1, 'winfixer': 1, 'lazy': 1}",Injection
+RaiseException,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'ratel': 1}"
+RtlUnwind,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+HeapReAlloc,KERNEL32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}",Injection
+GetStartupInfoA,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetCommandLineA,KERNEL32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+CreateThread,KERNEL32,4,"{'nolabel': 3, 'winfixer': 1}",Injection
+ExitThread,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetSystemTimeAsFileTime,KERNEL32,7,"{'nolabel': 3, 'winfixer': 1, 'lazy': 1, '-': 1, 'ratel': 1}",Anti-Debugging
+GetDateFormatA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+GetTimeFormatA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+GetTickCount,KERNEL32,6,"{'nolabel': 3, 'winfixer': 1, 'banload': 1, '-': 1}",Anti-Debugging
+SetErrorMode,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetOEMCP,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GlobalFlags,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+TlsFree,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, '-': 1}"
+DeleteCriticalSection,KERNEL32,4,"{'nolabel': 3, 'winfixer': 1}"
+LocalReAlloc,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+TlsSetValue,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, '-': 1}"
+TlsAlloc,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, '-': 1}"
+InitializeCriticalSection,KERNEL32,4,"{'nolabel': 3, 'winfixer': 1}"
+GlobalHandle,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GlobalReAlloc,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+EnterCriticalSection,KERNEL32,4,"{'nolabel': 3, 'winfixer': 1}"
+TlsGetValue,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, '-': 1}"
+LeaveCriticalSection,KERNEL32,4,"{'nolabel': 3, 'winfixer': 1}"
+GetModuleHandleW,KERNEL32,4,"{'nolabel': 3, 'ratel': 1}"
+GetFileTime,KERNEL32,3,"{'nolabel': 1, 'winfixer': 1, '-': 1}",Enumeration
+GetFileSizeEx,KERNEL32,1,{'nolabel': 1}
+CreateFileA,KERNEL32,5,"{'nolabel': 2, 'winfixer': 1, 'banload': 1, 'lazy': 1}",Helper
+GetFullPathNameA,KERNEL32,5,"{'nolabel': 2, 'winfixer': 1, 'banload': 1, '-': 1}"
+GetVolumeInformationA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+DuplicateHandle,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetFileSize,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, '-': 1}"
+SetEndOfFile,KERNEL32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+UnlockFile,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+LockFile,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+FlushFileBuffers,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+SetFilePointer,KERNEL32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+WriteFile,KERNEL32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}",Helper
+ReadFile,KERNEL32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}",Enumeration
+WritePrivateProfileStringA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetCurrentThread,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}",Enumeration
+ConvertDefaultLocale,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+EnumResourceLanguagesA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetLocaleInfoA,KERNEL32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+InterlockedExchange,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+FileTimeToLocalFileTime,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+FindNextFileA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Enumeration
+lstrcmpA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GlobalGetAtomNameA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GlobalAddAtomA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GlobalFindAtomA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GlobalDeleteAtom,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+CompareStringA,KERNEL32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+lstrcmpW,KERNEL32,4,"{'nolabel': 3, 'winfixer': 1}"
+GetCurrentThreadId,KERNEL32,7,"{'nolabel': 3, 'winfixer': 1, 'lazy': 1, '-': 1, 'ratel': 1}",Enumeration
+GetModuleFileNameW,KERNEL32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+GetCurrentProcessId,KERNEL32,6,"{'nolabel': 2, 'winfixer': 1, 'lazy': 1, '-': 1, 'ratel': 1}",Enumeration
+FileTimeToSystemTime,KERNEL32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+GetThreadLocale,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Enumeration
+GlobalFree,KERNEL32,4,"{'nolabel': 3, 'winfixer': 1}"
+GlobalAlloc,KERNEL32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}",Injection
+GlobalLock,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GlobalUnlock,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+MulDiv,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+lstrcpyA,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetACP,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+FreeLibrary,KERNEL32,6,"{'nolabel': 2, 'winfixer': 1, 'banload': 1, '-': 1, 'ratel': 1}"
+HeapFree,KERNEL32,7,"{'nolabel': 3, 'tedy': 1, 'winfixer': 1, 'banload': 1, 'ratel': 1}"
+GetProcessHeap,KERNEL32,6,"{'nolabel': 2, 'tedy': 1, 'winfixer': 1, 'banload': 1, 'ratel': 1}",Injection
+HeapAlloc,KERNEL32,7,"{'nolabel': 3, 'tedy': 1, 'winfixer': 1, 'banload': 1, 'ratel': 1}",Injection
+GetModuleFileNameA,KERNEL32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}",Helper
+SetStdHandle,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+ReleaseCapture,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+LoadCursorA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+CharUpperA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+SetWindowContextHelpId,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+MapDialogRect,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+PostQuitMessage,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+CreateDialogIndirectParamA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+EndDialog,USER32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+ShowWindow,USER32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}",Helper
+MoveWindow,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+SetWindowTextA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+IsDialogMessageA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetDlgItemTextA,USER32,3,"{'nolabel': 2, 'banload': 1}"
+SetMenuItemBitmaps,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetMenuCheckMarkDimensions,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+EnableMenuItem,USER32,4,"{'nolabel': 3, 'winfixer': 1}"
+CheckMenuItem,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+RegisterWindowMessageA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+SendDlgItemMessageA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+WinHelpA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+IsChild,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetCapture,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetClassLongA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetClassNameA,USER32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+SetPropA,USER32,2,"{'nolabel': 1, 'winfixer': 1}",Injection
+GetPropA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+RemovePropA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetFocus,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+SetFocus,USER32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}",Helper
+GetForegroundWindow,USER32,2,"{'nolabel': 1, 'winfixer': 1}",Anti-Debugging
+SetActiveWindow,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetDlgItem,USER32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+GetTopWindow,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+DestroyWindow,USER32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+GetMessageTime,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetMessagePos,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+MapWindowPoints,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+TrackPopupMenu,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetMenu,USER32,3,"{'nolabel': 2, 'banload': 1}"
+UnregisterClassA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetForegroundWindow,USER32,3,"{'nolabel': 2, 'winfixer': 1}",Helper
+UpdateWindow,USER32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+CreateWindowExA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Evasion
+GetClassInfoExA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetClassInfoA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+RegisterClassA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+AdjustWindowRectEx,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+EqualRect,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+CopyRect,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+GetSysColor,USER32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+FillRect,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+DrawEdge,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetDlgCtrlID,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+DefWindowProcA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+CallWindowProcA,USER32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+GetMenu,USER32,4,"{'nolabel': 3, 'winfixer': 1}"
+SetWindowPos,USER32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+GetWindowPlacement,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetWindow,USER32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+SetWindowsHookExA,USER32,2,"{'nolabel': 1, 'winfixer': 1}",Spying
+CallNextHookEx,USER32,4,"{'nolabel': 3, 'winfixer': 1}",Spying
+GetMessageA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Spying
+TranslateMessage,USER32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+DispatchMessageA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+IsWindowVisible,USER32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+GetKeyState,USER32,4,"{'nolabel': 3, 'winfixer': 1}",Spying
+PeekMessageA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Spying
+GetCursorPos,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+ValidateRect,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+UnhookWindowsHookEx,USER32,4,"{'nolabel': 3, 'winfixer': 1}",Spying
+IntersectRect,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+DestroyMenu,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetWindowThreadProcessId,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetLastActivePopup,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+IsWindowEnabled,USER32,4,"{'nolabel': 2, 'tedy': 1, 'winfixer': 1}"
+EndPaint,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+BeginPaint,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+ScreenToClient,USER32,4,"{'nolabel': 3, 'winfixer': 1}"
+SetWindowLongA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Helper
+IsWindow,USER32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+PtInRect,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetWindowTextLengthA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetWindowTextA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+GetMenuStringA,USER32,1,{'nolabel': 1}
+wsprintfA,USER32,4,"{'nolabel': 3, 'banload': 1}"
+GetWindowDC,USER32,3,"{'nolabel': 2, 'winfixer': 1}",Spying
+IsIconic,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+SetWindowRgn,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+MessageBoxA,USER32,6,"{'nolabel': 3, 'tedy': 1, 'winfixer': 1, 'banload': 1}"
+LoadImageA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+IsRectEmpty,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetCapture,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+CharNextA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+CopyAcceleratorTableA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+InvalidateRgn,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetNextDlgGroupItem,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+DrawStateA,USER32,1,{'nolabel': 1}
+GetClientRect,USER32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+MessageBeep,USER32,5,"{'nolabel': 3, 'tedy': 1, 'winfixer': 1}"
+RegisterClipboardFormatA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+PostThreadMessageA,USER32,2,"{'nolabel': 1, 'winfixer': 1}",Spying
+SetRect,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetMenuItemInfoA,USER32,1,{'nolabel': 1}
+DrawTextA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+SystemParametersInfoA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+DrawIconEx,USER32,3,{'nolabel': 3}
+DestroyIcon,USER32,4,"{'nolabel': 3, 'banload': 1}"
+GetSystemMetrics,USER32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+GetDesktopWindow,USER32,3,"{'nolabel': 2, 'winfixer': 1}",Helper
+GetDC,USER32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}",Spying
+ReleaseDC,USER32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+AppendMenuA,USER32,1,{'nolabel': 1}
+GetMenuItemCount,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+ModifyMenuA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetMenuState,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetMenuItemID,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+CreateMenu,USER32,1,{'nolabel': 1}
+CreatePopupMenu,USER32,1,{'nolabel': 1}
+GetSysColorBrush,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+LoadBitmapA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+GetSubMenu,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+EnableWindow,USER32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+TabbedTextOutA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+DrawTextExA,USER32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+GrayStringA,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+DestroyCursor,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetWindowLongA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+SendMessageA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Spying
+IsMenu,USER32,1,{'nolabel': 1}
+GetNextDlgTabItem,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetParent,USER32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+SetCursor,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+InvalidateRect,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+ClientToScreen,USER32,4,"{'nolabel': 3, 'winfixer': 1}"
+WindowFromPoint,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetActiveWindow,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetWindowRect,USER32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+DrawFocusRect,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+OffsetRect,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+InflateRect,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+FrameRect,USER32,1,{'nolabel': 1}
+PostMessageA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Spying
+LoadIconA,USER32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+LineTo,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+MoveToEx,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+CreateSolidBrush,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetViewportExtEx,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetWindowExtEx,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetViewportOrgEx,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+OffsetViewportOrgEx,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetViewportExtEx,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+ScaleViewportExtEx,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetWindowOrgEx,GDI32,1,{'nolabel': 1}
+SetWindowExtEx,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+ExtSelectClipRgn,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+CreateRectRgnIndirect,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetMapMode,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetBkColor,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetTextColor,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetRgnBox,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetMapMode,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetClipBox,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetBkMode,GDI32,3,"{'nolabel': 2, 'winfixer': 1}"
+RestoreDC,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+SaveDC,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+CombineRgn,GDI32,3,"{'nolabel': 2, 'winfixer': 1}"
+CreateRectRgn,GDI32,3,"{'nolabel': 2, 'winfixer': 1}"
+SetTextColor,GDI32,3,"{'nolabel': 2, 'winfixer': 1}"
+SetBkColor,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+CreateBitmap,GDI32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetStockObject,GDI32,3,"{'nolabel': 2, 'winfixer': 1}"
+Escape,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+ExtTextOutA,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+TextOutA,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+RectVisible,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+PtVisible,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+PatBlt,GDI32,1,{'nolabel': 1}
+GetPixel,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetObjectA,GDI32,3,"{'nolabel': 1, 'winfixer': 1, 'banload': 1}"
+DeleteDC,GDI32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+DeleteObject,GDI32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+SelectObject,GDI32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+CreateDIBSection,GDI32,2,{'nolabel': 2}
+Ellipse,GDI32,1,{'nolabel': 1}
+GetTextExtentPoint32A,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetTextExtentPoint32W,GDI32,2,{'nolabel': 2}
+CreateFontIndirectA,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetBkMode,GDI32,1,{'nolabel': 1}
+GetDeviceCaps,GDI32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+CreateCompatibleDC,GDI32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+CreateCompatibleBitmap,GDI32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+ScaleWindowExtEx,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+BitBlt,GDI32,3,"{'nolabel': 2, 'winfixer': 1}",Spying
+CreatePen,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetFileTitleA,COMDLG32,2,"{'nolabel': 1, 'winfixer': 1}"
+DocumentPropertiesA,WINSPOOL,2,"{'nolabel': 1, 'winfixer': 1}"
+OpenPrinterA,WINSPOOL,2,"{'nolabel': 1, 'winfixer': 1}"
+ClosePrinter,WINSPOOL,2,"{'nolabel': 1, 'winfixer': 1}"
+ReportEventA,ADVAPI32,1,{'nolabel': 1}
+DeregisterEventSource,ADVAPI32,1,{'nolabel': 1}
+RegQueryValueA,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}"
+RegEnumKeyA,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+RegDeleteKeyA,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+RegCreateKeyExA,ADVAPI32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Helper
+ChangeServiceConfigA,ADVAPI32,1,{'nolabel': 1}
+ControlService,ADVAPI32,1,{'nolabel': 1},Helper
+QueryServiceStatus,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}"
+LogonUserA,ADVAPI32,1,{'nolabel': 1}
+StartServiceA,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+QueryServiceConfigA,ADVAPI32,1,{'nolabel': 1}
+CloseServiceHandle,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}"
+OpenServiceA,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+OpenSCManagerA,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+RegisterEventSourceA,ADVAPI32,1,{'nolabel': 1}
+RegSetValueExA,ADVAPI32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Helper
+RegOpenKeyA,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+FreeSid,ADVAPI32,4,"{'nolabel': 3, 'winfixer': 1}"
+SetFileSecurityA,ADVAPI32,3,"{'nolabel': 2, 'banload': 1}"
+SetSecurityDescriptorDacl,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}"
+InitializeSecurityDescriptor,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetEntriesInAclA,ADVAPI32,1,{'nolabel': 1}
+AllocateAndInitializeSid,ADVAPI32,3,"{'nolabel': 2, 'winfixer': 1}"
+AdjustTokenPrivileges,ADVAPI32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Injection
+LookupPrivilegeValueA,ADVAPI32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Enumeration
+OpenProcessToken,ADVAPI32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}",Injection
+RegCloseKey,ADVAPI32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}",Helper
+RegQueryValueExA,ADVAPI32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Enumeration
+RegOpenKeyExA,ADVAPI32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}",Helper
+SHGetSpecialFolderPathA,SHELL32,1,{'nolabel': 1}
+SHGetSpecialFolderLocation,SHELL32,3,"{'nolabel': 2, 'banload': 1}"
+SHGetPathFromIDListA,SHELL32,3,"{'nolabel': 2, 'banload': 1}"
+SHBrowseForFolderA,SHELL32,3,"{'nolabel': 2, 'banload': 1}"
+ShellExecuteExA,SHELL32,3,"{'nolabel': 2, 'banload': 1}",Internet
+_TrackMouseEvent,COMCTL32,2,"{'nolabel': 1, 'winfixer': 1}"
+InitCommonControlsEx,COMCTL32,2,"{'nolabel': 1, 'winfixer': 1}"
+PathFindExtensionA,SHLWAPI,2,"{'nolabel': 1, 'winfixer': 1}"
+PathFindFileNameA,SHLWAPI,2,"{'nolabel': 1, 'winfixer': 1}"
+PathStripToRootA,SHLWAPI,2,"{'nolabel': 1, 'winfixer': 1}"
+PathIsUNCA,SHLWAPI,2,"{'nolabel': 1, 'winfixer': 1}"
+PathIsDirectoryA,SHLWAPI,2,"{'nolabel': 1, 'winfixer': 1}"
+Ordinal_8,OLEDLG,7,"{'nolabel': 4, 'winfixer': 2, 'banload': 1}"
+StgOpenStorageOnILockBytes,OLE32,3,"{'nolabel': 2, 'winfixer': 1}"
+CoGetClassObject,OLE32,3,"{'nolabel': 2, 'winfixer': 1}"
+CLSIDFromProgID,OLE32,3,"{'nolabel': 2, 'winfixer': 1}"
+CLSIDFromString,OLE32,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+CoTaskMemAlloc,OLE32,2,"{'nolabel': 1, 'winfixer': 1}"
+StgCreateDocfileOnILockBytes,OLE32,3,"{'nolabel': 2, 'winfixer': 1}"
+CoUninitialize,OLE32,3,"{'nolabel': 2, 'winfixer': 1}"
+CoInitialize,OLE32,3,{'nolabel': 3}
+CoTaskMemFree,OLE32,3,"{'nolabel': 2, 'winfixer': 1}"
+OleRun,OLE32,2,{'nolabel': 2}
+CoCreateInstance,OLE32,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+CreateILockBytesOnHGlobal,OLE32,3,"{'nolabel': 2, 'winfixer': 1}"
+OleUninitialize,OLE32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+CoFreeUnusedLibraries,OLE32,3,"{'nolabel': 2, 'winfixer': 1}"
+OleInitialize,OLE32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+CoRevokeClassObject,OLE32,2,"{'nolabel': 1, 'winfixer': 1}"
+OleIsCurrentClipboard,OLE32,3,"{'nolabel': 2, 'winfixer': 1}"
+OleFlushClipboard,OLE32,3,"{'nolabel': 2, 'winfixer': 1}"
+CoRegisterMessageFilter,OLE32,2,"{'nolabel': 1, 'winfixer': 1}"
+Ordinal_150,OLEAUT32,2,"{'nolabel': 1, 'winfixer': 1}"
+Ordinal_149,OLEAUT32,1,{'nolabel': 1}
+Ordinal_6,OLEAUT32,5,"{'nolabel': 3, 'winfixer': 1, 'ratel': 1}"
+Ordinal_10,OLEAUT32,2,"{'nolabel': 1, 'winfixer': 1}"
+Ordinal_9,OLEAUT32,5,"{'nolabel': 4, 'winfixer': 1}"
+Ordinal_12,OLEAUT32,2,"{'nolabel': 1, 'winfixer': 1}"
+Ordinal_4,OLEAUT32,3,"{'nolabel': 2, 'winfixer': 1}"
+Ordinal_7,OLEAUT32,5,"{'nolabel': 3, 'winfixer': 1, 'ratel': 1}"
+Ordinal_16,OLEAUT32,3,"{'nolabel': 2, 'winfixer': 1}"
+Ordinal_185,OLEAUT32,3,"{'nolabel': 2, 'winfixer': 1}"
+Ordinal_184,OLEAUT32,3,"{'nolabel': 2, 'winfixer': 1}"
+Ordinal_420,OLEAUT32,3,"{'nolabel': 2, 'winfixer': 1}"
+Ordinal_200,OLEAUT32,2,"{'nolabel': 1, 'ratel': 1}"
+Ordinal_2,OLEAUT32,7,"{'nolabel': 5, 'winfixer': 1, 'ratel': 1}"
+GetAdaptersInfo,IPHLPAPI,1,{'nolabel': 1},Enumeration
+Ordinal_11,WS2_32,2,{'nolabel': 2}
+Ordinal_57,WS2_32,1,{'nolabel': 1}
+Ordinal_115,WS2_32,2,{'nolabel': 2}
+Ordinal_3,WS2_32,2,{'nolabel': 2}
+Ordinal_116,WS2_32,2,{'nolabel': 2}
+Ordinal_23,WS2_32,2,{'nolabel': 2}
+LresultFromObject,OLEACC,2,"{'nolabel': 1, 'winfixer': 1}"
+CreateStdAccessibleObject,OLEACC,2,"{'nolabel': 1, 'winfixer': 1}"
+Ordinal_17,COMCTL32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+SHGetSpecialFolderPathW,SHELL32,1,{'nolabel': 1}
+ShellExecuteW,SHELL32,2,{'nolabel': 2}
+SHGetMalloc,SHELL32,3,"{'nolabel': 2, 'banload': 1}"
+SHGetPathFromIDListW,SHELL32,1,{'nolabel': 1}
+SHBrowseForFolderW,SHELL32,1,{'nolabel': 1}
+SHGetFileInfoW,SHELL32,1,{'nolabel': 1}
+ShellExecuteExW,SHELL32,1,{'nolabel': 1}
+CreateFontIndirectW,GDI32,2,{'nolabel': 2}
+GetCurrentObject,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+StretchBlt,GDI32,3,"{'nolabel': 1, 'winfixer': 1, 'banload': 1}",Spying
+SetStretchBltMode,GDI32,1,{'nolabel': 1}
+GetObjectW,GDI32,2,{'nolabel': 2}
+CheckTokenMembership,ADVAPI32,1,{'nolabel': 1}
+CopyImage,USER32,1,{'nolabel': 1}
+GetWindowLongW,USER32,2,{'nolabel': 2}
+SetTimer,USER32,3,"{'nolabel': 2, 'winfixer': 1}",Evasion
+GetMessageW,USER32,1,{'nolabel': 1}
+DispatchMessageW,USER32,2,{'nolabel': 2}
+KillTimer,USER32,3,"{'nolabel': 2, 'winfixer': 1}"
+SendMessageW,USER32,2,{'nolabel': 2}
+wsprintfW,USER32,1,{'nolabel': 1}
+GetWindowTextW,USER32,1,{'nolabel': 1}
+GetWindowTextLengthW,USER32,1,{'nolabel': 1}
+SetWindowTextW,USER32,2,{'nolabel': 2}
+CreateWindowExW,USER32,2,{'nolabel': 2}
+SetWindowLongW,USER32,2,{'nolabel': 2}
+SystemParametersInfoW,USER32,2,{'nolabel': 2}
+DrawTextW,USER32,1,{'nolabel': 1}
+DialogBoxIndirectParamW,USER32,1,{'nolabel': 1}
+CallWindowProcW,USER32,1,{'nolabel': 1}
+DefWindowProcW,USER32,2,{'nolabel': 2}
+SetWindowsHookExW,USER32,2,{'nolabel': 2}
+LoadImageW,USER32,2,{'nolabel': 2}
+LoadIconW,USER32,2,{'nolabel': 2}
+GetSystemMenu,USER32,2,{'nolabel': 2}
+wvsprintfW,USER32,1,{'nolabel': 1}
+CharUpperW,USER32,1,{'nolabel': 1}
+CreateStreamOnHGlobal,OLE32,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+Ordinal_418,OLEAUT32,2,"{'nolabel': 1, 'winfixer': 1}"
+SetFileTime,KERNEL32,4,"{'nolabel': 2, 'banload': 1, '-': 1}",Evasion
+WaitForMultipleObjects,KERNEL32,2,{'nolabel': 2},Evasion
+FormatMessageW,KERNEL32,4,"{'nolabel': 2, 'tedy': 1, 'ratel': 1}"
+lstrcpyW,KERNEL32,1,{'nolabel': 1}
+IsBadReadPtr,KERNEL32,1,{'nolabel': 1}
+GetSystemDirectoryW,KERNEL32,2,{'nolabel': 2}
+SuspendThread,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Injection
+TerminateThread,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}",Helper
+ResetEvent,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+SetEvent,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+CreateEventW,KERNEL32,2,{'nolabel': 2}
+GetVersionExW,KERNEL32,2,{'nolabel': 2}
+SetProcessWorkingSetSize,KERNEL32,1,{'nolabel': 1}
+SetCurrentDirectoryW,KERNEL32,1,{'nolabel': 1}
+GetDriveTypeW,KERNEL32,1,{'nolabel': 1}
+CreateFileW,KERNEL32,5,"{'nolabel': 3, 'banload': 1, '-': 1}"
+GetCommandLineW,KERNEL32,2,{'nolabel': 2}
+GetStartupInfoW,KERNEL32,3,"{'nolabel': 2, 'ratel': 1}"
+CreateProcessW,KERNEL32,2,{'nolabel': 2}
+CreateJobObjectW,KERNEL32,1,{'nolabel': 1}
+ResumeThread,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}",Injection
+AssignProcessToJobObject,KERNEL32,1,{'nolabel': 1}
+CreateIoCompletionPort,KERNEL32,1,{'nolabel': 1}
+SetInformationJobObject,KERNEL32,1,{'nolabel': 1}
+GetQueuedCompletionStatus,KERNEL32,1,{'nolabel': 1}
+GetExitCodeProcess,KERNEL32,2,{'nolabel': 2}
+SetEnvironmentVariableW,KERNEL32,2,{'nolabel': 2}
+GetTempPathW,KERNEL32,2,{'nolabel': 2}
+CompareFileTime,KERNEL32,1,{'nolabel': 1}
+SetThreadLocale,KERNEL32,2,{'nolabel': 2}
+FindFirstFileW,KERNEL32,4,"{'nolabel': 3, 'banload': 1}"
+DeleteFileW,KERNEL32,5,"{'nolabel': 3, 'banload': 1, '-': 1}"
+FindNextFileW,KERNEL32,4,"{'nolabel': 3, 'banload': 1}"
+RemoveDirectoryW,KERNEL32,2,{'nolabel': 2}
+ExpandEnvironmentStringsW,KERNEL32,2,{'nolabel': 2}
+GlobalMemoryStatusEx,KERNEL32,1,{'nolabel': 1}
+GetEnvironmentVariableW,KERNEL32,1,{'nolabel': 1}
+lstrcmpiW,KERNEL32,2,"{'nolabel': 1, '-': 1}"
+GetLocaleInfoW,KERNEL32,2,{'nolabel': 2}
+GetUserDefaultUILanguage,KERNEL32,2,{'nolabel': 2}
+GetSystemDefaultUILanguage,KERNEL32,1,{'nolabel': 1}
+GetSystemDefaultLCID,KERNEL32,1,{'nolabel': 1}
+FindResourceExA,KERNEL32,1,{'nolabel': 1},Helper
+lstrcatW,KERNEL32,1,{'nolabel': 1}
+GetDiskFreeSpaceExW,KERNEL32,1,{'nolabel': 1}
+SetFileAttributesW,KERNEL32,4,"{'nolabel': 3, 'banload': 1}"
+GetExitCodeThread,KERNEL32,1,{'nolabel': 1}
+SystemTimeToFileTime,KERNEL32,3,"{'nolabel': 2, 'banload': 1}"
+GetLocalTime,KERNEL32,3,"{'nolabel': 2, 'winfixer': 1}"
+GetFileAttributesW,KERNEL32,5,"{'nolabel': 3, 'banload': 1, '-': 1}"
+CreateDirectoryW,KERNEL32,4,"{'nolabel': 3, 'banload': 1}"
+operator_delete,MSVCRT,1,{'nolabel': 1}
+operator_new,MSVCRT,1,{'nolabel': 1}
+memcmp,MSVCRT,3,"{'nolabel': 1, '-': 1, 'ratel': 1}"
+free,MSVCRT,2,"{'nolabel': 1, '-': 1}"
+memcpy,MSVCRT,3,"{'nolabel': 1, 'lazy': 1, 'ratel': 1}"
+_controlfp,MSVCRT,1,{'nolabel': 1}
+__set_app_type,MSVCRT,1,{'nolabel': 1}
+__p__fmode,MSVCRT,1,{'nolabel': 1}
+__p__commode,MSVCRT,2,"{'nolabel': 1, 'ratel': 1}"
+__setusermatherr,MSVCRT,2,"{'nolabel': 1, 'ratel': 1}"
+_initterm,MSVCRT,4,"{'nolabel': 1, 'lazy': 1, '-': 1, 'ratel': 1}"
+__getmainargs,MSVCRT,1,{'nolabel': 1}
+exit,MSVCRT,2,"{'nolabel': 1, 'ratel': 1}"
+_XcptFilter,MSVCRT,2,"{'nolabel': 1, '-': 1}"
+_exit,MSVCRT,2,"{'nolabel': 1, 'ratel': 1}"
+~type_info,MSVCRT,1,{'nolabel': 1}
+_onexit,MSVCRT,1,{'nolabel': 1}
+__dllonexit,MSVCRT,1,{'nolabel': 1}
+_CxxThrowException,MSVCRT,2,"{'nolabel': 1, 'ratel': 1}"
+_beginthreadex,MSVCRT,1,{'nolabel': 1}
+_EH_prolog,MSVCRT,1,{'nolabel': 1}
+_set_new_handler,MSVCRT,1,{'nolabel': 1}
+memset,MSVCRT,3,"{'nolabel': 1, 'lazy': 1, 'ratel': 1}"
+_wcsnicmp,MSVCRT,1,{'nolabel': 1}
+strncmp,MSVCRT,1,{'nolabel': 1}
+wcsncmp,MSVCRT,1,{'nolabel': 1}
+malloc,MSVCRT,3,"{'nolabel': 1, '-': 1, 'ratel': 1}"
+memmove,MSVCRT,3,"{'nolabel': 1, 'lazy': 1, 'ratel': 1}"
+_wtol,MSVCRT,1,{'nolabel': 1}
+SetConsoleMode,KERNEL32,1,{'tedy': 1}
+SetConsoleScreenBufferSize,KERNEL32,1,{'tedy': 1}
+SetConsoleWindowInfo,KERNEL32,1,{'tedy': 1}
+WriteConsoleOutputCharacterA,KERNEL32,1,{'tedy': 1}
+WriteConsoleOutputAttribute,KERNEL32,1,{'tedy': 1}
+ReadConsoleOutputAttribute,KERNEL32,1,{'tedy': 1}
+GetConsoleHistoryInfo,KERNEL32,1,{'tedy': 1}
+MessageBoxW,USER32,1,{'tedy': 1}
+SetFileSecurityW,ADVAPI32,2,"{'nolabel': 1, 'banload': 1}"
+DosDateTimeToFileTime,KERNEL32,2,"{'nolabel': 1, 'banload': 1}"
+ExpandEnvironmentStringsA,KERNEL32,3,"{'nolabel': 1, 'winfixer': 1, 'banload': 1}"
+GetNumberFormatA,KERNEL32,2,"{'nolabel': 1, 'banload': 1}"
+GetTempPathA,KERNEL32,3,"{'nolabel': 1, 'winfixer': 1, 'banload': 1}",Helper
+IsDBCSLeadByte,KERNEL32,3,"{'nolabel': 1, 'banload': 1, '-': 1}"
+LocalFileTimeToFileTime,KERNEL32,2,"{'nolabel': 1, 'banload': 1}"
+MoveFileA,KERNEL32,3,"{'nolabel': 1, 'winfixer': 1, 'banload': 1}",Helper
+MoveFileExA,KERNEL32,2,"{'nolabel': 1, 'banload': 1}",Helper
+CommDlgExtendedError,COMDLG32,2,"{'nolabel': 1, 'banload': 1}"
+GetOpenFileNameA,COMDLG32,2,"{'nolabel': 1, 'banload': 1}"
+SHChangeNotify,SHELL32,2,"{'nolabel': 1, 'banload': 1}"
+SHFileOperationA,SHELL32,3,"{'nolabel': 1, 'winfixer': 1, 'banload': 1}"
+SHGetFileInfoA,SHELL32,2,"{'nolabel': 1, 'banload': 1}"
+CharToOemA,USER32,2,"{'nolabel': 1, 'banload': 1}"
+CharToOemBuffA,USER32,2,"{'nolabel': 1, 'banload': 1}"
+DialogBoxParamA,USER32,2,"{'nolabel': 1, 'banload': 1}"
+FindWindowExA,USER32,2,"{'nolabel': 1, 'banload': 1}",Anti-Debugging
+GetDlgItemTextA,USER32,2,"{'nolabel': 1, 'banload': 1}"
+LoadStringA,USER32,2,"{'nolabel': 1, 'banload': 1}"
+OemToCharA,USER32,2,"{'nolabel': 1, 'banload': 1}"
+OemToCharBuffA,USER32,2,"{'nolabel': 1, 'banload': 1}"
+RegisterClassExA,USER32,2,"{'nolabel': 1, 'banload': 1}"
+WaitForInputIdle,USER32,2,"{'nolabel': 1, 'banload': 1}"
+wvsprintfA,USER32,2,"{'nolabel': 1, 'banload': 1}"
+CreatePipe,KERNEL32,1,{'nolabel': 1},Helper
+PeekNamedPipe,KERNEL32,1,{'nolabel': 1},Helper
+LoadLibraryW,KERNEL32,3,"{'nolabel': 1, '-': 1, 'ratel': 1}"
+GetDateFormatW,KERNEL32,1,{'nolabel': 1}
+GetTimeFormatW,KERNEL32,1,{'nolabel': 1}
+GetCurrencyFormatW,KERNEL32,1,{'nolabel': 1}
+FindFirstFileExW,KERNEL32,1,{'nolabel': 1}
+GetOverlappedResult,KERNEL32,1,{'nolabel': 1}
+GetUserDefaultLangID,KERNEL32,1,{'nolabel': 1}
+IsValidLocale,KERNEL32,1,{'nolabel': 1}
+IsValidLanguageGroup,KERNEL32,1,{'nolabel': 1}
+GlobalSize,KERNEL32,1,{'nolabel': 1}
+GetLongPathNameW,KERNEL32,1,{'nolabel': 1}
+GetVolumeInformationW,KERNEL32,1,{'nolabel': 1}
+DeleteAtom,KERNEL32,1,{'nolabel': 1}
+FindAtomW,KERNEL32,1,{'nolabel': 1}
+AddAtomW,KERNEL32,1,{'nolabel': 1}
+QueryPerformanceFrequency,KERNEL32,1,{'nolabel': 1},Anti-Debugging
+OutputDebugStringW,KERNEL32,1,{'nolabel': 1}
+UnmapViewOfFile,KERNEL32,2,"{'nolabel': 1, 'banload': 1}",Helper
+CreateFileMappingW,KERNEL32,1,{'nolabel': 1}
+InterlockedCompareExchange,KERNEL32,1,{'nolabel': 1}
+MapViewOfFile,KERNEL32,2,"{'nolabel': 1, 'banload': 1}",Injection
+EnumSystemLocalesA,KERNEL32,1,{'nolabel': 1},Ransomware
+GetSystemDefaultLangID,KERNEL32,1,{'nolabel': 1}
+GetUserDefaultLCID,KERNEL32,1,{'nolabel': 1}
+EncodePointer,KERNEL32,1,{'nolabel': 1}
+DecodePointer,KERNEL32,1,{'nolabel': 1}
+HeapSetInformation,KERNEL32,1,{'nolabel': 1}
+IsProcessorFeaturePresent,KERNEL32,3,"{'nolabel': 1, 'lazy': 1, 'ratel': 1}"
+SetFilePointerEx,KERNEL32,1,{'nolabel': 1}
+GetFileAttributesExW,KERNEL32,1,{'nolabel': 1}
+GetLogicalDrives,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+DeviceIoControl,KERNEL32,1,{'nolabel': 1},Helper
+GetFullPathNameW,KERNEL32,1,{'nolabel': 1}
+GetCurrentDirectoryW,KERNEL32,1,{'nolabel': 1}
+GetFileInformationByHandle,KERNEL32,1,{'nolabel': 1}
+SystemTimeToTzSpecificLocalTime,KERNEL32,1,{'nolabel': 1}
+MoveFileW,KERNEL32,2,"{'nolabel': 1, '-': 1}"
+CopyFileW,KERNEL32,1,{'nolabel': 1}
+CreateSemaphoreW,KERNEL32,1,{'nolabel': 1}
+ReleaseSemaphore,KERNEL32,1,{'nolabel': 1}
+GetThreadPriority,KERNEL32,1,{'nolabel': 1}
+SetThreadPriority,KERNEL32,2,"{'nolabel': 1, 'winfixer': 1}",Helper
+SwitchToThread,KERNEL32,1,{'nolabel': 1}
+RegDeleteKeyW,ADVAPI32,1,{'nolabel': 1}
+RegQueryInfoKeyW,ADVAPI32,1,{'nolabel': 1}
+RegEnumValueW,ADVAPI32,1,{'nolabel': 1}
+RegEnumKeyExW,ADVAPI32,1,{'nolabel': 1}
+RegFlushKey,ADVAPI32,1,{'nolabel': 1},Helper
+RegCreateKeyExW,ADVAPI32,1,{'nolabel': 1}
+GetTokenInformation,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetLengthSid,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}"
+CopySid,ADVAPI32,2,"{'nolabel': 1, 'winfixer': 1}"
+RegQueryValueExW,ADVAPI32,1,{'nolabel': 1}
+RegSetValueExW,ADVAPI32,1,{'nolabel': 1}
+RegOpenKeyExW,ADVAPI32,1,{'nolabel': 1}
+RegDeleteValueW,ADVAPI32,1,{'nolabel': 1}
+SetGraphicsMode,GDI32,1,{'nolabel': 1}
+SetWorldTransform,GDI32,1,{'nolabel': 1}
+GetGlyphOutlineW,GDI32,1,{'nolabel': 1}
+SetTextAlign,GDI32,1,{'nolabel': 1}
+ExtTextOutW,GDI32,1,{'nolabel': 1}
+GetOutlineTextMetricsW,GDI32,1,{'nolabel': 1}
+GetDIBits,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+PtInRegion,GDI32,1,{'nolabel': 1}
+SelectPalette,GDI32,1,{'nolabel': 1}
+RealizePalette,GDI32,1,{'nolabel': 1}
+CreateEllipticRgn,GDI32,1,{'nolabel': 1}
+GetRegionData,GDI32,1,{'nolabel': 1}
+GetTextMetricsW,GDI32,1,{'nolabel': 1}
+OffsetRgn,GDI32,1,{'nolabel': 1}
+GetCharABCWidthsFloatW,GDI32,1,{'nolabel': 1}
+GetCharABCWidthsI,GDI32,1,{'nolabel': 1}
+GetCharABCWidthsW,GDI32,1,{'nolabel': 1}
+GetFontData,GDI32,1,{'nolabel': 1}
+GetTextFaceW,GDI32,1,{'nolabel': 1}
+EnumFontFamiliesExW,GDI32,1,{'nolabel': 1}
+GetPaletteEntries,GDI32,1,{'nolabel': 1}
+CreatePalette,GDI32,1,{'nolabel': 1}
+GdiFlush,GDI32,1,{'nolabel': 1}
+SelectClipRgn,GDI32,2,"{'nolabel': 1, 'winfixer': 1}"
+ImmGetDefaultIMEWnd,IMM32,1,{'nolabel': 1}
+ImmGetContext,IMM32,1,{'nolabel': 1}
+ImmReleaseContext,IMM32,1,{'nolabel': 1}
+ImmNotifyIME,IMM32,1,{'nolabel': 1}
+ImmGetCompositionStringW,IMM32,1,{'nolabel': 1}
+ImmAssociateContext,IMM32,1,{'nolabel': 1}
+ImmSetCandidateWindow,IMM32,1,{'nolabel': 1}
+ImmSetCompositionWindow,IMM32,1,{'nolabel': 1}
+ImmSetCompositionFontW,IMM32,1,{'nolabel': 1}
+ReleaseStgMedium,OLE32,1,{'nolabel': 1}
+CoCreateGuid,OLE32,1,{'nolabel': 1}
+StringFromGUID2,OLE32,1,{'nolabel': 1}
+RevokeDragDrop,OLE32,1,{'nolabel': 1}
+CoLockObjectExternal,OLE32,1,{'nolabel': 1}
+RegisterDragDrop,OLE32,1,{'nolabel': 1}
+DoDragDrop,OLE32,1,{'nolabel': 1}
+CoGetMalloc,OLE32,1,{'nolabel': 1}
+OleGetClipboard,OLE32,1,{'nolabel': 1}
+OleSetClipboard,OLE32,1,{'nolabel': 1}
+OleLockRunning,OLE32,1,{'nolabel': 1}
+OleSetMenuDescriptor,OLE32,1,{'nolabel': 1}
+OleCreateFromFile,OLE32,1,{'nolabel': 1}
+Ordinal_35,OLEAUT32,1,{'nolabel': 1}
+Ordinal_161,OLEAUT32,1,{'nolabel': 1}
+Ordinal_419,OLEAUT32,1,{'nolabel': 1}
+Ordinal_421,OLEAUT32,1,{'nolabel': 1}
+Ordinal_24,OLEAUT32,1,{'nolabel': 1}
+Ordinal_411,OLEAUT32,1,{'nolabel': 1}
+Ordinal_26,OLEAUT32,1,{'nolabel': 1}
+Ordinal_15,OLEAUT32,1,{'nolabel': 1}
+Ordinal_77,OLEAUT32,1,{'nolabel': 1}
+Ordinal_25,OLEAUT32,1,{'nolabel': 1}
+Ordinal_19,OLEAUT32,1,{'nolabel': 1}
+Ordinal_20,OLEAUT32,1,{'nolabel': 1}
+GetMenuItemInfoW,USER32,1,{'nolabel': 1}
+SetClipboardViewer,USER32,1,{'nolabel': 1}
+ChangeClipboardChain,USER32,1,{'nolabel': 1}
+GetClipboardFormatNameW,USER32,1,{'nolabel': 1}
+SetMenuItemInfoW,USER32,1,{'nolabel': 1}
+TrackPopupMenuEx,USER32,1,{'nolabel': 1}
+GetKeyboardState,USER32,1,{'nolabel': 1},Spying
+MapVirtualKeyW,USER32,1,{'nolabel': 1}
+ToAscii,USER32,1,{'nolabel': 1}
+GetKeyboardLayout,USER32,1,{'nolabel': 1}
+ToUnicode,USER32,1,{'nolabel': 1}
+DestroyCaret,USER32,1,{'nolabel': 1}
+SetCaretPos,USER32,1,{'nolabel': 1}
+CreateCaret,USER32,1,{'nolabel': 1}
+HideCaret,USER32,2,"{'nolabel': 1, 'winfixer': 1}"
+GetKeyboardLayoutList,USER32,1,{'nolabel': 1}
+RegisterWindowMessageW,USER32,1,{'nolabel': 1}
+RegisterClipboardFormatW,USER32,1,{'nolabel': 1}
+CreateCursor,USER32,1,{'nolabel': 1}
+SetCursorPos,USER32,1,{'nolabel': 1}
+GetIconInfo,USER32,1,{'nolabel': 1}
+CreateIconIndirect,USER32,1,{'nolabel': 1}
+GetClassInfoW,USER32,1,{'nolabel': 1}
+RegisterClassExW,USER32,1,{'nolabel': 1}
+GetWindowRgn,USER32,1,{'nolabel': 1}
+ClipCursor,USER32,1,{'nolabel': 1}
+GetUpdateRect,USER32,1,{'nolabel': 1}
+GetDoubleClickTime,USER32,1,{'nolabel': 1}
+SetDoubleClickTime,USER32,1,{'nolabel': 1}
+SetCaretBlinkTime,USER32,1,{'nolabel': 1}
+GetAsyncKeyState,USER32,1,{'nolabel': 1},Spying
+GetCaretBlinkTime,USER32,1,{'nolabel': 1}
+FlashWindowEx,USER32,1,{'nolabel': 1}
+SetParent,USER32,1,{'nolabel': 1}
+ValidateRgn,USER32,1,{'nolabel': 1}
+SetWindowPlacement,USER32,1,{'nolabel': 1}
+IsZoomed,USER32,1,{'nolabel': 1}
+ScrollWindowEx,USER32,1,{'nolabel': 1}
+EnumWindows,USER32,1,{'nolabel': 1},Enumeration
+PostThreadMessageW,USER32,1,{'nolabel': 1}
+MsgWaitForMultipleObjectsEx,USER32,1,{'nolabel': 1}
+UnregisterClassW,USER32,1,{'nolabel': 1}
+RegisterClassW,USER32,1,{'nolabel': 1}
+GetQueueStatus,USER32,1,{'nolabel': 1}
+PostMessageW,USER32,1,{'nolabel': 1}
+PeekMessageW,USER32,1,{'nolabel': 1}
+CharNextExA,USER32,1,{'nolabel': 1}
+WinHttpReceiveResponse,WINHTTP,1,{'nolabel': 1}
+WinHttpSendRequest,WINHTTP,1,{'nolabel': 1}
+WinHttpConnect,WINHTTP,1,{'nolabel': 1}
+WinHttpCloseHandle,WINHTTP,1,{'nolabel': 1}
+WinHttpQueryHeaders,WINHTTP,1,{'nolabel': 1}
+WinHttpSetStatusCallback,WINHTTP,1,{'nolabel': 1}
+WinHttpQueryDataAvailable,WINHTTP,1,{'nolabel': 1}
+WinHttpReadData,WINHTTP,1,{'nolabel': 1}
+WinHttpCrackUrl,WINHTTP,1,{'nolabel': 1}
+WinHttpOpenRequest,WINHTTP,1,{'nolabel': 1}
+WinHttpOpen,WINHTTP,1,{'nolabel': 1}
+PlaySoundW,WINMM,1,{'nolabel': 1}
+WSASendTo,WS2_32,1,{'nolabel': 1}
+Ordinal_151,WS2_32,1,{'nolabel': 1}
+Ordinal_18,WS2_32,1,{'nolabel': 1}
+WSASend,WS2_32,1,{'nolabel': 1}
+WSARecv,WS2_32,1,{'nolabel': 1}
+Ordinal_52,WS2_32,1,{'nolabel': 1}
+Ordinal_51,WS2_32,1,{'nolabel': 1}
+WSARecvFrom,WS2_32,1,{'nolabel': 1}
+WSAAccept,WS2_32,1,{'nolabel': 1}
+Ordinal_13,WS2_32,1,{'nolabel': 1}
+WSAConnect,WS2_32,1,{'nolabel': 1}
+Ordinal_5,WS2_32,1,{'nolabel': 1}
+Ordinal_21,WS2_32,1,{'nolabel': 1}
+WSASocketW,WS2_32,1,{'nolabel': 1}
+Ordinal_101,WS2_32,1,{'nolabel': 1}
+WSAIoctl,WS2_32,1,{'nolabel': 1},Internet
+Ordinal_111,WS2_32,1,{'nolabel': 1}
+WSAHtons,WS2_32,1,{'nolabel': 1}
+WSAHtonl,WS2_32,1,{'nolabel': 1}
+WSANtohs,WS2_32,1,{'nolabel': 1}
+WSANtohl,WS2_32,1,{'nolabel': 1}
+Ordinal_14,WS2_32,1,{'nolabel': 1}
+GetFileVersionInfoSizeA,VERSION,3,"{'winfixer': 1, 'lazy': 1, '-': 1}"
+GetFileVersionInfoA,VERSION,3,"{'winfixer': 1, 'lazy': 1, '-': 1}"
+VerQueryValueA,VERSION,3,"{'winfixer': 1, 'lazy': 1, '-': 1}"
+GdipDeleteGraphics,GDIPLUS,1,{'winfixer': 1}
+GdipCreateFromHDC,GDIPLUS,1,{'winfixer': 1}
+GdipSetSmoothingMode,GDIPLUS,1,{'winfixer': 1}
+GdipCreatePath,GDIPLUS,1,{'winfixer': 1}
+GdipDrawArcI,GDIPLUS,1,{'winfixer': 1}
+GdipDeletePen,GDIPLUS,1,{'winfixer': 1}
+GdipCreatePen1,GDIPLUS,1,{'winfixer': 1}
+GdiplusShutdown,GDIPLUS,1,{'winfixer': 1}
+GdiplusStartup,GDIPLUS,1,{'winfixer': 1}
+GdipDeletePath,GDIPLUS,1,{'winfixer': 1}
+SearchPathA,KERNEL32,1,{'winfixer': 1},Enumeration
+GetPrivateProfileIntA,KERNEL32,1,{'winfixer': 1}
+GetPrivateProfileStringA,KERNEL32,1,{'winfixer': 1}
+HeapDestroy,KERNEL32,1,{'winfixer': 1}
+lstrcatA,KERNEL32,1,{'winfixer': 1},Helper
+QueryDosDeviceA,KERNEL32,1,{'winfixer': 1}
+GetTempFileNameA,KERNEL32,1,{'winfixer': 1},Helper
+GetWindowsDirectoryA,KERNEL32,1,{'winfixer': 1},Enumeration
+GetBinaryTypeA,KERNEL32,1,{'winfixer': 1}
+CreateRemoteThread,KERNEL32,1,{'winfixer': 1},Injection
+Module32First,KERNEL32,1,{'winfixer': 1},Enumeration
+Module32Next,KERNEL32,1,{'winfixer': 1},Enumeration
+GetEnvironmentVariableA,KERNEL32,1,{'winfixer': 1}
+lstrcpynA,KERNEL32,1,{'winfixer': 1}
+CreateEventA,KERNEL32,1,{'winfixer': 1}
+GetSystemTime,KERNEL32,2,"{'winfixer': 1, 'banload': 1}",Anti-Debugging
+GetScrollInfo,USER32,1,{'winfixer': 1}
+TrackMouseEvent,USER32,1,{'winfixer': 1}
+CopyIcon,USER32,1,{'winfixer': 1}
+SetClassLongA,USER32,1,{'winfixer': 1}
+ExitWindowsEx,USER32,1,{'winfixer': 1},Anti-Debugging
+RedrawWindow,USER32,1,{'winfixer': 1}
+LoadMenuA,USER32,1,{'winfixer': 1}
+DrawIcon,USER32,1,{'winfixer': 1}
+FindWindowA,USER32,1,{'winfixer': 1},Anti-Debugging
+CreateFontA,GDI32,1,{'winfixer': 1}
+DPtoLP,GDI32,1,{'winfixer': 1}
+Rectangle,GDI32,1,{'winfixer': 1}
+CreateDCA,GDI32,1,{'winfixer': 1}
+CreatePatternBrush,GDI32,1,{'winfixer': 1}
+ExtCreateRegion,GDI32,1,{'winfixer': 1}
+GetTextMetricsA,GDI32,1,{'winfixer': 1}
+GradientFill,MSIMG32,1,{'winfixer': 1}
+UrlUnescapeA,SHLWAPI,1,{'winfixer': 1}
+SHDeleteKeyA,SHLWAPI,1,{'winfixer': 1}
+PathFileExistsA,SHLWAPI,1,{'winfixer': 1},Enumeration
+CoInitializeEx,OLE32,2,"{'winfixer': 1, 'ratel': 1}"
+HttpOpenRequestA,WININET,1,{'winfixer': 1},Internet
+InternetOpenUrlA,WININET,1,{'winfixer': 1},Internet
+InternetConnectA,WININET,1,{'winfixer': 1},Internet
+HttpSendRequestA,WININET,1,{'winfixer': 1},Internet
+InternetReadFile,WININET,1,{'winfixer': 1},Internet
+InternetWriteFile,WININET,1,{'winfixer': 1},Internet
+InternetSetFilePointer,WININET,1,{'winfixer': 1}
+InternetSetStatusCallback,WININET,1,{'winfixer': 1}
+InternetOpenA,WININET,1,{'winfixer': 1},Internet
+InternetGetLastResponseInfoA,WININET,1,{'winfixer': 1}
+InternetCloseHandle,WININET,1,{'winfixer': 1},Internet
+HttpQueryInfoA,WININET,1,{'winfixer': 1}
+InternetQueryDataAvailable,WININET,1,{'winfixer': 1}
+InternetSetOptionExA,WININET,1,{'winfixer': 1}
+InternetQueryOptionA,WININET,1,{'winfixer': 1}
+InternetCrackUrlA,WININET,1,{'winfixer': 1}
+InternetCanonicalizeUrlA,WININET,1,{'winfixer': 1}
+RegDeleteValueA,ADVAPI32,1,{'winfixer': 1},Helper
+GetSidSubAuthority,ADVAPI32,1,{'winfixer': 1}
+GetSidSubAuthorityCount,ADVAPI32,1,{'winfixer': 1}
+GetSidIdentifierAuthority,ADVAPI32,1,{'winfixer': 1}
+RegGetKeySecurity,ADVAPI32,1,{'winfixer': 1},Helper
+AddAce,ADVAPI32,1,{'winfixer': 1}
+InitializeAcl,ADVAPI32,1,{'winfixer': 1}
+RegQueryInfoKeyA,ADVAPI32,1,{'winfixer': 1},Enumeration
+RegSetKeySecurity,ADVAPI32,1,{'winfixer': 1},Helper
+RegEnumKeyExA,ADVAPI32,1,{'winfixer': 1},Helper
+GetUserNameA,ADVAPI32,1,{'winfixer': 1},Anti-Debugging
+RegEnumValueA,ADVAPI32,1,{'winfixer': 1},Helper
+RegCreateKeyA,ADVAPI32,1,{'winfixer': 1},Helper
+LookupAccountSidA,ADVAPI32,1,{'winfixer': 1}
+EqualSid,ADVAPI32,1,{'winfixer': 1}
+IsValidSid,ADVAPI32,1,{'winfixer': 1}
+SHEmptyRecycleBinA,SHELL32,1,{'winfixer': 1}
+SHGetFolderPathA,SHELL32,1,{'winfixer': 1}
+Shell_NotifyIconA,SHELL32,1,{'winfixer': 1}
+ShellExecuteA,SHELL32,1,{'winfixer': 1},Internet
+UnloadUserProfile,USERENV,1,{'winfixer': 1}
+CreateFileMappingA,KERNEL32,1,{'banload': 1},Evasion
+OpenFileMappingA,KERNEL32,1,{'banload': 1},Injection
+GetSaveFileNameA,COMDLG32,1,{'banload': 1}
+GetFileVersionInfoExA,VERSIONS,2,"{'lazy': 1, '-': 1}"
+GetFileVersionInfoExW,VERSIONS,2,"{'lazy': 1, '-': 1}"
+GetFileVersionInfoSizeExA,VERSIONS,2,"{'lazy': 1, '-': 1}"
+GetFileVersionInfoSizeExW,VERSIONS,2,"{'lazy': 1, '-': 1}"
+GetFileVersionInfoSizeW,VERSIONS,2,"{'lazy': 1, '-': 1}"
+GetFileVersionInfoW,VERSIONS,2,"{'lazy': 1, '-': 1}"
+VerFindFileA,VERSIONS,2,"{'lazy': 1, '-': 1}"
+VerFindFileW,VERSIONS,2,"{'lazy': 1, '-': 1}"
+VerInstallFileA,VERSIONS,1,{'lazy': 1}
+VerInstallFileW,VERSIONS,1,{'lazy': 1}
+VerLanguageNameA,VERSIONS,2,"{'lazy': 1, '-': 1}"
+VerLanguageNameW,VERSIONS,2,"{'lazy': 1, '-': 1}"
+InitializeSListHead,KERNEL32,2,"{'lazy': 1, 'ratel': 1}"
+RtlCaptureContext,KERNEL32,3,"{'lazy': 1, '-': 1, 'ratel': 1}"
+RtlLookupFunctionEntry,KERNEL32,3,"{'lazy': 1, '-': 1, 'ratel': 1}"
+RtlVirtualUnwind,KERNEL32,3,"{'lazy': 1, '-': 1, 'ratel': 1}"
+EnumChildWindows,USER32,1,{'lazy': 1}
+__C_specific_handler,VCRUNTIME140,3,"{'lazy': 1, '-': 1, 'ratel': 1}"
+_cexit,API-MS-WIN-CRT-RUNTIME-L1-1-0,2,"{'lazy': 1, 'ratel': 1}"
+_configure_narrow_argv,API-MS-WIN-CRT-RUNTIME-L1-1-0,2,"{'lazy': 1, 'ratel': 1}"
+_initialize_narrow_environment,API-MS-WIN-CRT-RUNTIME-L1-1-0,2,"{'lazy': 1, 'ratel': 1}"
+_initialize_onexit_table,API-MS-WIN-CRT-RUNTIME-L1-1-0,2,"{'lazy': 1, 'ratel': 1}"
+_initterm_e,API-MS-WIN-CRT-RUNTIME-L1-1-0,2,"{'lazy': 1, 'ratel': 1}"
+strcmp,API-MS-WIN-CRT-STRING-L1-1-0,1,{'lazy': 1}
+_amsg_exit,MSVCRT,1,{'-': 1}
+_vsnwprintf,MSVCRT,1,{'-': 1}
+_vsnprintf,MSVCRT,1,{'-': 1}
+VerQueryValueW,API-MS-WIN-CORE-VERSION-L1-1-0,1,{'-': 1}
+GetFileVersionInfoByHandle,API-MS-WIN-CORE-VERSION-PRIVATE-L1-1-0,1,{'-': 1}
+RtlAllocateHeap,NTDLL,1,{'-': 1}
+RtlFreeUnicodeString,NTDLL,1,{'-': 1}
+RtlAnsiStringToUnicodeString,NTDLL,1,{'-': 1}
+RtlInitAnsiString,NTDLL,1,{'-': 1}
+RtlUnicodeStringToAnsiString,NTDLL,1,{'-': 1}
+_lwrite,KERNEL32,1,{'-': 1}
+_lread,KERNEL32,1,{'-': 1}
+_lopen,KERNEL32,1,{'-': 1}
+_lclose,KERNEL32,1,{'-': 1}
+_lcreat,KERNEL32,1,{'-': 1}
+_llseek,KERNEL32,1,{'-': 1}
+LZCreateFileW,KERNEL32,1,{'-': 1}
+LZCloseFile,KERNEL32,1,{'-': 1}
+LZInit,KERNEL32,1,{'-': 1}
+LZCopy,KERNEL32,1,{'-': 1}
+LZClose,KERNEL32,1,{'-': 1}
+FindResourceW,KERNEL32,1,{'ratel': 1}
+InterlockedPushEntrySList,KERNEL32,1,{'ratel': 1}
+_Xlength_error,MSVCP140D,1,{'ratel': 1}
+_Lockit,MSVCP140D,1,{'ratel': 1}
+~_Lockit,MSVCP140D,1,{'ratel': 1}
+__current_exception_context,VCRUNTIME140D,1,{'ratel': 1}
+__current_exception,VCRUNTIME140D,1,{'ratel': 1}
+__std_type_info_destroy_list,VCRUNTIME140D,1,{'ratel': 1}
+__vcrt_LoadLibraryExW,VCRUNTIME140D,1,{'ratel': 1}
+__vcrt_GetModuleHandleW,VCRUNTIME140D,1,{'ratel': 1}
+__std_exception_destroy,VCRUNTIME140D,1,{'ratel': 1}
+__std_exception_copy,VCRUNTIME140D,1,{'ratel': 1}
+__vcrt_GetModuleFileNameW,VCRUNTIME140D,1,{'ratel': 1}
+_execute_onexit_table,UCRTBASED,1,{'ratel': 1}
+_crt_atexit,UCRTBASED,1,{'ratel': 1}
+_crt_at_quick_exit,UCRTBASED,1,{'ratel': 1}
+terminate,UCRTBASED,1,{'ratel': 1}
+_wmakepath_s,UCRTBASED,1,{'ratel': 1}
+_wsplitpath_s,UCRTBASED,1,{'ratel': 1}
+wcscpy_s,UCRTBASED,1,{'ratel': 1}
+_invalid_parameter,UCRTBASED,1,{'ratel': 1}
+_register_onexit_function,UCRTBASED,1,{'ratel': 1}
+__stdio_common_vsprintf_s,UCRTBASED,1,{'ratel': 1}
+strcat_s,UCRTBASED,1,{'ratel': 1}
+strcpy_s,UCRTBASED,1,{'ratel': 1}
+_free_dbg,UCRTBASED,1,{'ratel': 1}
+_set_new_mode,UCRTBASED,1,{'ratel': 1}
+_register_thread_local_exe_atexit_callback,UCRTBASED,1,{'ratel': 1}
+_c_exit,UCRTBASED,1,{'ratel': 1}
+__p___argv,UCRTBASED,1,{'ratel': 1}
+__p___argc,UCRTBASED,1,{'ratel': 1}
+_set_fmode,UCRTBASED,1,{'ratel': 1}
+_get_initial_narrow_environment,UCRTBASED,1,{'ratel': 1}
+_set_app_type,UCRTBASED,1,{'ratel': 1}
+_seh_filter_exe,UCRTBASED,1,{'ratel': 1}
+_callnewh,UCRTBASED,1,{'ratel': 1}
+_CrtDbgReportW,UCRTBASED,1,{'ratel': 1}
+_CrtDbgReport,UCRTBASED,1,{'ratel': 1}
+wcslen,UCRTBASED,1,{'ratel': 1}
+iswspace,UCRTBASED,1,{'ratel': 1}
+__stdio_common_vfprintf,UCRTBASED,1,{'ratel': 1}
+__acrt_iob_func,UCRTBASED,1,{'ratel': 1}
+abort,UCRTBASED,1,{'ratel': 1}
+_errno,UCRTBASED,1,{'ratel': 1}
+_invalid_parameter_noinfo,UCRTBASED,1,{'ratel': 1}
+_configthreadlocale,UCRTBASED,1,{'ratel': 1}
+Ordinal_201,OLEAUT32,1,{'ratel': 1}
+IIDFromString,API-MS-WIN-CORE-COM-L1-1-0,1,{'ratel': 1}

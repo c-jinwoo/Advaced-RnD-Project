@@ -1,0 +1,10 @@
+source,ruleset_name,rule_name
+https://github.com/chronicle/GCTI,Sliver__Implant_32bit,Sliver_Implant_32bit
+https://github.com/ditekshen/detection,indicator_tools,INDICATOR_TOOL_Sliver
+https://github.com/elastic/protections-artifacts,Multi_Trojan_Sliver,Multi_Trojan_Sliver_42298c4a
+https://github.com/elastic/protections-artifacts,Multi_Trojan_Sliver,Multi_Trojan_Sliver_3bde542d
+https://github.com/kevoreilly/CAPEv2,UPX,UPX
+https://github.com/Neo23x0/signature-base,gen_loaders,ReflectiveLoader
+https://github.com/chronicle/GCTI,Sliver__Implant_64bit,Sliver_Implant_64bit
+https://github.com/ditekshen/detection,indicator_suspicious,INDICATOR_SUSPICIOUS_EXE_SandboxUserNames
+https://github.com/elastic/protections-artifacts,Linux_Ransomware_Hive,Linux_Ransomware_Hive_bdc7de59

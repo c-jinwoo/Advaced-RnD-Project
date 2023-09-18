@@ -1,0 +1,216 @@
+{
+    "analysis": {
+        "family": [
+            "cobaltstrike"
+        ],
+        "score": 10,
+        "tags": [
+            "family:cobaltstrike",
+            "botnet:884681473",
+            "backdoor",
+            "trojan"
+        ]
+    },
+    "extracted": [
+        {
+            "config": {
+                "extracted_pe": [
+                    "extracted/cobaltstrike.payload-disk"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike"
+            },
+            "dumped_file": "memory/2036-60-0x0000000000360000-0x0000000000394000-memory.dmp",
+            "resource": "behavioral1/memory/2036-60-0x0000000000360000-0x0000000000394000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        },
+        {
+            "config": {
+                "attr": {
+                    "access_type": 512,
+                    "beacon_type": 2048,
+                    "host": "chat.myunitedhealth.care,/jquery-3.3.1.min.js,52.42.45.200,/jquery-3.3.1.min.js",
+                    "http_header1": "AAAACgAAAEdBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOAAAABAAAAAVSG9zdDogY29kZS5qcXVlcnkuY29tAAAACgAAACBSZWZlcmVyOiBodHRwOi8vY29kZS5qcXVlcnkuY29tLwAAAAoAAAAeQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlAAAABwAAAAAAAAANAAAAAgAAAAlfX2NmZHVpZD0AAAAGAAAABkNvb2tpZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_header2": "AAAACgAAAEdBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOAAAABAAAAAVSG9zdDogY29kZS5qcXVlcnkuY29tAAAACgAAACBSZWZlcmVyOiBodHRwOi8vY29kZS5qcXVlcnkuY29tLwAAAAoAAAAeQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlAAAABwAAAAAAAAAPAAAADQAAAAUAAAAIX19jZmR1aWQAAAAHAAAAAQAAAA8AAAANAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_method1": "GET",
+                    "http_method2": "POST",
+                    "jitter": 9472,
+                    "polling_time": 60000,
+                    "port_number": 443,
+                    "sc_process32": "%windir%\\syswow64\\upnpcont.exe",
+                    "sc_process64": "%windir%\\sysnative\\upnpcont.exe",
+                    "state_machine": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYchyLQ390jTBDWxFkIx9EnLJCYoo8DkF8WZX8364ivoucy6yGAwHYFH2v8QGOtRf21RKRjHG271Etr6ZRuY0lrvrRu0vRmllHGBejWv9Pi4tWqHIo2r9ldwQOq1SRvYZcBwNpFb66kVZezmb7BKVPnZTZm6Ke6BCo9I3YRCn0yQIDAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "unknown1": 4234810624,
+                    "unknown2": "AAAABAAAAAEAAAXyAAAAAgAAAFQAAAACAAAPWwAAAA0AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "uri": "/jquery-3.3.2.min.js",
+                    "user_agent": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko",
+                    "watermark": "884681473"
+                },
+                "botnet": "884681473",
+                "c2": [
+                    "http://chat.myunitedhealth.care:443/jquery-3.3.1.min.js",
+                    "http://52.42.45.200:443/jquery-3.3.1.min.js"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike"
+            },
+            "dumped_file": "extracted/cobaltstrike.payload-disk",
+            "resource": "behavioral1/memory/2036-60-0x0000000000360000-0x0000000000394000-memory.dmp",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:17:21Z",
+        "created": "2023-06-26T04:14:32Z",
+        "id": "230626-etxxxagd24",
+        "md5": "444b31257b1a2531df412c4f942e1cfd",
+        "score": 10,
+        "sha1": "a398cb951d536c6c0b6f44e07b4228c259338b69",
+        "sha256": "78a59f5c6d8cd3f3cf0e70b565c8038844b34cba3e99b3fc63908821bdadce35",
+        "sha512": "072716e22acd2cd8ab741c008df72c634f41f1bd4cb8b87069b91d20e02dc4c9db279cbcc8dcb44ed782c9d8991741fb23516107b34aac639f4167f44ab718de",
+        "size": 6460928,
+        "ssdeep": "49152:jf+Nol23hVy8+UBxgegcfE8bzA1qi3CeNyn79KJN2l0FynAu1x0ggIy9fg2T9Bwn:jAo4Ro6zgegiEIz+qi/g9KJNInDxbgC",
+        "target": "78a59f5c6d8cd3f3cf0e70b565c8038844b34cba3e99b3fc63908821bdadce35"
+    },
+    "signatures": [
+        {
+            "desc": "Detected malicious payload which is part of Cobaltstrike.",
+            "label": "cobaltstrike",
+            "name": "Cobaltstrike",
+            "score": 10,
+            "tags": [
+                "trojan",
+                "backdoor",
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "name": "Executes dropped EXE",
+            "score": 7
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory"
+        }
+    ],
+    "targets": [
+        {
+            "family": [
+                "cobaltstrike"
+            ],
+            "iocs": {
+                "domains": [
+                    "86.23.85.13.in-addr.arpa",
+                    "18.31.95.13.in-addr.arpa",
+                    "41.110.16.96.in-addr.arpa",
+                    "103.169.127.40.in-addr.arpa",
+                    "2.36.159.162.in-addr.arpa",
+                    "20.160.190.20.in-addr.arpa",
+                    "7.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.7.0.0.0.0.3.0.1.3.0.6.2.ip6.arpa",
+                    "1.77.109.52.in-addr.arpa",
+                    "1.208.79.178.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "209.197.3.8",
+                    "51.104.15.253"
+                ]
+            },
+            "md5": "444b31257b1a2531df412c4f942e1cfd",
+            "score": 10,
+            "sha1": "a398cb951d536c6c0b6f44e07b4228c259338b69",
+            "sha256": "78a59f5c6d8cd3f3cf0e70b565c8038844b34cba3e99b3fc63908821bdadce35",
+            "sha512": "072716e22acd2cd8ab741c008df72c634f41f1bd4cb8b87069b91d20e02dc4c9db279cbcc8dcb44ed782c9d8991741fb23516107b34aac639f4167f44ab718de",
+            "signatures": [
+                {
+                    "desc": "Detected malicious payload which is part of Cobaltstrike.",
+                    "label": "cobaltstrike",
+                    "name": "Cobaltstrike",
+                    "score": 10,
+                    "tags": [
+                        "trojan",
+                        "backdoor",
+                        "family:cobaltstrike"
+                    ]
+                },
+                {
+                    "name": "Executes dropped EXE",
+                    "score": 7
+                },
+                {
+                    "name": "Suspicious use of WriteProcessMemory"
+                }
+            ],
+            "size": 6460928,
+            "ssdeep": "49152:jf+Nol23hVy8+UBxgegcfE8bzA1qi3CeNyn79KJN2l0FynAu1x0ggIy9fg2T9Bwn:jAo4Ro6zgegiEIz+qi/g9KJNInDxbgC",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:884681473",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "78a59f5c6d8cd3f3cf0e70b565c8038844b34cba3e99b3fc63908821bdadce35",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-etxxxagd24-behavioral1": {
+            "backend": "sbx4m17",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 3,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:884681473",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "78a59f5c6d8cd3f3cf0e70b565c8038844b34cba3e99b3fc63908821bdadce35.exe",
+            "timeout": 150
+        },
+        "230626-etxxxagd24-behavioral2": {
+            "backend": "sbx4m11",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 3,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:884681473",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "78a59f5c6d8cd3f3cf0e70b565c8038844b34cba3e99b3fc63908821bdadce35.exe",
+            "timeout": 150
+        },
+        "230626-etxxxagd24-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 3,
+            "sigs": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

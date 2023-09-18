@@ -1,0 +1,3 @@
+This is an example of the ed editor.
+You are now adding lines to a buffer.
+End insert/mode with a period on tis own line.

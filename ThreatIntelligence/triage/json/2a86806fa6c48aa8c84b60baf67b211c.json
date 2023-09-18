@@ -1,0 +1,213 @@
+{
+    "analysis": {
+        "family": [
+            "cobaltstrike"
+        ],
+        "score": 10,
+        "tags": [
+            "family:cobaltstrike",
+            "botnet:1359593325",
+            "backdoor",
+            "trojan"
+        ]
+    },
+    "extracted": [
+        {
+            "config": {
+                "extracted_pe": [
+                    "extracted/cobaltstrike.payload-disk"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike"
+            },
+            "dumped_file": "1d85ccc8254dfd89e23bfc5dfae6391d23e572bb02e84139de14e6b8795db07c",
+            "resource": "sample",
+            "tasks": [
+                "static1",
+                "behavioral1",
+                "behavioral2"
+            ]
+        },
+        {
+            "config": {
+                "attr": {
+                    "access_type": 512,
+                    "beacon_type": 2048,
+                    "host": "salofu.com,/favicon.html",
+                    "http_header1": "AAAACgAAABFDb25uZWN0aW9uOiBjbG9zZQAAAAoAAAATQWNjZXB0LUVuY29kaW5nOiBicgAAAAoAAAAlQWNjZXB0LUxhbmd1YWdlOiBlbi1HQjtxPTAuOSwgKjtxPTAuNwAAAAcAAAAAAAAACAAAAAMAAAACAAAAGndvb2NvbW1lcmNlX2l0ZW1zX2luX2NhcnQ9AAAABgAAAAZDb29raWUAAAAJAAAADUNvbW1lbnQ9ZmFsc2UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_header2": "AAAACgAAABFDb25uZWN0aW9uOiBjbG9zZQAAAAoAAAA9QWNjZXB0LUxhbmd1YWdlOiBmci1DSCwgZnI7cT0wLjksIGVuO3E9MC44LCBkZTtxPTAuNywgKjtxPTAuNQAAAAoAAAAYQ29udGVudC1UeXBlOiB0ZXh0L3BsYWluAAAABwAAAAEAAAANAAAAAwAAAAQAAAAHAAAAAAAAAAMAAAACAAAADl9fc2Vzc2lvbl9faWQ9AAAABgAAAAZDb29raWUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "http_method1": "GET",
+                    "http_method2": "POST",
+                    "jitter": 10496,
+                    "polling_time": 55046,
+                    "port_number": 443,
+                    "sc_process32": "%windir%\\syswow64\\regsvr32.exe",
+                    "sc_process64": "%windir%\\sysnative\\regsvr32.exe",
+                    "state_machine": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYpy36fhBOB0HWByW9Zums0LDB7FU7EBB1wu6PxzRrd0Nge4MbzVGsEP3yTL9qxNSXGKzCVTXNfc2LXZ1fmAx4rjWsMiieCDupafyl2Mp7fzHvdB485F3aVLCrqDrOaznWAUkuuUExOMbcZwxwnG9u361pW4Ba2FPQQPmFX6fkBwIDAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "unknown1": 443751424,
+                    "unknown2": "AAAABAAAAAIAAAFSAAAAAwAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                    "uri": "/mobile-home",
+                    "user_agent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202",
+                    "watermark": "1359593325"
+                },
+                "botnet": "1359593325",
+                "c2": [
+                    "http://salofu.com:443/favicon.html"
+                ],
+                "family": "cobaltstrike",
+                "rule": "CobaltStrike"
+            },
+            "dumped_file": "extracted/cobaltstrike.payload-disk-1",
+            "resource": "sample",
+            "tasks": [
+                "static1",
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "sample": {
+        "completed": "2023-06-26T04:17:10Z",
+        "created": "2023-06-26T04:14:35Z",
+        "id": "230626-etyt7shc7v",
+        "md5": "2a86806fa6c48aa8c84b60baf67b211c",
+        "score": 10,
+        "sha1": "333b7c6f66a7c4cf31d1af9029240eac71618a53",
+        "sha256": "1d85ccc8254dfd89e23bfc5dfae6391d23e572bb02e84139de14e6b8795db07c",
+        "sha512": "c2e6946e37c2e6533113ece228a2d6c94a0c040bdbbea07324ffcde22ede453bb5b3d9b799bd6495d260c21a9ed6685bb3b8ea8b8b53d1cdc9af58169198e6b7",
+        "size": 224256,
+        "ssdeep": "6144:ZwmfyxKNt96lONXiEy3B7Q3T2si4kVZpZlu3OYwZstX2J:ZwmawR6+XupQ3TLiXfhstX2J",
+        "target": "1d85ccc8254dfd89e23bfc5dfae6391d23e572bb02e84139de14e6b8795db07c"
+    },
+    "signatures": [
+        {
+            "desc": "Detected malicious payload which is part of Cobaltstrike.",
+            "label": "cobaltstrike",
+            "name": "Cobaltstrike",
+            "score": 10,
+            "tags": [
+                "trojan",
+                "backdoor",
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "name": "Cobaltstrike family",
+            "score": 10,
+            "tags": [
+                "family:cobaltstrike"
+            ]
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        }
+    ],
+    "targets": [
+        {
+            "family": [
+                "cobaltstrike"
+            ],
+            "iocs": {
+                "domains": [
+                    "salofu.com",
+                    "183.59.114.20.in-addr.arpa",
+                    "198.187.3.20.in-addr.arpa",
+                    "157.123.68.40.in-addr.arpa",
+                    "2.36.159.162.in-addr.arpa",
+                    "50.23.12.20.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "45.199.14.228",
+                    "20.189.173.11",
+                    "8.241.129.254",
+                    "96.16.110.41"
+                ]
+            },
+            "md5": "2a86806fa6c48aa8c84b60baf67b211c",
+            "score": 10,
+            "sha1": "333b7c6f66a7c4cf31d1af9029240eac71618a53",
+            "sha256": "1d85ccc8254dfd89e23bfc5dfae6391d23e572bb02e84139de14e6b8795db07c",
+            "sha512": "c2e6946e37c2e6533113ece228a2d6c94a0c040bdbbea07324ffcde22ede453bb5b3d9b799bd6495d260c21a9ed6685bb3b8ea8b8b53d1cdc9af58169198e6b7",
+            "signatures": [
+                {
+                    "desc": "Detected malicious payload which is part of Cobaltstrike.",
+                    "label": "cobaltstrike",
+                    "name": "Cobaltstrike",
+                    "score": 10,
+                    "tags": [
+                        "trojan",
+                        "backdoor",
+                        "family:cobaltstrike"
+                    ]
+                }
+            ],
+            "size": 224256,
+            "ssdeep": "6144:ZwmfyxKNt96lONXiEy3B7Q3T2si4kVZpZlu3OYwZstX2J:ZwmawR6+XupQ3TLiXfhstX2J",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:1359593325",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "1d85ccc8254dfd89e23bfc5dfae6391d23e572bb02e84139de14e6b8795db07c",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-etyt7shc7v-behavioral1": {
+            "backend": "sbx4m18",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 10,
+            "sigs": 1,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:1359593325",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "1d85ccc8254dfd89e23bfc5dfae6391d23e572bb02e84139de14e6b8795db07c.exe",
+            "timeout": 150
+        },
+        "230626-etyt7shc7v-behavioral2": {
+            "backend": "sbx4m19",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 10,
+            "sigs": 1,
+            "status": "reported",
+            "tags": [
+                "family:cobaltstrike",
+                "botnet:1359593325",
+                "backdoor",
+                "trojan"
+            ],
+            "target": "1d85ccc8254dfd89e23bfc5dfae6391d23e572bb02e84139de14e6b8795db07c.exe",
+            "timeout": 150
+        },
+        "230626-etyt7shc7v-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 10,
+            "sigs": 2,
+            "status": "reported",
+            "tags": [
+                "botnet:1359593325",
+                "family:cobaltstrike"
+            ]
+        }
+    },
+    "version": "0.2.3"
+}

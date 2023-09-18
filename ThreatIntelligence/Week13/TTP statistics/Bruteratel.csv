@@ -1,0 +1,33 @@
+TTP,Description,Occurence,Family
+T1129,Shared Modules,6,"{'nolabel': 4, 'brutel': 1, 'banload': 1}"
+T1569.002,System Services::Service Execution,3,"{'nolabel': 2, 'brutel': 1}"
+T1213,Data from Information Repositories,1,{'nolabel': 1}
+T1056.001,Input Capture::Keylogging,2,{'nolabel': 2}
+T1222,File and Directory Permissions Modification,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+T1562.004,Impair Defenses::Disable or Modify System Firewall,1,{'nolabel': 1}
+T1112,Modify Registry,3,"{'nolabel': 2, 'winfixer': 1}"
+T1027.005,Obfuscated Files or Information::Indicator Removal from Tools,2,{'nolabel': 2}
+T1083,File and Directory Discovery,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+T1057,Process Discovery,2,"{'nolabel': 1, 'winfixer': 1}"
+T1012,Query Registry,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+T1518,Software Discovery,2,"{'nolabel': 1, 'winfixer': 1}"
+T1518.001,Software Discovery::Security Software Discovery,1,{'nolabel': 1}
+T1082,System Information Discovery,6,"{'nolabel': 4, 'winfixer': 1, 'banload': 1}"
+T1016,System Network Configuration Discovery,1,{'nolabel': 1}
+T1007,System Service Discovery,2,"{'nolabel': 1, 'winfixer': 1}"
+T1134,Access Token Manipulation,1,{'nolabel': 1}
+T1134.001,Access Token Manipulation::Token Impersonation/Theft,1,{'nolabel': 1}
+T1027,Obfuscated Files or Information,4,"{'nolabel': 3, 'banload': 1}"
+T1497.001,Virtualization/Sandbox Evasion::System Checks,3,{'nolabel': 3}
+T1614,System Location Discovery,5,"{'nolabel': 3, 'winfixer': 1, 'banload': 1}"
+T1614.001,System Location Discovery::System Language Discovery,2,{'nolabel': 2}
+T1033,System Owner/User Discovery,2,"{'nolabel': 1, 'winfixer': 1}"
+T1059,Command and Scripting Interpreter,4,"{'nolabel': 3, 'banload': 1}"
+T1564.003,Hide Artifacts::Hidden Window,3,"{'nolabel': 2, 'banload': 1}"
+T1010,Application Window Discovery,4,"{'nolabel': 2, 'winfixer': 1, 'banload': 1}"
+T1113,Screen Capture,1,{'nolabel': 1}
+T1497.002,Virtualization/Sandbox Evasion::User Activity Based Checks,1,{'winfixer': 1}
+T1087,Account Discovery,1,{'winfixer': 1}
+T1547.001,Boot or Logon Autostart Execution::Registry Run Keys / Startup Folder,1,{'winfixer': 1}
+T1543.003,Create or Modify System Process::Windows Service,1,{'winfixer': 1}
+T1053.005,Scheduled Task/Job::Scheduled Task,1,{'winfixer': 1}

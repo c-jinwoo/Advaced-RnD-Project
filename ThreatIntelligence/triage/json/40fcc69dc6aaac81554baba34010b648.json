@@ -1,0 +1,99 @@
+{
+    "analysis": {
+        "score": 3
+    },
+    "sample": {
+        "completed": "2023-06-26T04:15:32Z",
+        "created": "2023-06-26T04:12:57Z",
+        "id": "230626-es1x6shc5w",
+        "md5": "40fcc69dc6aaac81554baba34010b648",
+        "score": 3,
+        "sha1": "4c2130d6ea3efbb0ff7e37405403074a3b9f5a7d",
+        "sha256": "f3ba7589f1ca3fb4c27934e454016e4fb162fc6de31ed20bdb8dcfbed077b0d0",
+        "sha512": "ebb16961042c6fa93be59821aa49a4d99311aa3c0bf600e9c718125e40e88e2afc5d34ef07abd74d5698e3d8067fb04b6c1ece8071fb632038f91a72692c1332",
+        "size": 372736,
+        "ssdeep": "6144:J+XRbSVYb5j90IaMXLuz3PvUDVvsT0qohsDkU:0B2KVXCXUDE0qoc9",
+        "target": "f3ba7589f1ca3fb4c27934e454016e4fb162fc6de31ed20bdb8dcfbed077b0d0"
+    },
+    "signatures": [
+        {
+            "label": "program_crash",
+            "name": "Program crash",
+            "score": 3
+        },
+        {
+            "desc": "Checks for missing Authenticode signature.",
+            "label": "unsigned_pe",
+            "name": "Unsigned PE",
+            "score": 3
+        }
+    ],
+    "targets": [
+        {
+            "iocs": {
+                "domains": [
+                    "hubojo.com",
+                    "229.78.74.40.in-addr.arpa",
+                    "183.59.114.20.in-addr.arpa",
+                    "62.13.109.52.in-addr.arpa"
+                ],
+                "ips": [
+                    "8.8.8.8",
+                    "8.238.177.254"
+                ]
+            },
+            "md5": "40fcc69dc6aaac81554baba34010b648",
+            "score": 3,
+            "sha1": "4c2130d6ea3efbb0ff7e37405403074a3b9f5a7d",
+            "sha256": "f3ba7589f1ca3fb4c27934e454016e4fb162fc6de31ed20bdb8dcfbed077b0d0",
+            "sha512": "ebb16961042c6fa93be59821aa49a4d99311aa3c0bf600e9c718125e40e88e2afc5d34ef07abd74d5698e3d8067fb04b6c1ece8071fb632038f91a72692c1332",
+            "signatures": [
+                {
+                    "label": "program_crash",
+                    "name": "Program crash",
+                    "score": 3
+                }
+            ],
+            "size": 372736,
+            "ssdeep": "6144:J+XRbSVYb5j90IaMXLuz3PvUDVvsT0qohsDkU:0B2KVXCXUDE0qoc9",
+            "target": "f3ba7589f1ca3fb4c27934e454016e4fb162fc6de31ed20bdb8dcfbed077b0d0",
+            "tasks": [
+                "behavioral1",
+                "behavioral2"
+            ]
+        }
+    ],
+    "tasks": {
+        "230626-es1x6shc5w-behavioral1": {
+            "backend": "sbx4m16",
+            "kind": "behavioral",
+            "name": "behavioral1",
+            "os": "windows7-x64",
+            "resource": "win7-20230621-en",
+            "score": 1,
+            "status": "reported",
+            "target": "f3ba7589f1ca3fb4c27934e454016e4fb162fc6de31ed20bdb8dcfbed077b0d0.exe",
+            "timeout": 150
+        },
+        "230626-es1x6shc5w-behavioral2": {
+            "backend": "sbx4m19",
+            "kind": "behavioral",
+            "name": "behavioral2",
+            "os": "windows10-2004-x64",
+            "resource": "win10v2004-20230621-en",
+            "score": 3,
+            "sigs": 1,
+            "status": "reported",
+            "target": "f3ba7589f1ca3fb4c27934e454016e4fb162fc6de31ed20bdb8dcfbed077b0d0.exe",
+            "timeout": 150
+        },
+        "230626-es1x6shc5w-static1": {
+            "kind": "static",
+            "name": "static1",
+            "score": 3,
+            "sigs": 1,
+            "status": "reported"
+        }
+    },
+    "version": "0.2.3"
+}

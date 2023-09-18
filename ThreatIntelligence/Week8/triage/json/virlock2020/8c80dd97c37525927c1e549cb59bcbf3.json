@@ -1,0 +1,71 @@
+{
+    "version": "0.3.0",
+    "sample": {
+        "id": "230725-htk5wsba88",
+        "score": 1,
+        "submitted": "2023-07-25T07:01:43Z",
+        "target": "85b936960fbe5100c170b777e1647ce9f0f01e3ab9742dfc23f37cb0825b30b5",
+        "size": 129024,
+        "md5": "8c80dd97c37525927c1e549cb59bcbf3",
+        "sha1": "4e80fa7d98c8e87facecdef0fc7de0d957d809e1",
+        "sha256": "85b936960fbe5100c170b777e1647ce9f0f01e3ab9742dfc23f37cb0825b30b5",
+        "sha512": "50e9a3b950bbd56ff9654f9c2758721b181e7891384fb37e4836cf78422399a07e6b0bfab16350e35eb2a13c4d07b5ce8d4192fd864fb9aaa9602c7978d2d35e",
+        "ssdeep": "1536:YEI4kX/3TWbMPqc+4GJky+IBgXDfsggZK4WBc+FtDc+AX4VHKpdhxm/wl6uv/+Ws:ITiMPqiruJB+rrAX4edbmruvmkI79",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "task": {
+        "target": "85b936960fbe5100c170b777e1647ce9f0f01e3ab9742dfc23f37cb0825b30b5.exe",
+        "size": 129024,
+        "md5": "8c80dd97c37525927c1e549cb59bcbf3",
+        "sha1": "4e80fa7d98c8e87facecdef0fc7de0d957d809e1",
+        "sha256": "85b936960fbe5100c170b777e1647ce9f0f01e3ab9742dfc23f37cb0825b30b5",
+        "sha512": "50e9a3b950bbd56ff9654f9c2758721b181e7891384fb37e4836cf78422399a07e6b0bfab16350e35eb2a13c4d07b5ce8d4192fd864fb9aaa9602c7978d2d35e",
+        "ssdeep": "1536:YEI4kX/3TWbMPqc+4GJky+IBgXDfsggZK4WBc+FtDc+AX4VHKpdhxm/wl6uv/+Ws:ITiMPqiruJB+rrAX4edbmruvmkI79",
+        "static_tags": [
+            "windows",
+            "x86"
+        ]
+    },
+    "analysis": {
+        "score": 1,
+        "tags": [],
+        "features": [
+            "analog",
+            "overview"
+        ],
+        "submitted": "2023-07-25T07:01:43Z",
+        "reported": "2023-07-25T07:04:19Z",
+        "max_time_network": 121674,
+        "max_time_kernel": 118590,
+        "backend": "sbx4m11",
+        "resource": "win7-20230712-en",
+        "resource_tags": [
+            "arch:x64",
+            "arch:x86",
+            "image:win7-20230712-en",
+            "locale:en-us",
+            "os:windows7-x64",
+            "system"
+        ],
+        "platform": "windows7_x64"
+    },
+    "processes": [
+        {
+            "procid": 27,
+            "procid_parent": 14,
+            "pid": 1688,
+            "ppid": 1224,
+            "cmd": "\"C:\\Users\\Admin\\AppData\\Local\\Temp\\85b936960fbe5100c170b777e1647ce9f0f01e3ab9742dfc23f37cb0825b30b5.exe\"",
+            "image": "C:\\Users\\Admin\\AppData\\Local\\Temp\\85b936960fbe5100c170b777e1647ce9f0f01e3ab9742dfc23f37cb0825b30b5.exe",
+            "orig": false,
+            "started": 638,
+            "terminated": 700
+        }
+    ],
+    "signatures": [],
+    "tags": null,
+    "network": {}
+}

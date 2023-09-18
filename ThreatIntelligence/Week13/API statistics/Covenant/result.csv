@@ -1,0 +1,696 @@
+Function,DLL,Occurence,Family,Associated
+_CorExeMain,MSCOREE,5,"{'nolabel': 2, 'grunt': 3}"
+AddAccessAllowedAceEx,ADVAPI32,3,{'tetanus': 3}
+AddAccessDeniedAceEx,ADVAPI32,3,{'tetanus': 3}
+AddAce,ADVAPI32,3,{'tetanus': 3}
+AddAuditAccessAceEx,ADVAPI32,3,{'tetanus': 3}
+AddMandatoryAce,ADVAPI32,3,{'tetanus': 3}
+AdjustTokenPrivileges,ADVAPI32,4,"{'tetanus': 3, 'athena': 1}",Injection
+ConvertSidToStringSidW,ADVAPI32,3,{'tetanus': 3}
+ConvertStringSidToSidW,ADVAPI32,3,{'tetanus': 3}
+CopySid,ADVAPI32,3,{'tetanus': 3}
+CryptAcquireContextW,ADVAPI32,3,{'tetanus': 3}
+CryptDestroyKey,ADVAPI32,3,{'tetanus': 3},Ransomware
+CryptGenRandom,ADVAPI32,3,{'tetanus': 3},Ransomware
+CryptReleaseContext,ADVAPI32,3,{'tetanus': 3},Ransomware
+DeregisterEventSource,ADVAPI32,4,"{'tetanus': 3, 'athena': 1}"
+EqualSid,ADVAPI32,3,{'tetanus': 3}
+GetAce,ADVAPI32,3,{'tetanus': 3}
+GetAclInformation,ADVAPI32,3,{'tetanus': 3}
+GetLengthSid,ADVAPI32,3,{'tetanus': 3}
+GetNamedSecurityInfoA,ADVAPI32,3,{'tetanus': 3}
+GetNamedSecurityInfoW,ADVAPI32,3,{'tetanus': 3}
+GetSidSubAuthority,ADVAPI32,4,"{'tetanus': 3, 'athena': 1}"
+GetSidSubAuthorityCount,ADVAPI32,4,"{'tetanus': 3, 'athena': 1}"
+GetTokenInformation,ADVAPI32,4,"{'tetanus': 3, 'athena': 1}"
+GetUserNameW,ADVAPI32,3,{'tetanus': 3}
+InitializeAcl,ADVAPI32,3,{'tetanus': 3}
+IsValidAcl,ADVAPI32,3,{'tetanus': 3}
+IsValidSid,ADVAPI32,3,{'tetanus': 3}
+LookupAccountNameW,ADVAPI32,3,{'tetanus': 3}
+LookupAccountSidA,ADVAPI32,3,{'tetanus': 3}
+LookupPrivilegeNameA,ADVAPI32,3,{'tetanus': 3}
+LookupPrivilegeValueW,ADVAPI32,4,"{'tetanus': 3, 'athena': 1}"
+OpenProcessToken,ADVAPI32,4,"{'tetanus': 3, 'athena': 1}",Injection
+RegisterEventSourceW,ADVAPI32,4,"{'tetanus': 3, 'athena': 1}"
+ReportEventW,ADVAPI32,4,"{'tetanus': 3, 'athena': 1}"
+SetNamedSecurityInfoW,ADVAPI32,3,{'tetanus': 3}
+SystemFunction036,ADVAPI32,3,{'tetanus': 3}
+AcquireSRWLockExclusive,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+AcquireSRWLockShared,KERNEL32,3,{'tetanus': 3}
+AddVectoredExceptionHandler,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+CancelIo,KERNEL32,3,{'tetanus': 3}
+CancelIoEx,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+CloseHandle,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+CompareStringOrdinal,KERNEL32,3,{'tetanus': 3}
+ConnectNamedPipe,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Helper
+ConvertFiberToThread,KERNEL32,3,{'tetanus': 3}
+ConvertThreadToFiber,KERNEL32,3,{'tetanus': 3}
+CopyFileExW,KERNEL32,3,{'tetanus': 3}
+CreateDirectoryW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+CreateEventA,KERNEL32,3,{'tetanus': 3}
+CreateEventW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+CreateFiber,KERNEL32,3,{'tetanus': 3}
+CreateFileA,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Helper
+CreateFileMappingA,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Evasion
+CreateFileW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+CreateHardLinkW,KERNEL32,3,{'tetanus': 3}
+CreateIoCompletionPort,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+CreateMutexA,KERNEL32,3,{'tetanus': 3},Helper
+CreateNamedPipeW,KERNEL32,3,{'tetanus': 3}
+CreateProcessW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+CreateSymbolicLinkW,KERNEL32,3,{'tetanus': 3}
+CreateThread,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Injection
+CreateToolhelp32Snapshot,KERNEL32,3,{'tetanus': 3},Anti-Debugging
+DeleteCriticalSection,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+DeleteFiber,KERNEL32,3,{'tetanus': 3}
+DeleteFileW,KERNEL32,3,{'tetanus': 3}
+DeviceIoControl,KERNEL32,3,{'tetanus': 3},Helper
+DisconnectNamedPipe,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+DuplicateHandle,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+EnterCriticalSection,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+ExitProcess,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+FileTimeToSystemTime,KERNEL32,3,{'tetanus': 3}
+FindClose,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Helper
+FindFirstFileW,KERNEL32,3,{'tetanus': 3}
+FindNextFileW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+FlushFileBuffers,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+FormatMessageW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+FreeEnvironmentStringsW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetCommandLineW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetComputerNameExW,KERNEL32,3,{'tetanus': 3}
+GetConsoleMode,KERNEL32,3,{'tetanus': 3}
+GetCurrentDirectoryW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetCurrentProcess,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Enumeration
+GetCurrentProcessId,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Enumeration
+GetCurrentThread,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Enumeration
+GetCurrentThreadId,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Enumeration
+GetEnvironmentStringsW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetEnvironmentVariableW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetExitCodeProcess,KERNEL32,3,{'tetanus': 3}
+GetFileInformationByHandle,KERNEL32,3,{'tetanus': 3}
+GetFileInformationByHandleEx,KERNEL32,3,{'tetanus': 3}
+GetFileType,KERNEL32,3,{'tetanus': 3}
+GetFinalPathNameByHandleW,KERNEL32,3,{'tetanus': 3}
+GetFullPathNameW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetLastError,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetLogicalProcessorInformation,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Anti-Debugging
+GetModuleFileNameW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetModuleHandleA,KERNEL32,3,{'tetanus': 3},Evasion
+GetModuleHandleW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetNamedPipeInfo,KERNEL32,3,{'tetanus': 3}
+GetOverlappedResult,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetProcAddress,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Evasion
+GetProcessHeap,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Injection
+GetProcessId,KERNEL32,3,{'tetanus': 3},Enumeration
+GetProcessTimes,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetQueuedCompletionStatusEx,KERNEL32,3,{'tetanus': 3}
+GetStartupInfoA,KERNEL32,3,{'tetanus': 3}
+GetStdHandle,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetSystemDirectoryW,KERNEL32,3,{'tetanus': 3}
+GetSystemInfo,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetSystemTime,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Anti-Debugging
+GetSystemTimeAsFileTime,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Anti-Debugging
+GetTempPathW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+GetTimeZoneInformation,KERNEL32,3,{'tetanus': 3}
+GetVersion,KERNEL32,3,{'tetanus': 3}
+GetWindowsDirectoryW,KERNEL32,3,{'tetanus': 3}
+HeapAlloc,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Injection
+HeapFree,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+HeapReAlloc,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Injection
+InitializeCriticalSection,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+InitializeCriticalSectionAndSpinCount,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+IsWow64Process,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+LeaveCriticalSection,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+LoadLibraryA,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Evasion
+LocalFree,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+MapViewOfFile,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Injection
+Module32First,KERNEL32,3,{'tetanus': 3},Enumeration
+Module32FirstW,KERNEL32,3,{'tetanus': 3}
+Module32NextW,KERNEL32,3,{'tetanus': 3}
+MoveFileExW,KERNEL32,3,{'tetanus': 3}
+MultiByteToWideChar,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+OpenProcess,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Injection
+PostQueuedCompletionStatus,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+Process32First,KERNEL32,3,{'tetanus': 3},Injection
+Process32Next,KERNEL32,3,{'tetanus': 3},Injection
+QueryPerformanceCounter,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Anti-Debugging
+QueryPerformanceFrequency,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Anti-Debugging
+ReadConsoleA,KERNEL32,3,{'tetanus': 3}
+ReadConsoleW,KERNEL32,3,{'tetanus': 3}
+ReadFile,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Enumeration
+RegisterWaitForSingleObject,KERNEL32,3,{'tetanus': 3}
+ReleaseMutex,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+ReleaseSRWLockExclusive,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+ReleaseSRWLockShared,KERNEL32,3,{'tetanus': 3}
+RemoveDirectoryW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+SetConsoleMode,KERNEL32,3,{'tetanus': 3}
+SetCurrentDirectoryW,KERNEL32,3,{'tetanus': 3}
+SetEnvironmentVariableW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+SetFileAttributesW,KERNEL32,3,{'tetanus': 3}
+SetFileCompletionNotificationModes,KERNEL32,3,{'tetanus': 3}
+SetFileInformationByHandle,KERNEL32,3,{'tetanus': 3}
+SetFilePointerEx,KERNEL32,3,{'tetanus': 3}
+SetHandleInformation,KERNEL32,3,{'tetanus': 3}
+SetLastError,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+SetThreadStackGuarantee,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+SetUnhandledExceptionFilter,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+Sleep,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Anti-Debugging
+SleepConditionVariableSRW,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+SleepEx,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Anti-Debugging
+SwitchToFiber,KERNEL32,3,{'tetanus': 3}
+SwitchToThread,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+SystemTimeToFileTime,KERNEL32,3,{'tetanus': 3}
+SystemTimeToTzSpecificLocalTime,KERNEL32,3,{'tetanus': 3}
+TerminateProcess,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Helper
+TlsAlloc,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+TlsFree,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+TlsGetValue,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+TlsSetValue,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+TryAcquireSRWLockExclusive,KERNEL32,3,{'tetanus': 3}
+TryEnterCriticalSection,KERNEL32,3,"{'tetanus': 2, 'athena': 1}"
+TzSpecificLocalTimeToSystemTime,KERNEL32,3,{'tetanus': 3}
+UnmapViewOfFile,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Helper
+UnregisterWaitEx,KERNEL32,3,{'tetanus': 3}
+WaitForMultipleObjects,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Evasion
+WaitForSingleObject,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Evasion
+WaitForSingleObjectEx,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Evasion
+WaitNamedPipeA,KERNEL32,3,{'tetanus': 3}
+WakeAllConditionVariable,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+WakeConditionVariable,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+WideCharToMultiByte,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+WriteConsoleW,KERNEL32,3,{'tetanus': 3}
+WriteFile,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Helper
+NCryptFreeObject,NCRYPT,3,{'tetanus': 3}
+CoCreateInstance,OLE32,3,{'tetanus': 3}
+CoInitializeEx,OLE32,4,"{'tetanus': 3, 'athena': 1}"
+CoInitializeSecurity,OLE32,3,{'tetanus': 3}
+CoSetProxyBlanket,OLE32,3,{'tetanus': 3}
+CoUninitialize,OLE32,4,"{'tetanus': 3, 'athena': 1}"
+SafeArrayAccessData,OLEAUT32,3,{'tetanus': 3}
+SafeArrayDestroy,OLEAUT32,3,{'tetanus': 3}
+SafeArrayGetLBound,OLEAUT32,3,{'tetanus': 3}
+SafeArrayGetUBound,OLEAUT32,3,{'tetanus': 3}
+SafeArrayUnaccessData,OLEAUT32,3,{'tetanus': 3}
+SysAllocStringLen,OLEAUT32,3,{'tetanus': 3}
+SysFreeString,OLEAUT32,3,{'tetanus': 3}
+VariantClear,OLEAUT32,3,{'tetanus': 3}
+AcquireCredentialsHandleA,SECUR32,3,{'tetanus': 3}
+GetUserProfileDirectoryW,USERENV,3,{'tetanus': 3}
+WSACleanup,WS2_32,3,{'tetanus': 3},Internet
+WSADuplicateSocketW,WS2_32,3,{'tetanus': 3}
+WSAGetLastError,WS2_32,3,{'tetanus': 3}
+WSAIoctl,WS2_32,3,{'tetanus': 3},Internet
+WSAPoll,WS2_32,3,{'tetanus': 3}
+WSARecv,WS2_32,3,{'tetanus': 3}
+WSARecvFrom,WS2_32,3,{'tetanus': 3}
+WSASend,WS2_32,3,{'tetanus': 3}
+WSASendTo,WS2_32,3,{'tetanus': 3}
+WSASetLastError,WS2_32,3,{'tetanus': 3}
+WSASocketW,WS2_32,3,{'tetanus': 3}
+WSAStartup,WS2_32,3,{'tetanus': 3},Internet
+__WSAFDIsSet,WS2_32,3,{'tetanus': 3}
+accept,WS2_32,3,{'tetanus': 3}
+bind,WS2_32,3,{'tetanus': 3}
+closesocket,WS2_32,3,{'tetanus': 3}
+connect,WS2_32,3,{'tetanus': 3}
+freeaddrinfo,WS2_32,3,{'tetanus': 3}
+getaddrinfo,WS2_32,3,{'tetanus': 3}
+gethostbyname,WS2_32,3,{'tetanus': 3}
+getnameinfo,WS2_32,3,{'tetanus': 3}
+getpeername,WS2_32,3,{'tetanus': 3}
+getsockname,WS2_32,3,{'tetanus': 3}
+getsockopt,WS2_32,3,{'tetanus': 3}
+ioctlsocket,WS2_32,3,{'tetanus': 3},Internet
+listen,WS2_32,3,{'tetanus': 3}
+ntohs,WS2_32,3,{'tetanus': 3}
+recv,WS2_32,3,{'tetanus': 3}
+recvfrom,WS2_32,3,{'tetanus': 3}
+select,WS2_32,3,{'tetanus': 3}
+send,WS2_32,3,{'tetanus': 3}
+sendto,WS2_32,3,{'tetanus': 3}
+setsockopt,WS2_32,3,{'tetanus': 3}
+shutdown,WS2_32,3,{'tetanus': 3}
+socket,WS2_32,3,{'tetanus': 3}
+BCryptCloseAlgorithmProvider,BCRYPT,3,{'tetanus': 3}
+BCryptCreateHash,BCRYPT,3,{'tetanus': 3}
+BCryptDecrypt,BCRYPT,3,{'tetanus': 3}
+BCryptDeriveKey,BCRYPT,3,{'tetanus': 3}
+BCryptDestroyHash,BCRYPT,3,{'tetanus': 3}
+BCryptDestroyKey,BCRYPT,3,{'tetanus': 3}
+BCryptDestroySecret,BCRYPT,3,{'tetanus': 3}
+BCryptEncrypt,BCRYPT,3,{'tetanus': 3}
+BCryptExportKey,BCRYPT,3,{'tetanus': 3}
+BCryptFinalizeKeyPair,BCRYPT,3,{'tetanus': 3}
+BCryptFinishHash,BCRYPT,3,{'tetanus': 3}
+BCryptGenRandom,BCRYPT,3,{'tetanus': 3}
+BCryptGenerateKeyPair,BCRYPT,3,{'tetanus': 3}
+BCryptGetProperty,BCRYPT,3,{'tetanus': 3}
+BCryptHashData,BCRYPT,3,{'tetanus': 3}
+BCryptImportKey,BCRYPT,3,{'tetanus': 3}
+BCryptImportKeyPair,BCRYPT,3,{'tetanus': 3}
+BCryptOpenAlgorithmProvider,BCRYPT,3,{'tetanus': 3}
+BCryptSecretAgreement,BCRYPT,3,{'tetanus': 3}
+BCryptSetProperty,BCRYPT,3,{'tetanus': 3}
+BCryptSignHash,BCRYPT,3,{'tetanus': 3}
+BCryptVerifySignature,BCRYPT,3,{'tetanus': 3}
+CertAddCertificateContextToStore,CRYPT32,3,{'tetanus': 3}
+CertAddEncodedCTLToStore,CRYPT32,3,{'tetanus': 3}
+CertAddEncodedCertificateToStore,CRYPT32,3,{'tetanus': 3}
+CertCloseStore,CRYPT32,3,{'tetanus': 3}
+CertCreateCertificateContext,CRYPT32,3,{'tetanus': 3}
+CertDeleteCertificateFromStore,CRYPT32,3,{'tetanus': 3}
+CertDuplicateCertificateContext,CRYPT32,3,{'tetanus': 3}
+CertDuplicateStore,CRYPT32,3,{'tetanus': 3}
+CertEnumCertificatesInStore,CRYPT32,3,{'tetanus': 3}
+CertFreeCertificateContext,CRYPT32,3,{'tetanus': 3}
+CertGetCertificateContextProperty,CRYPT32,3,{'tetanus': 3}
+CertGetEnhancedKeyUsage,CRYPT32,3,{'tetanus': 3}
+CertOpenStore,CRYPT32,3,{'tetanus': 3}
+CertSetCertificateContextProperty,CRYPT32,3,{'tetanus': 3}
+CertVerifyTimeValidity,CRYPT32,3,{'tetanus': 3}
+CryptAcquireCertificatePrivateKey,CRYPT32,3,{'tetanus': 3}
+CryptBinaryToStringA,CRYPT32,3,{'tetanus': 3}
+CryptDecodeObjectEx,CRYPT32,3,{'tetanus': 3}
+CryptEncodeObjectEx,CRYPT32,3,{'tetanus': 3}
+CryptHashCertificate,CRYPT32,3,{'tetanus': 3}
+CryptStringToBinaryA,CRYPT32,3,{'tetanus': 3}
+PFXExportCertStore,CRYPT32,3,{'tetanus': 3}
+PFXImportCertStore,CRYPT32,3,{'tetanus': 3}
+GetTickCount,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Anti-Debugging
+RaiseException,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+RtlAddFunctionTable,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+RtlUnwindEx,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+UnhandledExceptionFilter,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+VirtualProtect,KERNEL32,4,"{'tetanus': 3, 'athena': 1}",Injection
+VirtualQuery,KERNEL32,4,"{'tetanus': 3, 'athena': 1}"
+__getmainargs,MSVCRT,3,{'tetanus': 3}
+__iob_func,MSVCRT,3,{'tetanus': 3}
+__set_app_type,MSVCRT,3,{'tetanus': 3}
+_amsg_exit,MSVCRT,3,{'tetanus': 3}
+_cexit,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+_errno,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+_exit,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+_fileno,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+_fpreset,MSVCRT,3,{'tetanus': 3}
+_gmtime64,MSVCRT,3,{'tetanus': 3}
+_initterm,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+_onexit,MSVCRT,3,{'tetanus': 3}
+_setmode,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+_snwprintf,MSVCRT,3,{'tetanus': 3}
+_stat64,MSVCRT,3,{'tetanus': 3}
+_strdup,MSVCRT,7,"{'tetanus': 6, 'athena': 1}"
+_time64,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+_wfopen,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+abort,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+calloc,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+exit,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+fclose,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+feof,MSVCRT,3,{'tetanus': 3}
+ferror,MSVCRT,3,{'tetanus': 3}
+fflush,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+fgets,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+fopen,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+fprintf,MSVCRT,3,{'tetanus': 3}
+fputc,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+fputs,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+fread,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+free,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+fseek,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+ftell,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+fwprintf,MSVCRT,3,{'tetanus': 3}
+fwrite,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+getenv,MSVCRT,3,{'tetanus': 3}
+malloc,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+raise,MSVCRT,3,{'tetanus': 3}
+realloc,MSVCRT,4,"{'tetanus': 3, 'athena': 1}"
+rewind,MSVCRT,3,{'tetanus': 3}
+signal,MSVCRT,3,{'tetanus': 3}
+strerror,MSVCRT,3,{'tetanus': 3}
+vfprintf,MSVCRT,3,{'tetanus': 3}
+NtCancelIoFileEx,NTDLL,3,{'tetanus': 3}
+NtCreateFile,NTDLL,3,{'tetanus': 3},Helper
+NtDeviceIoControlFile,NTDLL,3,{'tetanus': 3}
+RtlCaptureContext,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+RtlLookupFunctionEntry,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+RtlNtStatusToDosError,NTDLL,3,{'tetanus': 3}
+RtlVirtualUnwind,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+__C_specific_handler,NTDLL,3,{'tetanus': 3}
+_stricmp,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+_strnicmp,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+_vsnprintf,NTDLL,3,{'tetanus': 3}
+_vsnwprintf,NTDLL,3,{'tetanus': 3}
+atoi,NTDLL,3,{'tetanus': 3}
+ceil,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+isspace,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+memchr,NTDLL,3,{'tetanus': 3}
+memcmp,NTDLL,3,{'tetanus': 3}
+memcpy,NTDLL,3,{'tetanus': 3}
+memmove,NTDLL,3,{'tetanus': 3}
+memset,NTDLL,3,{'tetanus': 3}
+qsort,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+sprintf,NTDLL,3,{'tetanus': 3}
+sscanf,NTDLL,3,{'tetanus': 3}
+strcat,NTDLL,3,{'tetanus': 3}
+strchr,NTDLL,3,{'tetanus': 3}
+strcmp,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+strcpy,NTDLL,3,{'tetanus': 3}
+strcspn,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+strlen,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+strncmp,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+strncpy,NTDLL,3,{'tetanus': 3}
+strrchr,NTDLL,3,{'tetanus': 3}
+strspn,NTDLL,3,{'tetanus': 3}
+strstr,NTDLL,3,{'tetanus': 3}
+strtol,NTDLL,3,{'tetanus': 3}
+strtoul,NTDLL,4,"{'tetanus': 3, 'athena': 1}"
+wcscpy,NTDLL,3,{'tetanus': 3}
+wcslen,NTDLL,3,{'tetanus': 3}
+wcsstr,NTDLL,3,{'tetanus': 3}
+FindWindowA,USER32,3,{'tetanus': 3},Anti-Debugging
+GetProcessWindowStation,USER32,3,{'tetanus': 3}
+GetUserObjectInformationW,USER32,3,{'tetanus': 3}
+MessageBoxW,USER32,4,"{'tetanus': 3, 'athena': 1}"
+SendMessageA,USER32,3,{'tetanus': 3},Spying
+FreeConsole,KERNEL32,1,{'tetanus': 1}
+GetFileAttributesW,KERNEL32,1,{'tetanus': 1}
+InitOnceBeginInitialize,KERNEL32,1,{'tetanus': 1}
+InitOnceComplete,KERNEL32,1,{'tetanus': 1}
+ReadFileEx,KERNEL32,1,{'tetanus': 1}
+SetFileTime,KERNEL32,1,{'tetanus': 1},Evasion
+WriteFileEx,KERNEL32,1,{'tetanus': 1}
+FlushInstructionCache,KERNEL32,1,{'athena': 1}
+RtlDeleteFunctionTable,KERNEL32,1,{'athena': 1}
+InterlockedPushEntrySList,KERNEL32,1,{'athena': 1}
+InterlockedFlushSList,KERNEL32,1,{'athena': 1}
+InitializeSListHead,KERNEL32,1,{'athena': 1}
+GetTickCount64,KERNEL32,1,{'athena': 1},Anti-Debugging
+QueueUserAPC,KERNEL32,1,{'athena': 1},Injection
+SetThreadPriority,KERNEL32,1,{'athena': 1},Helper
+GetThreadPriority,KERNEL32,1,{'athena': 1}
+ResumeThread,KERNEL32,1,{'athena': 1},Injection
+WaitForMultipleObjectsEx,KERNEL32,1,{'athena': 1},Evasion
+SignalObjectAndWait,KERNEL32,1,{'athena': 1}
+GetConsoleOutputCP,KERNEL32,1,{'athena': 1}
+MapViewOfFileEx,KERNEL32,1,{'athena': 1},Injection
+GetStringTypeExW,KERNEL32,1,{'athena': 1}
+SetEvent,KERNEL32,1,{'athena': 1}
+GetCurrentProcessorNumber,KERNEL32,1,{'athena': 1}
+GlobalMemoryStatusEx,KERNEL32,1,{'athena': 1}
+GetQueuedCompletionStatus,KERNEL32,1,{'athena': 1}
+InterlockedPopEntrySList,KERNEL32,1,{'athena': 1}
+GetCurrentProcessorNumberEx,KERNEL32,1,{'athena': 1}
+CreateMemoryResourceNotification,KERNEL32,1,{'athena': 1}
+GetProcessAffinityMask,KERNEL32,1,{'athena': 1}
+SetThreadIdealProcessorEx,KERNEL32,1,{'athena': 1}
+GetThreadIdealProcessorEx,KERNEL32,1,{'athena': 1}
+GetLargePageMinimum,KERNEL32,1,{'athena': 1}
+VirtualUnlock,KERNEL32,1,{'athena': 1}
+SetThreadGroupAffinity,KERNEL32,1,{'athena': 1}
+SetThreadAffinityMask,KERNEL32,1,{'athena': 1}
+IsProcessInJob,KERNEL32,1,{'athena': 1}
+QueryInformationJobObject,KERNEL32,1,{'athena': 1}
+K32GetProcessMemoryInfo,KERNEL32,1,{'athena': 1}
+VirtualAlloc,KERNEL32,1,{'athena': 1},Injection
+VirtualFree,KERNEL32,1,{'athena': 1}
+CloseThreadpoolTimer,KERNEL32,1,{'athena': 1}
+CreateThreadpoolTimer,KERNEL32,1,{'athena': 1}
+SetThreadpoolTimer,KERNEL32,1,{'athena': 1}
+GetFileSize,KERNEL32,1,{'athena': 1}
+ResetEvent,KERNEL32,1,{'athena': 1}
+CreateSemaphoreExW,KERNEL32,1,{'athena': 1}
+ReleaseSemaphore,KERNEL32,1,{'athena': 1}
+CreateMutexW,KERNEL32,1,{'athena': 1}
+GetThreadContext,KERNEL32,1,{'athena': 1},Injection
+SuspendThread,KERNEL32,1,{'athena': 1},Injection
+SetThreadContext,KERNEL32,1,{'athena': 1},Injection
+GetEnabledXStateFeatures,KERNEL32,1,{'athena': 1}
+InitializeContext,KERNEL32,1,{'athena': 1}
+RtlRestoreContext,KERNEL32,1,{'athena': 1}
+RtlInstallFunctionTableCallback,KERNEL32,1,{'athena': 1}
+GetSystemDefaultLCID,KERNEL32,1,{'athena': 1}
+GetUserDefaultLCID,KERNEL32,1,{'athena': 1}
+RtlUnwind,KERNEL32,1,{'athena': 1}
+LoadLibraryExW,KERNEL32,1,{'athena': 1}
+HeapCreate,KERNEL32,1,{'athena': 1},Injection
+HeapDestroy,KERNEL32,1,{'athena': 1}
+OutputDebugStringA,KERNEL32,1,{'athena': 1},Anti-Debugging
+GetACP,KERNEL32,1,{'athena': 1}
+LCMapStringEx,KERNEL32,1,{'athena': 1}
+VerSetConditionMask,KERNEL32,1,{'athena': 1}
+VerifyVersionInfoW,KERNEL32,1,{'athena': 1}
+QueryThreadCycleTime,KERNEL32,1,{'athena': 1}
+VirtualAllocExNuma,KERNEL32,1,{'athena': 1},Injection
+GetNumaProcessorNodeEx,KERNEL32,1,{'athena': 1}
+GetNumaHighestNodeNumber,KERNEL32,1,{'athena': 1}
+GetLogicalProcessorInformationEx,KERNEL32,1,{'athena': 1},Anti-Debugging
+GetThreadGroupAffinity,KERNEL32,1,{'athena': 1}
+GetSystemTimes,KERNEL32,1,{'athena': 1}
+CreateFileMappingW,KERNEL32,1,{'athena': 1}
+GetCPInfo,KERNEL32,1,{'athena': 1}
+GetFileAttributesExW,KERNEL32,1,{'athena': 1}
+FindFirstFileExW,KERNEL32,1,{'athena': 1}
+LoadLibraryExA,KERNEL32,1,{'athena': 1},Evasion
+OpenEventW,KERNEL32,1,{'athena': 1}
+ExitThread,KERNEL32,1,{'athena': 1}
+CreateNamedPipeA,KERNEL32,1,{'athena': 1}
+GetActiveProcessorGroupCount,KERNEL32,1,{'athena': 1}
+SetConsoleCtrlHandler,KERNEL32,1,{'athena': 1}
+GetLocaleInfoEx,KERNEL32,1,{'athena': 1}
+GetUserDefaultLocaleName,KERNEL32,1,{'athena': 1}
+GetFileSizeEx,KERNEL32,1,{'athena': 1}
+RaiseFailFastException,KERNEL32,1,{'athena': 1}
+FreeLibrary,KERNEL32,1,{'athena': 1}
+IsDebuggerPresent,KERNEL32,1,{'athena': 1},Anti-Debugging
+SetFilePointer,KERNEL32,1,{'athena': 1}
+GetModuleHandleExW,KERNEL32,1,{'athena': 1}
+SetErrorMode,KERNEL32,1,{'athena': 1}
+FlushProcessWriteBuffers,KERNEL32,1,{'athena': 1}
+OutputDebugStringW,KERNEL32,1,{'athena': 1}
+SetXStateFeaturesMask,KERNEL32,1,{'athena': 1}
+DebugBreak,KERNEL32,1,{'athena': 1}
+DecodePointer,KERNEL32,1,{'athena': 1}
+GetStringTypeW,KERNEL32,1,{'athena': 1}
+IsProcessorFeaturePresent,KERNEL32,1,{'athena': 1}
+EncodePointer,KERNEL32,1,{'athena': 1}
+RtlPcToFileHeader,KERNEL32,1,{'athena': 1}
+InitializeConditionVariable,KERNEL32,1,{'athena': 1}
+SleepConditionVariableCS,KERNEL32,1,{'athena': 1}
+InitializeSRWLock,KERNEL32,1,{'athena': 1}
+InitializeCriticalSectionEx,KERNEL32,1,{'athena': 1}
+GetExitCodeThread,KERNEL32,1,{'athena': 1}
+RegGetValueW,ADVAPI32,1,{'athena': 1}
+SetKernelObjectSecurity,ADVAPI32,1,{'athena': 1}
+RegQueryValueExW,ADVAPI32,1,{'athena': 1}
+RegOpenKeyExW,ADVAPI32,1,{'athena': 1}
+RegCloseKey,ADVAPI32,1,{'athena': 1},Helper
+EventRegister,ADVAPI32,1,{'athena': 1}
+SetThreadToken,ADVAPI32,1,{'athena': 1},Helper
+RevertToSelf,ADVAPI32,1,{'athena': 1}
+OpenThreadToken,ADVAPI32,1,{'athena': 1}
+EventWriteTransfer,ADVAPI32,1,{'athena': 1}
+EventWrite,ADVAPI32,1,{'athena': 1}
+CoTaskMemAlloc,OLE32,1,{'athena': 1}
+CoTaskMemFree,OLE32,1,{'athena': 1}
+CoWaitForMultipleHandles,OLE32,1,{'athena': 1}
+IIDFromString,OLE32,1,{'athena': 1}
+CLSIDFromProgID,OLE32,1,{'athena': 1}
+CoGetMarshalSizeMax,OLE32,1,{'athena': 1}
+CoMarshalInterface,OLE32,1,{'athena': 1}
+CoCreateGuid,OLE32,1,{'athena': 1}
+CoGetObjectContext,OLE32,1,{'athena': 1}
+CoRegisterInitializeSpy,OLE32,1,{'athena': 1}
+CoGetContextToken,OLE32,1,{'athena': 1}
+CoGetClassObject,OLE32,1,{'athena': 1}
+CoCreateFreeThreadedMarshaler,OLE32,1,{'athena': 1}
+CreateStreamOnHGlobal,OLE32,1,{'athena': 1}
+StringFromGUID2,OLE32,1,{'athena': 1}
+CoUnmarshalInterface,OLE32,1,{'athena': 1}
+CoRevokeInitializeSpy,OLE32,1,{'athena': 1}
+CoReleaseMarshalData,OLE32,1,{'athena': 1}
+Ordinal_37,OLEAUT32,1,{'athena': 1}
+Ordinal_18,OLEAUT32,1,{'athena': 1}
+Ordinal_149,OLEAUT32,1,{'athena': 1}
+Ordinal_150,OLEAUT32,1,{'athena': 1}
+Ordinal_411,OLEAUT32,1,{'athena': 1}
+Ordinal_26,OLEAUT32,1,{'athena': 1}
+Ordinal_162,OLEAUT32,1,{'athena': 1}
+Ordinal_202,OLEAUT32,1,{'athena': 1}
+Ordinal_41,OLEAUT32,1,{'athena': 1}
+Ordinal_228,OLEAUT32,1,{'athena': 1}
+Ordinal_8,OLEAUT32,1,{'athena': 1}
+Ordinal_9,OLEAUT32,1,{'athena': 1}
+Ordinal_44,OLEAUT32,1,{'athena': 1}
+Ordinal_12,OLEAUT32,1,{'athena': 1}
+Ordinal_77,OLEAUT32,1,{'athena': 1}
+Ordinal_183,OLEAUT32,1,{'athena': 1}
+Ordinal_164,OLEAUT32,1,{'athena': 1}
+Ordinal_16,OLEAUT32,1,{'athena': 1}
+Ordinal_20,OLEAUT32,1,{'athena': 1}
+Ordinal_17,OLEAUT32,1,{'athena': 1}
+Ordinal_4,OLEAUT32,1,{'athena': 1}
+Ordinal_7,OLEAUT32,1,{'athena': 1}
+Ordinal_2,OLEAUT32,1,{'athena': 1}
+Ordinal_201,OLEAUT32,1,{'athena': 1}
+Ordinal_200,OLEAUT32,1,{'athena': 1}
+Ordinal_6,OLEAUT32,1,{'athena': 1}
+Ordinal_147,OLEAUT32,1,{'athena': 1}
+Ordinal_323,OLEAUT32,1,{'athena': 1}
+LoadStringW,USER32,1,{'athena': 1}
+VerQueryValueW,VERSION,1,{'athena': 1}
+GetFileVersionInfoExW,VERSION,1,{'athena': 1}
+GetFileVersionInfoSizeExW,VERSION,1,{'athena': 1}
+ShellExecuteW,SHELL32,1,{'athena': 1}
+wcsncmp,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+iswupper,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+towlower,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+isalpha,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+isdigit,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+wcstok_s,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+strnlen,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+iswascii,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+towupper,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+wcscat_s,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+wcscpy_s,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+isupper,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+_wcsnicmp,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+_wcsdup,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+wcsncpy_s,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+tolower,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+islower,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+strtok_s,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+__strncnt,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+strncpy_s,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+strcpy_s,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+wcsncat_s,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+strncat_s,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+strcat_s,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+iswspace,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+wcsnlen,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+_wcsicmp,API-MS-WIN-CRT-STRING-L1-1-0,1,{'athena': 1}
+__stdio_common_vswprintf_s,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+__p__commode,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+_set_fmode,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+__stdio_common_vsnprintf_s,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+__stdio_common_vfwprintf,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+_flushall,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+_wfsopen,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+__stdio_common_vfprintf,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+__stdio_common_vsprintf_s,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+fputws,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+__acrt_iob_func,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+_dup,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+setvbuf,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+fputwc,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+_get_stream_buffer_pointers,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+_fseeki64,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+fsetpos,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+ungetc,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+fgetpos,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+fgetc,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+__stdio_common_vswprintf,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+__stdio_common_vsscanf,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+__stdio_common_vsnwprintf_s,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+_putws,API-MS-WIN-CRT-STDIO-L1-1-0,1,{'athena': 1}
+terminate,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_beginthreadex,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_initialize_onexit_table,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_register_onexit_function,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_crt_atexit,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_seh_filter_exe,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_set_app_type,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_invalid_parameter_noinfo_noreturn,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_configure_wide_argv,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_initialize_wide_environment,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_get_initial_wide_environment,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_initterm_e,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_controlfp_s,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+__p___argc,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+__p___wargv,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_c_exit,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_register_thread_local_exe_atexit_callback,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_invalid_parameter_noinfo,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+_wcserror,API-MS-WIN-CRT-RUNTIME-L1-1-0,1,{'athena': 1}
+atol,API-MS-WIN-CRT-CONVERT-L1-1-0,1,{'athena': 1}
+_ltow_s,API-MS-WIN-CRT-CONVERT-L1-1-0,1,{'athena': 1}
+strtoull,API-MS-WIN-CRT-CONVERT-L1-1-0,1,{'athena': 1}
+_atoi64,API-MS-WIN-CRT-CONVERT-L1-1-0,1,{'athena': 1}
+wcstoul,API-MS-WIN-CRT-CONVERT-L1-1-0,1,{'athena': 1}
+_wtoi,API-MS-WIN-CRT-CONVERT-L1-1-0,1,{'athena': 1}
+_wcstoui64,API-MS-WIN-CRT-CONVERT-L1-1-0,1,{'athena': 1}
+_itow_s,API-MS-WIN-CRT-CONVERT-L1-1-0,1,{'athena': 1}
+atanf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+atan2f,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+atan2,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+atan,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+asinf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+asin,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+acosf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+modff,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+cos,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+powf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+pow,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+floorf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+log2,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+atanh,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+acosh,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+cosf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+cbrt,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+asinh,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+asinhf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+ilogbf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+atanhf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+cbrtf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+acoshf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+log2f,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+fma,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+fmaf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+fmod,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+cosh,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+coshf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+modf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+exp,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+expf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+_fdopen,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+floor,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+_copysign,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+_copysignf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+_isnanf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+__setusermatherr,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+_isnan,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+ceilf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+fmodf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+ilogb,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+frexp,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+log,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+log10,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+log10f,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+logf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+_finite,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+sin,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+sinf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+sinh,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+sinhf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+sqrt,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+sqrtf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+tan,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+tanf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+tanh,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+acos,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+tanhf,API-MS-WIN-CRT-MATH-L1-1-0,1,{'athena': 1}
+wcsftime,API-MS-WIN-CRT-TIME-L1-1-0,1,{'athena': 1}
+_gmtime64_s,API-MS-WIN-CRT-TIME-L1-1-0,1,{'athena': 1}
+_configthreadlocale,API-MS-WIN-CRT-LOCALE-L1-1-0,1,{'athena': 1}
+_lock_locales,API-MS-WIN-CRT-LOCALE-L1-1-0,1,{'athena': 1}
+setlocale,API-MS-WIN-CRT-LOCALE-L1-1-0,1,{'athena': 1}
+__pctype_func,API-MS-WIN-CRT-LOCALE-L1-1-0,1,{'athena': 1}
+___lc_locale_name_func,API-MS-WIN-CRT-LOCALE-L1-1-0,1,{'athena': 1}
+___lc_codepage_func,API-MS-WIN-CRT-LOCALE-L1-1-0,1,{'athena': 1}
+___mb_cur_max_func,API-MS-WIN-CRT-LOCALE-L1-1-0,1,{'athena': 1}
+localeconv,API-MS-WIN-CRT-LOCALE-L1-1-0,1,{'athena': 1}
+_wrename,API-MS-WIN-CRT-FILESYSTEM-L1-1-0,1,{'athena': 1}
+_wremove,API-MS-WIN-CRT-FILESYSTEM-L1-1-0,1,{'athena': 1}
+_unlock_file,API-MS-WIN-CRT-FILESYSTEM-L1-1-0,1,{'athena': 1}
+_lock_file,API-MS-WIN-CRT-FILESYSTEM-L1-1-0,1,{'athena': 1}
+RoUninitialize,API-MS-WIN-CORE-WINRT-L1-1-0,1,{'athena': 1}
+RoInitialize,API-MS-WIN-CORE-WINRT-L1-1-0,1,{'athena': 1}

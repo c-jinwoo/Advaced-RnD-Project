@@ -1,0 +1,9 @@
+TTP,Description,Occurence,Family
+T1055.003,Process Injection::Thread Execution Hijacking,4,"{'nolabel': 1, 'tedy': 1, 'sliver': 2}"
+T1620,Reflective Code Loading,4,"{'nolabel': 1, 'tedy': 1, 'sliver': 2}"
+T1222,File and Directory Permissions Modification,1,{'donut': 1}
+T1027,Obfuscated Files or Information,2,"{'donut': 1, 'vilers': 1}"
+T1140,Deobfuscate/Decode Files or Information,1,{'vilers': 1}
+T1027.005,Obfuscated Files or Information::Indicator Removal from Tools,1,{'vilers': 1}
+T1082,System Information Discovery,1,{'vilers': 1}
+T1614,System Location Discovery,1,{'vilers': 1}
