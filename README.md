@@ -1,5 +1,3 @@
-# Jinwoo Internship @ InfoLab
-
 ## Reverse Engineering
 
 - [System Programming Recap](https://github.com/c-jinwoo/skku_internship/tree/main/ReverseEngineering/System%20Programming%20Recap)
