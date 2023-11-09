@@ -1,4 +1,0 @@
-source,ruleset_name,rule_name
-https://github.com/ditekshen/detection,indicator_suspicious,INDICATOR_SUSPICIOUS_EXE_B64_Encoded_UserAgent
-https://github.com/ditekshen/detection,malware,MALWARE_Win_CovenantGruntStager
-https://github.com/ditekshen/detection,indicator_packed,INDICATOR_EXE_Packed_PS2EXE

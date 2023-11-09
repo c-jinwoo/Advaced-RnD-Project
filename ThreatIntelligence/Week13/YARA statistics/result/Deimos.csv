@@ -1,2 +1,0 @@
-Yara name,Number of samples,Family
-SUSP_GObfuscate_May21,7,"{'nolabel': 1, 'deimos': 1, 'redcap': 2, 'godei': 2, 'convagent': 1}"

@@ -1,3 +1,0 @@
-TTP,Description,Occurence,Family
-T1027,Obfuscated Files or Information,1,{'convagent': 1}
-T1027.005,Obfuscated Files or Information::Indicator Removal from Tools,1,{'convagent': 1}
