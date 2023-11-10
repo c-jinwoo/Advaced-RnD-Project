@@ -42,5 +42,47 @@ There are a total of 436 binary files, and they belong to seven different C2 typ
 
 ![Data Distribution](./data_distribution.png)
 
+### Word Embedding
+
+To match train data length, word embedding is used for TTP, YARA, and Windows API elements. The whole list elements are put into one single string while passing through the [preprossesing for word embedding](https://github.com/c-jinwoo/skku_grad_proj/tree/master/9.%20Word%20Embedding) , then later splitted into the list with dimension of 256 by Word2Vec model.
+```
+model = Word2Vec(unbalanced_dataset["data"], vector_size=256, window=5, min_count=1, sg=0, callbacks=[epoch_logger])
+model.save("word2vec.model")
+```
+
+### Imputation
+
+If there are samples with no possible list with TTP, YARA, or Windows API, those went through imputation with the mean value from the others.
+
+```
+imputer = SimpleImputer(strategy="mean")
+unbalanced_dataset = pd.DataFrame(imputer.fit_transform(unbalanced_dataset), columns=unbalanced_dataset.columns)
+```
+
+### Balancing
+
+The number of files are balanced to 50 samples equally. For Cobaltstrike, Bruteratel, and Metasploit, they went through down-sampling while the other four C2 types went through up-sampling to make 50 samples per each. Upsampling is done by using SMOTE, while downsampling is done by resample() from sklearn. As a result, the overall dataset became 350, 50 samples for every type of C2.
+
+```
+# Upsampling
+X = balanced_dataset.drop(["label"], axis=1)
+y = balanced_dataset["label"]
+
+oversample = SMOTE()
+X_res, y_res = oversample.fit_resample(X, y)
+
+balanced_dataset = X_res[:]
+balanced_dataset["label"] = y_res
+
+balanced_dataset.shape
+
+# Downsampling
+def resample_df(df, number_samples):
+    from sklearn.utils import resample
+    return resample(df, n_samples=number_samples, replace=False, random_state=0)
+```
+
 ## Evaluation
+The overall Accuracy, Precision, Recall, and F1 score were around from 0.81 to 0.85. However, for SVC, it had relatively low performance compare to the other classifiers:Random Forest, XGB, LGBM, and Catboost.
+
 ![evaluation](./evaluation.png)
