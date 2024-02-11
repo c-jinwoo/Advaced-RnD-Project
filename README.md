@@ -49,6 +49,8 @@ To match train data length, word embedding is used for TTP, YARA, and Windows AP
 model = Word2Vec(unbalanced_dataset["data"], vector_size=256, window=5, min_count=1, sg=0, callbacks=[epoch_logger])
 model.save("word2vec.model")
 ```
+To calculate the appropriate length of data vector, we first plotted the overall data vector distribution. Then we calculated the appropriate dimension for the Word2Vec vector dimension.
+![Dimension](./dimension.png)
 
 ### Imputation
 
@@ -83,6 +85,6 @@ def resample_df(df, number_samples):
 ```
 
 ## Evaluation
-The overall Accuracy, Precision, Recall, and F1 score were around from 0.81 to 0.85. However, for SVC, it had relatively low performance compare to the other classifiers:Random Forest, XGB, LGBM, and Catboost.
+The overall Accuracy, Precision, Recall, and F1 score were around from 0.81 to 0.85. SVC had relatively low performance compare to the other classifiers:Random Forest, XGB, LGBM, and Catboost.
 
 ![evaluation](./evaluation.png)
